@@ -1,0 +1,359 @@
+\contentsline {chapter}{\numberline {1}Acknowledgements}{16}{chapter.1}
+\contentsline {part}{I\hspace {1em}Introduction and user guide}{17}{part.1}
+\contentsline {chapter}{\numberline {2}Introduction}{18}{chapter.2}
+\contentsline {section}{\numberline {2.1}Model motivation}{19}{section.2.1}
+\contentsline {section}{\numberline {2.2}OPGEE model goals}{20}{section.2.2}
+\contentsline {section}{\numberline {2.3}OPGEE model construction}{21}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Model functional unit}{21}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Model scope and focus}{21}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Spreadsheet structure}{21}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Modeling detail and default specifications}{21}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Emissions sources classification}{22}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Emissions source significance cutoffs}{24}{subsection.2.3.6}
+\contentsline {subsection}{\numberline {2.3.7}Data sources}{24}{subsection.2.3.7}
+\contentsline {chapter}{\numberline {3}User guide}{26}{chapter.3}
+\contentsline {section}{\numberline {3.1}Input and output worksheets}{27}{section.3.1}
+\contentsline {paragraph}{\textit {`{Inputs}'} worksheet}{27}{paragraph*.8}
+\contentsline {paragraph}{\textit {`{Results}'} worksheet}{27}{paragraph*.9}
+\contentsline {section}{\numberline {3.2}Field summary worksheets}{28}{section.3.2}
+\contentsline {paragraph}{\textit {`{Active Field}'} worksheet}{28}{paragraph*.10}
+\contentsline {paragraph}{\textit {`{Flow Sheet}'} worksheet}{28}{paragraph*.11}
+\contentsline {paragraph}{\textit {`{Energy Consumption}'} worksheet}{28}{paragraph*.12}
+\contentsline {paragraph}{\textit {`{GHG Emissions}'} worksheet}{28}{paragraph*.13}
+\contentsline {section}{\numberline {3.3}Process stage worksheets}{29}{section.3.3}
+\contentsline {section}{\numberline {3.4}Supplementary worksheets}{30}{section.3.4}
+\contentsline {paragraph}{\textit {`{Electricity}'} worksheet}{30}{paragraph*.14}
+\contentsline {paragraph}{\textit {`{Drivers}'} worksheet}{30}{paragraph*.15}
+\contentsline {paragraph}{\textit {`{Fuel Cycle}'} worksheet}{30}{paragraph*.16}
+\contentsline {paragraph}{\textit {`{Emission Factors}'} worksheet}{30}{paragraph*.17}
+\contentsline {paragraph}{\textit {`{Venting \& Fugitives}'} worksheet}{30}{paragraph*.18}
+\contentsline {paragraph}{\textit {`{Fuel Specs}'} worksheet}{30}{paragraph*.19}
+\contentsline {paragraph}{\textit {`{Inputs}'} worksheet}{30}{paragraph*.20}
+\contentsline {section}{\numberline {3.5}Structure of process stage worksheet}{31}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Flows}{31}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Inputs}{31}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Calculations}{32}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Outputs}{32}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.5}Types of model cells}{32}{subsection.3.5.5}
+\contentsline {section}{\numberline {3.6}Working with OPGEE}{33}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Primary interaction}{33}{subsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.1.1}Controls on the \textit {`{Inputs}'} worksheet}{33}{subsubsection.3.6.1.1}
+\contentsline {paragraph}{Production methods}{33}{paragraph*.24}
+\contentsline {paragraph}{Field properties}{34}{paragraph*.25}
+\contentsline {paragraph}{Fluid properties}{34}{paragraph*.26}
+\contentsline {paragraph}{Production practices}{34}{paragraph*.27}
+\contentsline {paragraph}{Processing practices}{36}{paragraph*.28}
+\contentsline {paragraph}{Land use impacts}{36}{paragraph*.29}
+\contentsline {paragraph}{Crude oil transport}{37}{paragraph*.30}
+\contentsline {paragraph}{Small emissions sources}{37}{paragraph*.31}
+\contentsline {subsection}{\numberline {3.6.2}Secondary interaction}{39}{subsection.3.6.2}
+\contentsline {paragraph}{Parameters and sub-parameters}{39}{paragraph*.33}
+\contentsline {paragraph}{User and default columns}{39}{paragraph*.34}
+\contentsline {paragraph}{Free and locked cells}{39}{paragraph*.35}
+\contentsline {paragraph}{Units}{39}{paragraph*.36}
+\contentsline {paragraph}{User and default reference}{39}{paragraph*.37}
+\contentsline {paragraph}{Notes}{39}{paragraph*.38}
+\contentsline {subsection}{\numberline {3.6.3}Checking for errors}{40}{subsection.3.6.3}
+\contentsline {subsection}{\numberline {3.6.4}Results}{42}{subsection.3.6.4}
+\contentsline {section}{\numberline {3.7}Inputs}{43}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Further details regarding the Inputs sheet}{43}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Assessment macro description}{43}{subsection.3.7.2}
+\contentsline {part}{II\hspace {1em}Technical documentation}{45}{part.2}
+\contentsline {chapter}{\numberline {4}\textit {`{Active Field}'} gathering worksheet}{46}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction to the \textit {`{Active Field}'} worksheet}{47}{section.4.1}
+\contentsline {section}{\numberline {4.2}GHG calculations on the \textit {`{Active Field}'} worksheet}{48}{section.4.2}
+\contentsline {section}{\numberline {4.3}Smart defaults and uncertainty distributions for missing key parameters}{50}{section.4.3}
+\contentsline {subsubsection}{\numberline {4.3.0.1}Default field age}{50}{subsubsection.4.3.0.1}
+\contentsline {subsubsection}{\numberline {4.3.0.2}Default field depth}{50}{subsubsection.4.3.0.2}
+\contentsline {subsubsection}{\numberline {4.3.0.3}Default production per well}{51}{subsubsection.4.3.0.3}
+\contentsline {subsubsection}{\numberline {4.3.0.4}Default number of injector wells}{52}{subsubsection.4.3.0.4}
+\contentsline {subsubsection}{\numberline {4.3.0.5}Default gas composition}{56}{subsubsection.4.3.0.5}
+\contentsline {subsubsection}{\numberline {4.3.0.6}Smart default for GOR}{56}{subsubsection.4.3.0.6}
+\contentsline {subsubsection}{\numberline {4.3.0.7}Default water oil ratio (WOR)}{58}{subsubsection.4.3.0.7}
+\contentsline {subsubsection}{\numberline {4.3.0.8}Default waterflooding volume}{59}{subsubsection.4.3.0.8}
+\contentsline {subsubsection}{\numberline {4.3.0.9}Default flood gas injection ratio}{59}{subsubsection.4.3.0.9}
+\contentsline {subsubsection}{\numberline {4.3.0.10}Proportion of injected CO$_2$ that is newly acquired}{60}{subsubsection.4.3.0.10}
+\contentsline {subsubsection}{\numberline {4.3.0.11}Default for steam-oil-ratio (SOR)}{60}{subsubsection.4.3.0.11}
+\contentsline {chapter}{\numberline {5}Flow sheet}{62}{chapter.5}
+\contentsline {section}{\numberline {5.1}Flow sheet introduction}{63}{section.5.1}
+\contentsline {section}{\numberline {5.2}Computing properties of flows}{63}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Mass flows}{63}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Electricity flows}{64}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Properties of phases}{64}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Properties of oil}{65}{subsection.5.2.4}
+\contentsline {paragraph}{API gravity of oil}{65}{paragraph*.58}
+\contentsline {paragraph}{Specific gravity of oil}{65}{paragraph*.60}
+\contentsline {paragraph}{Solution gas oil ratio of oil}{66}{paragraph*.61}
+\contentsline {paragraph}{Oil formation volume factor}{66}{paragraph*.62}
+\contentsline {paragraph}{Density of oil}{67}{paragraph*.63}
+\contentsline {paragraph}{Volumetric flow rate of oil}{67}{paragraph*.64}
+\contentsline {paragraph}{Energy density of oil}{67}{paragraph*.65}
+\contentsline {paragraph}{Energetic flow rate of oil}{67}{paragraph*.66}
+\contentsline {subsection}{\numberline {5.2.5}Properties of gas}{67}{subsection.5.2.5}
+\contentsline {paragraph}{Total moles of gas}{67}{paragraph*.68}
+\contentsline {paragraph}{Molar fraction species}{67}{paragraph*.69}
+\contentsline {paragraph}{Gas specific gravity}{68}{paragraph*.70}
+\contentsline {paragraph}{Total flow rate in standard cubic feet}{68}{paragraph*.71}
+\contentsline {paragraph}{Ratio of specific heats}{68}{paragraph*.72}
+\contentsline {paragraph}{Psuedocritical temperature}{68}{paragraph*.73}
+\contentsline {paragraph}{Pseudoreduced temperature and pressure}{70}{paragraph*.74}
+\contentsline {paragraph}{Gas compressibility factor (Z-factor)}{70}{paragraph*.75}
+\contentsline {paragraph}{Gas formation volume factor}{70}{paragraph*.79}
+\contentsline {paragraph}{Gas density}{70}{paragraph*.80}
+\contentsline {paragraph}{Gas molecular weight}{71}{paragraph*.81}
+\contentsline {paragraph}{Gas volumetric flow rate}{71}{paragraph*.82}
+\contentsline {paragraph}{Gas energy density}{71}{paragraph*.83}
+\contentsline {paragraph}{Total gas energetic flow rate}{71}{paragraph*.84}
+\contentsline {subsection}{\numberline {5.2.6}Properties of water}{72}{subsection.5.2.6}
+\contentsline {paragraph}{Specific gravity of water}{72}{paragraph*.85}
+\contentsline {paragraph}{Water formation volume factor}{72}{paragraph*.86}
+\contentsline {paragraph}{Water density}{73}{paragraph*.87}
+\contentsline {paragraph}{Water flow rate}{73}{paragraph*.88}
+\contentsline {chapter}{\numberline {6}Gathering worksheets}{74}{chapter.6}
+\contentsline {section}{\numberline {6.1}\textit {`{Energy Consumption}'} gathering worksheet}{75}{section.6.1}
+\contentsline {section}{\numberline {6.2}\textit {`{GHG Emissions}'} gathering worksheet}{77}{section.6.2}
+\contentsline {chapter}{\numberline {7}Process worksheets}{79}{chapter.7}
+\contentsline {section}{\numberline {7.1}Exploration}{80}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Calculations for petroleum exploration}{80}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Defaults for petroleum exploration}{80}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Drilling \& development}{82}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Introduction to drilling \& development}{82}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Calculations for drilling \& development}{82}{subsection.7.2.2}
+\contentsline {subsubsection}{\numberline {7.2.2.1}Emissions from drilling}{82}{subsubsection.7.2.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2.2}Emissions from hydraulic fracturing}{88}{subsubsection.7.2.2.2}
+\contentsline {subsubsection}{\numberline {7.2.2.3}Emissions from land use impacts}{91}{subsubsection.7.2.2.3}
+\contentsline {subsection}{\numberline {7.2.3}Defaults for drilling \& development}{91}{subsection.7.2.3}
+\contentsline {section}{\numberline {7.3}Reservoir}{94}{section.7.3}
+\contentsline {section}{\numberline {7.4}Wellbore/Downhole Pump}{98}{section.7.4}
+\contentsline {subsubsection}{\numberline {7.4.0.1}Oil specific gravity}{100}{subsubsection.7.4.0.1}
+\contentsline {subsubsection}{\numberline {7.4.0.2}Gas specific gravity}{100}{subsubsection.7.4.0.2}
+\contentsline {subsubsection}{\numberline {7.4.0.3}Well pressure traverse}{101}{subsubsection.7.4.0.3}
+\contentsline {subsubsection}{\numberline {7.4.0.4}Pressure for lifting}{103}{subsubsection.7.4.0.4}
+\contentsline {subsubsection}{\numberline {7.4.0.5}Pump brake horsepower}{104}{subsubsection.7.4.0.5}
+\contentsline {section}{\numberline {7.5}Bitumen mining}{105}{section.7.5}
+\contentsline {paragraph}{Public Data Available}{107}{paragraph*.118}
+\contentsline {paragraph}{Modeling of non-integrated PFT mining operations}{109}{paragraph*.121}
+\contentsline {paragraph}{Proposed modeling of integrated NFT mining operations}{110}{paragraph*.124}
+\contentsline {section}{\numberline {7.6}Separation}{117}{section.7.6}
+\contentsline {section}{\numberline {7.7}Heater-treater (dewatering)}{119}{section.7.7}
+\contentsline {section}{\numberline {7.8}\textit {`{Crude oil stabilization}'} worksheet}{122}{section.7.8}
+\contentsline {section}{\numberline {7.9}Heavy oil upgrading}{124}{section.7.9}
+\contentsline {section}{\numberline {7.10}Heavy oil dilution}{131}{section.7.10}
+\contentsline {section}{\numberline {7.11}Crude oil storage}{133}{section.7.11}
+\contentsline {section}{\numberline {7.12}Produced water treatment}{136}{section.7.12}
+\contentsline {subsection}{\numberline {7.12.1}Defaults for water treatment}{139}{subsection.7.12.1}
+\contentsline {section}{\numberline {7.13}Makeup water treatment}{141}{section.7.13}
+\contentsline {section}{\numberline {7.14}Water injection}{143}{section.7.14}
+\contentsline {section}{\numberline {7.15}Steam generation}{145}{section.7.15}
+\contentsline {subsection}{\numberline {7.15.1}Introduction to steam generation}{145}{subsection.7.15.1}
+\contentsline {subsection}{\numberline {7.15.2}Calculations for steam generation}{145}{subsection.7.15.2}
+\contentsline {subsubsection}{\numberline {7.15.2.1}Steam system properties}{145}{subsubsection.7.15.2.1}
+\contentsline {subsubsection}{\numberline {7.15.2.2}Once-through steam generator modeling (OTSG)}{147}{subsubsection.7.15.2.2}
+\contentsline {paragraph}{Gaseous fuel combustion for steam generation}{148}{paragraph*.160}
+\contentsline {paragraph}{Liquid fuels for steam generation}{150}{paragraph*.161}
+\contentsline {paragraph}{Forced air blower in OTSG}{150}{paragraph*.164}
+\contentsline {paragraph}{High and medium pressure boiler feedwater pump}{151}{paragraph*.165}
+\contentsline {subsubsection}{\numberline {7.15.2.3}Gas turbine with heat recovery steam generator}{151}{subsubsection.7.15.2.3}
+\contentsline {paragraph}{Gas turbine modeling}{151}{paragraph*.167}
+\contentsline {paragraph}{Forced air blower in HRSG}{153}{paragraph*.170}
+\contentsline {paragraph}{Duct firing}{153}{paragraph*.171}
+\contentsline {subsubsection}{\numberline {7.15.2.4}Solar thermal steam generation}{154}{subsubsection.7.15.2.4}
+\contentsline {subsection}{\numberline {7.15.3}Defaults for steam injection}{154}{subsection.7.15.3}
+\contentsline {subsubsection}{\numberline {7.15.3.1}General default parameters}{154}{subsubsection.7.15.3.1}
+\contentsline {subsubsection}{\numberline {7.15.3.2}Defaults for SAGD operations}{154}{subsubsection.7.15.3.2}
+\contentsline {paragraph}{Production method}{155}{paragraph*.172}
+\contentsline {paragraph}{Gas handling properties: GOR, flaring, and venting}{155}{paragraph*.173}
+\contentsline {paragraph}{Field properties: productivity index, pressure, depth}{155}{paragraph*.174}
+\contentsline {paragraph}{Steam generation technology}{155}{paragraph*.175}
+\contentsline {section}{\numberline {7.16}Flaring}{158}{section.7.16}
+\contentsline {subsection}{\numberline {7.16.1}Calculation of flaring emissions}{158}{subsection.7.16.1}
+\contentsline {subsubsection}{\numberline {7.16.1.1}Constants}{161}{subsubsection.7.16.1.1}
+\contentsline {subsubsection}{\numberline {7.16.1.2}Lower heating value}{161}{subsubsection.7.16.1.2}
+\contentsline {subsubsection}{\numberline {7.16.1.3}Flare gas exit velocity and diameter}{161}{subsubsection.7.16.1.3}
+\contentsline {subsubsection}{\numberline {7.16.1.4}Volume of gas flared}{162}{subsubsection.7.16.1.4}
+\contentsline {subsubsection}{\numberline {7.16.1.5}Wind Speed}{162}{subsubsection.7.16.1.5}
+\contentsline {subsection}{\numberline {7.16.2}Emissions from flares}{162}{subsection.7.16.2}
+\contentsline {section}{\numberline {7.17}Venting}{167}{section.7.17}
+\contentsline {section}{\numberline {7.18}Gas gathering}{169}{section.7.18}
+\contentsline {section}{\numberline {7.19}Glycol dehydrator}{170}{section.7.19}
+\contentsline {subsection}{\numberline {7.19.1}TEG dehydration modeling using result from process simulation software}{170}{subsection.7.19.1}
+\contentsline {subsection}{\numberline {7.19.2}TEG dehydration modeling using gas handbook methods}{173}{subsection.7.19.2}
+\contentsline {subsection}{\numberline {7.19.3}Defaults for surface processing}{177}{subsection.7.19.3}
+\contentsline {section}{\numberline {7.20}Acid gas removal}{180}{section.7.20}
+\contentsline {subsection}{\numberline {7.20.1}AGR modeling using result from process simulation software}{182}{subsection.7.20.1}
+\contentsline {subsection}{\numberline {7.20.2}AGR modeling using gas handbook methods}{192}{subsection.7.20.2}
+\contentsline {subsection}{\numberline {7.20.3}Defaults for surface processing}{196}{subsection.7.20.3}
+\contentsline {section}{\numberline {7.21}Demethanizer}{199}{section.7.21}
+\contentsline {subsection}{\numberline {7.21.1}Defaults for surface processing}{200}{subsection.7.21.1}
+\contentsline {section}{\numberline {7.22}Chiller}{203}{section.7.22}
+\contentsline {section}{\numberline {7.23}Membrane}{206}{section.7.23}
+\contentsline {subsection}{\numberline {7.23.1}Defaults for membrane}{206}{subsection.7.23.1}
+\contentsline {section}{\numberline {7.24}Ryan-Holmes}{209}{section.7.24}
+\contentsline {subsection}{\numberline {7.24.1}Defaults for Ryan-Holmes unit}{210}{subsection.7.24.1}
+\contentsline {section}{\numberline {7.25}Gas flooding compressor}{212}{section.7.25}
+\contentsline {subsubsection}{\numberline {7.25.0.1}Gas compression ratio}{212}{subsubsection.7.25.0.1}
+\contentsline {subsubsection}{\numberline {7.25.0.2}Gas compressor suction temperature}{212}{subsubsection.7.25.0.2}
+\contentsline {subsubsection}{\numberline {7.25.0.3}Compressor brake horsepower}{213}{subsubsection.7.25.0.3}
+\contentsline {section}{\numberline {7.26}Gas lifting compressor}{215}{section.7.26}
+\contentsline {section}{\numberline {7.27}Gas reinjection compressor}{216}{section.7.27}
+\contentsline {section}{\numberline {7.28}CO2 reinjection compressor}{217}{section.7.28}
+\contentsline {section}{\numberline {7.29}Sour gas reinjection compressor}{219}{section.7.29}
+\contentsline {section}{\numberline {7.30}VRU compressor}{221}{section.7.30}
+\contentsline {section}{\numberline {7.31}Pre-membrane compressor}{222}{section.7.31}
+\contentsline {section}{\numberline {7.32}Transmission compressor}{223}{section.7.32}
+\contentsline {section}{\numberline {7.33}LNG liquefaction}{224}{section.7.33}
+\contentsline {section}{\numberline {7.34}LNG Regasification}{225}{section.7.34}
+\contentsline {section}{\numberline {7.35}LNG transport}{226}{section.7.35}
+\contentsline {section}{\numberline {7.36}Storage compressor}{227}{section.7.36}
+\contentsline {section}{\numberline {7.37}Post-storage compressor}{228}{section.7.37}
+\contentsline {section}{\numberline {7.38}HC gas injection wells}{229}{section.7.38}
+\contentsline {section}{\numberline {7.39}CO2 injection wells}{230}{section.7.39}
+\contentsline {section}{\numberline {7.40}Sour gas injection wells}{231}{section.7.40}
+\contentsline {section}{\numberline {7.41}Steam injection wells}{232}{section.7.41}
+\contentsline {section}{\numberline {7.42}Gas storage wells}{233}{section.7.42}
+\contentsline {section}{\numberline {7.43}Storage separator}{234}{section.7.43}
+\contentsline {section}{\numberline {7.44}Gas partition A}{235}{section.7.44}
+\contentsline {section}{\numberline {7.45}Gas partition B}{236}{section.7.45}
+\contentsline {section}{\numberline {7.46}Fuel gas consumed}{237}{section.7.46}
+\contentsline {section}{\numberline {7.47}Maintenance}{238}{section.7.47}
+\contentsline {subsection}{\numberline {7.47.1}Introduction to maintenance operations}{238}{subsection.7.47.1}
+\contentsline {subsection}{\numberline {7.47.2}Calculations for maintenance operations}{238}{subsection.7.47.2}
+\contentsline {subsection}{\numberline {7.47.3}Defaults for maintenance operations}{238}{subsection.7.47.3}
+\contentsline {section}{\numberline {7.48}Waste treatment and disposal}{239}{section.7.48}
+\contentsline {subsection}{\numberline {7.48.1}Introduction to waste treatment and disposal}{239}{subsection.7.48.1}
+\contentsline {subsection}{\numberline {7.48.2}Calculations for waste treatment and disposal}{239}{subsection.7.48.2}
+\contentsline {subsection}{\numberline {7.48.3}Defaults for waste treatment}{239}{subsection.7.48.3}
+\contentsline {section}{\numberline {7.49}Crude oil transport}{240}{section.7.49}
+\contentsline {subsection}{\numberline {7.49.1}Introduction to crude oil transport}{240}{subsection.7.49.1}
+\contentsline {subsection}{\numberline {7.49.2}Calculations for crude oil transport}{240}{subsection.7.49.2}
+\contentsline {subsection}{\numberline {7.49.3}Defaults for crude oil transport}{242}{subsection.7.49.3}
+\contentsline {section}{\numberline {7.50}Petcoke transport}{244}{section.7.50}
+\contentsline {section}{\numberline {7.51}Gas distribution}{245}{section.7.51}
+\contentsline {section}{\numberline {7.52}Fuel gas inputs}{246}{section.7.52}
+\contentsline {section}{\numberline {7.53}Electricity generation and imports}{247}{section.7.53}
+\contentsline {section}{\numberline {7.54}NGL or diluent production or imports}{248}{section.7.54}
+\contentsline {section}{\numberline {7.55}Gas flooding}{249}{section.7.55}
+\contentsline {paragraph}{Introduction to gas flooding}{249}{paragraph*.228}
+\contentsline {paragraph}{CO$_2$ flooding and minimum miscibility pressure}{249}{paragraph*.229}
+\contentsline {subsubsection}{\numberline {7.55.0.1}CO$_2$ Enhanced oil recovery and sequestration parameters}{250}{subsubsection.7.55.0.1}
+\contentsline {paragraph}{CO$_2$ sequestration calculation}{250}{paragraph*.232}
+\contentsline {paragraph}{Long-term leakage rate of sequestered carbon}{251}{paragraph*.233}
+\contentsline {paragraph}{Blow-down and venting of CO$_2$ in terminal stage of operation}{251}{paragraph*.234}
+\contentsline {subsubsection}{\numberline {7.55.0.2}Driver fuel consumption}{252}{subsubsection.7.55.0.2}
+\contentsline {subsection}{\numberline {7.55.1}Production and extraction defaults}{252}{subsection.7.55.1}
+\contentsline {subsection}{\numberline {7.55.2}Introduction to Surface processing}{256}{subsection.7.55.2}
+\contentsline {subsubsection}{\numberline {7.55.2.1}CO$_{2}$ Enhanced oil recovery pathway: membrane-amine dual process}{258}{subsubsection.7.55.2.1}
+\contentsline {chapter}{\numberline {8}Supplemental calculations worksheets}{259}{chapter.8}
+\contentsline {section}{\numberline {8.1}Drivers}{259}{section.8.1}
+\contentsline {section}{\numberline {8.2}Fuel cycle}{262}{section.8.2}
+\contentsline {section}{\numberline {8.3}Embodied emissions}{263}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Datasets for calculating embodied emissions from consumed materials}{263}{subsection.8.3.1}
+\contentsline {subsubsection}{\numberline {8.3.1.1}EcoInvent v3.0}{263}{subsubsection.8.3.1.1}
+\contentsline {subsubsection}{\numberline {8.3.1.2}GREET2\_2012}{265}{subsubsection.8.3.1.2}
+\contentsline {subsection}{\numberline {8.3.2}Embodied emissions in wellbore steel}{265}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}Embodied emissions in wellbore cement}{267}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {8.3.4}Embodied emissions in surface piping}{270}{subsection.8.3.4}
+\contentsline {subsection}{\numberline {8.3.5}Embodied emissions in fracturing materials}{270}{subsection.8.3.5}
+\contentsline {subsection}{\numberline {8.3.6}Embodied emissions in surface processing equipment}{270}{subsection.8.3.6}
+\contentsline {subsubsection}{\numberline {8.3.6.1}Oil-water-gas separators}{270}{subsubsection.8.3.6.1}
+\contentsline {subsubsection}{\numberline {8.3.6.2}Acid gas removal}{271}{subsubsection.8.3.6.2}
+\contentsline {subsubsection}{\numberline {8.3.6.3}Gas dehydration}{271}{subsubsection.8.3.6.3}
+\contentsline {subsection}{\numberline {8.3.7}Embodied emissions in on-site storage infrastructure}{271}{subsection.8.3.7}
+\contentsline {subsection}{\numberline {8.3.8}Embodied emissions in long-distance transport infrastructure}{272}{subsection.8.3.8}
+\contentsline {subsection}{\numberline {8.3.9}Shipment of oilfield capital equipment}{272}{subsection.8.3.9}
+\contentsline {section}{\numberline {8.4}Emissions factors}{272}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Combustion emissions factors}{273}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}Non-combustion emissions factors}{273}{subsection.8.4.2}
+\contentsline {chapter}{\numberline {9}Venting and fugitive emissions}{276}{chapter.9}
+\contentsline {section}{\numberline {9.1}Introduction to venting and fugitive emissions}{276}{section.9.1}
+\contentsline {paragraph}{Venting emissions:}{276}{paragraph*.252}
+\contentsline {paragraph}{Fugitive emissions:}{276}{paragraph*.253}
+\contentsline {section}{\numberline {9.2}Site-level methods for on-site emissions}{277}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Production sites}{278}{subsection.9.2.1}
+\contentsline {subsubsection}{\numberline {9.2.1.1}Statistical fit}{278}{subsubsection.9.2.1.1}
+\contentsline {subsubsection}{\numberline {9.2.1.2}Default site counts for production sites}{280}{subsubsection.9.2.1.2}
+\contentsline {subsubsection}{\numberline {9.2.1.3}Default division between equipment types at production sites}{280}{subsubsection.9.2.1.3}
+\contentsline {subsection}{\numberline {9.2.2}Gathering and processing sites}{280}{subsection.9.2.2}
+\contentsline {subsubsection}{\numberline {9.2.2.1}Default site counts for gathering and processing}{281}{subsubsection.9.2.2.1}
+\contentsline {subsubsection}{\numberline {9.2.2.2}Default division between equipment types at gathering and processing sites}{282}{subsubsection.9.2.2.2}
+\contentsline {section}{\numberline {9.3}Component-level methods for on-site emissions}{282}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Literature review}{284}{subsection.9.3.1}
+\contentsline {subsubsection}{\numberline {9.3.1.1}Equipment lists by facility type}{285}{subsubsection.9.3.1.1}
+\contentsline {subsubsection}{\numberline {9.3.1.2}Component lists by equipment type}{285}{subsubsection.9.3.1.2}
+\contentsline {subsubsection}{\numberline {9.3.1.3}Fraction of components leaking}{285}{subsubsection.9.3.1.3}
+\contentsline {subsubsection}{\numberline {9.3.1.4}Database of component leakage or emission rates (leaking components)}{286}{subsubsection.9.3.1.4}
+\contentsline {subsubsection}{\numberline {9.3.1.5}``Default-zero'' leakage or emission rates (non-leaking components)}{286}{subsubsection.9.3.1.5}
+\contentsline {subsection}{\numberline {9.3.2}Available datasets}{287}{subsection.9.3.2}
+\contentsline {subsection}{\numberline {9.3.3}Data sufficiency: Activity Counts}{293}{subsection.9.3.3}
+\contentsline {paragraph}{Equipment quantification (EQ)}{293}{paragraph*.262}
+\contentsline {paragraph}{Component quantification (CQ)}{293}{paragraph*.263}
+\contentsline {paragraph}{Activity quantification (AQ)}{293}{paragraph*.264}
+\contentsline {subsubsection}{\numberline {9.3.3.1}Equipment quantification (EQ) counts per facility}{293}{subsubsection.9.3.3.1}
+\contentsline {subsubsection}{\numberline {9.3.3.2}Component quantification (CQ) counts per equipment or facility}{295}{subsubsection.9.3.3.2}
+\contentsline {paragraph}{Correspondence matrices for reclassification of component counts}{296}{paragraph*.265}
+\contentsline {subsubsection}{\numberline {9.3.3.3}Activation counts for intermittent activities}{299}{subsubsection.9.3.3.3}
+\contentsline {subsection}{\numberline {9.3.4}Data sufficiency: Fraction of components leaking}{299}{subsection.9.3.4}
+\contentsline {subsection}{\numberline {9.3.5}Data sufficiency: Leakage quantification data (QL)}{301}{subsection.9.3.5}
+\contentsline {subsubsection}{\numberline {9.3.5.1}Grouping emissions observations with standard equipment and component types}{301}{subsubsection.9.3.5.1}
+\contentsline {subsection}{\numberline {9.3.6}Summary of data sufficiency analysis}{301}{subsection.9.3.6}
+\contentsline {section}{\numberline {9.4}Statistical analysis of leakage datasets}{302}{section.9.4}
+\contentsline {subsubsection}{\numberline {9.4.0.1}Developing equipment-specific emissions distributions}{304}{subsubsection.9.4.0.1}
+\contentsline {subsection}{\numberline {9.4.1}Intermittent activities: Drilling and liquids unloading}{306}{subsection.9.4.1}
+\contentsline {subsubsection}{\numberline {9.4.1.1}Completions and workovers}{306}{subsubsection.9.4.1.1}
+\contentsline {subsubsection}{\numberline {9.4.1.2}Liquids unloading}{311}{subsubsection.9.4.1.2}
+\contentsline {section}{\numberline {9.5}Off-site emissions}{311}{section.9.5}
+\contentsline {section}{\numberline {9.6}Deprecated OPGEE v2.0 VF modeling methods}{312}{section.9.6}
+\contentsline {chapter}{\numberline {10}Fundamental data inputs}{314}{chapter.10}
+\contentsline {section}{\numberline {10.1}Global warming potentials}{314}{section.10.1}
+\contentsline {section}{\numberline {10.2}Properties of water and steam}{314}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}Saturation properties as a function of temperature}{314}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {10.2.2}Saturation properties as a function of pressure}{314}{subsection.10.2.2}
+\contentsline {subsection}{\numberline {10.2.3}Properties of compressed water and superheated steam}{315}{subsection.10.2.3}
+\contentsline {section}{\numberline {10.3}Properties of air and exhaust gas components}{315}{section.10.3}
+\contentsline {subsection}{\numberline {10.3.1}Enthalpies of air and exhaust gas components}{315}{subsection.10.3.1}
+\contentsline {section}{\numberline {10.4}Compositions and properties of fuels}{315}{section.10.4}
+\contentsline {subsection}{\numberline {10.4.1}Heating value of crude oil as a function of density}{315}{subsection.10.4.1}
+\contentsline {subsection}{\numberline {10.4.2}Crude oil chemical composition as a function of density}{315}{subsection.10.4.2}
+\contentsline {subsection}{\numberline {10.4.3}Heat of combustion of gaseous fuel components}{315}{subsection.10.4.3}
+\contentsline {subsection}{\numberline {10.4.4}Refined and processed fuels heating values}{316}{subsection.10.4.4}
+\contentsline {chapter}{\numberline {11}OPGEE limitations}{317}{chapter.11}
+\contentsline {section}{\numberline {11.1}Scope limitations}{317}{section.11.1}
+\contentsline {section}{\numberline {11.2}Technical limitations}{317}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}Production modeling}{317}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}Surface processing}{318}{subsection.11.2.2}
+\contentsline {subsection}{\numberline {11.2.3}Data limitations}{318}{subsection.11.2.3}
+\contentsline {subsubsection}{\numberline {11.2.3.1}VFF data}{318}{subsubsection.11.2.3.1}
+\contentsline {subsubsection}{\numberline {11.2.3.2}Default specifications}{318}{subsubsection.11.2.3.2}
+\contentsline {section}{\numberline {11.3}Future work}{319}{section.11.3}
+\contentsline {chapter}{\numberline {A}Terminology: Acronyms and abbreviations}{320}{appendix.A}
+\contentsline {chapter}{\numberline {B}Mathematical terms and definitions}{322}{appendix.B}
+\contentsline {chapter}{\numberline {C}Tabulated sources for each production stage}{327}{appendix.C}
+\contentsline {chapter}{\numberline {D}Bulk assessment macro error correction}{334}{appendix.D}
+\contentsline {chapter}{\numberline {E}Changes and updates from previous versions of OPGEE}{338}{appendix.E}
+\contentsline {section}{\numberline {E.1}Changes from OPGEE v2.0a to OPGEE v2.0b}{338}{section.E.1}
+\contentsline {section}{\numberline {E.2}Changes from OPGEE v1.1 Draft E to OPGEE v2.0a}{338}{section.E.2}
+\contentsline {section}{\numberline {E.3}Changes from OPGEE v1.1 Draft D to OPGEE v1.1 Draft E}{339}{section.E.3}
+\contentsline {subsection}{\numberline {E.3.1}Steam Injection changes }{339}{subsection.E.3.1}
+\contentsline {section}{\numberline {E.4}Changes from OPGEE v1.1 Draft C to OPGEE v1.1 Draft D}{339}{section.E.4}
+\contentsline {subsection}{\numberline {E.4.1}Bulk assessment changes }{339}{subsection.E.4.1}
+\contentsline {subsection}{\numberline {E.4.2}Fugitive emissions changes}{340}{subsection.E.4.2}
+\contentsline {subsection}{\numberline {E.4.3}Documentation and clarity improvements}{340}{subsection.E.4.3}
+\contentsline {section}{\numberline {E.5}Changes from OPGEE v1.1 Draft B to OPGEE v1.1 Draft C}{340}{section.E.5}
+\contentsline {section}{\numberline {E.6}Changes from OPGEE v1.1 Draft A to OPGEE v1.1 Draft B}{341}{section.E.6}
+\contentsline {subsection}{\numberline {E.6.1}Gas balance and gas properties}{341}{subsection.E.6.1}
+\contentsline {subsection}{\numberline {E.6.2}Production emissions}{341}{subsection.E.6.2}
+\contentsline {subsection}{\numberline {E.6.3}Venting and fugitives}{341}{subsection.E.6.3}
+\contentsline {subsection}{\numberline {E.6.4}Other corrections and error fixes}{342}{subsection.E.6.4}
+\contentsline {section}{\numberline {E.7}Changes from OPGEE v1.0 to OPGEE v1.1 Draft A}{342}{section.E.7}
+\contentsline {subsection}{\numberline {E.7.1}Overall model organization}{342}{subsection.E.7.1}
+\contentsline {subsection}{\numberline {E.7.2}User inputs \& results worksheet}{342}{subsection.E.7.2}
+\contentsline {subsection}{\numberline {E.7.3}Defaults and smart defaults}{343}{subsection.E.7.3}
+\contentsline {subsection}{\numberline {E.7.4}Data and input parameters}{343}{subsection.E.7.4}
+\contentsline {subsection}{\numberline {E.7.5}Error checks}{343}{subsection.E.7.5}
+\contentsline {subsection}{\numberline {E.7.6}New model functionality}{343}{subsection.E.7.6}
+\contentsline {subsection}{\numberline {E.7.7}Bulk assessment macro changes}{343}{subsection.E.7.7}
+\contentsline {subsection}{\numberline {E.7.8}Corrections and improvements}{344}{subsection.E.7.8}
+\contentsline {subsection}{\numberline {E.7.9}Documentation and model explanation}{345}{subsection.E.7.9}
+\contentsline {section}{\numberline {E.8}Changes from OPGEE v1.0 Draft A to OPGEE v1.0}{345}{section.E.8}
+\contentsline {subsection}{\numberline {E.8.1}Major changes}{345}{subsection.E.8.1}
+\contentsline {subsection}{\numberline {E.8.2}Minor changes}{346}{subsection.E.8.2}
