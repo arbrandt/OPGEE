@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 JAN 2019 12:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 JAN 2019 16:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**OPGEE_v3.0_methodology_v8.tex
-(./OPGEE_v3.0_methodology_v8.tex
+**OPGEE_v3.0_methodology.tex
+(./OPGEE_v3.0_methodology.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/report.cls
@@ -650,10 +650,7 @@ Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 (/usr/local/texlive/2016/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box38
-) (./OPGEE_v3.0_methodology_v8.aux
-
-LaTeX Warning: Label `tab:default_land_use_emissions' multiply defined.
-
+) (./OPGEE_v3.0_methodology.aux
 
 LaTeX Warning: Label `tab:default_land_use_emissions' multiply defined.
 
@@ -712,7 +709,7 @@ LaTeX Warning: Label `eq:trans_Etr' multiply defined.
 LaTeX Warning: Label `tab:defaults_drivers' multiply defined.
 
 )
-\openout1 = `OPGEE_v3.0_methodology_v8.aux'.
+\openout1 = `OPGEE_v3.0_methodology.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 162.
 LaTeX Font Info:    ... okay on input line 162.
@@ -813,9 +810,9 @@ Package hyperref Info: Link coloring OFF on input line 162.
 LaTeX Info: Redefining \ref on input line 162.
 LaTeX Info: Redefining \pageref on input line 162.
 LaTeX Info: Redefining \nameref on input line 162.
-(./OPGEE_v3.0_methodology_v8.out) (./OPGEE_v3.0_methodology_v8.out)
+(./OPGEE_v3.0_methodology.out) (./OPGEE_v3.0_methodology.out)
 \@outlinefile=\write4
-\openout4 = `OPGEE_v3.0_methodology_v8.out'.
+\openout4 = `OPGEE_v3.0_methodology.out'.
 
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 209.
 
@@ -1005,7 +1002,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./OPGEE_v3.0_methodology_v8.toc
+(./OPGEE_v3.0_methodology.toc
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
@@ -1017,9 +1014,9 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10.95> not available
 
 ] [3])
 \tf@toc=\write5
-\openout5 = `OPGEE_v3.0_methodology_v8.toc'.
+\openout5 = `OPGEE_v3.0_methodology.toc'.
 
- [4] (./OPGEE_v3.0_methodology_v8.lof
+ [4] (./OPGEE_v3.0_methodology.lof
 Overfull \hbox (28.99094pt too wide) in paragraph at lines 14--14
  [][] [][]\T1/ppl/m/n/10.95 Distributions of gi-ant oil-field ages. Mean date o
 f dis-cov-ery (by production- 
@@ -1090,9 +1087,9 @@ ed on wells with-
 
 )
 \tf@lof=\write6
-\openout6 = `OPGEE_v3.0_methodology_v8.lof'.
+\openout6 = `OPGEE_v3.0_methodology.lof'.
 
- [10] (./OPGEE_v3.0_methodology_v8.lot
+ [10] (./OPGEE_v3.0_methodology.lot
 Overfull \hbox (8.53665pt too wide) in paragraph at lines 20--20
  [][] [][]\T1/ppl/m/n/10.95 Land use GHG emis-sions for 30 year anal-y-sis pe-r
 iod from field drilling 
@@ -1121,7 +1118,7 @@ Overfull \hbox (4.77995pt too wide) in paragraph at lines 102--102
 
 [14])
 \tf@lot=\write7
-\openout7 = `OPGEE_v3.0_methodology_v8.lot'.
+\openout7 = `OPGEE_v3.0_methodology.lot'.
 
  [15]
 Chapter 1.
@@ -1245,7 +1242,7 @@ Overfull \hbox (5.59634pt too wide) in paragraph at lines 493--494
 
 [30
 
-] <images/FlowTable.pdf, id=1628, 442.97046pt x 462.09007pt>
+] <images/FlowTable.pdf, id=1632, 442.97046pt x 462.09007pt>
 File: images/FlowTable.pdf Graphic file (type pdf)
 
 <use images/FlowTable.pdf>
@@ -1254,7 +1251,7 @@ Package pdftex.def Info: images/FlowTable.pdf used on input line 512.
  [31
 
  <./images/FlowTable.pdf>]
-<images/CellTypes.pdf, id=1662, 318.03217pt x 101.48213pt>
+<images/CellTypes.pdf, id=1666, 318.03217pt x 101.48213pt>
 File: images/CellTypes.pdf Graphic file (type pdf)
 
 <use images/CellTypes.pdf>
@@ -1302,7 +1299,7 @@ Overfull \hbox (0.16559pt too wide) in paragraph at lines 631--632
 s which de-ter-mine trans-port modes and dis-tances. This
  []
 
-<images/InputSheetSS.png, id=1721, 2168.1pt x 1245.65375pt>
+<images/InputSheetSS.png, id=1725, 2168.1pt x 1245.65375pt>
 File: images/InputSheetSS.png Graphic file (type png)
 
 <use images/InputSheetSS.png>
@@ -1314,7 +1311,7 @@ Overfull \hbox (79.49579pt too wide) in paragraph at lines 643--644
  []
 
 [37 <./images/InputSheetSS.png>] [38]
-<images/InputSS.png, id=1740, 2168.1pt x 1245.65375pt>
+<images/InputSS.png, id=1744, 2168.1pt x 1245.65375pt>
 File: images/InputSS.png Graphic file (type png)
 
 <use images/InputSS.png>
@@ -1363,7 +1360,7 @@ LaTeX Warning: Marginpar on page 42 moved.
 
 LaTeX Warning: Marginpar on page 42 moved.
 
-<images/Results_Example.png, id=1771, 792.9625pt x 522.95375pt>
+<images/Results_Example.png, id=1775, 792.9625pt x 522.95375pt>
 File: images/Results_Example.png Graphic file (type png)
 
 <use images/Results_Example.png>
@@ -1377,7 +1374,7 @@ Overfull \hbox (79.49579pt too wide) in paragraph at lines 711--712
 [42
 
  <./images/Results_Example.png>]
-<images/MacroLogic1.pdf, id=1779, 546.04pt x 658.46pt>
+<images/MacroLogic1.pdf, id=1783, 546.04pt x 658.46pt>
 File: images/MacroLogic1.pdf Graphic file (type pdf)
 
 <use images/MacroLogic1.pdf>
@@ -1438,7 +1435,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 840--840
 [][]\T1/ppl/m/it/9 'Active Field
  []
 
-<images/age_distribution_all.pdf, id=1899, 794.97pt x 614.295pt>
+<images/age_distribution_all.pdf, id=1903, 794.97pt x 614.295pt>
 File: images/age_distribution_all.pdf Graphic file (type pdf)
 
 <use images/age_distribution_all.pdf>
@@ -1446,7 +1443,7 @@ Package pdftex.def Info: images/age_distribution_all.pdf used on input line 847
 .
 (pdftex.def)             Requested size: 337.86469pt x 261.08597pt.
 
-<images/age_distribution_giant.pdf, id=1900, 794.97pt x 614.295pt>
+<images/age_distribution_giant.pdf, id=1904, 794.97pt x 614.295pt>
 File: images/age_distribution_giant.pdf Graphic file (type pdf)
 
 <use images/age_distribution_giant.pdf>
@@ -1458,7 +1455,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 867--867
 [][]\T1/ppl/m/it/9 'Active Field
  []
 
-<images/depth_distribution.pdf, id=1903, 794.97pt x 614.295pt>
+<images/depth_distribution.pdf, id=1907, 794.97pt x 614.295pt>
 File: images/depth_distribution.pdf Graphic file (type pdf)
 
 <use images/depth_distribution.pdf>
@@ -1471,14 +1468,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 885--885
 [][]\T1/ppl/m/it/9 'Active Field
  []
 
-<images/well_prod_all.pdf, id=1918, 794.97pt x 614.295pt>
+<images/well_prod_all.pdf, id=1922, 794.97pt x 614.295pt>
 File: images/well_prod_all.pdf Graphic file (type pdf)
 
 <use images/well_prod_all.pdf>
 Package pdftex.def Info: images/well_prod_all.pdf used on input line 888.
 (pdftex.def)             Requested size: 317.98921pt x 245.723pt.
 
-<images/well_prod_low.pdf, id=1919, 794.97pt x 614.295pt>
+<images/well_prod_low.pdf, id=1923, 794.97pt x 614.295pt>
 File: images/well_prod_low.pdf Graphic file (type pdf)
 
 <use images/well_prod_low.pdf>
@@ -1494,7 +1491,7 @@ Overfull \hbox (55.8694pt too wide) in alignment at lines 911--920
 [][][] 
  []
 
-<images/inj_prod.pdf, id=1957, 794.97pt x 614.295pt>
+<images/inj_prod.pdf, id=1961, 794.97pt x 614.295pt>
 File: images/inj_prod.pdf Graphic file (type pdf)
  <use images/inj_prod.pdf>
 Package pdftex.def Info: images/inj_prod.pdf used on input line 926.
@@ -1599,7 +1596,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 978--978
 [][]\T1/ppl/m/it/9 'Active Field
  []
 
-<images/gas_comp_major.pdf, id=2169, 794.97pt x 614.295pt>
+<images/gas_comp_major.pdf, id=2173, 794.97pt x 614.295pt>
 File: images/gas_comp_major.pdf Graphic file (type pdf)
 
 <use images/gas_comp_major.pdf>
@@ -1610,7 +1607,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 990--990
 [][]\T1/ppl/m/it/9 'Active Field
  []
 
-<images/API-GOR.pdf, id=2178, 794.97pt x 614.295pt>
+<images/API-GOR.pdf, id=2182, 794.97pt x 614.295pt>
 File: images/API-GOR.pdf Graphic file (type pdf)
  <use images/API-GOR.pdf>
 Package pdftex.def Info: images/API-GOR.pdf used on input line 1006.
@@ -1642,7 +1639,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1032--1032
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 10
 44.
 
-<images/WOR_plot.pdf, id=2251, 794.97pt x 614.295pt>
+<images/WOR_plot.pdf, id=2255, 794.97pt x 614.295pt>
 File: images/WOR_plot.pdf Graphic file (type pdf)
  <use images/WOR_plot.pdf>
 Package pdftex.def Info: images/WOR_plot.pdf used on input line 1051.
@@ -1675,7 +1672,7 @@ e 1074.
 Package natbib Warning: Citation `johnston1988weeks' on page 60 undefined on in
 put line 1079.
 
-<images/SOR_dist.pdf, id=2411, 794.97pt x 614.295pt>
+<images/SOR_dist.pdf, id=2415, 794.97pt x 614.295pt>
 File: images/SOR_dist.pdf Graphic file (type pdf)
  <use images/SOR_dist.pdf>
 Package pdftex.def Info: images/SOR_dist.pdf used on input line 1094.
@@ -1695,15 +1692,6 @@ Chapter 5.
 [62
 
 ]
-
-LaTeX Warning: Reference `tab:stream_properties' on page 63 undefined on input 
-line 1146.
-
-
-LaTeX Warning: Reference `tab:stream_properties' on page 63 undefined on input 
-line 1146.
-
-
 Underfull \hbox (badness 10000) in alignment at lines 1157--1157
 [][][][][] 
  []
@@ -1860,7 +1848,7 @@ Overfull \hbox (20.10553pt too wide) in paragraph at lines 1417--1418
  as []:
  []
 
-[68] [69] <images/StandingKatzOriginal.pdf, id=2625, 614.295pt x 794.97pt>
+[68] [69] <images/StandingKatzOriginal.pdf, id=2631, 614.295pt x 794.97pt>
 File: images/StandingKatzOriginal.pdf Graphic file (type pdf)
 
 <use images/StandingKatzOriginal.pdf>
@@ -1868,7 +1856,7 @@ Package pdftex.def Info: images/StandingKatzOriginal.pdf used on input line 147
 7.
 (pdftex.def)             Requested size: 278.2383pt x 360.07433pt.
 
-<images/StandingKatzCorrelationUpper.pdf, id=2627, 794.97pt x 614.295pt>
+<images/StandingKatzCorrelationUpper.pdf, id=2633, 794.97pt x 614.295pt>
 File: images/StandingKatzCorrelationUpper.pdf Graphic file (type pdf)
 
 <use images/StandingKatzCorrelationUpper.pdf>
@@ -1879,7 +1867,7 @@ line 1483.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images//StandingKatzCorrelationLower.pdf, id=2629, 794.97pt x 614.295pt>
+<images//StandingKatzCorrelationLower.pdf, id=2635, 794.97pt x 614.295pt>
 File: images//StandingKatzCorrelationLower.pdf Graphic file (type pdf)
 
 <use images//StandingKatzCorrelationLower.pdf>
@@ -2079,7 +2067,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1817--1826
 
  []
 
-[83] <images/all_well_hole_diam.pdf, id=2808, 831.105pt x 498.86375pt>
+[83] <images/all_well_hole_diam.pdf, id=2814, 831.105pt x 498.86375pt>
 File: images/all_well_hole_diam.pdf Graphic file (type pdf)
 
 <use images/all_well_hole_diam.pdf>
@@ -2090,21 +2078,21 @@ Package pdftex.def Info: images/all_well_hole_diam.pdf used on input line 1832.
 
 
  <./images/all_well_hole_diam.pdf>]
-<images/Drilling1.pdf, id=2840, 794.97pt x 614.295pt>
+<images/Drilling1.pdf, id=2846, 794.97pt x 614.295pt>
 File: images/Drilling1.pdf Graphic file (type pdf)
 
 <use images/Drilling1.pdf>
 Package pdftex.def Info: images/Drilling1.pdf used on input line 1882.
 (pdftex.def)             Requested size: 317.98921pt x 245.723pt.
 
-<images/Drilling2.pdf, id=2842, 794.97pt x 614.295pt>
+<images/Drilling2.pdf, id=2848, 794.97pt x 614.295pt>
 File: images/Drilling2.pdf Graphic file (type pdf)
 
 <use images/Drilling2.pdf>
 Package pdftex.def Info: images/Drilling2.pdf used on input line 1890.
 (pdftex.def)             Requested size: 317.98921pt x 245.723pt.
 
-<images/Drilling3.pdf, id=2844, 794.97pt x 614.295pt>
+<images/Drilling3.pdf, id=2850, 794.97pt x 614.295pt>
 File: images/Drilling3.pdf Graphic file (type pdf)
 
 <use images/Drilling3.pdf>
@@ -2155,7 +2143,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1979--1992
 
  []
 
-<images/Fracturing1.pdf, id=2936, 794.97pt x 614.295pt>
+<images/Fracturing1.pdf, id=2942, 794.97pt x 614.295pt>
 File: images/Fracturing1.pdf Graphic file (type pdf)
 
 <use images/Fracturing1.pdf>
@@ -2385,7 +2373,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2128--2130
 
  []
 
-<images/Reservoir_PF.pdf, id=3045, 553.06625pt x 343.2825pt>
+<images/Reservoir_PF.pdf, id=3051, 553.06625pt x 343.2825pt>
 File: images/Reservoir_PF.pdf Graphic file (type pdf)
 
 <use images/Reservoir_PF.pdf>
@@ -2545,7 +2533,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2285--2287
 
  []
 
-<images/Wellbore_downhole_pump_PF.pdf, id=3112, 563.10374pt x 473.77pt>
+<images/Wellbore_downhole_pump_PF.pdf, id=3118, 563.10374pt x 473.77pt>
 File: images/Wellbore_downhole_pump_PF.pdf Graphic file (type pdf)
 
 <use images/Wellbore_downhole_pump_PF.pdf>
@@ -2699,7 +2687,7 @@ Package nicefrac Warning: You used \nicefrac or \unitfrac in text mode
 (nicefrac)                If it is, you can safely ignore
 (nicefrac)                this warning  on input line 2385.
 
-[101] <images/Moody_chart.pdf, id=3177, 845.1575pt x 597.23125pt>
+[101] <images/Moody_chart.pdf, id=3183, 845.1575pt x 597.23125pt>
 File: images/Moody_chart.pdf Graphic file (type pdf)
 
 <use images/Moody_chart.pdf>
@@ -2783,7 +2771,7 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 24
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 24
 61.
 
-<images/phase_flow_study.pdf, id=3196, 794.97pt x 614.295pt>
+<images/phase_flow_study.pdf, id=3202, 794.97pt x 614.295pt>
 File: images/phase_flow_study.pdf Graphic file (type pdf)
 
 <use images/phase_flow_study.pdf>
@@ -2849,7 +2837,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2528--2530
 
  []
 
-<images/Bitumen_mining_PF.pdf, id=3264, 568.1225pt x 405.515pt>
+<images/Bitumen_mining_PF.pdf, id=3270, 568.1225pt x 405.515pt>
 File: images/Bitumen_mining_PF.pdf Graphic file (type pdf)
 
 <use images/Bitumen_mining_PF.pdf>
@@ -2988,14 +2976,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 2588--2590
 LaTeX Warning: Reference `tab:mining_projects' on page 109 undefined on input l
 ine 2614.
 
-<images/mining_ng.pdf, id=3320, 364.46362pt x 248.43835pt>
+<images/mining_ng.pdf, id=3326, 364.46362pt x 248.43835pt>
 File: images/mining_ng.pdf Graphic file (type pdf)
 
 <use images/mining_ng.pdf>
 Package pdftex.def Info: images/mining_ng.pdf used on input line 2622.
 (pdftex.def)             Requested size: 397.48502pt x 270.963pt.
 
-<images/mining_elec.pdf, id=3321, 363.80818pt x 236.31146pt>
+<images/mining_elec.pdf, id=3327, 363.80818pt x 236.31146pt>
 File: images/mining_elec.pdf Graphic file (type pdf)
 
 <use images/mining_elec.pdf>
@@ -3143,14 +3131,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 2742--2756
 
  []
 
-<images/mining_nint.pdf, id=3415, 546.04pt x 279.0425pt>
+<images/mining_nint.pdf, id=3421, 546.04pt x 279.0425pt>
 File: images/mining_nint.pdf Graphic file (type pdf)
 
 <use images/mining_nint.pdf>
 Package pdftex.def Info: images/mining_nint.pdf used on input line 2760.
 (pdftex.def)             Requested size: 357.73409pt x 182.81462pt.
 
-<images/mining_int.pdf, id=3416, 739.76375pt x 521.95pt>
+<images/mining_int.pdf, id=3422, 739.76375pt x 521.95pt>
 File: images/mining_int.pdf Graphic file (type pdf)
 
 <use images/mining_int.pdf>
@@ -3188,7 +3176,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2823--2825
 
  []
 
-<images/separation_PF.pdf, id=3500, 563.10374pt x 453.695pt>
+<images/separation_PF.pdf, id=3507, 563.10374pt x 453.695pt>
 File: images/separation_PF.pdf Graphic file (type pdf)
 
 <use images/separation_PF.pdf>
@@ -3280,7 +3268,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2925--2927
 
  []
 
-<images/crude_oil_dewatering_PF.pdf, id=3550, 563.10374pt x 498.86375pt>
+<images/crude_oil_dewatering_PF.pdf, id=3556, 563.10374pt x 498.86375pt>
 File: images/crude_oil_dewatering_PF.pdf Graphic file (type pdf)
 
 <use images/crude_oil_dewatering_PF.pdf>
@@ -3346,7 +3334,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3016--3018
 
  []
 
-<images/crude_oil_stabilization_PF.pdf, id=3620, 565.11125pt x 418.56375pt>
+<images/crude_oil_stabilization_PF.pdf, id=3626, 565.11125pt x 418.56375pt>
 File: images/crude_oil_stabilization_PF.pdf Graphic file (type pdf)
 
 <use images/crude_oil_stabilization_PF.pdf>
@@ -3425,7 +3413,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3090--3092
 
  []
 
-<images/heavy_oil_upgrading_PF.pdf, id=3681, 563.10374pt x 506.89375pt>
+<images/heavy_oil_upgrading_PF.pdf, id=3687, 563.10374pt x 506.89375pt>
 File: images/heavy_oil_upgrading_PF.pdf Graphic file (type pdf)
 
 <use images/heavy_oil_upgrading_PF.pdf>
@@ -3435,7 +3423,7 @@ Package pdftex.def Info: images/heavy_oil_upgrading_PF.pdf used on input line 3
  [124
 
 
-] [125 <./images/heavy_oil_upgrading_PF.pdf>] <images/upgrading.pdf, id=3716, 7
+] [125 <./images/heavy_oil_upgrading_PF.pdf>] <images/upgrading.pdf, id=3722, 7
 39.76375pt x 564.1075pt>
 File: images/upgrading.pdf Graphic file (type pdf)
 
@@ -3495,7 +3483,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3263--3265
 
  []
 
-<images/heavy_oil_dilution_PF.pdf, id=3793, 555.07375pt x 367.3725pt>
+<images/heavy_oil_dilution_PF.pdf, id=3799, 555.07375pt x 367.3725pt>
 File: images/heavy_oil_dilution_PF.pdf Graphic file (type pdf)
 
 <use images/heavy_oil_dilution_PF.pdf>
@@ -3587,7 +3575,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3328--3330
 
  []
 
-<images/crude_oil_storage_PF.pdf, id=3823, 561.09625pt x 539.01375pt>
+<images/crude_oil_storage_PF.pdf, id=3829, 561.09625pt x 539.01375pt>
 File: images/crude_oil_storage_PF.pdf Graphic file (type pdf)
 
 <use images/crude_oil_storage_PF.pdf>
@@ -3681,7 +3669,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3402--3404
 
  []
 
-<images/produced_water_treatment_PF.pdf, id=3863, 487.8225pt x 570.13pt>
+<images/produced_water_treatment_PF.pdf, id=3869, 487.8225pt x 570.13pt>
 File: images/produced_water_treatment_PF.pdf Graphic file (type pdf)
 
 <use images/produced_water_treatment_PF.pdf>
@@ -3815,7 +3803,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3608--3610
 
  []
 
-<images/water_injection_PF.pdf, id=3941, 553.06625pt x 504.88625pt>
+<images/water_injection_PF.pdf, id=3947, 553.06625pt x 504.88625pt>
 File: images/water_injection_PF.pdf Graphic file (type pdf)
 
 <use images/water_injection_PF.pdf>
@@ -3859,7 +3847,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3655--3657
 
  []
 
-<images/steam_generation_PF.pdf, id=3975, 569.05505pt x 735.74875pt>
+<images/steam_generation_PF.pdf, id=3981, 569.05505pt x 735.74875pt>
 File: images/steam_generation_PF.pdf Graphic file (type pdf)
 
 <use images/steam_generation_PF.pdf>
@@ -3892,7 +3880,7 @@ Overfull \hbox (12.41196pt too wide) in paragraph at lines 3708--3709
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 37
 16.
 
-<images/OTSG.pdf, id=4034, 412.54124pt x 201.75375pt>
+<images/OTSG.pdf, id=4040, 412.54124pt x 201.75375pt>
 File: images/OTSG.pdf Graphic file (type pdf)
  <use images/OTSG.pdf>
 Package pdftex.def Info: images/OTSG.pdf used on input line 3731.
@@ -3949,7 +3937,7 @@ Overfull \hbox (4.12453pt too wide) in alignment at lines 3836--3845
 [][] 
  []
 
-<images/crude_contaminants.pdf, id=4111, 794.97pt x 614.295pt>
+<images/crude_contaminants.pdf, id=4117, 794.97pt x 614.295pt>
 File: images/crude_contaminants.pdf Graphic file (type pdf)
 
 <use images/crude_contaminants.pdf>
@@ -3957,14 +3945,14 @@ Package pdftex.def Info: images/crude_contaminants.pdf used on input line 3855.
 
 (pdftex.def)             Requested size: 317.98921pt x 245.723pt.
  [150]
-<images/GT+HRSG.pdf, id=4123, 756.8275pt x 215.80624pt>
+<images/GT+HRSG.pdf, id=4129, 756.8275pt x 215.80624pt>
 File: images/GT+HRSG.pdf Graphic file (type pdf)
 
 <use images/GT+HRSG.pdf>
 Package pdftex.def Info: images/GT+HRSG.pdf used on input line 3874.
 (pdftex.def)             Requested size: 397.48502pt x 113.34277pt.
  [151 <./images/crude_contaminants.pdf>]
-<images/GT_predictions.pdf, id=4193, 794.97pt x 614.295pt>
+<images/GT_predictions.pdf, id=4199, 794.97pt x 614.295pt>
 File: images/GT_predictions.pdf Graphic file (type pdf)
 
 <use images/GT_predictions.pdf>
@@ -4032,7 +4020,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4079--4081
 
  []
 
-<images/flaring_PF.pdf, id=4364, 563.10374pt x 453.695pt>
+<images/flaring_PF.pdf, id=4370, 563.10374pt x 453.695pt>
 File: images/flaring_PF.pdf Graphic file (type pdf)
 
 <use images/flaring_PF.pdf>
@@ -4093,7 +4081,7 @@ ted from the flar-ing vol-
 
 
 ] [159 <./images/flaring_PF.pdf>]
-<images/flaring_logic.pdf, id=4409, 794.97pt x 614.295pt>
+<images/flaring_logic.pdf, id=4416, 794.97pt x 614.295pt>
 File: images/flaring_logic.pdf Graphic file (type pdf)
 
 <use images/flaring_logic.pdf>
@@ -4120,37 +4108,37 @@ LaTeX Warning: Marginpar on page 161 moved.
 
 LaTeX Warning: Marginpar on page 162 moved.
 
-<images/wind1.pdf, id=4461, 794.97pt x 614.295pt>
+<images/wind1.pdf, id=4467, 794.97pt x 614.295pt>
 File: images/wind1.pdf Graphic file (type pdf)
  <use images/wind1.pdf>
 Package pdftex.def Info: images/wind1.pdf used on input line 4192.
 (pdftex.def)             Requested size: 190.7911pt x 147.42442pt.
 
-<images/wind2.pdf, id=4462, 794.97pt x 614.295pt>
+<images/wind2.pdf, id=4468, 794.97pt x 614.295pt>
 File: images/wind2.pdf Graphic file (type pdf)
  <use images/wind2.pdf>
 Package pdftex.def Info: images/wind2.pdf used on input line 4194.
 (pdftex.def)             Requested size: 190.7911pt x 147.42442pt.
 
-<images/wind3.pdf, id=4463, 794.97pt x 614.295pt>
+<images/wind3.pdf, id=4469, 794.97pt x 614.295pt>
 File: images/wind3.pdf Graphic file (type pdf)
  <use images/wind3.pdf>
 Package pdftex.def Info: images/wind3.pdf used on input line 4196.
 (pdftex.def)             Requested size: 190.7911pt x 147.42442pt.
 
-<images/wind4.pdf, id=4464, 794.97pt x 614.295pt>
+<images/wind4.pdf, id=4470, 794.97pt x 614.295pt>
 File: images/wind4.pdf Graphic file (type pdf)
  <use images/wind4.pdf>
 Package pdftex.def Info: images/wind4.pdf used on input line 4198.
 (pdftex.def)             Requested size: 190.7911pt x 147.42442pt.
 
-<images/wind5.pdf, id=4465, 794.97pt x 614.295pt>
+<images/wind5.pdf, id=4471, 794.97pt x 614.295pt>
 File: images/wind5.pdf Graphic file (type pdf)
  <use images/wind5.pdf>
 Package pdftex.def Info: images/wind5.pdf used on input line 4200.
 (pdftex.def)             Requested size: 190.7911pt x 147.42442pt.
 
-<images/wind6.pdf, id=4466, 794.97pt x 614.295pt>
+<images/wind6.pdf, id=4472, 794.97pt x 614.295pt>
 File: images/wind6.pdf Graphic file (type pdf)
  <use images/wind6.pdf>
 Package pdftex.def Info: images/wind6.pdf used on input line 4202.
@@ -4161,7 +4149,7 @@ Overfull \hbox (1.51736pt too wide) in paragraph at lines 4208--4209
 oc-cur-ring wind speed)
  []
 
-<images/wind30mph.pdf, id=4469, 518.93875pt x 347.2975pt>
+<images/wind30mph.pdf, id=4475, 518.93875pt x 347.2975pt>
 File: images/wind30mph.pdf Graphic file (type pdf)
 
 <use images/wind30mph.pdf>
@@ -4245,7 +4233,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4345--4347
 
  []
 
-<images/venting_PF.pdf, id=4724, 563.10374pt x 453.695pt>
+<images/venting_PF.pdf, id=4730, 563.10374pt x 453.695pt>
 File: images/venting_PF.pdf Graphic file (type pdf)
 
 <use images/venting_PF.pdf>
@@ -4274,7 +4262,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4387--4389
 
  []
 
-<images/gas_gathering_PF.pdf, id=4758, 563.10374pt x 455.7025pt>
+<images/gas_gathering_PF.pdf, id=4764, 563.10374pt x 455.7025pt>
 File: images/gas_gathering_PF.pdf Graphic file (type pdf)
 
 <use images/gas_gathering_PF.pdf>
@@ -4315,7 +4303,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4431--4433
 
  []
 
-<images/glycol_dehydrator_PF.pdf, id=4790, 563.10374pt x 453.695pt>
+<images/glycol_dehydrator_PF.pdf, id=4796, 563.10374pt x 453.695pt>
 File: images/glycol_dehydrator_PF.pdf Graphic file (type pdf)
 
 <use images/glycol_dehydrator_PF.pdf>
@@ -4323,7 +4311,7 @@ Package pdftex.def Info: images/glycol_dehydrator_PF.pdf used on input line 443
 9.
 (pdftex.def)             Requested size: 337.86469pt x 272.2191pt.
 
-<images/DehydrationPFD.pdf, id=4794, 733.63165pt x 373.25838pt>
+<images/DehydrationPFD.pdf, id=4800, 733.63165pt x 373.25838pt>
 File: images/DehydrationPFD.pdf Graphic file (type pdf)
 
 <use images/DehydrationPFD.pdf>
@@ -4351,7 +4339,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4476--4494
 
  []
 
-[171 <./images/glycol_dehydrator_PF.pdf>]
+
 Overfull \hbox (0.97229pt too wide) in paragraph at lines 4506--4507
 []|\T1/ppl/m/n/8 Notes| 
  []
@@ -4366,8 +4354,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 4504--4516
 
  []
 
-[172 <./images/DehydrationPFD.pdf, page is rotated 90 degrees>]
-<images/DehydrationParity.pdf, id=4856, 428.18358pt x 408.2453pt>
+[171 <./images/glycol_dehydrator_PF.pdf>] [172 <./images/DehydrationPFD.pdf, pa
+ge is rotated 90 degrees>]
+<images/DehydrationParity.pdf, id=4862, 428.18358pt x 408.2453pt>
 File: images/DehydrationParity.pdf Graphic file (type pdf)
 
 <use images/DehydrationParity.pdf>
@@ -4392,7 +4381,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4550--4550
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 45
 53.
 
-[175] <images/glycol_dehydrator_process.pdf, id=4914, 722.7pt x 542.025pt>
+[175] <images/glycol_dehydrator_process.pdf, id=4921, 722.7pt x 542.025pt>
 File: images/glycol_dehydrator_process.pdf Graphic file (type pdf)
 
 <use images/glycol_dehydrator_process.pdf>
@@ -4504,7 +4493,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4695--4697
 
  []
 
-<images/acid_gas_removal_PF.pdf, id=5064, 563.10374pt x 453.695pt>
+<images/acid_gas_removal_PF.pdf, id=5070, 563.10374pt x 453.695pt>
 File: images/acid_gas_removal_PF.pdf Graphic file (type pdf)
 
 <use images/acid_gas_removal_PF.pdf>
@@ -4515,7 +4504,7 @@ Package pdftex.def Info: images/acid_gas_removal_PF.pdf used on input line 4703
 
 
 ] [181 <./images/acid_gas_removal_PF.pdf>] <images/Aspen_AGR_general.png, id=51
-07, 469.755pt x 256.3176pt>
+13, 469.755pt x 256.3176pt>
 File: images/Aspen_AGR_general.png Graphic file (type png)
 
 <use images/Aspen_AGR_general.png>
@@ -4526,7 +4515,7 @@ Overfull \hbox (79.49579pt too wide) in paragraph at lines 4727--4728
 [][] 
  []
 
-<images/Aspen_AGR_MEA.png, id=5109, 469.755pt x 229.8186pt>
+<images/Aspen_AGR_MEA.png, id=5115, 469.755pt x 229.8186pt>
 File: images/Aspen_AGR_MEA.png Graphic file (type png)
 
 <use images/Aspen_AGR_MEA.png>
@@ -4568,35 +4557,35 @@ Underfull \hbox (badness 2941) in paragraph at lines 4821--4821
 [][]\T1/ppl/m/it/9 'Acid Gas Re-
  []
 
-<images/MEA_comb.pdf, id=5146, 442.43584pt x 419.81528pt>
+<images/MEA_comb.pdf, id=5152, 442.43584pt x 419.81528pt>
 File: images/MEA_comb.pdf Graphic file (type pdf)
 
 <use images/MEA_comb.pdf>
 Package pdftex.def Info: images/MEA_comb.pdf used on input line 4824.
 (pdftex.def)             Requested size: 397.48502pt x 377.18327pt.
 
-<images/DGA_comb.pdf, id=5147, 435.64839pt x 416.60158pt>
+<images/DGA_comb.pdf, id=5153, 435.64839pt x 416.60158pt>
 File: images/DGA_comb.pdf Graphic file (type pdf)
 
 <use images/DGA_comb.pdf>
 Package pdftex.def Info: images/DGA_comb.pdf used on input line 4830.
 (pdftex.def)             Requested size: 397.48502pt x 380.12512pt.
 
-<images/DEA_comb.pdf, id=5148, 438.52232pt x 416.05801pt>
+<images/DEA_comb.pdf, id=5154, 438.52232pt x 416.05801pt>
 File: images/DEA_comb.pdf Graphic file (type pdf)
 
 <use images/DEA_comb.pdf>
 Package pdftex.def Info: images/DEA_comb.pdf used on input line 4836.
 (pdftex.def)             Requested size: 397.48502pt x 377.14052pt.
 
-<images/DEA_high_comb.pdf, id=5149, 433.93839pt x 416.41808pt>
+<images/DEA_high_comb.pdf, id=5155, 433.93839pt x 416.41808pt>
 File: images/DEA_high_comb.pdf Graphic file (type pdf)
 
 <use images/DEA_high_comb.pdf>
 Package pdftex.def Info: images/DEA_high_comb.pdf used on input line 4842.
 (pdftex.def)             Requested size: 397.48502pt x 381.46358pt.
 
-<images/MDEA_comb.pdf, id=5150, 437.99695pt x 419.58649pt>
+<images/MDEA_comb.pdf, id=5156, 437.99695pt x 419.58649pt>
 File: images/MDEA_comb.pdf Graphic file (type pdf)
 
 <use images/MDEA_comb.pdf>
@@ -4625,7 +4614,7 @@ s pro-cess-ing hand-
 
 [192
 
-] [193] <images/Amine_process.pdf, id=5369, 722.7pt x 542.025pt>
+] [193] <images/Amine_process.pdf, id=5375, 722.7pt x 542.025pt>
 File: images/Amine_process.pdf Graphic file (type pdf)
 
 <use images/Amine_process.pdf>
@@ -4774,7 +4763,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5049--5051
 
  []
 
-<images/demethanizer_PF.pdf, id=5472, 563.10374pt x 459.7175pt>
+<images/demethanizer_PF.pdf, id=5478, 563.10374pt x 459.7175pt>
 File: images/demethanizer_PF.pdf Graphic file (type pdf)
 
 <use images/demethanizer_PF.pdf>
@@ -4882,7 +4871,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5171--5173
 
  []
 
-<images/Pre-membrane_chiller_PF.pdf, id=5569, 566.115pt x 412.54124pt>
+<images/Pre-membrane_chiller_PF.pdf, id=5575, 566.115pt x 412.54124pt>
 File: images/Pre-membrane_chiller_PF.pdf Graphic file (type pdf)
 
 <use images/Pre-membrane_chiller_PF.pdf>
@@ -4953,7 +4942,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5257--5259
 
  []
 
-<images/CO2_membrane_PF.pdf, id=5617, 567.11874pt x 289.08pt>
+<images/CO2_membrane_PF.pdf, id=5623, 567.11874pt x 289.08pt>
 File: images/CO2_membrane_PF.pdf Graphic file (type pdf)
 
 <use images/CO2_membrane_PF.pdf>
@@ -5028,7 +5017,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5321--5323
 
  []
 
-<images/ryan_holmes_PF.pdf, id=5657, 566.115pt x 474.77374pt>
+<images/ryan_holmes_PF.pdf, id=5664, 566.115pt x 474.77374pt>
 File: images/ryan_holmes_PF.pdf Graphic file (type pdf)
 
 <use images/ryan_holmes_PF.pdf>
@@ -5121,7 +5110,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5419--5421
 
  []
 
-<images/gas_flooding_compressor_PF.pdf, id=5720, 566.115pt x 412.54124pt>
+<images/gas_flooding_compressor_PF.pdf, id=5726, 566.115pt x 412.54124pt>
 File: images/gas_flooding_compressor_PF.pdf Graphic file (type pdf)
 
 <use images/gas_flooding_compressor_PF.pdf>
@@ -5228,7 +5217,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5525--5527
 
  []
 
-<images/Lifting_gas_compressor_PF.pdf, id=5776, 566.115pt x 412.54124pt>
+<images/Lifting_gas_compressor_PF.pdf, id=5782, 566.115pt x 412.54124pt>
 File: images/Lifting_gas_compressor_PF.pdf Graphic file (type pdf)
 
 <use images/Lifting_gas_compressor_PF.pdf>
@@ -5279,7 +5268,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5580--5582
 
  []
 
-<images/gas_reinjection_compressor_PF.pdf, id=5806, 566.115pt x 412.54124pt>
+<images/gas_reinjection_compressor_PF.pdf, id=5812, 566.115pt x 412.54124pt>
 File: images/gas_reinjection_compressor_PF.pdf Graphic file (type pdf)
 
 <use images/gas_reinjection_compressor_PF.pdf>
@@ -5319,7 +5308,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5628--5630
 
  []
 
-<images/CO2_reinjection_compressor_PF.pdf, id=5836, 566.115pt x 412.54124pt>
+<images/CO2_reinjection_compressor_PF.pdf, id=5842, 566.115pt x 412.54124pt>
 File: images/CO2_reinjection_compressor_PF.pdf Graphic file (type pdf)
 
 <use images/CO2_reinjection_compressor_PF.pdf>
@@ -5370,7 +5359,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5676--5678
  []
 
 
-<images/sour_gas_reinjection_compressor_PF.pdf, id=5871, 566.115pt x 412.54124p
+<images/sour_gas_reinjection_compressor_PF.pdf, id=5877, 566.115pt x 412.54124p
 t>
 File: images/sour_gas_reinjection_compressor_PF.pdf Graphic file (type pdf)
  <use images/sour_gas_reinjection_compressor_PF.pdf>
@@ -5410,7 +5399,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5725--5727
 
  []
 
-<images/VRU_compressor_PF.pdf, id=5906, 566.115pt x 412.54124pt>
+<images/VRU_compressor_PF.pdf, id=5912, 566.115pt x 412.54124pt>
 File: images/VRU_compressor_PF.pdf Graphic file (type pdf)
 
 <use images/VRU_compressor_PF.pdf>
@@ -5877,8 +5866,23 @@ Package nicefrac Warning: You used \nicefrac or \unitfrac in text mode
 (nicefrac)                this warning  on input line 6402.
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 6405--6405
-\T1/ppl/m/n/8 p. 111], [[]],
+Underfull \hbox (badness 10000) in paragraph at lines 6405--6405
+[]\T1/ppl/m/n/8 [[]], [[]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6405--6405
+\T1/ppl/m/n/8 [[]], [[]],
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 6405--6405
+\T1/ppl/m/n/8 [[]], [[], p.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6405--6405
+\T1/ppl/m/n/8 111], [[]],
  []
 
 
@@ -5887,7 +5891,7 @@ Overfull \hbox (12.0pt too wide) in alignment at lines 6373--6406
  []
 
 
-Overfull \vbox (0.51103pt too high) has occurred while \output is active []
+Overfull \vbox (10.01103pt too high) has occurred while \output is active []
 
 
 [254]
@@ -5923,7 +5927,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6452--6454
 [256
 
 
-] <images/GasProcessingSchematic.pdf, id=6241, 794.97pt x 614.295pt>
+] <images/GasProcessingSchematic.pdf, id=6247, 794.97pt x 614.295pt>
 File: images/GasProcessingSchematic.pdf Graphic file (type pdf)
 
 <use images/GasProcessingSchematic.pdf>
@@ -6083,7 +6087,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6674--6674
 \T1/ppl/m/it/9 Emis-sions
  []
 
-<images/all_well_casing.pdf, id=6362, 797.98125pt x 524.96124pt>
+<images/all_well_casing.pdf, id=6368, 797.98125pt x 524.96124pt>
 File: images/all_well_casing.pdf Graphic file (type pdf)
 
 <use images/all_well_casing.pdf>
@@ -6129,7 +6133,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6691--6691
 \T1/ppl/m/it/9 Emis-sions
  []
 
-<images/cementing_volume.pdf, id=6391, 199.74625pt x 279.0425pt>
+<images/cementing_volume.pdf, id=6397, 199.74625pt x 279.0425pt>
 File: images/cementing_volume.pdf Graphic file (type pdf)
 
 <use images/cementing_volume.pdf>
@@ -6171,7 +6175,7 @@ Overfull \hbox (3.61182pt too wide) in paragraph at lines 6743--6744
 ska [[], Sec-tion 4.5.11]. 
  []
 
-<images/cementing_diagram.pdf, id=6425, 342.27875pt x 674.52pt>
+<images/cementing_diagram.pdf, id=6431, 342.27875pt x 674.52pt>
 File: images/cementing_diagram.pdf Graphic file (type pdf)
 
 <use images/cementing_diagram.pdf>
@@ -6607,7 +6611,7 @@ Chapter 9.
 [276
 
 
-] <images/Boundary_Fugitives.pdf, id=6554, 1251.67625pt x 506.89375pt>
+] <images/Boundary_Fugitives.pdf, id=6560, 1251.67625pt x 506.89375pt>
 File: images/Boundary_Fugitives.pdf Graphic file (type pdf)
 
 <use images/Boundary_Fugitives.pdf>
@@ -6615,7 +6619,7 @@ Package pdftex.def Info: images/Boundary_Fugitives.pdf used on input line 7067.
 
 (pdftex.def)             Requested size: 397.48502pt x 160.97179pt.
 
-<images/Site_VF.pdf, id=6562, 598.235pt x 349.305pt>
+<images/Site_VF.pdf, id=6568, 598.235pt x 349.305pt>
 File: images/Site_VF.pdf Graphic file (type pdf)
  <use images/Site_VF.pdf>
 Package pdftex.def Info: images/Site_VF.pdf used on input line 7078.
@@ -6627,7 +6631,7 @@ LaTeX Font Info:    Try loading font information for T1+cmss on input line 7098
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [278 <./images/Site_VF.pdf>] <images/OmaraFitA.pdf, id=13164, 403.75272pt x 4
+) [278 <./images/Site_VF.pdf>] <images/OmaraFitA.pdf, id=13170, 403.75272pt x 4
 07.13289pt>
 File: images/OmaraFitA.pdf Graphic file (type pdf)
 
@@ -6635,21 +6639,21 @@ File: images/OmaraFitA.pdf Graphic file (type pdf)
 Package pdftex.def Info: images/OmaraFitA.pdf used on input line 7117.
 (pdftex.def)             Requested size: 182.84576pt x 184.37602pt.
 
-<images/OmaraFitB.pdf, id=13165, 417.56683pt x 402.06935pt>
+<images/OmaraFitB.pdf, id=13171, 417.56683pt x 402.06935pt>
 File: images/OmaraFitB.pdf Graphic file (type pdf)
 
 <use images/OmaraFitB.pdf>
 Package pdftex.def Info: images/OmaraFitB.pdf used on input line 7119.
 (pdftex.def)             Requested size: 190.7911pt x 183.70872pt.
  [279 <./images/OmaraFitA.pdf> <./images/OmaraFitB.pdf>] [280] <images/Mitchell
-FitA.pdf, id=13228, 424.48958pt x 419.10799pt>
+FitA.pdf, id=13234, 424.48958pt x 419.10799pt>
 File: images/MitchellFitA.pdf Graphic file (type pdf)
 
 <use images/MitchellFitA.pdf>
 Package pdftex.def Info: images/MitchellFitA.pdf used on input line 7171.
 (pdftex.def)             Requested size: 182.84576pt x 180.52628pt.
 
-<images/MitchellFitB.pdf, id=13229, 421.46599pt x 407.35402pt>
+<images/MitchellFitB.pdf, id=13235, 421.46599pt x 407.35402pt>
 File: images/MitchellFitB.pdf Graphic file (type pdf)
 
 <use images/MitchellFitB.pdf>
@@ -6673,14 +6677,14 @@ Package natbib Warning: Citation `EIA2018' on page 281 undefined on input line
 7185.
 
 [281 <./images/MitchellFitA.pdf> <./images/MitchellFitB.pdf>]
-<images/Component_VF.pdf, id=13279, 549.05125pt x 388.45125pt>
+<images/Component_VF.pdf, id=13285, 549.05125pt x 388.45125pt>
 File: images/Component_VF.pdf Graphic file (type pdf)
 
 <use images/Component_VF.pdf>
 Package pdftex.def Info: images/Component_VF.pdf used on input line 7205.
 (pdftex.def)             Requested size: 397.48502pt x 281.22577pt.
  [282 <./images/Component_VF.pdf>]
-<images/FugitivesBootstrapLogicalFlow_v2.pdf, id=14939, 841.1425pt x 1596.96625
+<images/FugitivesBootstrapLogicalFlow_v2.pdf, id=14945, 841.1425pt x 1596.96625
 pt>
 File: images/FugitivesBootstrapLogicalFlow_v2.pdf Graphic file (type pdf)
  <use images/FugitivesBootstrapLogicalFlow_v2.pdf>
@@ -7020,7 +7024,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7815--7839
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 7842.
 
-<images/Components_Fat_Tail_Cumulative.pdf, id=15293, 574.145pt x 542.025pt>
+<images/Components_Fat_Tail_Cumulative.pdf, id=15299, 574.145pt x 542.025pt>
 File: images/Components_Fat_Tail_Cumulative.pdf Graphic file (type pdf)
 
 <use images/Components_Fat_Tail_Cumulative.pdf>
@@ -7032,7 +7036,7 @@ t line 7843.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 7848.
 
-<images/Studies_Fat_Tail_Cumulative.pdf, id=15294, 574.145pt x 542.025pt>
+<images/Studies_Fat_Tail_Cumulative.pdf, id=15300, 574.145pt x 542.025pt>
 File: images/Studies_Fat_Tail_Cumulative.pdf Graphic file (type pdf)
 
 <use images/Studies_Fat_Tail_Cumulative.pdf>
@@ -7045,7 +7049,7 @@ _Tail_Cumulative.pdf>]
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 7875.
 
-<images/VF_Component_PercentilesEquip.pdf, id=15317, 758.835pt x 542.025pt>
+<images/VF_Component_PercentilesEquip.pdf, id=15323, 758.835pt x 542.025pt>
 File: images/VF_Component_PercentilesEquip.pdf Graphic file (type pdf)
 
 <use images/VF_Component_PercentilesEquip.pdf>
@@ -7060,35 +7064,35 @@ NO_FRAC''
 
 [306
 
-] [307] <images/HF_CO2.pdf, id=15392, 547.75839pt x 392.4771pt>
+] [307] <images/HF_CO2.pdf, id=15398, 547.75839pt x 392.4771pt>
 File: images/HF_CO2.pdf Graphic file (type pdf)
 
 <use images/HF_CO2.pdf>
 Package pdftex.def Info: images/HF_CO2.pdf used on input line 7965.
 (pdftex.def)             Requested size: 194.76984pt x 139.55492pt.
 
-<images/HF_CH4.pdf, id=15393, 543.50502pt x 395.86626pt>
+<images/HF_CH4.pdf, id=15399, 543.50502pt x 395.86626pt>
 File: images/HF_CH4.pdf Graphic file (type pdf)
 
 <use images/HF_CH4.pdf>
 Package pdftex.def Info: images/HF_CH4.pdf used on input line 7967.
 (pdftex.def)             Requested size: 194.76984pt x 141.85938pt.
 
-<images/Non_HF_CO2.pdf, id=15394, 538.68745pt x 399.67749pt>
+<images/Non_HF_CO2.pdf, id=15400, 538.68745pt x 399.67749pt>
 File: images/Non_HF_CO2.pdf Graphic file (type pdf)
 
 <use images/Non_HF_CO2.pdf>
 Package pdftex.def Info: images/Non_HF_CO2.pdf used on input line 7977.
 (pdftex.def)             Requested size: 194.76984pt x 144.51193pt.
 
-<images/Non_HF_CH4.pdf, id=15395, 541.63432pt x 395.95879pt>
+<images/Non_HF_CH4.pdf, id=15401, 541.63432pt x 395.95879pt>
 File: images/Non_HF_CH4.pdf Graphic file (type pdf)
 
 <use images/Non_HF_CH4.pdf>
 Package pdftex.def Info: images/Non_HF_CH4.pdf used on input line 7979.
 (pdftex.def)             Requested size: 194.76984pt x 142.38193pt.
 
-<images/PercentilesCO2WithHF.pdf, id=15396, 673.33313pt x 508.86186pt>
+<images/PercentilesCO2WithHF.pdf, id=15402, 673.33313pt x 508.86186pt>
 File: images/PercentilesCO2WithHF.pdf Graphic file (type pdf)
 
 <use images/PercentilesCO2WithHF.pdf>
@@ -7096,7 +7100,7 @@ Package pdftex.def Info: images/PercentilesCO2WithHF.pdf used on input line 798
 9.
 (pdftex.def)             Requested size: 194.76984pt x 147.19345pt.
 
-<images/PercentilesCH4WithHF.pdf, id=15397, 669.80672pt x 503.33955pt>
+<images/PercentilesCH4WithHF.pdf, id=15403, 669.80672pt x 503.33955pt>
 File: images/PercentilesCH4WithHF.pdf Graphic file (type pdf)
 
 <use images/PercentilesCH4WithHF.pdf>
@@ -7104,7 +7108,7 @@ Package pdftex.def Info: images/PercentilesCH4WithHF.pdf used on input line 799
 1.
 (pdftex.def)             Requested size: 194.76984pt x 146.3641pt.
 
-<images/PercentilesCO2NonHF.pdf, id=15398, 675.29604pt x 503.92067pt>
+<images/PercentilesCO2NonHF.pdf, id=15404, 675.29604pt x 503.92067pt>
 File: images/PercentilesCO2NonHF.pdf Graphic file (type pdf)
 
 <use images/PercentilesCO2NonHF.pdf>
@@ -7112,7 +7116,7 @@ Package pdftex.def Info: images/PercentilesCO2NonHF.pdf used on input line 8002
 .
 (pdftex.def)             Requested size: 194.76984pt x 145.34126pt.
 
-<images/PercentilesCH4NonHF.pdf, id=15399, 680.74644pt x 504.7255pt>
+<images/PercentilesCH4NonHF.pdf, id=15405, 680.74644pt x 504.7255pt>
 File: images/PercentilesCH4NonHF.pdf Graphic file (type pdf)
 
 <use images/PercentilesCH4NonHF.pdf>
@@ -7147,7 +7151,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8018--8039
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 8052.
 
-<images/Liquids_Unloading.pdf, id=15589, 794.97pt x 614.295pt>
+<images/Liquids_Unloading.pdf, id=15595, 794.97pt x 614.295pt>
 File: images/Liquids_Unloading.pdf Graphic file (type pdf)
 
 <use images/Liquids_Unloading.pdf>
@@ -7480,7 +7484,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8939--8939
 
 [328] [329] [330] [331] [332] [333]
 Appendix D.
-<images/macro_logic_2a.pdf, id=15766, 542.025pt x 722.7pt>
+<images/macro_logic_2a.pdf, id=15772, 542.025pt x 722.7pt>
 File: images/macro_logic_2a.pdf Graphic file (type pdf)
 
 <use images/macro_logic_2a.pdf>
@@ -7492,7 +7496,7 @@ Overfull \hbox (2.1557pt too wide) in paragraph at lines 8999--9000
 te and en-tered GOR
  []
 
-<images/macro_logic_3.pdf, id=15771, 542.025pt x 722.7pt>
+<images/macro_logic_3.pdf, id=15777, 542.025pt x 722.7pt>
 File: images/macro_logic_3.pdf Graphic file (type pdf)
 
 <use images/macro_logic_3.pdf>
@@ -7573,73 +7577,74 @@ Overfull \hbox (6.31648pt too wide) in paragraph at lines 9297--9298
 g work-sheet is changed
  []
 
-[344] [345] (./OPGEE_v3.0_methodology_v8.bbl [346]
+[344] [345] (./OPGEE_v3.0_methodology.bbl [346]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 40.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
  [347
 
 ] [348] [349] [350]
-Underfull \hbox (badness 10000) in paragraph at lines 468--473
+[351]
+Underfull \hbox (badness 10000) in paragraph at lines 533--538
 []\T1/ppl/m/n/10 AOGCC.  Oil and Gas Pools - Statis-tics Pages.  Tech-ni-cal Re
 -port
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--473
+Underfull \hbox (badness 10000) in paragraph at lines 533--538
 []\T1/cmtt/m/n/10 http://doa.alaska.gov/ogc/annual/current/annindex_current.htm
 l\T1/ppl/m/n/10 , Alaska
  []
 
-[351] [352] [353] [354] [355]
-Underfull \hbox (badness 1242) in paragraph at lines 990--996
+[352] [353] [354] [355]
+Underfull \hbox (badness 1242) in paragraph at lines 1003--1009
 []\T1/ppl/m/n/10 Oxy CO$[]$ EOR Project.  Pre-sen-ta-tion sub-mit-ted by Oc-c-c
 i-den-tal Petroleum to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 990--996
+Underfull \hbox (badness 10000) in paragraph at lines 1003--1009
 \T1/cmtt/m/n/10 sitingcases / hydrogen _ energy / documents / others / 2012-[]0
 6-[]20 _ OEHI _ Project _
  []
 
 [356]
-Underfull \hbox (badness 1024) in paragraph at lines 1053--1059
+Underfull \hbox (badness 1024) in paragraph at lines 1066--1072
 []\T1/ppl/m/n/10 Vetcogray.  Spe-cialty Con-nec-tors & Pipe: For land, plat-for
 m, jackup, floater
  []
 
 
-Overfull \hbox (187.4541pt too wide) in paragraph at lines 1053--1059
+Overfull \hbox (187.4541pt too wide) in paragraph at lines 1066--1072
 []\T1/cmtt/m/n/10 http://site.ge-energy.com/businesses/ge_oilandgas/en/literatu
 re/en/downloads/specialty_connectors_pipe.pdf\T1/ppl/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 1061--1065
+Underfull \hbox (badness 2486) in paragraph at lines 1074--1078
 []\T1/ppl/m/n/10 API.  API Tub-ing Ta-ble.  Tech-ni-cal re-port, Amer-i-can Pet
 roleum In-sti-tute,
  []
 
 
-Underfull \hbox (badness 7981) in paragraph at lines 1073--1079
+Underfull \hbox (badness 7981) in paragraph at lines 1086--1092
 []\T1/ppl/m/n/10 Corporation, S.E.  Two & Three Phase Ver-ti-cal & Hor-i-zon-ta
 l Sep-a-ra-
  []
 
 
-Underfull \hbox (badness 3758) in paragraph at lines 1073--1079
+Underfull \hbox (badness 3758) in paragraph at lines 1086--1092
 \T1/ppl/m/n/10 tors & Gas Scrub-bers.  Tech-ni-cal re-port, Sur-face Equip-ment
  Cor-po-ra-tion,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1073--1079
+Underfull \hbox (badness 10000) in paragraph at lines 1086--1092
 \T1/ppl/m/n/10 http://www.surfaceequip.com/two-three-phase-vertical-horizontal-
 separators-
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 1095--1099
+Underfull \hbox (badness 1917) in paragraph at lines 1108--1112
 []\T1/ppl/m/n/10 CIA.  The World Fact-book.  Tech-ni-cal re-port, Cen-tral In-t
 el-li-gence Agency,
  []
@@ -7651,12 +7656,12 @@ Package natbib Warning: There were undefined citations.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 9393.
 [362]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 9393.
- (./OPGEE_v3.0_methodology_v8.aux)
+ (./OPGEE_v3.0_methodology.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 9393.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 9393.
 
-Package rerunfilecheck Info: File `OPGEE_v3.0_methodology_v8.out' has not chang
-ed.
+Package rerunfilecheck Info: File `OPGEE_v3.0_methodology.out' has not changed.
+
 (rerunfilecheck)             Checksum: B227621B512AE4B75F7819329AC71DD1;8234.
 
 
@@ -7676,12 +7681,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 9393.
 ### bottom level 
 Here is how much of TeX's memory you used:
  15786 strings out of 493014
- 240105 string characters out of 6133351
- 508951 words of memory out of 5000000
+ 240042 string characters out of 6133351
+ 510073 words of memory out of 5000000
  17374 multiletter control sequences out of 15000+600000
  71196 words of font info for 162 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 42i,24n,46p,1322b,2611s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,24n,46p,1319b,2611s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm
 -super-t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}<
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
@@ -7700,10 +7705,10 @@ ve/2016/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive
 mf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
 /type1/urw/palatino/uplri8a.pfb>
-Output written on OPGEE_v3.0_methodology_v8.pdf (362 pages, 10273595 bytes).
+Output written on OPGEE_v3.0_methodology.pdf (362 pages, 10273261 bytes).
 PDF statistics:
- 16385 PDF objects out of 18468 (max. 8388607)
- 13175 compressed objects within 132 object streams
+ 16391 PDF objects out of 18468 (max. 8388607)
+ 13181 compressed objects within 132 object streams
  1541 named destinations out of 1728 (max. 500000)
  1466 words of extra memory for PDF output out of 10000 (max. 10000000)
 

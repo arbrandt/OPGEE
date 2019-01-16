@@ -1,5 +1,87 @@
 \begin{thebibliography}{100}
 
+\bibitem{StandingKatz1942}
+Katz, D.L.; Standing, M.B.
+\newblock Density of Natural Gases.
+\newblock {\em Transactions of the American Institute of Mining, Metallurgical
+  and Petroleum Engineers} {\bf 1942}, {\em 146},~140--149.
+
+\bibitem{Standing1977}
+Standing, M.B.
+\newblock {\em Volumetric and phase behavior of oilfield hydrocarbon systems};
+  Society of Petroleum Engineers of AIME: Dallas, TX,  1977.
+
+\bibitem{Moody2008}
+Beck, S.; Collins, R.
+\newblock Moody diagram.
+\newblock Technical report, University of Sheffield,  2008.
+
+\bibitem{Manning1991}
+Manning, F.S.; Thompson, R.
+\newblock {\em Oilfield processing of petroleum, Volume 1: Natural gas};
+  PennWell: Tulsa, OK,  1991.
+
+\bibitem{Aspentech2016}
+Inc., A.
+\newblock Aspen HYSYS v. 8.8.
+
+\bibitem{NETL2013}
+Skone, T.J.; R., J.; Cooney, G.; Jamieson, M.; Littlefield, J.; Marriott, J.
+\newblock Gate-to-Gate Life Cycle Inventory and Model of CO2-Enhanced Oil
+  Recovery.
+\newblock Technical Report DOE/NETL-2013/1599, U.S. Department of Energy,
+  National Energy Technology Laboratory,  2013.
+
+\bibitem{Allen2014b}
+Allen, D.T.; Pacsi, A.P.; Sullivan, D.W.; Zavala-Araiza, D.; Harrison, M.;
+  Keen, K.; Fraser, M.P.; Daniel~Hill, A.; Sawyer, R.F.; Seinfeld, J.H.
+\newblock Methane emissions from process equipment at natural gas production
+  sites in the United States: Pneumatic controllers.
+\newblock {\em Environmental science \& technology} {\bf 2014}, {\em
+  49},~633--640.
+
+\bibitem{Yeh2010}
+Yeh, S.; Jordann, S.M.; Brandt, A.R.; Turetsky, M.; Spatari, S.; Keith, D.W.
+\newblock Land use greenhouse gas emissions from conventional oil production
+  and oil sands.
+\newblock {\em Environmental Science \& Technology} {\bf 2010}, {\em
+  44},~8766--8772.
+
+\bibitem{Mcallister2009}
+McAllister, E.
+\newblock {\em Pipeline rules of thumb handbook, 7th edition}; PennWell: Tulsa,
+  OK,  2009.
+
+\bibitem{Vlasopoulos2006}
+Vlasopoulos, N.; Memon, F.; Butler, D.; Murphy, R.
+\newblock Life cycle assessment of wastewater treatment technologies treating
+  petroleum process waters.
+\newblock {\em Science of the Total Environment} {\bf 2006}, {\em 367},~58--70.
+
+\bibitem{NPC1976}
+Haynes, H.; Thrasher, L.; Katz, M.; Eck, T.
+\newblock An Analysis of the Potential for Enhanced Oil Recovery from Known
+  Fields in the United States--1976 to 2000.
+\newblock Technical report, National Petroleum Council,  1976.
+
+\bibitem{Lee2011}
+Lee, S.
+\newblock 2007 Oil and Gas Industry Survey Results: Draft Report.
+\newblock Technical report, California Environmental Protection Agency, Air
+  Resources Board,  2011.
+
+\bibitem{ARB2013}
+Detwiler, S.
+\newblock 2007 Oil and Gas Industry Survey Results - Final Report (Revised).
+\newblock Technical report,  October 2013.
+
+\bibitem{API1996b}
+API.
+\newblock Calculation Workbook For Oil And Gas Production Equipment Fugitive
+  Emissions.
+\newblock Workbook API publication number 4638, American Petroleum Institute,
+  1996.
+
 \bibitem{Keesom2009}
 Keesom, W.; Unnasch, S.; Moretta, J.
 \newblock Life cycle assessment comparison of North American and imported
@@ -159,13 +241,6 @@ API.
 \newblock Technical Report API Publication 4615, American Petroleum Institute,
   1995.
 
-\bibitem{API1996b}
-API.
-\newblock Calculation Workbook For Oil And Gas Production Equipment Fugitive
-  Emissions.
-\newblock Workbook API publication number 4638, American Petroleum Institute,
-  1996.
-
 \bibitem{API1998a}
 API.
 \newblock Fugitive emissions from equipment leaks II: Calculation procedures
@@ -278,11 +353,6 @@ Holstein, E.D.
 Leffler, W.L.; Martin, R.
 \newblock {\em Oil and gas production in nontechnical language}; PennWell:
   Tulsa, OK,  2006.
-
-\bibitem{Manning1991}
-Manning, F.S.; Thompson, R.
-\newblock {\em Oilfield processing of petroleum, Volume 1: Natural gas};
-  PennWell: Tulsa, OK,  1991.
 
 \bibitem{Manning1995}
 Manning, F.S.; Thompson, R.
@@ -411,11 +481,6 @@ API.
 \newblock Technical Report API Publication 4653, American Petroleum Institute,
   1997.
 
-\bibitem{Mcallister2009}
-McAllister, E.
-\newblock {\em Pipeline rules of thumb handbook, 7th edition}; PennWell: Tulsa,
-  OK,  2009.
-
 \bibitem{Miesner2006}
 Miesner, T.O.; Leffler, W.L.
 \newblock {\em Oil \& gas pipelines in nontechnical language}; PennWell: Tulsa,
@@ -470,12 +535,6 @@ AOGCC.
 \newblock Technical Report
   \verb+http://doa.alaska.gov/ogc/annual/current/annindex_current.html+, Alaska
   Oil and Gas Conservation Commission,  2012.
-
-\bibitem{Lee2011}
-Lee, S.
-\newblock 2007 Oil and Gas Industry Survey Results: Draft Report.
-\newblock Technical report, California Environmental Protection Agency, Air
-  Resources Board,  2011.
 
 \bibitem{Mccain1990}
 McCain, W.D.
@@ -586,28 +645,10 @@ Lemmon, E.W.; Huber, M.L.; McLinden, M.O.
 \newblock National Institute of Standards and Technology, Standard Reference
   Data Program, Gaithersburg, MD, 9.1 ed.,  2013.
 
-\bibitem{StandingKatz1942}
-Katz, D.L.; Standing, M.B.
-\newblock Density of Natural Gases.
-\newblock {\em Transactions of the American Institute of Mining, Metallurgical
-  and Petroleum Engineers} {\bf 1942}, {\em 146},~140--149.
-
-\bibitem{Standing1977}
-Standing, M.B.
-\newblock {\em Volumetric and phase behavior of oilfield hydrocarbon systems};
-  Society of Petroleum Engineers of AIME: Dallas, TX,  1977.
-
 \bibitem{Wang2009}
 Wang, M.
 \newblock CA-GREET Model v1.8b.
 \newblock Computer program, Argonne National Laboratory,  2009.
-
-\bibitem{Yeh2010}
-Yeh, S.; Jordann, S.M.; Brandt, A.R.; Turetsky, M.; Spatari, S.; Keith, D.W.
-\newblock Land use greenhouse gas emissions from conventional oil production
-  and oil sands.
-\newblock {\em Environmental Science \& Technology} {\bf 2010}, {\em
-  44},~8766--8772.
 
 \bibitem{Vafi2016a}
 Vafi, K.; Brandt, A.R.
@@ -644,11 +685,6 @@ Vako, P.; McCain, W.D.
 \bibitem{Takacs2005}
 Takacs, G.
 \newblock {\em Gas lift manual}; PennWell: Tulsa, OK,  2005.
-
-\bibitem{Moody2008}
-Beck, S.; Collins, R.
-\newblock Moody diagram.
-\newblock Technical report, University of Sheffield,  2008.
 
 \bibitem{Guo2007}
 Guo, B.; Lyons, W.C.
@@ -724,12 +760,6 @@ EPA, U.
 Pacheco, D.; MacLean, H.L.
 \newblock Oil Sands Technology Upgrading Model (OSTUM) model documentation.
 \newblock Technical report, University of Toronto,  2016.
-
-\bibitem{Vlasopoulos2006}
-Vlasopoulos, N.; Memon, F.; Butler, D.; Murphy, R.
-\newblock Life cycle assessment of wastewater treatment technologies treating
-  petroleum process waters.
-\newblock {\em Science of the Total Environment} {\bf 2006}, {\em 367},~58--70.
 
 \bibitem{Dillon2003}
 Dillon, J.
@@ -934,10 +964,6 @@ Parro, D.
 \newblock Membrane Technology Matters.
 \newblock {\em Oil \& Gas Journal} {\bf 2002}, pp. 43--47.
 
-\bibitem{Aspentech2016}
-Inc., A.
-\newblock Aspen HYSYS v. 8.8.
-
 \bibitem{Khan1985}
 Khan, M.; Manning, W.
 \newblock Practical Designs for Amine Plants.
@@ -947,13 +973,6 @@ Khan, M.; Manning, W.
 Jones, V.; Perry, C.
 \newblock Fundamentals of gas treating.
 \newblock  Gas Conditioning Conference,  1973.
-
-\bibitem{NETL2013}
-Skone, T.J.; R., J.; Cooney, G.; Jamieson, M.; Littlefield, J.; Marriott, J.
-\newblock Gate-to-Gate Life Cycle Inventory and Model of CO2-Enhanced Oil
-  Recovery.
-\newblock Technical Report DOE/NETL-2013/1599, U.S. Department of Energy,
-  National Energy Technology Laboratory,  2013.
 
 \bibitem{MilliganRyanHolmesPermit}
 Milligan, E.
@@ -970,12 +989,6 @@ UNEP.
 Bocker, N.; Grahl, M.; Tota, A.; Haussinger, P.; Leitgeb, P.; Schmucker, B.,
   Ullmann's Encyclopeida of Industrial Chemistry; Wiley,  2013; chapter
   Nitrogen.
-
-\bibitem{NPC1976}
-Haynes, H.; Thrasher, L.; Katz, M.; Eck, T.
-\newblock An Analysis of the Potential for Enhanced Oil Recovery from Known
-  Fields in the United States--1976 to 2000.
-\newblock Technical report, National Petroleum Council,  1976.
 
 \bibitem{Oxy2015}
 Oxy Denver Unit CO$_2$ Subpart RR Monitoring, Reporting and Verification (MRV)
@@ -1096,11 +1109,6 @@ CIA.
 \newblock The World Factbook.
 \newblock Technical report, Central Intelligence Agency,
   https://www.cia.gov/library/publications/the-world-factbook/,  2013.
-
-\bibitem{ARB2013}
-Detwiler, S.
-\newblock 2007 Oil and Gas Industry Survey Results - Final Report (Revised).
-\newblock Technical report,  October 2013.
 
 \bibitem{EPA1996}
 Management, N.R.
@@ -1277,14 +1285,6 @@ Allen, D.T.; Sullivan, D.W.; Zavala-Araiza, D.; Pacsi, A.P.; Harrison, M.;
   sites in the United States: Liquid unloadings.
 \newblock {\em Environmental science \& technology} {\bf 2014}, {\em
   49},~641--648.
-
-\bibitem{Allen2014b}
-Allen, D.T.; Pacsi, A.P.; Sullivan, D.W.; Zavala-Araiza, D.; Harrison, M.;
-  Keen, K.; Fraser, M.P.; Daniel~Hill, A.; Sawyer, R.F.; Seinfeld, J.H.
-\newblock Methane emissions from process equipment at natural gas production
-  sites in the United States: Pneumatic controllers.
-\newblock {\em Environmental science \& technology} {\bf 2014}, {\em
-  49},~633--640.
 
 \bibitem{Shires2009}
 Shires, T.; Loughran, C.; Jones, S.; Hopkins, E.
