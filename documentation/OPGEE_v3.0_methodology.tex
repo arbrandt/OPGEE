@@ -1,4 +1,5 @@
 \documentclass[11pt]{report}
+\usepackage[version=4]{mhchem}
 \usepackage{graphicx}
 \usepackage{subfigure}
 \usepackage{lscape}
@@ -4707,7 +4708,8 @@ AGR venting and fugitives					& \stream{256}			& O		& Atmosphere					& [t/d]			&
 %%%%%%%%%%%
 
 
-\subsection{AGR modeling using result from process simulation software}
+\subsection{AGR modeling using result from process simulation software} \label{AGRaspen}
+
 
 In order to generate accurate results for AGR energy consumption under a wide variety of operating conditions, commercial chemical process simulation software is used to simulate thousands of operating conditions, and statistical models are fit to the results. The resulting statistical models allow OPGEE to predict the results of chemical engineering software without the expense and challenge of running full AGR system simulations. OPGEE \version \, uses Aspen HYSYS v.8.8, a commercial chemical simulation software, to model a total of 5 different AGR systems with differing solvents and solvent loadings \cite{Aspentech2016}. 
 
@@ -4809,7 +4811,7 @@ All points are required to meet the sweet gas specification of 4 ppmv H$_2$S in 
 A total of five outputs (dependent variables) for each run are recorded. These include (1) reboiler thermal load [kW], (2) booster pump horsepower [hp], (3) charge pump horsepower [hp], (4) reflux condenser thermal load [kW], and (5) amine cooler thermal load [kW]. Additionally mole fractions of CO$_2$ and H$_2$S in sweet gas product stream are recorded for each simulation to ensure constraints are met.
 
 Using these results, predictive equations are generated using MATLAB curve fitting toolbox \cite{Mathworks2016}.  A set of four predictive equations were generated for each amine. These equations predict (1) reboiler heat input, (2) total pump work (sum of booster and charge pumps), (3) reboiler reflux condenser cooling thermal load, and (4) amine cooling thermal load. Each dataset (i.e., for each amine) is split into a training dataset and a testing dataset. The testing set is a randomly selected subset of $\approx$10\% of the observations which is removed from the dataset and held aside (i.e., not used to generate the statistical fit). The training set includes the remainder of the results ($\approx$\%90\% of simulation runs). The training and testing sets are drawn independently for each predictive equation. Each training dataset is fitted to a quadratic equation of all five independent variables. The quadratic equation includes all linear terms, interaction terms, and square terms. The quadratic model fits are of the general form:
-\begin{equation}
+\begin{equation} \label{eq:proxymodel}
 P 	= \beta_0 + \sum_{i=1}^{5} \beta_a x_i + \sum_{i=1}^{5} \sum_{j=i+1}^{5} \beta_b \left(x_i \times x_j\right) + \sum_{i=1}^{5} \beta_c x_i^2
 \end{equation}
 where the coefficient $\beta_0$ is the intercept, $\beta_a$ are linear coefficients, $\beta_b$ are coefficients on interaction terms, and $\beta_c$ are quadratic coefficients on squared terms.  Each model is fit to the full quadratic model (21 $\beta$ terms). 
@@ -4948,6 +4950,98 @@ Similarly motor sizes of pumps can also be estimated from the amine circulation 
 %%%%%%%%%%
 where BHP$_{RP}$ = reflux pump brake horsepower [hp]; BHP$_{BP}$ = booster pump brake horsepower [hp];  BHP$_{CP}$ = circulation pump brake horsepower [hp]; and $p_{d}$ = pump discharge pressure [psi]. The circulation pump discharge pressure = 50 psi over contactor operating pressure \cite[p. 121]{Manning1991}. The default contactor operating pressure as mentioned earlier is 350 psi. 
 
+\subsection{Gas desulfurization modeling using result from process simulation software}
+
+Sulfur emission environmental regulations against H$_2$S toxicity are becoming increasingly stringent. Properly managing sulfur recovery units also improves the monetization of the unit. Thus, the acid gas out from the AGR regenerator unit (see Figure \ref{fig:Aspen_AGR_general}) needs to get desulfurized before tail gas treatment and final vent/incineration. 
+
+The Claus process is the most famous and well-stablished gas desulfurizing process, capturing elemental sulfur from gaseous hydrogen sulfide, carbonyl sulfide, carbon disulfide, sulfur dioxide, and other sulfur-containing species in a series of thermal and chemical reactions \cite{ClausAspen}. The majority of sulfur produced is byproduct sulfur from petrochemical plants. The elemental sulfur (S) is used for manufacturing sulfuric acid, medicine, cosmetics, fertilizers, pesticide, and rubber products.
+
+In a Claus process, acid gases from the AGR unit (see Figure \ref{fig:Aspen_AGR_general}) is sent to a reaction furnace with air at high temperature. Rapid reactions at 1000-1400$^\circ$C take place to convert one third of the total inlet H$_2$S to SO$_2$ at the outlet. Following heat recovery, elemental sulfur produced in the furnace is drawn out of the system using a low temperature condenser at about 130$^\circ$C. The remaining gaseous effluent is sent through several (typically 2 or 3) catalytic sections in series operating at 170-370$^\circ$C, which continue to convert the remaining SO$_2$ and H$_2$S to elemental sulfur and water (see below reactions). A cumulative sulfur recovery of >98\%\ is typically targeted \cite{ClausAspen}. The gaseous effluent from the last catalytic stage condenser is low in sulfur compounds, but may require some additional treating to meet flare gas specifications. This gas is sent to tail gas treating processing, which can contain process units such as a hydrogenation bed, reducing gas generator, quench tower, amine absorber, incinerator and flare.
+\begin{align*}
+
+\ce{3H2S + 1.5O2 -> SO2 + 2H2S + H2O}
+
+\ce{SO2 + 2H2S ->[Catalyst] \left\frac{3}{x} \right S_x + 2H2O}
+
+\end{align*}
+
+As shown in Figure \ref{fig:Clausaspen}, a modified version of Aspen HYSYS default template flowsheet of \emph{Sulsim (Sulfur Recovery) - 3 stage Claus process} is used for this analysis. Empirical models based on hundreds of sulfur plant test results are used by Aspen HYSYS to model the Reaction Furnace and predict the unit conversion efficiency, as well as quantities of COS, CS$_2$, H$_2$, CO, and H$_2$S at the outlet of the furnace. The concentrations of H$_2$S and CO$_2$ in the acid gas are the largest influencing factors upon the design and configuration of the Claus plant and have significant effects on the net reactions in the furnace, and thus, are the major independent variables of our system. For the cases with > 40\%\ H$_2$S mole concentration in Acid Gas (Dry) stream, \emph{Straight Through Amine Acid Gas} is selected as the Reaction Furnace empirical model, whereas for low H$_2$S concentration acid gas streams, \emph{Lean Feed Acid Gas (Legacy)} model is utilized. Alumina catalyst bed is used for the Catalytic Converters. In all simulations, the Liq. Sulfur Out (Cond. #1) stream mass flow rate is adjusted and the Condenser #1 thermodynamic models are solved iteratively in order to obtain 99\%\ sulfur recovery efficiency out of Condenser #1. 
+
+\begin{figure}
+\includegraphics[width=1\columnwidth]{images/Clausaspen.pdf}
+\caption{Claus unit modified process flow diagram from Aspen HYSYS as used in developing statistical proxy models.}
+\label{fig:Clausaspen}
+\end{figure}
+
+The fixed operating parameters are given in Table  \ref{tab:Claus_aspen1}. 
+
+\clearpage
+
+\begin{table}
+\begin{scriptsize}
+\caption{Settings for fixed operating parameters in Aspen HYSYS desulfurization plant simulations.}
+\label{tab:Claus_aspen1}
+\begin{tabular*}{1\columnwidth}{p{0.5\columnwidth}p{0.45\columnwidth}}
+\toprule
+Fixed variables & Value\\
+\midrule
+Acid gas C$_1$, C$_2$, and C$_3$ mole concentrations {[}mol. fraction{]} & 0.005, 0.002, 0.001   \\
+Acid gas inlet temperature {[}$^\circ$F{]}                                               & 95       \\
+Acid gas inlet pressure {[}psig{]}                                 & 10    \\
+H$_2$O saturation temperature {[}$^\circ$F{]}                                                           & 77   \\
+H$_2$O saturation pressure {[}psig{]}                                                  & 0  \\
+Air dry temperature {[}$^\circ$F{]}                                            & 95    \\
+Air dry pressure {[}psig{]}                                  & 10    \\
+Acid gas (wet) molar flow {[}kgmole/h{]}                                 & 100   \\
+Air (wet) {[}kgmole/h{]}                    & 227.3  \\
+Furnace model {[}-{]}                      &     Empirical: \\
+						&	     \emph{Straight Through Amine Acid Gas} \\
+					          &            \emph{Lean Feed Acid Gas (Legacy)}   \\
+Furnace, waste heat exchanger (WHE), condensers, catalytic converters, and incinerator pressure drop {[}bar{]}      &   0.03   \\
+Furnace residence time {[}s{]}        &   1\\
+WHE type {[}-{]}                              &  Single pass\\
+WHE vapor out temperature {[}$^\circ$F{]}  &     572  	  \\ 
+Condensers vapor out temperature {[}$^\circ$F{]}         &      275    \\
+Sulfur recovery efficiency specified target value {[}\%\{]}            &    99\\
+Catalytic converter catalyst {[}-{]}                 &              Alumina \\
+Catalytic converter space velocity {[}1/h{]}                     &      1000    \\
+Incinerator fuel gas C$_1$, C$_2$, and C$_3$ mole concentrations {[}mol. fraction{]}         &        0.95, 0.04, 0.01    \\
+Incinerator target outlet O$_2$ mole concentration {[}mol. fraction{]}                 &      0.02    \\
+Stack effluent temperature {[}$^\circ$F{]}                &       1112    \\
+Stack effluent pressure {[}psig{]}                        &        0.2905     \\
+\bottomrule
+\end{tabular*}
+\end{scriptsize}
+\end{table}
+
+Figure \ref{fig:Claus_duty1} shows the kJ energy duty per kg of sulfur produced as a function of the acid gas H$_2$S mole concentration for the condensers (1 to 4), heaters (1 to 3) and WHE. The corresponding best fit equations and R$^2$ are also shown in \ref{fig:Claus_duty1}. In addition, other important output parameters trends versus the acid gas H$_2$S mole concentration are presented below (Figures \ref{fig:Claus_concent1} to \ref{fig:Claus_flowrates}). It should be noted that as $\approx$99\% of total mole fractions of the Tail Gas and Stack Effluent streams are associated with H$_2$O, H$_2$, N$_2$, and CO$_2$ components, the other ultra-low concentration elements (i.e., Ar, CO, COS, CS$_2$, HCN, O$_2$, SO$_2$, and S$_1$-S$_8$) are excluded. Thus, the H$_2$O, H$_2$, N$_2$, and CO$_2$ concentrations are scaled to 100\%\, and the scaled data are shown in Figures \ref{fig:Claus_concent1} and \ref{fig:Claus_concent2}. The predictive best fit equations obtained in this analysis are used in OPGEE for estimating the energy consumptions and specification of different streams of the Claus unit.         
+
+\begin{figure}
+\includegraphics[width=1\columnwidth]{images/Claus_duty1.pdf}
+\caption{Desulfurization condensers, heaters, and waste heat exchanger heat duties per kilogram of sulfur produced in different acid gas H$_2$S concentrations.}
+\label{fig:Claus_duty1}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=1\columnwidth]{images/Claus_concent1.pdf}
+\caption{Tail gas H$_2$O, H$_2$, N$_2$, and CO$_2$ mole concentrations in different acid gas H$_2$S concentrations.}
+\label{fig:Claus_concent1}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=1\columnwidth]{images/Claus_concent2.pdf}
+\caption{Stack gas H$_2$O, H$_2$, N$_2$, and CO$_2$ mole concentrations in different acid gas H$_2$S concentrations.}
+\label{fig:Claus_concent2}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=1\columnwidth]{images/Claus_flowrates.pdf}
+\caption{Desulfurization plant downstream mass flow rates vs. different acid gas H$_2$S concentrations (a) Stack effluent mass flow rate (b) Incinerator fuel gas consumption.}
+\label{fig:Claus_flowrates}
+\end{figure}
+
+\clearpage
+
 \subsection{Defaults for surface processing}
 
 Defaults for surface operations are shown in Table \ref{tab:defaults_surface_processing}.
@@ -5025,10 +5119,11 @@ $RH_{backup}$ & Usage rate of Ryan-Holmes backup engine & - & 2.63 & - & [hrs/d]
 \section{Demethanizer}
 \label{sec:demethanizer}
 
-The demethanizer splits the natural gas stream into a pipeline quality natural gas stream and a natural gas liquids (NGL) stream. The main sources of GHG emissions from the demethanizer unit are the refrigeration system and compressor shaft power and the heat duty of the fractionation column reboiler, if supplemental heat is required. These are calculated using energy factors which are generated from a default configuration \cite{Nawaz2010}. The independent demethanizer unit described below is included in Gas Processing Paths 4 and 5. Gas Processing Path 7 (Ryan-Holmes) includes an integrated demethanizer. 
+Recovery of natural gas liquids (NGL) from natural gas stream is a quite common practice in gas processing and has great economic importance. High volumes of associated gas produced from crude oil used to be flared routinely, and phasing out this wasteful and high emitting practice \cite{masnadi2018global} has required greatly increased NGL recovery. The demethanizer splits the natural gas stream into a pipeline quality natural gas stream and a NGL stream. NGL recovery is however not totally an economic matter and regardless of economics, production of gas that meets stringent sales specifications may require NGL extraction. In addition, it may be desirable to produce a gas that can be pipelined without HC condensate formation which NGL unit becomes necessary \cite{Manning1991}. 
+
+The main sources of GHG emissions from the demethanizer unit are the refrigeration system and compressor shaft power and the heat duty of the fractionation column reboiler, if supplemental heat is required. These are calculated using energy factors which are generated from a default configuration \cite{Nawaz2010}. The independent demethanizer unit described below is included in Gas Processing Paths 4 and 5. Gas Processing Path 7 (Ryan-Holmes) includes an integrated demethanizer. 
 
 The streams flowing into and out of the demethanizer process are shown in Figure \ref{fig:demethanizer_PF} and are listed in Table \ref{tab:demethanizer_PF}.
-
 
 %%%%%%%%%%%
 \begin{table}
@@ -5060,6 +5155,138 @@ Demethanizer fugitives					& \stream{257}			& O		& Atmosphere					& [t/d]			& 		
 \end{figure}
 %%%%%%%%%%%
 
+\subsection{Demethanizer modeling using result from process simulation software} \label{Demethanizer_aspen}
+
+Cryogenic processing and absorption methods are some of the ways to separate methane from NGLs. The cryogenic method is better at extraction of the lighter liquids, such as ethane, than is the alternative absorption method \cite{roy2011aspen}. 
+
+Similar to the AGR unit (see Section \ref{AGRaspen}), in order to generate statistical proxy models to estimate energy consumption of the demethanizer plant under a wide variety of operating conditions, Aspen HYSYS commercial process simulation software is used to simulate thousands of conditions using different ranges of independent variables. The resulting open-source statistical models allow OPGEE to predict the results of commercial software without the expense and challenge of running full NGL simulations. Here Aspen HYSYS V10 is used to train the statistical proxy models. 
+
+A modified version of Aspen HYSYS default template flowsheet of \emph{Deep Cut Turbo-Expander} plant is used for this analysis. As shown in Figure \ref{fig:demethanizer_aspen}, in the cryogenic or turbo-expander NGL plant, the chiller is replaced by an expansion turbine (E-100) where the high pressure entering gas expands and supplies shaft work (energy steam 70) to the downstream turbine (K-100), thus reducing the gas enthalpy and large temperature drop. The quick drop in temperature that the expander is capable of producing condenses the hydrocarbons in the gas stream, but maintains methane in its gaseous form. 
+
+%%%%%%%%%%%
+\begin{figure}
+\includegraphics[width=0.85\columnwidth]{images/demethanizer_aspen.pdf}
+\caption{Demethanizer modified process flow diagram from Aspen HYSYS as used in developing statistical proxy models.}
+\label{fig:demethanizer_aspen}
+\end{figure}
+%%%%%%%%%%%
+
+Feed gas is cooled first in the high-temperature, gas-to-gas heat exchangers. Condensate liquids then are removed in a separator (V-100). Gas from the cold separator expands through the expansion turbine to the pressure at top of the demethanizer. The demethanizer column (T-100) stabilizes the raw liquid product by reducing the methane content to a suitably low level. The molar ratio of methane to ethane in the bottom product of the column is typically 0.02-0.03 \cite{Manning1991}. The demethanizer tower is modeled in Aspen HYSYS using sufficient number of theoretical trays (11 trays) to ensure converged simulations. The number of trays has a negligible effect on the total energy cost of the system. Horizontal cylindrical reboiler design is used for all simulations. All of the heat duty required for the demethanizer trays and reboiler (energy stream 80-82) are supplied from the cooler duty (stream Q-100) through a network of heat exchangers. From the demethanizer unit, two products are generated: methane gas (fuel gas) and a NGL product. The methane-rich fuel gas is exported as product from the process, and the NGL is exported for sale or to fractionation plant for further recovery. 
+
+As the gas is first processed with AGR unit (see Section \ref{sec:AGR}), it is assumed that the inlet gas to the demethanizer plant is a H$_2$S and CO$_2$ free stream. High pressure gas is needed to pass through the turbo-expander. Here, the compressor and its energy duty needed to pressurize the inlet gas is excluded from the demethanizer plant. 
+
+In this analysis, the heat exchanger network of the default template is simplified in order to be able to simulate the process under the variety of operating conditions. For each simulation, \emph{Set} control blocks (Set-1 and Set-2 in Figure \ref{fig:demethanizer_aspen}) are added to the flowsheet in order to dynamically set the outlet pressure of the expander and VLV-100 valve based on the determined pressure of the demethanizer column (T-100). 
+
+One of the major challenges of NGL simulation across range of operating conditions corresponds to the heat exchanger optimal design and performance. In particular, as the NGL column top outlet stream (i.e., stream 22 in Figure \ref{fig:demethanizer_aspen}) temperature varies with different NGL column pressures, stream 2 temperature should also get adjusted in order to keep the heat exchanger (E-102) running at efficient condition. The total heat transferred between the tube and shell sides (heat exchanger duty) can be defined in terms of the overall heat transfer coefficient, the area available for heat exchange, and the log mean temperature difference (LMTD):
+%%%%%%%%%%
+\begin{equation} \label{eq:shell_and_tube_HE}
+Q=UA\Delta T_{LM}F_{t} \begin{footnotesize} \quad\quad\left[\frac{\text{MMBtu}}{\text{h}}\right] \end{footnotesize}
+\end{equation}
+%%%%%%%%%%
+
+where $U$ is overall heat transfer coefficient, $A$ is surface area available for heat transfer, \Delta$T_{LM}$ is the LMTD, and $F_{t}$ is the LMTD correction factor. The heat exchanger correction factor ($F_{t}$) is selected as a design performance criterion. A $F_{t}$ value lower than 75\%\ generally corresponds to inefficient design in terms of the use of heat transfer surface. Thus, \emph{Adjust} control block (ADJ-1) is added to the flowsheet in order to iteratively adjust stream 2 temperature to reach $F_{t}$ target of >77\%\ for each simulation.       
+
+We use Aspen HYSYS to run thousands of cases across 5 different independent variables that are considered to be the major operating parameters in demethanizer plant:
+\begin{enumerate}
+\item Inlet gas pressure [psi] ($x_1$)
+\item Demethanizer column (T-100) pressure [psi] ($x_2$)
+\item Methane to ethane NGL composition molar ratio at NGL product stream [-] ($x_3$)
+\item Methane mole concentration at the inlet gas stream [mol. fraction] ($x_4$)
+\item Ethane mole concentration at the inlet gas stream [mol. fraction] ($x_5$).
+\end{enumerate}
+
+As different mole fractions of methane and ethane are explored, the remaining species (N$_2$, C$_3$, C$_4$+) are scaled proportionately by the OPGEE default molar ratios. Settings for other fixed operating parameters are given in Table \ref{tab:demethanizer_aspen1}. 
+
+\begin{table}
+\begin{scriptsize}
+\caption{Settings for fixed operating parameters in Aspen HYSYS demethanizer plant simulations.}
+\label{tab:demethanizer_aspen1}
+\begin{tabular*}{0.75\columnwidth}{p{0.4\columnwidth}p{0.35\columnwidth}}
+\toprule
+Fixed variables & Value\\
+\midrule
+H$_2$S concentration {[}mol. fraction{]} & 0   \\
+CO$_2$ concentration {[}mol. fraction{]}                                             & 0       \\
+Column pressure drop per tray {[}psi{]}                                 & 0.5    \\
+Number of trays {[}-{]}                                                           & 11   \\
+Inlet gas temperature {[}$^\circ$F{]}                                                    & 100  \\
+Inlet gas flow rate {[}MMscf/d{]}                                                 & 99.8    \\
+Expander (E-100) isentropic efficiency {[}\%{]}                                   & 80    \\
+Compressor (K-100) adiabatic efficiency {[}\%{]}                                  & 75   \\
+\bottomrule
+\end{tabular*}
+\end{scriptsize}
+\end{table}
+
+The ranges of independent variables selected based on literature \cite{Manning1991, luyben2013ngl, nawaz2010synthesis} are listed in Table \ref{tab:demethanizer_aspen2}.
+
+\begin{table}
+\begin{scriptsize}
+\caption{Ranges of independent variables explored in generating predictive proxy models using Aspen HYSYS for demethanizer plant.}
+\label{tab:demethanizer_aspen2}
+\begin{tabular*}{0.75\columnwidth}{p{0.4\columnwidth}p{0.35\columnwidth}}
+\toprule
+Fixed variables & Value\\
+\midrule
+Inlet gas pressure {[}psi{]} & 600-1000   \\
+Demethanizer column (T-100) pressure {[}psi{]}                                             & 155-325      \\
+Methane to ethane NGL composition molar ratio at NGL product stream {[}-{]}                                 & 0.01-0.05    \\
+Methane mole concentration at the inlet gas stream {[}mol. fraction{]}                                                           & 0.5-0.95   \\
+Ethane mole concentration at the inlet gas stream {[}mol. fraction{]}                                                    & 0.05-0.2  \\
+\bottomrule
+\end{tabular*}
+\end{scriptsize}
+\end{table}
+
+Similar to the AGR predictive modeling approach (see Section \ref{AGRaspen}), a combination of deterministic and random sampling strategy across the five independent variables $x_1$ to $x_5$ are used. In total 37 different gas compositions (C$_1$, C$_2$, C$_3$, C$_4$+, and N$_2$) are modeled. For each gas composition, deterministic sampling is performed using Box-Behnken sampling across the remaining three variables (inlet gas pressure, column pressure, methane to ethane composition ratio). Box-Behnken sampling returns 15 combinations of variables. Additionally, Latin hypercube sampling methodology is employed for a random sampling of 100 additional points for each gas composition. In summary, per gas composition, we have 115 samples. Therefore, a total of 4,255 simulations of demethanizer systems were performed. All samples are generated using MATLAB \cite{Mathworks2016} and run in through Aspen HYSYS 10 using \emph{Case study} platform.
+
+A total of 15 dependent variables as outputs for each run are recorded. These include (1) demethanizer reboiler thermal load (stream 80) [kW], (2) & (3) demethanizer column trays 6 and 9 thermal loads (streams 81 and 82) [kW], (4) available thermal load from the heat exchanger E-101 (stream Q-100), (5) turbo-expander shaft work (stream 70) [kW], (6-10) NGL product N$_2$, C$_1$, C$_2$, C$_3$, and C$_4$+ mole concentrations [mol. fraction], (11-15) Fuel gas N$_2$, C$_1$, C$_2$, C$_3$, and C$_4$+ mole concentrations (steam 20) [mol. fraction].
+
+Using these results, predictive equations are generated using MATLAB curve fitting toolbox \cite{Mathworks2016}. A set of 15 predictive quadratic equations were generated. Similar to the AGR unit (see Section \ref{AGRaspen}), each dataset is split into a training dataset and a testing dataset. The testing set is a randomly selected subset of ~10\%\ of the observations which is removed from the dataset and held aside (i.e., not used to generate the statistical fit). The training set includes the remainder of the results (~90\%\ of simulation runs). The training and testing sets are drawn independently for each predictive equation. Each training dataset is fitted to a quadratic equation of all five independent variables. The quadratic equation (similar to eq.\,\eqref{eq:proxymodel}) includes all linear terms, interaction terms, and square terms. The raw fitting results are presented in OPGEE as a data appendix, which includes demethanizer fit and significance results for each term. 
+
+\clearpage
+
+%%%%%%%%%%%
+\begin{figure}
+\includegraphics[width=0.85\columnwidth]{images/demethanizer_duty.pdf}
+\caption{Demethanizer energy use prediction parity chart (a) Reboiler thermal inputs [kW]; (b) Demethanizer tray 6 duty [kW]; (c) Demethanizer tray 9 duty [kW]; (d) Demethanizer cooler Q-100 duty [kW].}
+\label{fig:demethanizer_duty}
+\end{figure}
+%%%%%%%%%%%
+\begin{figure}
+\includegraphics[width=0.85\columnwidth]{images/demethanizer_turboepander.pdf}
+\caption{Demethanizer energy use prediction parity chart (a) Reboiler thermal inputs [kW]; (b) Demethanizer tray 6 duty [kW]; (c) Demethanizer tray 9 duty [kW]; (d) Demethanizer cooler Q-100 duty [kW].}
+\label{fig:demethanizer_turboexpander}
+\end{figure}
+%%%%%%%%%%%
+\begin{figure}
+\includegraphics[width=0.85\columnwidth]{images/demethanizer_NGL.pdf}
+\caption{Demethanizer NGL stream mole concentration parity chart (a) C$_1$ [mol. frac.]; (b) C$_2$ [mol. frac.]; (c) C$_3$ [mol. frac.]; (d) C$_4$ [mol. frac.].}
+\label{fig:demethanizer_NGL}
+\end{figure}
+%%%%%%%%%%%
+\begin{figure}
+\includegraphics[width=0.85\columnwidth]{images/demethanizer_Fuelgas.pdf}
+\caption{Demethanizer Fuel gas stream mole concentration parity chart (a) C$_1$ [mol. frac.]; (b) C$_2$ [mol. frac.]; (c) C$_3$ [mol. frac.]; (d) C$_4$ [mol. frac.].}
+\label{fig:demethanizer_Fuelgas}
+\end{figure}
+%%%%%%%%%%%
+
+\clearpage
+
+\begin{figure}
+\includegraphics[width=0.85\columnwidth]{images/demethanizer_Fuelgasp.pdf}
+\caption{Demethanizer Fuel gas stream pressure parity chart.}
+\label{fig:demethanizer_Fuelgasp}
+\end{figure}
+%%%%%%%%%%%
+
+
+After the model is fit, the fitted model is fed the independent variables from the test dataset and asked to predict the dependent variables from the test dataset. The results from these testing runs are shown as parity charts below (Figures \ref{fig:demethanizer_duty} to \ref{fig:demethanizer_Fuelgasp}). Almost all of the resulting models have extremely high adjusted-R$^2$ values of close to 1, suggesting that these models accurately capture what modeled in Aspen HYSYS. The Fuel gas C$_4$+ concentration (Figure \ref{fig:demethanizer_Fuelgas} (d)) resulted in adjusted-R$^2$ lower than 90\%\, but the C$_4$+ concentration is almost zero in the Fuel gas stream and the proxy model is not very important for this output component. 
+
+The model coefficients obtained in this analysis are incorprated in predictive equations in OPGEE and the fitting results are presented in OPGEE as a data appendix, which includes statistical fit and significance results for each term. In Aspen Hysys, the cooling load for E-101 cooler (see Figure \ref{fig:demethanizer_aspen}) is presented as thermal duty (in kW) to be removed from stream 2 hot stream. Here similar to Section \ref{AGRaspen}, forced-draft air-cooled heat exchanger is used to model the cooling system.   
+
+\subsection{Demethanizer modeling using gas handbook methods}
 
 In the default OPGEE demethanizer configuration, the compressor system is assumed to operate upstream of the demethanizer; the resulting feedstream pressure is 60 bar \cite{Nawaz2010}. The refrigeration duty is assumed to be proportional to the amount of gas condensed. A heat recovery system allows the cold gas that remains to be warmed back up in exchange with incoming gas. The energy factors of the compressor and refrigeration system are 0.58 [bhp-hr/kmol$_{FEED}$] and 3.6 [bhp-hr/kmol$_{COND}$], respectively\marginnote{Surface Processing 1.2.2.3.2}. As seen in the demethanizer literature, OPGEE assumes that the reboiler heat duty is provided by heat exchangers from the incoming feed stream. Under this configuration the demethanizer is assumed to condense 90.2\% of ethane and 100\% of propane and butane \cite{Nawaz2010}, which is then assumed to be exported as LPG. These fractions can be changed on the \sheet{Surface Processing} worksheet\marginnote{Surface \\ Processing 1.2.2.3.1}. The gas feed measure is in gram moles as reported in the demethanizer unit synthesis report. The gas feed moles is calculated from the \sheet{Gas Balance} worksheet using the gas composition of the demethanizer feed. The refrigeration brake horse power is calculated as:
 \begin{equation} \label{eq:BHP_refrigeration}
