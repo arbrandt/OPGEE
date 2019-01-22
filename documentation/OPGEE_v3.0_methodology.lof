@@ -26,119 +26,119 @@
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Correlation of Lower Portion of Standing and Katz Z-Factor Chart. Source: \cite {Standing1977}.\relax }}{72}{figure.caption.78}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Drilling hole diameters for simple, moderate and complex well construction.\relax }}{84}{figure.caption.95}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces All GHGfrack results for drilling fuel consumption in US gallons of diesel (includes both rotary table + mud circulation).\relax }}{86}{figure.caption.96}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces GHGfrack results for drilling fuel consumption segmented by well complexity. Fuel consumption reported in US gallons of diesel (includes both rotary table + mud circulation).\relax }}{87}{figure.caption.97}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces GHGfrack results for drilling fuel consumption. Only simple wells are represented, and the results are segmented by efficiency and wellbore orientation. Fuel consumption reported in US gallons of diesel (includes both rotary table + mud circulation).\relax }}{88}{figure.caption.98}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Fuel use in hydraulic fracturing as a function of fracturing volume. Each curve represents a different fracturing gradient value, ranging from 0.6 psi/ft to 1.0 psi/ft.\relax }}{90}{figure.caption.101}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Streams flowing into and out of reservoir-well interface. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{95}{figure.caption.106}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Streams flowing into and out of the wellbore/downhole pump process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{99}{figure.caption.109}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Moody friction factor chart. Source: \cite {Moody2008}.\relax }}{102}{figure.caption.111}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces An example of a linear pressure traverse curve (GLR= 0).\relax }}{104}{figure.caption.113}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Streams flowing into and out of the bitumen mining process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{106}{figure.caption.115}
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Natural gas use in mining operations\relax }}{110}{figure.caption.119}
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Electricity use in mining operations\relax }}{111}{figure.caption.120}
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Non-integrated bitumen mining operation\relax }}{115}{figure.caption.129}
-\contentsline {figure}{\numberline {7.14}{\ignorespaces Upgrader-integrated bitumen mining operation\relax }}{116}{figure.caption.130}
-\contentsline {figure}{\numberline {7.15}{\ignorespaces Streams flowing into and out of the separation process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{118}{figure.caption.132}
-\contentsline {figure}{\numberline {7.16}{\ignorespaces Streams flowing into and out of the crude oil dewatering process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{121}{figure.caption.135}
-\contentsline {figure}{\numberline {7.17}{\ignorespaces Streams flowing into and out of the \textit {`{Crude oil stabilization}'} worksheeet. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{123}{figure.caption.138}
-\contentsline {figure}{\numberline {7.18}{\ignorespaces Streams flowing into and out of the heavy oil upgrading process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{125}{figure.caption.141}
-\contentsline {figure}{\numberline {7.19}{\ignorespaces Process flow diagram for OPGEE upgrading module\relax }}{126}{figure.caption.142}
-\contentsline {figure}{\numberline {7.20}{\ignorespaces Streams flowing into and out of \textit {`{Heavy oil dilution}'} worksheet. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{131}{figure.caption.145}
-\contentsline {figure}{\numberline {7.21}{\ignorespaces Streams flowing into and out of crude oil storage module. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{133}{figure.caption.148}
-\contentsline {figure}{\numberline {7.22}{\ignorespaces Streams flowing into and out of produced water treatment process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{136}{figure.caption.150}
-\contentsline {figure}{\numberline {7.23}{\ignorespaces Streams flowing into and out of makeup water treatment process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{141}{figure.caption.154}
-\contentsline {figure}{\numberline {7.24}{\ignorespaces Streams flowing into and out of water injection process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{143}{figure.caption.156}
-\contentsline {figure}{\numberline {7.25}{\ignorespaces Streams flowing into and out of the steam generation process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{145}{figure.caption.158}
-\contentsline {figure}{\numberline {7.26}{\ignorespaces Once-through steam generator with mass and energy balance terms. Lower case terms are defined per lbmol of input fuel.\relax }}{147}{figure.caption.159}
-\contentsline {figure}{\numberline {7.27}{\ignorespaces Increase of crude contaminant load with increase in crude specific gravity (decrease in API gravity). Data from: Speight (1994) and Swafford (2009).\relax }}{150}{figure.caption.163}
-\contentsline {figure}{\numberline {7.28}{\ignorespaces Gas turbine plus heat recovery steam generator model. Mass flows represented by $m$ and energy flows represented by fuel lower heating value ($LHV$), electric power out ($e$) and enthalpy of gases ($h$).\relax }}{151}{figure.caption.166}
-\contentsline {figure}{\numberline {7.29}{\ignorespaces Predicted turbine exit temperatures for variety of turbines from literature (\emph {y-axis}) as compared to reported value from the literature (\emph {x-axis}). \relax }}{152}{figure.caption.168}
-\contentsline {figure}{\numberline {7.30}{\ignorespaces Streams flowing into and out of the flaring process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{158}{figure.caption.177}
-\contentsline {figure}{\numberline {7.31}{\ignorespaces Flowchart illustrating the logic of the flaring computation worksheet.\relax }}{159}{figure.caption.179}
-\contentsline {figure}{\numberline {7.32}{\ignorespaces Rayleigh distribution fit to 6 wind speed datasets from western United States. Data source: NREL Western Wind Integration Dataset.\relax }}{163}{figure.caption.181}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{163}{figure.caption.181}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{163}{figure.caption.181}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{163}{figure.caption.181}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{163}{figure.caption.181}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{163}{figure.caption.181}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{163}{figure.caption.181}
-\contentsline {figure}{\numberline {7.33}{\ignorespaces Example of OPGEE wind speed distribution for a 30 mph average windspeed input.\relax }}{164}{figure.caption.182}
-\contentsline {figure}{\numberline {7.34}{\ignorespaces Streams flowing into and out of the venting process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{167}{figure.caption.185}
-\contentsline {figure}{\numberline {7.35}{\ignorespaces Streams flowing into and out of the gas gathering process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{168}{figure.caption.187}
-\contentsline {figure}{\numberline {7.36}{\ignorespaces Streams flowing into and out of the glycol dehydrator process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{170}{figure.caption.189}
-\contentsline {figure}{\numberline {7.37}{\ignorespaces Glycol dehydrator process flow diagram from Aspen HYSYS model.\relax }}{171}{figure.caption.190}
-\contentsline {figure}{\numberline {7.38}{\ignorespaces TEG dehydration energy use prediction parity chart. (a) Reboiler thermal inputs [kW]; (b) Pump work [kW]; (c) reflux condenser electrical load [kW]; (d) amine cooler thermal load [kW]. $x$-axis represents Aspen HYSYS simulation results, $y$-axis represents OPGEE statistical model predictions. MAD = mean absolute deviation.\relax }}{173}{figure.caption.193}
-\contentsline {figure}{\numberline {7.39}{\ignorespaces Glycol dehydrator simple process flow diagram \cite [p. 141]{Manning1991}.\relax }}{175}{figure.caption.194}
-\contentsline {figure}{\numberline {7.40}{\ignorespaces Streams flowing into and out of the acid gas removal process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{180}{figure.caption.196}
-\contentsline {figure}{\numberline {7.41}{\ignorespaces Amine process flow diagram from Aspen HYSYS as used in modeling DGA, DEA, DEA-High-Load, and MDEA \cite {Aspentech2016}.\relax }}{182}{figure.caption.197}
-\contentsline {figure}{\numberline {7.42}{\ignorespaces Amine process flow diagram from Aspen HYSYS as used in modeling MEA \cite {Aspentech2016}.\relax }}{182}{figure.caption.198}
-\contentsline {figure}{\numberline {7.43}{\ignorespaces MEA-based AGR energy use prediction parity chart. (a) Reboiler thermal inputs [kW]; (b) Total pump work (charge+booster) [kW]; (c) reflux condenser thermal load [kW]; (d) amine cooler thermal load [kW]. $x$-axis represents Aspen HYSYS simulation results, $y$-axis represents OPGEE statistical model predictions. MAD = mean absolute deviation.\relax }}{186}{figure.caption.201}
-\contentsline {figure}{\numberline {7.44}{\ignorespaces DGA-based AGR energy use prediction parity chart. (a) Reboiler thermal inputs [kW]; (b) Total pump work (charge+booster) [kW]; (c) reflux condenser thermal load [kW]; (d) amine cooler thermal load [kW]. $x$-axis represents Aspen HYSYS simulation results, $y$-axis represents OPGEE statistical model predictions. MAD = mean absolute deviation.\relax }}{187}{figure.caption.202}
-\contentsline {figure}{\numberline {7.45}{\ignorespaces DEA-based AGR energy use prediction parity chart. (a) Reboiler thermal inputs [kW]; (b) Total pump work (charge+booster) [kW]; (c) reflux condenser thermal load [kW]; (d) amine cooler thermal load [kW]. $x$-axis represents Aspen HYSYS simulation results, $y$-axis represents OPGEE statistical model predictions. MAD = mean absolute deviation.\relax }}{188}{figure.caption.203}
-\contentsline {figure}{\numberline {7.46}{\ignorespaces DEA-high-load-based AGR energy use prediction parity chart. (a) Reboiler thermal inputs [kW]; (b) Total pump work (charge+booster) [kW]; (c) reflux condenser thermal load [kW]; (d) amine cooler thermal load [kW]. $x$-axis represents Aspen HYSYS simulation results, $y$-axis represents OPGEE statistical model predictions. MAD = mean absolute deviation.\relax }}{189}{figure.caption.204}
-\contentsline {figure}{\numberline {7.47}{\ignorespaces MDEA-based AGR energy use prediction parity chart. (a) Reboiler thermal inputs [kW]; (b) Total pump work (charge+booster) [kW]; (c) reflux condenser thermal load [kW]; (d) amine cooler thermal load [kW]. $x$-axis represents Aspen HYSYS simulation results, $y$-axis represents OPGEE statistical model predictions. MAD = mean absolute deviation.\relax }}{190}{figure.caption.205}
-\contentsline {figure}{\numberline {7.48}{\ignorespaces Amine simple process flow diagram \cite [p. 112]{Manning1991}.\relax }}{193}{figure.caption.206}
-\contentsline {figure}{\numberline {7.49}{\ignorespaces Claus unit modified process flow diagram from Aspen HYSYS as used in developing statistical proxy models.\relax }}{196}{figure.caption.207}
-\contentsline {figure}{\numberline {7.50}{\ignorespaces Desulfurization condensers, heaters, and waste heat exchanger heat duties per kilogram of sulfur produced in different acid gas H$_2$S concentrations.\relax }}{198}{figure.caption.209}
-\contentsline {figure}{\numberline {7.51}{\ignorespaces Tail gas H$_2$O, H$_2$, N$_2$, and CO$_2$ mole concentrations in different acid gas H$_2$S concentrations.\relax }}{198}{figure.caption.210}
-\contentsline {figure}{\numberline {7.52}{\ignorespaces Stack gas H$_2$O, H$_2$, N$_2$, and CO$_2$ mole concentrations in different acid gas H$_2$S concentrations.\relax }}{199}{figure.caption.211}
-\contentsline {figure}{\numberline {7.53}{\ignorespaces Desulfurization plant downstream mass flow rates vs. different acid gas H$_2$S concentrations (a) Stack effluent mass flow rate (b) Incinerator fuel gas consumption.\relax }}{200}{figure.caption.212}
-\contentsline {figure}{\numberline {7.54}{\ignorespaces Streams flowing into and out of the demethanizer process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{205}{figure.caption.214}
-\contentsline {figure}{\numberline {7.55}{\ignorespaces Demethanizer modified process flow diagram from Aspen HYSYS as used in developing statistical proxy models.\relax }}{206}{figure.caption.215}
-\contentsline {figure}{\numberline {7.56}{\ignorespaces Demethanizer energy use prediction parity chart (a) Reboiler thermal inputs [kW]; (b) Demethanizer tray 6 duty [kW]; (c) Demethanizer tray 9 duty [kW]; (d) Demethanizer cooler Q-100 duty [kW].\relax }}{209}{figure.caption.218}
-\contentsline {figure}{\numberline {7.57}{\ignorespaces Demethanizer energy use prediction parity chart (a) Reboiler thermal inputs [kW]; (b) Demethanizer tray 6 duty [kW]; (c) Demethanizer tray 9 duty [kW]; (d) Demethanizer cooler Q-100 duty [kW].\relax }}{209}{figure.caption.219}
-\contentsline {figure}{\numberline {7.58}{\ignorespaces Demethanizer NGL stream mole concentration parity chart (a) C$_1$ [mol. frac.]; (b) C$_2$ [mol. frac.]; (c) C$_3$ [mol. frac.]; (d) C$_4$ [mol. frac.].\relax }}{210}{figure.caption.220}
-\contentsline {figure}{\numberline {7.59}{\ignorespaces Demethanizer Fuel gas stream mole concentration parity chart (a) C$_1$ [mol. frac.]; (b) C$_2$ [mol. frac.]; (c) C$_3$ [mol. frac.]; (d) C$_4$ [mol. frac.].\relax }}{210}{figure.caption.221}
-\contentsline {figure}{\numberline {7.60}{\ignorespaces Demethanizer Fuel gas stream pressure parity chart.\relax }}{211}{figure.caption.222}
-\contentsline {figure}{\numberline {7.61}{\ignorespaces Streams flowing into and out of the pre-membrane chiller process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{216}{figure.caption.224}
-\contentsline {figure}{\numberline {7.62}{\ignorespaces Streams flowing into and out of the CO$_2$ separation membrane process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{219}{figure.caption.226}
-\contentsline {figure}{\numberline {7.63}{\ignorespaces Streams flowing into and out of the Ryan-Holmes separation process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{222}{figure.caption.228}
-\contentsline {figure}{\numberline {7.64}{\ignorespaces Streams flowing into and out of the gas flooding compressor. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{225}{figure.caption.230}
-\contentsline {figure}{\numberline {7.65}{\ignorespaces Streams flowing into and out of the gas lifting compressor. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{227}{figure.caption.232}
-\contentsline {figure}{\numberline {7.66}{\ignorespaces Streams flowing into and out of the gas reinjection compressor. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{228}{figure.caption.234}
-\contentsline {figure}{\numberline {7.67}{\ignorespaces Streams flowing into and out of the CO2 reinjection compressor. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{230}{figure.caption.236}
-\contentsline {figure}{\numberline {7.68}{\ignorespaces Streams flowing into and out of the sour gas reinjection compressor. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{232}{figure.caption.238}
-\contentsline {figure}{\numberline {7.69}{\ignorespaces Streams flowing into and out of the VRU compressor. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{233}{figure.caption.240}
-\contentsline {figure}{\numberline {7.70}{\ignorespaces Schematic of associated gas treatment with four main branches. The lower 3 branches model post-breakthrough CO$_{2}$ enhanced oil recovery separation pathways \cite {NETL2013}.\relax }}{269}{figure.caption.250}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Drilling hole diameters for simple, moderate and complex well construction.\relax }}{84}{figure.caption.100}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces All GHGfrack results for drilling fuel consumption in US gallons of diesel (includes both rotary table + mud circulation).\relax }}{86}{figure.caption.101}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces GHGfrack results for drilling fuel consumption segmented by well complexity. Fuel consumption reported in US gallons of diesel (includes both rotary table + mud circulation).\relax }}{87}{figure.caption.102}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces GHGfrack results for drilling fuel consumption. Only simple wells are represented, and the results are segmented by efficiency and wellbore orientation. Fuel consumption reported in US gallons of diesel (includes both rotary table + mud circulation).\relax }}{88}{figure.caption.103}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Fuel use in hydraulic fracturing as a function of fracturing volume. Each curve represents a different fracturing gradient value, ranging from 0.6 psi/ft to 1.0 psi/ft.\relax }}{90}{figure.caption.106}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Streams flowing into and out of reservoir-well interface. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{95}{figure.caption.111}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Streams flowing into and out of the wellbore/downhole pump process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{99}{figure.caption.114}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Moody friction factor chart. Source: \cite {Moody2008}.\relax }}{102}{figure.caption.116}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces An example of a linear pressure traverse curve (GLR= 0).\relax }}{104}{figure.caption.118}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Streams flowing into and out of the bitumen mining process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{106}{figure.caption.120}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Natural gas use in mining operations\relax }}{110}{figure.caption.124}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Electricity use in mining operations\relax }}{111}{figure.caption.125}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Non-integrated bitumen mining operation\relax }}{115}{figure.caption.134}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Upgrader-integrated bitumen mining operation\relax }}{116}{figure.caption.135}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Streams flowing into and out of the separation process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{118}{figure.caption.137}
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Streams flowing into and out of the crude oil dewatering process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{121}{figure.caption.140}
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Streams flowing into and out of the \textit {`{Crude oil stabilization}'} worksheeet. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{123}{figure.caption.143}
+\contentsline {figure}{\numberline {7.18}{\ignorespaces Streams flowing into and out of the heavy oil upgrading process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{125}{figure.caption.146}
+\contentsline {figure}{\numberline {7.19}{\ignorespaces Process flow diagram for OPGEE upgrading module\relax }}{126}{figure.caption.147}
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Streams flowing into and out of \textit {`{Heavy oil dilution}'} worksheet. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{131}{figure.caption.150}
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Streams flowing into and out of crude oil storage module. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{133}{figure.caption.153}
+\contentsline {figure}{\numberline {7.22}{\ignorespaces Streams flowing into and out of produced water treatment process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{136}{figure.caption.155}
+\contentsline {figure}{\numberline {7.23}{\ignorespaces Streams flowing into and out of makeup water treatment process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{141}{figure.caption.159}
+\contentsline {figure}{\numberline {7.24}{\ignorespaces Streams flowing into and out of water injection process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{143}{figure.caption.161}
+\contentsline {figure}{\numberline {7.25}{\ignorespaces Streams flowing into and out of the steam generation process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{145}{figure.caption.163}
+\contentsline {figure}{\numberline {7.26}{\ignorespaces Once-through steam generator with mass and energy balance terms. Lower case terms are defined per lbmol of input fuel.\relax }}{147}{figure.caption.164}
+\contentsline {figure}{\numberline {7.27}{\ignorespaces Increase of crude contaminant load with increase in crude specific gravity (decrease in API gravity). Data from: Speight (1994) and Swafford (2009).\relax }}{150}{figure.caption.168}
+\contentsline {figure}{\numberline {7.28}{\ignorespaces Gas turbine plus heat recovery steam generator model. Mass flows represented by $m$ and energy flows represented by fuel lower heating value ($LHV$), electric power out ($e$) and enthalpy of gases ($h$).\relax }}{151}{figure.caption.171}
+\contentsline {figure}{\numberline {7.29}{\ignorespaces Predicted turbine exit temperatures for variety of turbines from literature (\emph {y-axis}) as compared to reported value from the literature (\emph {x-axis}). \relax }}{152}{figure.caption.173}
+\contentsline {figure}{\numberline {7.30}{\ignorespaces Streams flowing into and out of the flaring process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{158}{figure.caption.182}
+\contentsline {figure}{\numberline {7.31}{\ignorespaces Flowchart illustrating the logic of the flaring computation worksheet.\relax }}{159}{figure.caption.184}
+\contentsline {figure}{\numberline {7.32}{\ignorespaces Rayleigh distribution fit to 6 wind speed datasets from western United States. Data source: NREL Western Wind Integration Dataset.\relax }}{163}{figure.caption.186}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{163}{figure.caption.186}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{163}{figure.caption.186}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{163}{figure.caption.186}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{163}{figure.caption.186}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{163}{figure.caption.186}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{163}{figure.caption.186}
+\contentsline {figure}{\numberline {7.33}{\ignorespaces Example of OPGEE wind speed distribution for a 30 mph average windspeed input.\relax }}{164}{figure.caption.187}
+\contentsline {figure}{\numberline {7.34}{\ignorespaces Streams flowing into and out of the venting process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{167}{figure.caption.190}
+\contentsline {figure}{\numberline {7.35}{\ignorespaces Streams flowing into and out of the gas gathering process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{168}{figure.caption.192}
+\contentsline {figure}{\numberline {7.36}{\ignorespaces Streams flowing into and out of the glycol dehydrator process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{170}{figure.caption.194}
+\contentsline {figure}{\numberline {7.37}{\ignorespaces Glycol dehydrator process flow diagram from Aspen HYSYS model.\relax }}{171}{figure.caption.195}
+\contentsline {figure}{\numberline {7.38}{\ignorespaces TEG dehydration energy use prediction parity chart. (a) Reboiler thermal inputs [kW]; (b) Pump work [kW]; (c) reflux condenser electrical load [kW]; (d) amine cooler thermal load [kW]. $x$-axis represents Aspen HYSYS simulation results, $y$-axis represents OPGEE statistical model predictions. MAD = mean absolute deviation.\relax }}{173}{figure.caption.198}
+\contentsline {figure}{\numberline {7.39}{\ignorespaces Glycol dehydrator simple process flow diagram \cite [p. 141]{Manning1991}.\relax }}{175}{figure.caption.199}
+\contentsline {figure}{\numberline {7.40}{\ignorespaces Streams flowing into and out of the acid gas removal process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{180}{figure.caption.201}
+\contentsline {figure}{\numberline {7.41}{\ignorespaces Amine process flow diagram from Aspen HYSYS as used in modeling DGA, DEA, DEA-High-Load, and MDEA \cite {Aspentech2016}.\relax }}{182}{figure.caption.202}
+\contentsline {figure}{\numberline {7.42}{\ignorespaces Amine process flow diagram from Aspen HYSYS as used in modeling MEA \cite {Aspentech2016}.\relax }}{182}{figure.caption.203}
+\contentsline {figure}{\numberline {7.43}{\ignorespaces MEA-based AGR energy use prediction parity chart. (a) Reboiler thermal inputs [kW]; (b) Total pump work (charge+booster) [kW]; (c) reflux condenser thermal load [kW]; (d) amine cooler thermal load [kW]. $x$-axis represents Aspen HYSYS simulation results, $y$-axis represents OPGEE statistical model predictions. MAD = mean absolute deviation.\relax }}{186}{figure.caption.206}
+\contentsline {figure}{\numberline {7.44}{\ignorespaces DGA-based AGR energy use prediction parity chart. (a) Reboiler thermal inputs [kW]; (b) Total pump work (charge+booster) [kW]; (c) reflux condenser thermal load [kW]; (d) amine cooler thermal load [kW]. $x$-axis represents Aspen HYSYS simulation results, $y$-axis represents OPGEE statistical model predictions. MAD = mean absolute deviation.\relax }}{187}{figure.caption.207}
+\contentsline {figure}{\numberline {7.45}{\ignorespaces DEA-based AGR energy use prediction parity chart. (a) Reboiler thermal inputs [kW]; (b) Total pump work (charge+booster) [kW]; (c) reflux condenser thermal load [kW]; (d) amine cooler thermal load [kW]. $x$-axis represents Aspen HYSYS simulation results, $y$-axis represents OPGEE statistical model predictions. MAD = mean absolute deviation.\relax }}{188}{figure.caption.208}
+\contentsline {figure}{\numberline {7.46}{\ignorespaces DEA-high-load-based AGR energy use prediction parity chart. (a) Reboiler thermal inputs [kW]; (b) Total pump work (charge+booster) [kW]; (c) reflux condenser thermal load [kW]; (d) amine cooler thermal load [kW]. $x$-axis represents Aspen HYSYS simulation results, $y$-axis represents OPGEE statistical model predictions. MAD = mean absolute deviation.\relax }}{189}{figure.caption.209}
+\contentsline {figure}{\numberline {7.47}{\ignorespaces MDEA-based AGR energy use prediction parity chart. (a) Reboiler thermal inputs [kW]; (b) Total pump work (charge+booster) [kW]; (c) reflux condenser thermal load [kW]; (d) amine cooler thermal load [kW]. $x$-axis represents Aspen HYSYS simulation results, $y$-axis represents OPGEE statistical model predictions. MAD = mean absolute deviation.\relax }}{190}{figure.caption.210}
+\contentsline {figure}{\numberline {7.48}{\ignorespaces Amine simple process flow diagram \cite [p. 112]{Manning1991}.\relax }}{193}{figure.caption.211}
+\contentsline {figure}{\numberline {7.49}{\ignorespaces Claus unit modified process flow diagram from Aspen HYSYS as used in developing statistical proxy models.\relax }}{196}{figure.caption.212}
+\contentsline {figure}{\numberline {7.50}{\ignorespaces Desulfurization condensers, heaters, and waste heat exchanger heat duties per kilogram of sulfur produced in different acid gas H$_2$S concentrations.\relax }}{198}{figure.caption.214}
+\contentsline {figure}{\numberline {7.51}{\ignorespaces Tail gas H$_2$O, H$_2$, N$_2$, and CO$_2$ mole concentrations in different acid gas H$_2$S concentrations.\relax }}{198}{figure.caption.215}
+\contentsline {figure}{\numberline {7.52}{\ignorespaces Stack gas H$_2$O, H$_2$, N$_2$, and CO$_2$ mole concentrations in different acid gas H$_2$S concentrations.\relax }}{199}{figure.caption.216}
+\contentsline {figure}{\numberline {7.53}{\ignorespaces Desulfurization plant downstream mass flow rates vs. different acid gas H$_2$S concentrations (a) Stack effluent mass flow rate (b) Incinerator fuel gas consumption.\relax }}{200}{figure.caption.217}
+\contentsline {figure}{\numberline {7.54}{\ignorespaces Streams flowing into and out of the demethanizer process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{205}{figure.caption.219}
+\contentsline {figure}{\numberline {7.55}{\ignorespaces Demethanizer modified process flow diagram from Aspen HYSYS as used in developing statistical proxy models.\relax }}{206}{figure.caption.220}
+\contentsline {figure}{\numberline {7.56}{\ignorespaces Demethanizer energy use prediction parity chart (a) Reboiler thermal inputs [kW]; (b) Demethanizer tray 6 duty [kW]; (c) Demethanizer tray 9 duty [kW]; (d) Demethanizer cooler Q-100 duty [kW].\relax }}{209}{figure.caption.223}
+\contentsline {figure}{\numberline {7.57}{\ignorespaces Demethanizer energy use prediction parity chart (a) Reboiler thermal inputs [kW]; (b) Demethanizer tray 6 duty [kW]; (c) Demethanizer tray 9 duty [kW]; (d) Demethanizer cooler Q-100 duty [kW].\relax }}{209}{figure.caption.224}
+\contentsline {figure}{\numberline {7.58}{\ignorespaces Demethanizer NGL stream mole concentration parity chart (a) C$_1$ [mol. frac.]; (b) C$_2$ [mol. frac.]; (c) C$_3$ [mol. frac.]; (d) C$_4$ [mol. frac.].\relax }}{210}{figure.caption.225}
+\contentsline {figure}{\numberline {7.59}{\ignorespaces Demethanizer Fuel gas stream mole concentration parity chart (a) C$_1$ [mol. frac.]; (b) C$_2$ [mol. frac.]; (c) C$_3$ [mol. frac.]; (d) C$_4$ [mol. frac.].\relax }}{210}{figure.caption.226}
+\contentsline {figure}{\numberline {7.60}{\ignorespaces Demethanizer Fuel gas stream pressure parity chart.\relax }}{211}{figure.caption.227}
+\contentsline {figure}{\numberline {7.61}{\ignorespaces Streams flowing into and out of the pre-membrane chiller process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{216}{figure.caption.229}
+\contentsline {figure}{\numberline {7.62}{\ignorespaces Streams flowing into and out of the CO$_2$ separation membrane process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{219}{figure.caption.231}
+\contentsline {figure}{\numberline {7.63}{\ignorespaces Streams flowing into and out of the Ryan-Holmes separation process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{222}{figure.caption.233}
+\contentsline {figure}{\numberline {7.64}{\ignorespaces Streams flowing into and out of the gas flooding compressor. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{225}{figure.caption.235}
+\contentsline {figure}{\numberline {7.65}{\ignorespaces Streams flowing into and out of the gas lifting compressor. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{227}{figure.caption.237}
+\contentsline {figure}{\numberline {7.66}{\ignorespaces Streams flowing into and out of the gas reinjection compressor. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{228}{figure.caption.239}
+\contentsline {figure}{\numberline {7.67}{\ignorespaces Streams flowing into and out of the CO2 reinjection compressor. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{230}{figure.caption.241}
+\contentsline {figure}{\numberline {7.68}{\ignorespaces Streams flowing into and out of the sour gas reinjection compressor. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{232}{figure.caption.243}
+\contentsline {figure}{\numberline {7.69}{\ignorespaces Streams flowing into and out of the VRU compressor. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.\relax }}{233}{figure.caption.245}
+\contentsline {figure}{\numberline {7.70}{\ignorespaces Schematic of associated gas treatment with four main branches. The lower 3 branches model post-breakthrough CO$_{2}$ enhanced oil recovery separation pathways \cite {NETL2013}.\relax }}{269}{figure.caption.255}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Casing plan for wells of complex, intermediate, and simple design. Well depths here are illustrative, and all steel consumption intensities are computed per unit length of well (per ft.). See text for sources.\relax }}{278}{figure.caption.253}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Diagram illustrating cement volume calculations (per unit depth). Cement is presented in grey, while earth is presented in green-brown.\relax }}{279}{figure.caption.254}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Default OPGEE cementing plan. Default non-conductor, non-surface casing fill-up is twice reported minimum, or 600 ft.\relax }}{281}{figure.caption.256}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Casing plan for wells of complex, intermediate, and simple design. Well depths here are illustrative, and all steel consumption intensities are computed per unit length of well (per ft.). See text for sources.\relax }}{278}{figure.caption.258}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Diagram illustrating cement volume calculations (per unit depth). Cement is presented in grey, while earth is presented in green-brown.\relax }}{279}{figure.caption.259}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Default OPGEE cementing plan. Default non-conductor, non-surface casing fill-up is twice reported minimum, or 600 ft.\relax }}{281}{figure.caption.261}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Boundary of venting and fugitive emissions accounting, dividing the process chains into ``on-site'' and ``off-site'' emissions.\relax }}{289}{figure.caption.268}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Schematic of site-level quantification of methane emissions.\relax }}{290}{figure.caption.269}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Results of fitting linear model to log-transformed leakage fraction as a function of log-transformed production facility throughput.\relax }}{291}{figure.caption.270}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Linear model fit}}}{291}{figure.caption.270}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Residuals to linear fit}}}{291}{figure.caption.270}
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Results of fitting linear model to log-transformed leakage fraction as a function of log-transformed processing facility throughput.\relax }}{293}{figure.caption.271}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Linear model fit}}}{293}{figure.caption.271}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Residuals to linear fit}}}{293}{figure.caption.271}
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Schematic of site-level quantification of methane emissions.\relax }}{294}{figure.caption.272}
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Schematic of method for generation of project-level fugitive emissions rates from component-level estimates.\relax }}{301}{figure.caption.273}
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Cumulative contribution of rank-ordered normalize leakage volumes by 10 standard component classes and ``other''.\relax }}{315}{figure.caption.285}
-\contentsline {figure}{\numberline {9.8}{\ignorespaces Cumulative contribution of rank-ordered normalize leakage volumes by originating study.\relax }}{315}{figure.caption.286}
-\contentsline {figure}{\numberline {9.9}{\ignorespaces Absolute leakage (kg/d) percentiles (0.1\% discretization giving 1000 steps) for equipment generated via 10,000 MC simulations of equipment given equipment component counts above.\relax }}{317}{figure.caption.287}
-\contentsline {figure}{\numberline {9.10}{\ignorespaces Emissions from completions and workovers performed on wells with the use of hydraulic fracturing, as reported to GHGRP datasets.\relax }}{320}{figure.caption.288}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CO$_2$ emissions}}}{320}{figure.caption.288}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CH$_4$ emissions}}}{320}{figure.caption.288}
-\contentsline {figure}{\numberline {9.11}{\ignorespaces Emissions from completions and workovers performed on wells without the use of hydraulic fracturing, as reported to GHGRP datasets.\relax }}{320}{figure.caption.289}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CO$_2$ emissions}}}{320}{figure.caption.289}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CH$_4$ emissions}}}{320}{figure.caption.289}
-\contentsline {figure}{\numberline {9.12}{\ignorespaces Cumulative distribution of emissions intensity for wells completed with the use of hydraulic fracturing.\relax }}{321}{figure.caption.290}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CO$_2$ emissions}}}{321}{figure.caption.290}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CH$_4$ emissions}}}{321}{figure.caption.290}
-\contentsline {figure}{\numberline {9.13}{\ignorespaces Cumulative distribution of emissions intensity for wells completed without the use of hydraulic fracturing.\relax }}{321}{figure.caption.291}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CO$_2$ emissions}}}{321}{figure.caption.291}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CH$_4$ emissions}}}{321}{figure.caption.291}
-\contentsline {figure}{\numberline {9.14}{\ignorespaces Fractional loss rates due to liquids unloading for 3 types of liquids unloading technologies from Allen et al. 2014b \cite {Allen2014b}. Sample size and mean emissions vary by technology.\relax }}{324}{figure.caption.293}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Boundary of venting and fugitive emissions accounting, dividing the process chains into ``on-site'' and ``off-site'' emissions.\relax }}{289}{figure.caption.273}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Schematic of site-level quantification of methane emissions.\relax }}{290}{figure.caption.274}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Results of fitting linear model to log-transformed leakage fraction as a function of log-transformed production facility throughput.\relax }}{291}{figure.caption.275}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Linear model fit}}}{291}{figure.caption.275}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Residuals to linear fit}}}{291}{figure.caption.275}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Results of fitting linear model to log-transformed leakage fraction as a function of log-transformed processing facility throughput.\relax }}{293}{figure.caption.276}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Linear model fit}}}{293}{figure.caption.276}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Residuals to linear fit}}}{293}{figure.caption.276}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Schematic of site-level quantification of methane emissions.\relax }}{294}{figure.caption.277}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Schematic of method for generation of project-level fugitive emissions rates from component-level estimates.\relax }}{301}{figure.caption.278}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Cumulative contribution of rank-ordered normalize leakage volumes by 10 standard component classes and ``other''.\relax }}{315}{figure.caption.290}
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Cumulative contribution of rank-ordered normalize leakage volumes by originating study.\relax }}{315}{figure.caption.291}
+\contentsline {figure}{\numberline {9.9}{\ignorespaces Absolute leakage (kg/d) percentiles (0.1\% discretization giving 1000 steps) for equipment generated via 10,000 MC simulations of equipment given equipment component counts above.\relax }}{317}{figure.caption.292}
+\contentsline {figure}{\numberline {9.10}{\ignorespaces Emissions from completions and workovers performed on wells with the use of hydraulic fracturing, as reported to GHGRP datasets.\relax }}{320}{figure.caption.293}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CO$_2$ emissions}}}{320}{figure.caption.293}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CH$_4$ emissions}}}{320}{figure.caption.293}
+\contentsline {figure}{\numberline {9.11}{\ignorespaces Emissions from completions and workovers performed on wells without the use of hydraulic fracturing, as reported to GHGRP datasets.\relax }}{320}{figure.caption.294}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CO$_2$ emissions}}}{320}{figure.caption.294}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CH$_4$ emissions}}}{320}{figure.caption.294}
+\contentsline {figure}{\numberline {9.12}{\ignorespaces Cumulative distribution of emissions intensity for wells completed with the use of hydraulic fracturing.\relax }}{321}{figure.caption.295}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CO$_2$ emissions}}}{321}{figure.caption.295}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CH$_4$ emissions}}}{321}{figure.caption.295}
+\contentsline {figure}{\numberline {9.13}{\ignorespaces Cumulative distribution of emissions intensity for wells completed without the use of hydraulic fracturing.\relax }}{321}{figure.caption.296}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CO$_2$ emissions}}}{321}{figure.caption.296}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {CH$_4$ emissions}}}{321}{figure.caption.296}
+\contentsline {figure}{\numberline {9.14}{\ignorespaces Fractional loss rates due to liquids unloading for 3 types of liquids unloading technologies from Allen et al. 2014b \cite {Allen2014b}. Sample size and mean emissions vary by technology.\relax }}{324}{figure.caption.298}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces The errors fixing/entries adjustment logic.\relax }}{347}{figure.caption.303}
-\contentsline {figure}{\numberline {D.2}{\ignorespaces The errors fixing/entries adjustment logic for non-GOR, gas composition related entries.\relax }}{348}{figure.caption.304}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {D.1}{\ignorespaces The errors fixing/entries adjustment logic.\relax }}{347}{figure.caption.308}
+\contentsline {figure}{\numberline {D.2}{\ignorespaces The errors fixing/entries adjustment logic for non-GOR, gas composition related entries.\relax }}{348}{figure.caption.309}
 \addvspace {10\p@ }

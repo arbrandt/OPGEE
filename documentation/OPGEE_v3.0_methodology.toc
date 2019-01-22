@@ -131,9 +131,9 @@
 \contentsline {subsubsection}{\numberline {7.4.0.4}Pressure for lifting}{103}{subsubsection.7.4.0.4}
 \contentsline {subsubsection}{\numberline {7.4.0.5}Pump brake horsepower}{104}{subsubsection.7.4.0.5}
 \contentsline {section}{\numberline {7.5}Bitumen mining}{105}{section.7.5}
-\contentsline {paragraph}{Public Data Available}{107}{paragraph*.118}
-\contentsline {paragraph}{Modeling of non-integrated PFT mining operations}{109}{paragraph*.121}
-\contentsline {paragraph}{Proposed modeling of integrated NFT mining operations}{110}{paragraph*.124}
+\contentsline {paragraph}{Public Data Available}{107}{paragraph*.123}
+\contentsline {paragraph}{Modeling of non-integrated PFT mining operations}{109}{paragraph*.126}
+\contentsline {paragraph}{Proposed modeling of integrated NFT mining operations}{110}{paragraph*.129}
 \contentsline {section}{\numberline {7.6}Separation}{117}{section.7.6}
 \contentsline {section}{\numberline {7.7}Heater-treater (dewatering)}{119}{section.7.7}
 \contentsline {section}{\numberline {7.8}\textit {`{Crude oil stabilization}'} worksheet}{122}{section.7.8}
@@ -149,22 +149,22 @@
 \contentsline {subsection}{\numberline {7.15.2}Calculations for steam generation}{144}{subsection.7.15.2}
 \contentsline {subsubsection}{\numberline {7.15.2.1}Steam system properties}{144}{subsubsection.7.15.2.1}
 \contentsline {subsubsection}{\numberline {7.15.2.2}Once-through steam generator modeling (OTSG)}{146}{subsubsection.7.15.2.2}
-\contentsline {paragraph}{Gaseous fuel combustion for steam generation}{147}{paragraph*.160}
-\contentsline {paragraph}{Liquid fuels for steam generation}{148}{paragraph*.161}
-\contentsline {paragraph}{Forced air blower in OTSG}{149}{paragraph*.164}
-\contentsline {paragraph}{High and medium pressure boiler feedwater pump}{149}{paragraph*.165}
+\contentsline {paragraph}{Gaseous fuel combustion for steam generation}{147}{paragraph*.165}
+\contentsline {paragraph}{Liquid fuels for steam generation}{148}{paragraph*.166}
+\contentsline {paragraph}{Forced air blower in OTSG}{149}{paragraph*.169}
+\contentsline {paragraph}{High and medium pressure boiler feedwater pump}{149}{paragraph*.170}
 \contentsline {subsubsection}{\numberline {7.15.2.3}Gas turbine with heat recovery steam generator}{150}{subsubsection.7.15.2.3}
-\contentsline {paragraph}{Gas turbine modeling}{150}{paragraph*.167}
-\contentsline {paragraph}{Forced air blower in HRSG}{152}{paragraph*.170}
-\contentsline {paragraph}{Duct firing}{152}{paragraph*.171}
+\contentsline {paragraph}{Gas turbine modeling}{150}{paragraph*.172}
+\contentsline {paragraph}{Forced air blower in HRSG}{152}{paragraph*.175}
+\contentsline {paragraph}{Duct firing}{152}{paragraph*.176}
 \contentsline {subsubsection}{\numberline {7.15.2.4}Solar thermal steam generation}{153}{subsubsection.7.15.2.4}
 \contentsline {subsection}{\numberline {7.15.3}Defaults for steam injection}{153}{subsection.7.15.3}
 \contentsline {subsubsection}{\numberline {7.15.3.1}General default parameters}{153}{subsubsection.7.15.3.1}
 \contentsline {subsubsection}{\numberline {7.15.3.2}Defaults for SAGD operations}{153}{subsubsection.7.15.3.2}
-\contentsline {paragraph}{Production method}{153}{paragraph*.172}
-\contentsline {paragraph}{Gas handling properties: GOR, flaring, and venting}{153}{paragraph*.173}
-\contentsline {paragraph}{Field properties: productivity index, pressure, depth}{154}{paragraph*.174}
-\contentsline {paragraph}{Steam generation technology}{154}{paragraph*.175}
+\contentsline {paragraph}{Production method}{153}{paragraph*.177}
+\contentsline {paragraph}{Gas handling properties: GOR, flaring, and venting}{153}{paragraph*.178}
+\contentsline {paragraph}{Field properties: productivity index, pressure, depth}{154}{paragraph*.179}
+\contentsline {paragraph}{Steam generation technology}{154}{paragraph*.180}
 \contentsline {section}{\numberline {7.16}Flaring}{157}{section.7.16}
 \contentsline {subsection}{\numberline {7.16.1}Calculation of flaring emissions}{157}{subsection.7.16.1}
 \contentsline {subsubsection}{\numberline {7.16.1.1}Constants}{159}{subsubsection.7.16.1.1}
@@ -236,12 +236,12 @@
 \contentsline {section}{\numberline {7.53}Electricity generation and imports}{259}{section.7.53}
 \contentsline {section}{\numberline {7.54}NGL or diluent production or imports}{260}{section.7.54}
 \contentsline {section}{\numberline {7.55}Gas flooding}{261}{section.7.55}
-\contentsline {paragraph}{Introduction to gas flooding}{261}{paragraph*.242}
-\contentsline {paragraph}{CO$_2$ flooding and minimum miscibility pressure}{261}{paragraph*.243}
+\contentsline {paragraph}{Introduction to gas flooding}{261}{paragraph*.247}
+\contentsline {paragraph}{CO$_2$ flooding and minimum miscibility pressure}{261}{paragraph*.248}
 \contentsline {subsubsection}{\numberline {7.55.0.1}CO$_2$ Enhanced oil recovery and sequestration parameters}{262}{subsubsection.7.55.0.1}
-\contentsline {paragraph}{CO$_2$ sequestration calculation}{262}{paragraph*.246}
-\contentsline {paragraph}{Long-term leakage rate of sequestered carbon}{263}{paragraph*.247}
-\contentsline {paragraph}{Blow-down and venting of CO$_2$ in terminal stage of operation}{263}{paragraph*.248}
+\contentsline {paragraph}{CO$_2$ sequestration calculation}{262}{paragraph*.251}
+\contentsline {paragraph}{Long-term leakage rate of sequestered carbon}{263}{paragraph*.252}
+\contentsline {paragraph}{Blow-down and venting of CO$_2$ in terminal stage of operation}{263}{paragraph*.253}
 \contentsline {subsubsection}{\numberline {7.55.0.2}Driver fuel consumption}{264}{subsubsection.7.55.0.2}
 \contentsline {subsection}{\numberline {7.55.1}Production and extraction defaults}{264}{subsection.7.55.1}
 \contentsline {subsection}{\numberline {7.55.2}Introduction to Surface processing}{268}{subsection.7.55.2}
@@ -269,8 +269,8 @@
 \contentsline {subsection}{\numberline {8.4.2}Non-combustion emissions factors}{285}{subsection.8.4.2}
 \contentsline {chapter}{\numberline {9}Venting and fugitive emissions}{288}{chapter.9}
 \contentsline {section}{\numberline {9.1}Introduction to venting and fugitive emissions}{288}{section.9.1}
-\contentsline {paragraph}{Venting emissions:}{288}{paragraph*.266}
-\contentsline {paragraph}{Fugitive emissions:}{288}{paragraph*.267}
+\contentsline {paragraph}{Venting emissions:}{288}{paragraph*.271}
+\contentsline {paragraph}{Fugitive emissions:}{288}{paragraph*.272}
 \contentsline {section}{\numberline {9.2}Site-level methods for on-site emissions}{289}{section.9.2}
 \contentsline {subsection}{\numberline {9.2.1}Production sites}{290}{subsection.9.2.1}
 \contentsline {subsubsection}{\numberline {9.2.1.1}Statistical fit}{290}{subsubsection.9.2.1.1}
@@ -288,12 +288,12 @@
 \contentsline {subsubsection}{\numberline {9.3.1.5}``Default-zero'' leakage or emission rates (non-leaking components)}{298}{subsubsection.9.3.1.5}
 \contentsline {subsection}{\numberline {9.3.2}Available datasets}{299}{subsection.9.3.2}
 \contentsline {subsection}{\numberline {9.3.3}Data sufficiency: Activity Counts}{305}{subsection.9.3.3}
-\contentsline {paragraph}{Equipment quantification (EQ)}{305}{paragraph*.276}
-\contentsline {paragraph}{Component quantification (CQ)}{305}{paragraph*.277}
-\contentsline {paragraph}{Activity quantification (AQ)}{305}{paragraph*.278}
+\contentsline {paragraph}{Equipment quantification (EQ)}{305}{paragraph*.281}
+\contentsline {paragraph}{Component quantification (CQ)}{305}{paragraph*.282}
+\contentsline {paragraph}{Activity quantification (AQ)}{305}{paragraph*.283}
 \contentsline {subsubsection}{\numberline {9.3.3.1}Equipment quantification (EQ) counts per facility}{305}{subsubsection.9.3.3.1}
 \contentsline {subsubsection}{\numberline {9.3.3.2}Component quantification (CQ) counts per equipment or facility}{307}{subsubsection.9.3.3.2}
-\contentsline {paragraph}{Correspondence matrices for reclassification of component counts}{308}{paragraph*.279}
+\contentsline {paragraph}{Correspondence matrices for reclassification of component counts}{308}{paragraph*.284}
 \contentsline {subsubsection}{\numberline {9.3.3.3}Activation counts for intermittent activities}{311}{subsubsection.9.3.3.3}
 \contentsline {subsection}{\numberline {9.3.4}Data sufficiency: Fraction of components leaking}{311}{subsection.9.3.4}
 \contentsline {subsection}{\numberline {9.3.5}Data sufficiency: Leakage quantification data (QL)}{313}{subsection.9.3.5}
