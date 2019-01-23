@@ -160,6 +160,8 @@
 
 
 
+
+
 \begin{document}
 
 \thispagestyle{plain}
@@ -1679,81 +1681,120 @@ This section explains the main assumptions and calculations for each process wor
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Exploration}\label{sec:exploration}
 
-Emissions from petroleum exploration occur during clearing of land for seismic surveys, operation of seismic survey equipment, drilling of exploratory wells, and from fugitive emissions during drilling operations. Offsite emissions occur due to other materials and services consumed during drilling (e.g., computing energy consumed during seismic data processing). A complete list of emissions sources, along with their categorization and estimated magnitude, is shown in Table \ref{tab:exploration_sources}.
+Emissions from petroleum exploration occur during clearing of land for seismic surveys, operation of seismic survey equipment, drilling of exploratory wells, and from fugitive emissions during drilling operations. Offsite emissions occur due to other materials and services consumed during drilling (e.g., computing energy consumed during seismic data processing). A listing of the primary inputs used from the \sheet{Inputs} sheet is given in Table \ref{tab:exploration_primary_inputs}. A listing of the secondary inputs to be entered on the \sheet{Secondary Inputs} sheet is given in Table \ref{tab:exploration_secondary_inputs}. A listing of the fuel specifications and constants used is given in Table \ref{tab:exploration_constants_specs}.
 
-Required inputs for exploration emissions include the following terms gathered from the \sheet{Active Field} worksheet:\marginnote{Exploration 1.1}
-\begin{itemize}
-\item Field depth [ft]
-\item Is field offshore [0-1]
-\item Field production rate [bbl/d]
-\end{itemize}
-
-Required inputs to be entered for secondary interaction on the \sheet{Exploration Emissions} worksheet include:\marginnote{Exploration 1.2.1 - 1.2.5}
-\begin{itemize}
-\item Distance of travel for survey
-\item Weight of land survey vehicle
-\item Weight of ocean survey vehicle
-\item Dry holes drilled per field found
-\item Exploratory or scientific wells drilled after field discovery (non-producing)
-\end{itemize}
-The default values for these inputs are noted in Table \ref{tab:exploration}.
 
 \subsection{Calculations for petroleum exploration}
 
 The survey vehicle energy consumption (e.g., seismic survey ship or seismic survey trucks) are calculated as:
-%%%%%%%%%%%%%%%%
+\begin{table}[ht]
+\begin{minipage}[b]{0.6\linewidth}
 \begin{equation}\label{eq:trans_Etr}
-\begin{split}
-& E_{EXP} = \sum_{j} y_j m_j D_{j} UE_{j} \quad\quad (j \in S,T) \\
-& \begin{footnotesize} \left[ \text{mmBtu} \right] =\left[- \right]  \left[\text{ton} \right]  \left[ \text{mi} \right] \left[ \frac{\text{Btu}}{\text{ton-mi}} \right] 
-\end{footnotesize}
-\end{split}
+E_{EXP} = y_{off} m_{S} D_{e} \epsilon_{S} + (1-y_{off})m_{T} D_{e} \epsilon_{T} 
 \end{equation}
-%%%%%%%%%%%%%%%%
-where $y_j$ is a binary variable representing whether exploration mode $S$ (ship-based exploration) or $T$ (truck-based exploration) is performed [-]; $m_j$ is the weight of exploration vehicle $j$ [ton], $D_j$ is the distance traveled by exploration vehicle $j$ [mi], and $UE_{j}$ is the energy-specific effectiveness of transport type $j$ [Btu/ton-mi], as computed on the \sheet{Transport} worksheet.\marginnote{Transport 2.2}
+\end{minipage}
+\hspace{0.5cm}
+\begin{minipage}[b]{0.25\linewidth}
+\centering
+\begin{tabular}{ll}
+\hline
+$y_{off}$ 	& \xlname{Offshore\_01}  \\
+$m_S$  	&  \xlname{Weight\_ocean\_survey}  \\
+$D_e$	&  \xlname{Distance\_survey} \\
+$\epsilon_S$ & \xlname{Effectiveness\_ship}  \\
+$m_T$  	&  \xlname{Weight\_land\_survey}  \\
+$\epsilon_T$ & \xlname{Effectiveness\_truck}  \\
+\hline
+\end{tabular}
+\end{minipage}
+\end{table}
+
+where $y_j$ is a binary variable representing whether exploration mode $S$ (ship-based exploration) or $T$ (truck-based exploration) is performed [-]; $m_j$ is the weight of exploration vehicle $j$ [ton], $D_j$ is the distance traveled by exploration vehicle $j$ [mi], and $UE_{j}$ is the energy-specific effectiveness of transport type $j$ [Btu/ton-mi], as computed on the \sheet{Transport} worksheet.
 
 Energy consumed in drilling exploratory wells is computed using drilling energy intensity computed on the \sheet{Drilling \& Development} sheet.
 
 Energy consumed in exploration is computed as a fraction of the total lifetime energy production assumed produced from the field.  This quantity is derived in the \sheet{Drilling \& Development} sheet, as described below.
 
-
-
 \subsection{Defaults for petroleum exploration}
 
-Table \ref{tab:exploration} shows the default settings for petroleum exploration.
-
+Tables  \ref{tab:exploration_primary_inputs}, \ref{tab:exploration_secondary_inputs} and \ref{tab:exploration_constants_specs} outline the inputs used in the above equations.
 
 \begin{landscape}
+
+
 \begin{table}
 \begin{scriptsize}
-\tablefirsthead{\toprule Param. & Description & Eq. no. & Default & Literature range & Unit & Sources & Notes\\
+\tablefirsthead{\toprule Param. & Description &Defined name & Default & Unit & Sources & Notes\\
 \midrule}
-\tablehead{ \multicolumn{5}{p{1\columnwidth}}{\textit{Continued from previous page}}\\ \toprule Param. &Description & Eq. no. &Default & Literature range & Unit & Sources & Notes \\ 
+\tablehead{ \multicolumn{5}{p{1\columnwidth}}{\textit{Continued from previous page}}\\ \toprule Param. &Description & Defined name &Default &Unit & Sources & Notes \\ 
 \midrule }
 \tabletail{\bottomrule \multicolumn{5}{p{1\columnwidth}}{\textit{Continued on next page...}}\\}
 \tablelasttail{\bottomrule}
-\tablecaption{Default inputs for exploration emissions}
-\label{tab:exploration}
+\tablecaption{Primary inputs used on \sheet{Exploration} worksheet }
+\label{tab:exploration_primary_inputs}
 \begin{threeparttable}
-\begin{supertabular*}{1\columnwidth}{p{0.05\columnwidth}p{0.4\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}p{0.07\columnwidth}p{0.1\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}}
-$D_{j} $ & Distance exploration mode $j$ travels  (same for $S$ and $T$)	& - 	& 10,000& - &[mi] & & a\\ 
-$m_{S} $ & Weight of exploration ship 	& - 	& 100 & - &[ton] & & b\\ 
-$m_{T}$ & Weight of exploration truck 	& - 	& 25  & - & [ton] & & c \\
-$UE_{S}$ & Effectiveness of exploration ship 	& - & 27 	& & [Btu/ton-mi] & \cite{Wang2009}&  \\
-$UE_{T}$ & Effectiveness of exploration truck 	& - & 969 	& & [Btu/ton-mi] & \cite{Wang2009}&  \\
+\begin{supertabular*}{1\columnwidth}{p{0.05\columnwidth}p{0.4\columnwidth}p{0.25\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}}
+$y_{off}$ & Is field offshore?	 					& \xlname{Offshore\_01} 			& 0				& [y/n] & & \\ 
+$D_{f}$ & Depth of field							& \xlname{Field\_depth}			& 7122 		 		& [ton] & &  \\
+\end{supertabular*}
+\begin{tablenotes}
+
+\end{tablenotes}
+\end{threeparttable}
+\end{scriptsize}
+\end{table}
+
+\begin{table}
+\begin{scriptsize}
+\tablefirsthead{\toprule Param. & Description &Defined name & Default & Unit & Sources & Notes\\
+\midrule}
+\tablehead{ \multicolumn{5}{p{1\columnwidth}}{\textit{Continued from previous page}}\\ \toprule Param. &Description & Defined name &Default &Unit & Sources & Notes \\ 
+\midrule }
+\tabletail{\bottomrule \multicolumn{5}{p{1\columnwidth}}{\textit{Continued on next page...}}\\}
+\tablelasttail{\bottomrule}
+\tablecaption{Secondary inputs for \sheet{Exploration} worksheet}
+\label{tab:exploration_secondary_inputs}
+\begin{threeparttable}
+\begin{supertabular*}{1\columnwidth}{p{0.05\columnwidth}p{0.4\columnwidth}p{0.25\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}}
+$D_{j} $ & Distance of travel for survey	 			& \xlname{Distance\_survey} 	& 10,000				& [mi] & & a\\ 
+$m_{T}$ & Weight of land survey vehicle				& \xlname{Weight\_land\_survey}	& 25 	 		 		& [ton] & & b \\
+$m_{S} $ & Weight of ocean survey vehicle 	 		& \xlname{Weight\_ocean\_survey}	& 100 		 		& [ton] & & c\\ 
+$N_{W,d}$ & Number of dry wells drilled per field found	& \xlname{Number\_wells\_dry}	& 1					& [wells]	& & \\
+$N_{W,e}$ & Number of exploratory wells drilled after field discovery	& \xlname{Number\_wells\_exploratory}	& 1					& [wells]	& & \\
 \end{supertabular*}
 \begin{tablenotes}
 \item[a] Simple assumption for distance of travel to remote exploration site. Distance traveled during actual survey is assumed by default to be small compared to distance to field location.
-\item[b] Simple assumption for weight of exploration ship
-\item[c] Simple assumption for weight of exploration truck
+\item[b] Simple assumption for weight of exploration truck
+\item[c] Simple assumption for weight of exploration ship
+\end{tablenotes}
+\end{threeparttable}
+\end{scriptsize}
+\end{table}
+
+\begin{table}
+\begin{scriptsize}
+\tablefirsthead{\toprule Param. & Description &Defined name & Default & Unit & Sources & Notes\\
+\midrule}
+\tablehead{ \multicolumn{5}{p{1\columnwidth}}{\textit{Continued from previous page}}\\ \toprule Param. &Description & Defined name &Default &Unit & Sources & Notes \\ 
+\midrule }
+\tabletail{\bottomrule \multicolumn{5}{p{1\columnwidth}}{\textit{Continued on next page...}}\\}
+\tablelasttail{\bottomrule}
+\tablecaption{Constants and fuel specifications used on \sheet{Exploration} worksheet}
+\label{tab:exploration_constants_specs}
+\begin{threeparttable}
+\begin{supertabular*}{1\columnwidth}{p{0.05\columnwidth}p{0.4\columnwidth}p{0.25\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}}
+$\gamma$	 & Energy density of produced crude			& \xlname{HV\_btu\_per\_bbl} 		& 5.5				& [mmbtu/bbl] & & \\ 
+\end{supertabular*}
+\begin{tablenotes}
+
 \end{tablenotes}
 \end{threeparttable}
 \end{scriptsize}
 \end{table}
 
 
-\end{landscape}
 
+\end{landscape}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -5201,7 +5242,7 @@ As different mole fractions of methane and ethane are explored, the remaining sp
 \begin{scriptsize}
 \caption{Settings for fixed operating parameters in Aspen HYSYS demethanizer plant simulations.}
 \label{tab:demethanizer_aspen1}
-\begin{tabular*}{1\columnwidth}{p{0.5\columnwidth}p{0.45\columnwidth}}
+\begin{tabular*}{0.75\columnwidth}{p{0.4\columnwidth}p{0.35\columnwidth}}
 \toprule
 Fixed variables & Value\\
 \midrule
@@ -5224,7 +5265,7 @@ The ranges of independent variables selected based on literature \cite{Manning19
 \begin{scriptsize}
 \caption{Ranges of independent variables explored in generating predictive proxy models using Aspen HYSYS for demethanizer plant.}
 \label{tab:demethanizer_aspen2}
-\begin{tabular*}{1\columnwidth}{p{0.5\columnwidth}p{0.45\columnwidth}}
+\begin{tabular*}{0.75\columnwidth}{p{0.4\columnwidth}p{0.35\columnwidth}}
 \toprule
 Fixed variables & Value\\
 \midrule
