@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 JAN 2019 13:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 JAN 2019 13:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -5366,13 +5366,23 @@ l.5187 ...a available for heat transfer, \Delta$T_
 
 ? 
 [206 <./images/demethanizer_aspen.pdf>]
-Overfull \hbox (24.0pt too wide) in alignment at lines 5204--5217
+Overfull \hbox (4.12453pt too wide) in alignment at lines 5204--5217
 [][] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 5227--5237
+Underfull \hbox (badness 10000) in paragraph at lines 5204--5219
+
+ []
+
+
+Overfull \hbox (4.12453pt too wide) in alignment at lines 5227--5237
 [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5227--5239
+
  []
 
 [207]
@@ -8445,7 +8455,7 @@ ve/2016/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive
 mf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
 /type1/urw/palatino/uplri8a.pfb>
-Output written on OPGEE_v3.0_methodology.pdf (374 pages, 12167081 bytes).
+Output written on OPGEE_v3.0_methodology.pdf (374 pages, 12167091 bytes).
 PDF statistics:
  16759 PDF objects out of 18468 (max. 8388607)
  13467 compressed objects within 135 object streams
