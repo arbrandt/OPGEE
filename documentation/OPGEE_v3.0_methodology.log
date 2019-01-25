@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 JAN 2019 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 JAN 2019 17:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -5237,12 +5237,12 @@ l.5046 ...fied target value {[}\%\{]}            &
                                                       99\\
 ? 
 
-Overfull \hbox (4.12453pt too wide) in alignment at lines 5025--5054
+Overfull \hbox (4.12453pt too wide) in alignment at lines 5025--5055
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5025--5056
+Underfull \hbox (badness 10000) in paragraph at lines 5025--5057
 
  []
 
@@ -5250,28 +5250,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 5025--5056
 File: images/Claus_duty1.pdf Graphic file (type pdf)
 
 <use images/Claus_duty1.pdf>
-Package pdftex.def Info: images/Claus_duty1.pdf used on input line 5061.
+Package pdftex.def Info: images/Claus_duty1.pdf used on input line 5062.
 (pdftex.def)             Requested size: 397.48502pt x 288.06433pt.
 
 <images/Claus_concent1.pdf, id=5500, 512.34009pt x 363.26515pt>
 File: images/Claus_concent1.pdf Graphic file (type pdf)
 
 <use images/Claus_concent1.pdf>
-Package pdftex.def Info: images/Claus_concent1.pdf used on input line 5067.
+Package pdftex.def Info: images/Claus_concent1.pdf used on input line 5068.
 (pdftex.def)             Requested size: 397.48502pt x 281.84354pt.
 
 <images/Claus_concent2.pdf, id=5501, 515.76692pt x 360.69453pt>
 File: images/Claus_concent2.pdf Graphic file (type pdf)
 
 <use images/Claus_concent2.pdf>
-Package pdftex.def Info: images/Claus_concent2.pdf used on input line 5073.
+Package pdftex.def Info: images/Claus_concent2.pdf used on input line 5074.
 (pdftex.def)             Requested size: 397.48502pt x 277.9833pt.
 
 <images/Claus_flowrates.pdf, id=5502, 339.83061pt x 488.34125pt>
 File: images/Claus_flowrates.pdf Graphic file (type pdf)
 
 <use images/Claus_flowrates.pdf>
-Package pdftex.def Info: images/Claus_flowrates.pdf used on input line 5079.
+Package pdftex.def Info: images/Claus_flowrates.pdf used on input line 5080.
 (pdftex.def)             Requested size: 397.48502pt x 571.2154pt.
  [197
 
@@ -5279,77 +5279,77 @@ Package pdftex.def Info: images/Claus_flowrates.pdf used on input line 5079.
 /Claus_concent2.pdf>] [200 <./images/Claus_flowrates.pdf>] [201
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5102--5102
+Underfull \hbox (badness 10000) in paragraph at lines 5103--5103
 []|\T1/ppl/m/n/8 Literature
  []
 
 
-Overfull \hbox (4.94012pt too wide) in paragraph at lines 5102--5102
+Overfull \hbox (4.94012pt too wide) in paragraph at lines 5103--5103
 [] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 5102--5102
+Overfull \hbox (12.0pt too wide) in paragraph at lines 5103--5103
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5102--5102
+Underfull \hbox (badness 10000) in paragraph at lines 5103--5103
 []\T1/ppl/m/n/8 Literature
  []
 
 
 LaTeX Warning: Reference `eq:entrained_water' on page 202 undefined on input li
-ne 5128.
+ne 5129.
 
 
 LaTeX Warning: Reference `eq:heated_water' on page 202 undefined on input line 
-5132.
+5133.
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 5102--5134
+Overfull \hbox (12.0pt too wide) in alignment at lines 5103--5135
 [][][][][][][][] 
  []
 
 [202
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5134--5134
+Underfull \hbox (badness 10000) in paragraph at lines 5135--5135
 []\T1/ppl/m/n/8 Literature
  []
 
 
-Underfull \hbox (badness 6658) in paragraph at lines 5145--5145
+Underfull \hbox (badness 6658) in paragraph at lines 5146--5146
 []\T1/ppl/m/n/8 Temperature of feed-stream en-ter-ing Ryan-
  []
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 5134--5151
+Overfull \hbox (12.0pt too wide) in alignment at lines 5135--5152
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5134--5153
+Underfull \hbox (badness 10000) in paragraph at lines 5135--5154
 
  []
 
 [203]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 5185--5185
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 5186--5186
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 5185--5185
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 5186--5186
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 5185--5185
+Overfull \hbox (4.4343pt too wide) in alignment at lines 5186--5186
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5185--5187
+Underfull \hbox (badness 10000) in paragraph at lines 5186--5188
 
  []
 
@@ -5357,7 +5357,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5185--5187
 File: images/demethanizer_PF.pdf Graphic file (type pdf)
 
 <use images/demethanizer_PF.pdf>
-Package pdftex.def Info: images/demethanizer_PF.pdf used on input line 5193.
+Package pdftex.def Info: images/demethanizer_PF.pdf used on input line 5194.
 (pdftex.def)             Requested size: 337.86469pt x 275.83263pt.
  [204
 
@@ -5367,41 +5367,51 @@ Package pdftex.def Info: images/demethanizer_PF.pdf used on input line 5193.
 File: images/demethanizer_aspen.pdf Graphic file (type pdf)
 
 <use images/demethanizer_aspen.pdf>
-Package pdftex.def Info: images/demethanizer_aspen.pdf used on input line 5209.
+Package pdftex.def Info: images/demethanizer_aspen.pdf used on input line 5210.
 
 (pdftex.def)             Requested size: 337.86469pt x 242.26059pt.
  [205 <./images/demethanizer_PF.pdf>]
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 52
-24.
+25.
 
-./OPGEE_v3.0_methodology.tex:5228: Missing $ inserted.
+./OPGEE_v3.0_methodology.tex:5229: Missing $ inserted.
 <inserted text> 
                 $
-l.5228 ...area available for heat transfer, \Delta
+l.5229 ...area available for heat transfer, \Delta
                                                   $T_{LM}$ is the LMTD, and ...
 
 ? 
-./OPGEE_v3.0_methodology.tex:5228: Missing $ inserted.
+./OPGEE_v3.0_methodology.tex:5229: Missing $ inserted.
 <inserted text> 
                 $
-l.5228 ...a available for heat transfer, \Delta$T_
+l.5229 ...a available for heat transfer, \Delta$T_
                                                   {LM}$ is the LMTD, and $F_...
 
 ? 
 [206 <./images/demethanizer_aspen.pdf>]
-Overfull \hbox (24.0pt too wide) in alignment at lines 5245--5258
+Overfull \hbox (4.12453pt too wide) in alignment at lines 5246--5259
 [][] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 5268--5278
+Underfull \hbox (badness 10000) in paragraph at lines 5246--5261
+
+ []
+
+
+Overfull \hbox (4.12453pt too wide) in alignment at lines 5269--5279
 [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5269--5281
+
  []
 
 [207]
-./OPGEE_v3.0_methodology.tex:5284: Misplaced alignment tab character &.
-l.5284 ...ler thermal load (stream 80) [kW], (2) &
+./OPGEE_v3.0_methodology.tex:5285: Misplaced alignment tab character &.
+l.5285 ...ler thermal load (stream 80) [kW], (2) &
                                                    (3) demethanizer column t...
 
 ? 
@@ -5409,7 +5419,7 @@ l.5284 ...ler thermal load (stream 80) [kW], (2) &
 File: images/demethanizer_duty.pdf Graphic file (type pdf)
 
 <use images/demethanizer_duty.pdf>
-Package pdftex.def Info: images/demethanizer_duty.pdf used on input line 5292.
+Package pdftex.def Info: images/demethanizer_duty.pdf used on input line 5293.
 (pdftex.def)             Requested size: 337.86469pt x 264.45222pt.
 
 <images/demethanizer_turboepander.pdf, id=5732, 437.80261pt x 340.98892pt>
@@ -5417,14 +5427,14 @@ File: images/demethanizer_turboepander.pdf Graphic file (type pdf)
 
 <use images/demethanizer_turboepander.pdf>
 Package pdftex.def Info: images/demethanizer_turboepander.pdf used on input lin
-e 5298.
+e 5299.
 (pdftex.def)             Requested size: 337.86469pt x 263.16063pt.
 
 <images/demethanizer_NGL.pdf, id=5733, 687.11833pt x 538.04271pt>
 File: images/demethanizer_NGL.pdf Graphic file (type pdf)
 
 <use images/demethanizer_NGL.pdf>
-Package pdftex.def Info: images/demethanizer_NGL.pdf used on input line 5304.
+Package pdftex.def Info: images/demethanizer_NGL.pdf used on input line 5305.
 (pdftex.def)             Requested size: 337.86469pt x 264.57095pt.
 
 <images/demethanizer_Fuelgas.pdf, id=5734, 682.83444pt x 520.05148pt>
@@ -5432,7 +5442,7 @@ File: images/demethanizer_Fuelgas.pdf Graphic file (type pdf)
 
 <use images/demethanizer_Fuelgas.pdf>
 Package pdftex.def Info: images/demethanizer_Fuelgas.pdf used on input line 531
-0.
+1.
 (pdftex.def)             Requested size: 337.86469pt x 257.32709pt.
  [209 <./images/demethanizer_duty.pdf> <./images/demethanizer_turboepander.pdf>
 ] [210 <./images/demethanizer_NGL.pdf> <./images/demethanizer_Fuelgas.pdf>]
@@ -5441,20 +5451,20 @@ File: images/demethanizer_Fuelgasp.pdf Graphic file (type pdf)
 
 <use images/demethanizer_Fuelgasp.pdf>
 Package pdftex.def Info: images/demethanizer_Fuelgasp.pdf used on input line 53
-19.
+20.
 (pdftex.def)             Requested size: 337.86469pt x 263.60129pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5332--5332
+Underfull \hbox (badness 10000) in paragraph at lines 5333--5333
 [][]\T1/ppl/m/it/9 'Surface
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5332--5332
+Underfull \hbox (badness 10000) in paragraph at lines 5333--5333
 \T1/ppl/m/it/9 Pro-cess-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5332--5332
+Underfull \hbox (badness 10000) in paragraph at lines 5333--5333
 \T1/ppl/m/it/9 Processing
  []
 
@@ -5464,85 +5474,85 @@ Underfull \hbox (badness 10000) in paragraph at lines 5332--5332
  <./images/demethanizer_Fuelgasp.pdf>]
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 53
-35.
+36.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5337--5337
+Underfull \hbox (badness 10000) in paragraph at lines 5338--5338
 \T1/ppl/m/it/9 Processing
  []
 
 [212]
-Underfull \hbox (badness 10000) in paragraph at lines 5357--5357
+Underfull \hbox (badness 10000) in paragraph at lines 5358--5358
 []|\T1/ppl/m/n/8 Literature
  []
 
 
-Overfull \hbox (4.94012pt too wide) in paragraph at lines 5357--5357
+Overfull \hbox (4.94012pt too wide) in paragraph at lines 5358--5358
 [] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 5357--5357
+Overfull \hbox (12.0pt too wide) in paragraph at lines 5358--5358
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5357--5357
+Underfull \hbox (badness 10000) in paragraph at lines 5358--5358
 []\T1/ppl/m/n/8 Literature
  []
 
 
 LaTeX Warning: Reference `eq:entrained_water' on page 213 undefined on input li
-ne 5383.
+ne 5384.
 
 
 LaTeX Warning: Reference `eq:heated_water' on page 213 undefined on input line 
-5387.
+5388.
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 5357--5389
+Overfull \hbox (12.0pt too wide) in alignment at lines 5358--5390
 [][][][][][][][] 
  []
 
 [213
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5389--5389
+Underfull \hbox (badness 10000) in paragraph at lines 5390--5390
 []\T1/ppl/m/n/8 Literature
  []
 
 
-Underfull \hbox (badness 6658) in paragraph at lines 5400--5400
+Underfull \hbox (badness 6658) in paragraph at lines 5401--5401
 []\T1/ppl/m/n/8 Temperature of feed-stream en-ter-ing Ryan-
  []
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 5389--5406
+Overfull \hbox (12.0pt too wide) in alignment at lines 5390--5407
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5389--5408
+Underfull \hbox (badness 10000) in paragraph at lines 5390--5409
 
  []
 
 [214]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 5439--5439
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 5440--5440
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 5439--5439
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 5440--5440
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 5439--5439
+Overfull \hbox (4.4343pt too wide) in alignment at lines 5440--5440
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5439--5441
+Underfull \hbox (badness 10000) in paragraph at lines 5440--5442
 
  []
 
@@ -5551,69 +5561,69 @@ File: images/Pre-membrane_chiller_PF.pdf Graphic file (type pdf)
 
 <use images/Pre-membrane_chiller_PF.pdf>
 Package pdftex.def Info: images/Pre-membrane_chiller_PF.pdf used on input line 
-5447.
+5448.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5459--5459
+Underfull \hbox (badness 10000) in paragraph at lines 5460--5460
 \T1/ppl/m/it/9 Processing
  []
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 54
-62.
+63.
 
 [215
 
 
 ] [216 <./images/Pre-membrane_chiller_PF.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 5483--5483
+Underfull \hbox (badness 10000) in paragraph at lines 5484--5484
 []|\T1/ppl/m/n/8 Literature
  []
 
 
-Overfull \hbox (4.94012pt too wide) in paragraph at lines 5483--5483
+Overfull \hbox (4.94012pt too wide) in paragraph at lines 5484--5484
 [] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 5483--5483
+Overfull \hbox (12.0pt too wide) in paragraph at lines 5484--5484
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5483--5483
+Underfull \hbox (badness 10000) in paragraph at lines 5484--5484
 []\T1/ppl/m/n/8 Literature
  []
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 5483--5491
+Overfull \hbox (12.0pt too wide) in alignment at lines 5484--5492
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5483--5493
+Underfull \hbox (badness 10000) in paragraph at lines 5484--5494
 
  []
 
 [217
 
 ]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 5525--5525
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 5526--5526
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 5525--5525
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 5526--5526
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 5525--5525
+Overfull \hbox (4.4343pt too wide) in alignment at lines 5526--5526
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5525--5527
+Underfull \hbox (badness 10000) in paragraph at lines 5526--5528
 
  []
 
@@ -5621,42 +5631,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 5525--5527
 File: images/CO2_membrane_PF.pdf Graphic file (type pdf)
 
 <use images/CO2_membrane_PF.pdf>
-Package pdftex.def Info: images/CO2_membrane_PF.pdf used on input line 5533.
+Package pdftex.def Info: images/CO2_membrane_PF.pdf used on input line 5534.
 (pdftex.def)             Requested size: 337.86469pt x 172.22748pt.
 
 
-LaTeX Warning: Reference `' on page 218 undefined on input line 5540.
+LaTeX Warning: Reference `' on page 218 undefined on input line 5541.
 
 [218
 
 
 ] [219 <./images/CO2_membrane_PF.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 5554--5554
+Underfull \hbox (badness 10000) in paragraph at lines 5555--5555
 []|\T1/ppl/m/n/8 Literature
  []
 
 
-Overfull \hbox (4.94012pt too wide) in paragraph at lines 5554--5554
+Overfull \hbox (4.94012pt too wide) in paragraph at lines 5555--5555
 [] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 5554--5554
+Overfull \hbox (12.0pt too wide) in paragraph at lines 5555--5555
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5554--5554
+Underfull \hbox (badness 10000) in paragraph at lines 5555--5555
 []\T1/ppl/m/n/8 Literature
  []
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 5554--5557
+Overfull \hbox (12.0pt too wide) in alignment at lines 5555--5558
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5554--5559
+Underfull \hbox (badness 10000) in paragraph at lines 5555--5560
 
  []
 
@@ -5665,30 +5675,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 5554--5559
 ]
 
 Package natbib Warning: Citation `rojey1997natural' on page 221 undefined on in
-put line 5568.
+put line 5569.
 
 
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 5589--5589
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 5590--5590
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 5589--5589
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 5590--5590
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5589--5589
+Underfull \hbox (badness 10000) in paragraph at lines 5590--5590
 []|\T1/ppl/m/n/8 Heavy HC stream from Ryan-
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 5589--5589
+Overfull \hbox (4.4343pt too wide) in alignment at lines 5590--5590
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5589--5591
+Underfull \hbox (badness 10000) in paragraph at lines 5590--5592
 
  []
 
@@ -5696,24 +5706,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 5589--5591
 File: images/ryan_holmes_PF.pdf Graphic file (type pdf)
 
 <use images/ryan_holmes_PF.pdf>
-Package pdftex.def Info: images/ryan_holmes_PF.pdf used on input line 5597.
+Package pdftex.def Info: images/ryan_holmes_PF.pdf used on input line 5598.
 (pdftex.def)             Requested size: 337.86469pt x 283.35959pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5604--5604
+Underfull \hbox (badness 10000) in paragraph at lines 5605--5605
 \T1/ppl/m/it/9 Processing
  []
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 56
-08.
+09.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 56
-15.
+16.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 56
-22.
+23.
 
 [221
 
@@ -5721,67 +5731,67 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 56
 ]
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 56
-29.
+30.
 
 [222 <./images/ryan_holmes_PF.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 5649--5649
+Underfull \hbox (badness 10000) in paragraph at lines 5650--5650
 []|\T1/ppl/m/n/8 Literature
  []
 
 
-Overfull \hbox (4.94012pt too wide) in paragraph at lines 5649--5649
+Overfull \hbox (4.94012pt too wide) in paragraph at lines 5650--5650
 [] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 5649--5649
+Overfull \hbox (12.0pt too wide) in paragraph at lines 5650--5650
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5649--5649
+Underfull \hbox (badness 10000) in paragraph at lines 5650--5650
 []\T1/ppl/m/n/8 Literature
  []
 
 
-Underfull \hbox (badness 6658) in paragraph at lines 5651--5651
+Underfull \hbox (badness 6658) in paragraph at lines 5652--5652
 []\T1/ppl/m/n/8 Temperature of feed-stream en-ter-ing Ryan-
  []
 
 
-Overfull \hbox (4.94012pt too wide) in alignment at lines 5649--5654
+Overfull \hbox (4.94012pt too wide) in alignment at lines 5650--5655
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5649--5656
+Underfull \hbox (badness 10000) in paragraph at lines 5650--5657
 
  []
 
 [223
 
 ]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 5687--5687
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 5688--5688
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 5687--5687
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 5688--5688
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 5687--5687
+Underfull \hbox (badness 1137) in paragraph at lines 5688--5688
 []|\T1/ppl/m/n/8 Hydrocarbon gas from off-site for
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 5687--5687
+Overfull \hbox (4.4343pt too wide) in alignment at lines 5688--5688
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5687--5689
+Underfull \hbox (badness 10000) in paragraph at lines 5688--5690
 
  []
 
@@ -5790,105 +5800,105 @@ File: images/gas_flooding_compressor_PF.pdf Graphic file (type pdf)
 
 <use images/gas_flooding_compressor_PF.pdf>
 Package pdftex.def Info: images/gas_flooding_compressor_PF.pdf used on input li
-ne 5695.
+ne 5696.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 57
-11.
+12.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5716--5716
+Underfull \hbox (badness 10000) in paragraph at lines 5717--5717
 [][]\T1/ppl/m/it/9 'Production
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5716--5716
+Underfull \hbox (badness 10000) in paragraph at lines 5717--5717
 \T1/ppl/m/it/9 & Ex-trac-tion
  []
 
 
-LaTeX Warning: Command \textless invalid in math mode on input line 5719.
+LaTeX Warning: Command \textless invalid in math mode on input line 5720.
 
 
-LaTeX Warning: Command \textless invalid in math mode on input line 5719.
+LaTeX Warning: Command \textless invalid in math mode on input line 5720.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 57
-32.
+33.
 
 [224
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5737--5737
+Underfull \hbox (badness 10000) in paragraph at lines 5738--5738
 [][]\T1/ppl/m/it/9 'Production
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5737--5737
+Underfull \hbox (badness 10000) in paragraph at lines 5738--5738
 \T1/ppl/m/it/9 & Ex-trac-tion
  []
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 57
-40.
+41.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5746--5746
+Underfull \hbox (badness 10000) in paragraph at lines 5747--5747
 [][]\T1/ppl/m/it/9 'Production
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5746--5746
+Underfull \hbox (badness 10000) in paragraph at lines 5747--5747
 \T1/ppl/m/it/9 & Ex-trac-tion
  []
 
 
-Overfull \hbox (2.0019pt too wide) in paragraph at lines 5746--5746
+Overfull \hbox (2.0019pt too wide) in paragraph at lines 5747--5747
 \T1/ppl/m/it/9 2.5.6,2.6.5,2.7.6'[] 
  []
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 57
-51.
+52.
 
 [225 <./images/gas_flooding_compressor_PF.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 5756--5756
+Underfull \hbox (badness 10000) in paragraph at lines 5757--5757
 [][]\T1/ppl/m/it/9 'Production
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5756--5756
+Underfull \hbox (badness 10000) in paragraph at lines 5757--5757
 \T1/ppl/m/it/9 & Ex-trac-tion
  []
 
 
-Overfull \hbox (2.0019pt too wide) in paragraph at lines 5756--5756
+Overfull \hbox (2.0019pt too wide) in paragraph at lines 5757--5757
 \T1/ppl/m/it/9 2.5.8,2.6.7,2.7.8'[] 
  []
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 57
-59.
+60.
 
 [226]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 5793--5793
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 5794--5794
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 5793--5793
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 5794--5794
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 5793--5793
+Overfull \hbox (4.4343pt too wide) in alignment at lines 5794--5794
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5793--5795
+Underfull \hbox (badness 10000) in paragraph at lines 5794--5796
 
  []
 
@@ -5897,15 +5907,15 @@ File: images/Lifting_gas_compressor_PF.pdf Graphic file (type pdf)
 
 <use images/Lifting_gas_compressor_PF.pdf>
 Package pdftex.def Info: images/Lifting_gas_compressor_PF.pdf used on input lin
-e 5801.
+e 5802.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
 
 
 LaTeX Warning: Reference `sec:GasFloodingCompressor' on page 227 undefined on i
-nput line 5808.
+nput line 5809.
 
 
-Overfull \hbox (7.09395pt too wide) in paragraph at lines 5812--5813
+Overfull \hbox (7.09395pt too wide) in paragraph at lines 5813--5814
 []\T1/ppl/m/n/10.95 [TBD: EX-AM-INE ANY DIF-FER-ENCES COM-PARED TO GAS FLOOD-IN
 G COM-
  []
@@ -5915,31 +5925,31 @@ G COM-
  <./images/Lifting_gas_compressor_PF.pdf>]
 
 LaTeX Warning: Reference `sec:GasFloodingCompressor' on page 228 undefined on i
-nput line 5823.
+nput line 5824.
 
 
-Overfull \hbox (7.09395pt too wide) in paragraph at lines 5827--5828
+Overfull \hbox (7.09395pt too wide) in paragraph at lines 5828--5829
 []\T1/ppl/m/n/10.95 [TBD: EX-AM-INE ANY DIF-FER-ENCES COM-PARED TO GAS FLOOD-IN
 G COM-
  []
 
 
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 5848--5848
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 5849--5849
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 5848--5848
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 5849--5849
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 5848--5848
+Overfull \hbox (4.4343pt too wide) in alignment at lines 5849--5849
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5848--5850
+Underfull \hbox (badness 10000) in paragraph at lines 5849--5851
 
  []
 
@@ -5948,38 +5958,38 @@ File: images/gas_reinjection_compressor_PF.pdf Graphic file (type pdf)
 
 <use images/gas_reinjection_compressor_PF.pdf>
 Package pdftex.def Info: images/gas_reinjection_compressor_PF.pdf used on input
- line 5856.
+ line 5857.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
  [228
 
  <./images/gas_reinjection_compressor_PF.pdf>]
 
 LaTeX Warning: Reference `sec:GasFloodingCompressor' on page 229 undefined on i
-nput line 5869.
+nput line 5870.
 
 
-Overfull \hbox (7.09395pt too wide) in paragraph at lines 5873--5874
+Overfull \hbox (7.09395pt too wide) in paragraph at lines 5874--5875
 []\T1/ppl/m/n/10.95 [TBD: EX-AM-INE ANY DIF-FER-ENCES COM-PARED TO GAS FLOOD-IN
 G COM-
  []
 
 
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 5896--5896
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 5897--5897
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 5896--5896
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 5897--5897
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 5896--5896
+Overfull \hbox (4.4343pt too wide) in alignment at lines 5897--5897
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5896--5898
+Underfull \hbox (badness 10000) in paragraph at lines 5897--5899
 
  []
 
@@ -5988,48 +5998,48 @@ File: images/CO2_reinjection_compressor_PF.pdf Graphic file (type pdf)
 
 <use images/CO2_reinjection_compressor_PF.pdf>
 Package pdftex.def Info: images/CO2_reinjection_compressor_PF.pdf used on input
- line 5904.
+ line 5905.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
  [229
 
 ] [230 <./images/CO2_reinjection_compressor_PF.pdf>]
 
 LaTeX Warning: Reference `sec:GasFloodingCompressor' on page 231 undefined on i
-nput line 5919.
+nput line 5920.
 
 
-Overfull \hbox (7.09395pt too wide) in paragraph at lines 5923--5924
+Overfull \hbox (7.09395pt too wide) in paragraph at lines 5924--5925
 []\T1/ppl/m/n/10.95 [TBD: EX-AM-INE ANY DIF-FER-ENCES COM-PARED TO GAS FLOOD-IN
 G COM-
  []
 
 
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 5944--5944
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 5945--5945
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 5944--5944
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 5945--5945
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Underfull \hbox (badness 3333) in paragraph at lines 5944--5944
+Underfull \hbox (badness 3333) in paragraph at lines 5945--5945
 []|\T1/ppl/m/n/8 Electricity - Sour gas rein-jec-tion
  []
 
 
-Underfull \hbox (badness 2351) in paragraph at lines 5944--5944
+Underfull \hbox (badness 2351) in paragraph at lines 5945--5945
 []|\T1/ppl/m/n/8 Sour gas to sour gas rein-jec-tion
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 5944--5944
+Overfull \hbox (4.4343pt too wide) in alignment at lines 5945--5945
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5944--5946
+Underfull \hbox (badness 10000) in paragraph at lines 5945--5947
 
  []
 
@@ -6039,38 +6049,38 @@ t>
 File: images/sour_gas_reinjection_compressor_PF.pdf Graphic file (type pdf)
  <use images/sour_gas_reinjection_compressor_PF.pdf>
 Package pdftex.def Info: images/sour_gas_reinjection_compressor_PF.pdf used on 
-input line 5952.
+input line 5953.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
  [231
 
 ] [232 <./images/sour_gas_reinjection_compressor_PF.pdf>]
 
 LaTeX Warning: Reference `sec:GasFloodingCompressor' on page 233 undefined on i
-nput line 5967.
+nput line 5968.
 
 
-Overfull \hbox (7.09395pt too wide) in paragraph at lines 5971--5972
+Overfull \hbox (7.09395pt too wide) in paragraph at lines 5972--5973
 []\T1/ppl/m/n/10.95 [TBD: EX-AM-INE ANY DIF-FER-ENCES COM-PARED TO GAS FLOOD-IN
 G COM-
  []
 
 
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 5993--5993
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 5994--5994
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 5993--5993
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 5994--5994
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 5993--5993
+Overfull \hbox (4.4343pt too wide) in alignment at lines 5994--5994
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5993--5995
+Underfull \hbox (badness 10000) in paragraph at lines 5994--5996
 
  []
 
@@ -6078,17 +6088,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 5993--5995
 File: images/VRU_compressor_PF.pdf Graphic file (type pdf)
 
 <use images/VRU_compressor_PF.pdf>
-Package pdftex.def Info: images/VRU_compressor_PF.pdf used on input line 6001.
+Package pdftex.def Info: images/VRU_compressor_PF.pdf used on input line 6002.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
  [233
 
  <./images/VRU_compressor_PF.pdf>]
 
 LaTeX Warning: Reference `sec:GasFloodingCompressor' on page 234 undefined on i
-nput line 6017.
+nput line 6018.
 
 
-Overfull \hbox (7.09395pt too wide) in paragraph at lines 6021--6022
+Overfull \hbox (7.09395pt too wide) in paragraph at lines 6022--6023
 []\T1/ppl/m/n/10.95 [TBD: EX-AM-INE ANY DIF-FER-ENCES COM-PARED TO GAS FLOOD-IN
 G COM-
  []
@@ -6098,10 +6108,10 @@ G COM-
 ]
 
 LaTeX Warning: Reference `sec:GasFloodingCompressor' on page 235 undefined on i
-nput line 6033.
+nput line 6034.
 
 
-Overfull \hbox (7.09395pt too wide) in paragraph at lines 6037--6038
+Overfull \hbox (7.09395pt too wide) in paragraph at lines 6038--6039
 []\T1/ppl/m/n/10.95 [TBD: EX-AM-INE ANY DIF-FER-ENCES COM-PARED TO GAS FLOOD-IN
 G COM-
  []
@@ -6117,10 +6127,10 @@ G COM-
 ]
 
 LaTeX Warning: Reference `sec:GasFloodingCompressor' on page 239 undefined on i
-nput line 6086.
+nput line 6087.
 
 
-Overfull \hbox (7.09395pt too wide) in paragraph at lines 6090--6091
+Overfull \hbox (7.09395pt too wide) in paragraph at lines 6091--6092
 []\T1/ppl/m/n/10.95 [TBD: EX-AM-INE ANY DIF-FER-ENCES COM-PARED TO GAS FLOOD-IN
 G COM-
  []
@@ -6130,10 +6140,10 @@ G COM-
 ]
 
 LaTeX Warning: Reference `sec:GasFloodingCompressor' on page 240 undefined on i
-nput line 6104.
+nput line 6105.
 
 
-Overfull \hbox (7.09395pt too wide) in paragraph at lines 6108--6109
+Overfull \hbox (7.09395pt too wide) in paragraph at lines 6109--6110
 []\T1/ppl/m/n/10.95 [TBD: EX-AM-INE ANY DIF-FER-ENCES COM-PARED TO GAS FLOOD-IN
 G COM-
  []
@@ -6160,67 +6170,67 @@ G COM-
 
 ]
 
-LaTeX Warning: Reference `sec:VF' on page 250 undefined on input line 6227.
+LaTeX Warning: Reference `sec:VF' on page 250 undefined on input line 6228.
 
 
-LaTeX Warning: Reference `sec:VF' on page 250 undefined on input line 6231.
+LaTeX Warning: Reference `sec:VF' on page 250 undefined on input line 6232.
 
 [250
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 6253--6253
+Underfull \hbox (badness 10000) in paragraph at lines 6254--6254
 [][]\T1/ppl/m/it/9 'Active Field
  []
 
 [251
 
 ]
-Overfull \hbox (10.27612pt too wide) in paragraph at lines 6271--6272
+Overfull \hbox (10.27612pt too wide) in paragraph at lines 6272--6273
 \T1/ppl/m/n/10.95 OPGEE crude oil trans-port cal-cu-la-tions use sets of trans-
 port modes, trans-port propul-
  []
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 62
-76.
+77.
 
 
-Overfull \hbox (1.5987pt too wide) in paragraph at lines 6281--6283
+Overfull \hbox (1.5987pt too wide) in paragraph at lines 6282--6284
 []\T1/ppl/m/n/10.95 For the case of pipeline and rail trans-port, the cal-cu-la
 -tion is sim-pler. For pipeline
  []
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 62
-84.
+85.
 
 [252
 
 ]
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 62
-96.
+97.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 62
-96.
+97.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 62
-96.
+97.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 62
-96.
+97.
 
 
-Overfull \hbox (16.8066pt too wide) in paragraph at lines 6296--6299
+Overfull \hbox (16.8066pt too wide) in paragraph at lines 6297--6300
 \T1/ppl/m/n/10.95 where $\OML/zplm/m/it/10.95 UE[]$ \T1/ppl/m/n/10.95 = crude o
 il trans-port in-ten-sity per unit of en-ergy trans-ported [Btu/MMBtu-
  []
 
 
-Overfull \hbox (4.4084pt too wide) in paragraph at lines 6296--6299
+Overfull \hbox (4.4084pt too wide) in paragraph at lines 6297--6300
 \T1/ppl/m/n/10.95 mi], $\OML/zplm/m/it/10.95 LHV[]$ \T1/ppl/m/n/10.95 = crude l
 ower heat-ing value [MMB-tu/bbl]; $\OML/zplm/m/it/10.95 ^^Z[]$ \T1/ppl/m/n/10.9
 5 = den-sity of wa-ter [lb/bbl];
@@ -6228,44 +6238,44 @@ ower heat-ing value [MMB-tu/bbl]; $\OML/zplm/m/it/10.95 ^^Z[]$ \T1/ppl/m/n/10.9
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 63
-05.
+06.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 63
-05.
+06.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 63
-13.
+14.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 63
-25.
+26.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 63
-25.
+26.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 63
-36.
+37.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 63
-36.
+37.
 
 [253] [254]
-Underfull \hbox (badness 10000) in alignment at lines 6358--6377
+Underfull \hbox (badness 10000) in alignment at lines 6359--6378
 [][][][][][][][] 
  []
 
 
-Overfull \hbox (13.01137pt too wide) in paragraph at lines 6358--6383
+Overfull \hbox (13.01137pt too wide) in paragraph at lines 6359--6384
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6358--6383
+Underfull \hbox (badness 10000) in paragraph at lines 6359--6384
 
  []
 
@@ -6274,10 +6284,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 6358--6383
 ]
 
 LaTeX Warning: Reference `sec:petcoke_transport' on page 256 undefined on input
- line 6390.
+ line 6391.
 
 
-Overfull \hbox (5.34183pt too wide) in paragraph at lines 6392--6393
+Overfull \hbox (5.34183pt too wide) in paragraph at lines 6393--6394
 []\T1/ppl/m/n/10.95 [TBD: CHECK HOW PET-COKE TRANS-PORT MODEL DIF-FERS FROM OTH
 ER
  []
@@ -6288,147 +6298,147 @@ ER
 ]
 
 LaTeX Warning: Reference `sec:GasDistribution' on page 257 undefined on input l
-ine 6402.
+ine 6403.
 
 [257
 
 ]
 
 LaTeX Warning: Reference `sec:FuelGasInputs' on page 258 undefined on input lin
-e 6414.
+e 6415.
 
 [258
 
 ]
 
 LaTeX Warning: Reference `sec:ElectricityGeneration' on page 259 undefined on i
-nput line 6427.
+nput line 6428.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 64
-33.
+34.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 64
-41.
+42.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 64
-50.
+51.
 
 [259
 
 ]
 
 LaTeX Warning: Reference `sec:NGL_diluent' on page 260 undefined on input line 
-6463.
+6464.
 
 [260
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 6479--6479
+Underfull \hbox (badness 10000) in paragraph at lines 6480--6480
 [][]\T1/ppl/m/it/9 'Production &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6481--6481
+Underfull \hbox (badness 10000) in paragraph at lines 6482--6482
 [][]\T1/ppl/m/it/9 'Production
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6481--6481
+Underfull \hbox (badness 10000) in paragraph at lines 6482--6482
 \T1/ppl/m/it/9 & Ex-trac-tion
  []
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 64
-88.
+89.
 
 
 Package natbib Warning: Citation `orr1987effect' on page 261 undefined on input
- line 6496.
+ line 6497.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6498--6498
+Underfull \hbox (badness 10000) in paragraph at lines 6499--6499
 [][]\T1/ppl/m/it/9 'Production
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6498--6498
+Underfull \hbox (badness 10000) in paragraph at lines 6499--6499
 \T1/ppl/m/it/9 & Ex-trac-tion
  []
 
 
 LaTeX Warning: Reference `sec:surface_processing' on page 261 undefined on inpu
-t line 6538.
+t line 6539.
 
 [261
 
 ]
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 65
-47.
+48.
 
 [262]
-Underfull \hbox (badness 10000) in paragraph at lines 6552--6552
+Underfull \hbox (badness 10000) in paragraph at lines 6553--6553
 [][]\T1/ppl/m/it/9 'Production
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6552--6552
+Underfull \hbox (badness 10000) in paragraph at lines 6553--6553
 \T1/ppl/m/it/9 & Ex-trac-tion
  []
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 65
-55.
+56.
 
 
 Package natbib Warning: Citation `kang2015effective' on page 263 undefined on i
-nput line 6562.
+nput line 6563.
 
 
 Package natbib Warning: Citation `celia2011field' on page 263 undefined on inpu
-t line 6564.
+t line 6565.
 
 
 Package natbib Warning: Citation `celia2011field' on page 263 undefined on inpu
-t line 6564.
+t line 6565.
 
 
 Package natbib Warning: Citation `stevens1999sequestration' on page 263 undefin
-ed on input line 6571.
+ed on input line 6572.
 
 [263]
 
 Package natbib Warning: Citation `leach2011co' on page 264 undefined on input l
-ine 6573.
+ine 6574.
 
 
 Package natbib Warning: Citation `leach2011co' on page 264 undefined on input l
-ine 6573.
+ine 6574.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6573--6573
+Underfull \hbox (badness 10000) in paragraph at lines 6574--6574
 [][]\T1/ppl/m/it/9 'Production
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6573--6573
+Underfull \hbox (badness 10000) in paragraph at lines 6574--6574
 \T1/ppl/m/it/9 & Ex-trac-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6578--6578
+Underfull \hbox (badness 10000) in paragraph at lines 6579--6579
 [][]\T1/ppl/m/it/9 'Production &
  []
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 65
-81.
+82.
 
 [264]
-Overfull \hbox (12.0pt too wide) in paragraph at lines 6609--6609
+Overfull \hbox (12.0pt too wide) in paragraph at lines 6610--6610
 [] 
  []
 
@@ -6438,7 +6448,7 @@ Package nicefrac Warning: You used \nicefrac or \unitfrac in text mode
 (nicefrac)                The fraction may be ambiguous or wrong.
 (nicefrac)                Please make sure the denominator is correct.
 (nicefrac)                If it is, you can safely ignore
-(nicefrac)                this warning  on input line 6615.
+(nicefrac)                this warning  on input line 6616.
 
 
 Package nicefrac Warning: You used \nicefrac or \unitfrac in text mode
@@ -6446,7 +6456,7 @@ Package nicefrac Warning: You used \nicefrac or \unitfrac in text mode
 (nicefrac)                The fraction may be ambiguous or wrong.
 (nicefrac)                Please make sure the denominator is correct.
 (nicefrac)                If it is, you can safely ignore
-(nicefrac)                this warning  on input line 6627.
+(nicefrac)                this warning  on input line 6628.
 
 
 Package nicefrac Warning: You used \nicefrac or \unitfrac in text mode
@@ -6454,10 +6464,10 @@ Package nicefrac Warning: You used \nicefrac or \unitfrac in text mode
 (nicefrac)                The fraction may be ambiguous or wrong.
 (nicefrac)                Please make sure the denominator is correct.
 (nicefrac)                If it is, you can safely ignore
-(nicefrac)                this warning  on input line 6640.
+(nicefrac)                this warning  on input line 6641.
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 6609--6641
+Overfull \hbox (12.0pt too wide) in alignment at lines 6610--6642
 [][][][][][][][] 
  []
 
@@ -6470,15 +6480,7 @@ Package nicefrac Warning: You used \nicefrac or \unitfrac in text mode
 (nicefrac)                The fraction may be ambiguous or wrong.
 (nicefrac)                Please make sure the denominator is correct.
 (nicefrac)                If it is, you can safely ignore
-(nicefrac)                this warning  on input line 6653.
-
-
-Package nicefrac Warning: You used \nicefrac or \unitfrac in text mode
-(nicefrac)                and specified the ``ugly'' option.
-(nicefrac)                The fraction may be ambiguous or wrong.
-(nicefrac)                Please make sure the denominator is correct.
-(nicefrac)                If it is, you can safely ignore
-(nicefrac)                this warning  on input line 6655.
+(nicefrac)                this warning  on input line 6654.
 
 
 Package nicefrac Warning: You used \nicefrac or \unitfrac in text mode
@@ -6526,7 +6528,7 @@ Package nicefrac Warning: You used \nicefrac or \unitfrac in text mode
 (nicefrac)                The fraction may be ambiguous or wrong.
 (nicefrac)                Please make sure the denominator is correct.
 (nicefrac)                If it is, you can safely ignore
-(nicefrac)                this warning  on input line 6663.
+(nicefrac)                this warning  on input line 6661.
 
 
 Package nicefrac Warning: You used \nicefrac or \unitfrac in text mode
@@ -6542,7 +6544,7 @@ Package nicefrac Warning: You used \nicefrac or \unitfrac in text mode
 (nicefrac)                The fraction may be ambiguous or wrong.
 (nicefrac)                Please make sure the denominator is correct.
 (nicefrac)                If it is, you can safely ignore
-(nicefrac)                this warning  on input line 6669.
+(nicefrac)                this warning  on input line 6665.
 
 
 Package nicefrac Warning: You used \nicefrac or \unitfrac in text mode
@@ -6553,27 +6555,35 @@ Package nicefrac Warning: You used \nicefrac or \unitfrac in text mode
 (nicefrac)                this warning  on input line 6670.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6673--6673
+Package nicefrac Warning: You used \nicefrac or \unitfrac in text mode
+(nicefrac)                and specified the ``ugly'' option.
+(nicefrac)                The fraction may be ambiguous or wrong.
+(nicefrac)                Please make sure the denominator is correct.
+(nicefrac)                If it is, you can safely ignore
+(nicefrac)                this warning  on input line 6671.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6674--6674
 []\T1/ppl/m/n/8 [[]], [[]],
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6673--6673
+Underfull \hbox (badness 10000) in paragraph at lines 6674--6674
 \T1/ppl/m/n/8 [[]], [[]],
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 6673--6673
+Underfull \hbox (badness 7203) in paragraph at lines 6674--6674
 \T1/ppl/m/n/8 [[]], [[], p.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6673--6673
+Underfull \hbox (badness 10000) in paragraph at lines 6674--6674
 \T1/ppl/m/n/8 111], [[]],
  []
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 6641--6674
+Overfull \hbox (12.0pt too wide) in alignment at lines 6642--6675
 [][][][][][][][] 
  []
 
@@ -6584,30 +6594,30 @@ Overfull \vbox (10.01103pt too high) has occurred while \output is active []
 [266]
 
 Package natbib Warning: Citation `pyo2003co2' on page 267 undefined on input li
-ne 6676.
+ne 6677.
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 6674--6685
+Overfull \hbox (12.0pt too wide) in alignment at lines 6675--6686
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6674--6687
+Underfull \hbox (badness 10000) in paragraph at lines 6675--6688
 
  []
 
 [267]
-Overfull \hbox (4.17175pt too wide) in paragraph at lines 6720--6720
+Overfull \hbox (4.17175pt too wide) in paragraph at lines 6721--6721
 []|\T1/ppl/m/n/8 Path
  []
 
 
-Overfull \hbox (8.17917pt too wide) in alignment at lines 6720--6720
+Overfull \hbox (8.17917pt too wide) in alignment at lines 6721--6721
 [][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6720--6722
+Underfull \hbox (badness 10000) in paragraph at lines 6721--6723
 
  []
 
@@ -6619,16 +6629,16 @@ File: images/GasProcessingSchematic.pdf Graphic file (type pdf)
 
 <use images/GasProcessingSchematic.pdf>
 Package pdftex.def Info: images/GasProcessingSchematic.pdf used on input line 6
-730.
+731.
 (pdftex.def)             Requested size: 650.43001pt x 502.6191pt.
 
 
-LaTeX Warning: Float too large for page by 138.13408pt on input line 6733.
+LaTeX Warning: Float too large for page by 138.13408pt on input line 6734.
 
 [269 <./images/GasProcessingSchematic.pdf>]
 
 LaTeX Warning: Reference `sec:production' on page 270 undefined on input line 6
-743.
+744.
 
 [270
 
@@ -6636,23 +6646,23 @@ LaTeX Warning: Reference `sec:production' on page 270 undefined on input line 6
 ]
 Chapter 8.
 
-Overfull \hbox (32.02731pt too wide) in alignment at lines 6766--6775
+Overfull \hbox (32.02731pt too wide) in alignment at lines 6767--6776
 [][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6766--6777
+Underfull \hbox (badness 10000) in paragraph at lines 6767--6778
 
  []
 
 
-Overfull \hbox (0.92058pt too wide) in paragraph at lines 6779--6780
+Overfull \hbox (0.92058pt too wide) in paragraph at lines 6780--6781
 []\T1/ppl/m/n/10.95 Specifications of natural-gas-driven en-gines and diesel-dr
 iven en-gines are taken
  []
 
 
-Overfull \hbox (9.41797pt too wide) in paragraph at lines 6781--6783
+Overfull \hbox (9.41797pt too wide) in paragraph at lines 6782--6784
 []\T1/ppl/m/n/10.95 The data for each driver model was con-verted into [bhp] fo
 r power and [Btu/bhp-
  []
@@ -6668,23 +6678,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 67
-97.
+98.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 67
-97.
+98.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 67
-97.
+98.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 67
-97.
+98.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 68
-05.
+06.
 
 
 Package nicefrac Warning: You used \nicefrac or \unitfrac in text mode
@@ -6692,19 +6702,19 @@ Package nicefrac Warning: You used \nicefrac or \unitfrac in text mode
 (nicefrac)                The fraction may be ambiguous or wrong.
 (nicefrac)                Please make sure the denominator is correct.
 (nicefrac)                If it is, you can safely ignore
-(nicefrac)                this warning  on input line 6810.
+(nicefrac)                this warning  on input line 6811.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 68
-13.
+14.
 
 [272]
-Underfull \hbox (badness 10000) in alignment at lines 6832--6839
+Underfull \hbox (badness 10000) in alignment at lines 6833--6840
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6832--6849
+Underfull \hbox (badness 10000) in paragraph at lines 6833--6850
 
  []
 
@@ -6713,78 +6723,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 6832--6849
 ] [274
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 6885--6885
+Underfull \hbox (badness 10000) in paragraph at lines 6886--6886
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6889--6889
+Underfull \hbox (badness 10000) in paragraph at lines 6890--6890
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6893--6893
+Underfull \hbox (badness 10000) in paragraph at lines 6894--6894
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 [275] [276]
-Overfull \hbox (0.28307pt too wide) in paragraph at lines 6924--6925
+Overfull \hbox (0.28307pt too wide) in paragraph at lines 6925--6926
 []\T1/ppl/m/n/10.95 Monoethanolamine: the ``mar-ket for mo-noethanolamine, GLO'
 ' is used, with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6930--6930
+Underfull \hbox (badness 10000) in paragraph at lines 6931--6931
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6936--6936
+Underfull \hbox (badness 10000) in paragraph at lines 6937--6937
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6936--6936
+Underfull \hbox (badness 10000) in paragraph at lines 6937--6937
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6936--6936
+Underfull \hbox (badness 10000) in paragraph at lines 6937--6937
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6936--6936
+Underfull \hbox (badness 10000) in paragraph at lines 6937--6937
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6938--6938
+Underfull \hbox (badness 10000) in paragraph at lines 6939--6939
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6938--6938
+Underfull \hbox (badness 10000) in paragraph at lines 6939--6939
 \T1/ppl/m/it/9 Emis-sions
  []
 
 [277]
-Underfull \hbox (badness 10000) in paragraph at lines 6940--6940
+Underfull \hbox (badness 10000) in paragraph at lines 6941--6941
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6940--6940
+Underfull \hbox (badness 10000) in paragraph at lines 6941--6941
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6942--6942
+Underfull \hbox (badness 10000) in paragraph at lines 6943--6943
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6942--6942
+Underfull \hbox (badness 10000) in paragraph at lines 6943--6943
 \T1/ppl/m/it/9 Emis-sions
  []
 
@@ -6792,45 +6802,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 6942--6942
 File: images/all_well_casing.pdf Graphic file (type pdf)
 
 <use images/all_well_casing.pdf>
-Package pdftex.def Info: images/all_well_casing.pdf used on input line 6945.
+Package pdftex.def Info: images/all_well_casing.pdf used on input line 6946.
 (pdftex.def)             Requested size: 397.48502pt x 261.4867pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 6950--6950
+Underfull \hbox (badness 10000) in paragraph at lines 6951--6951
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6950--6950
+Underfull \hbox (badness 10000) in paragraph at lines 6951--6951
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6950--6950
+Underfull \hbox (badness 10000) in paragraph at lines 6951--6951
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6950--6950
+Underfull \hbox (badness 10000) in paragraph at lines 6951--6951
 \T1/ppl/m/it/9 Emis-sions
  []
 
 [278 <./images/all_well_casing.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 6955--6955
+Underfull \hbox (badness 10000) in paragraph at lines 6956--6956
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6955--6955
+Underfull \hbox (badness 10000) in paragraph at lines 6956--6956
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6959--6959
+Underfull \hbox (badness 10000) in paragraph at lines 6960--6960
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6959--6959
+Underfull \hbox (badness 10000) in paragraph at lines 6960--6960
 \T1/ppl/m/it/9 Emis-sions
  []
 
@@ -6838,40 +6848,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 6959--6959
 File: images/cementing_volume.pdf Graphic file (type pdf)
 
 <use images/cementing_volume.pdf>
-Package pdftex.def Info: images/cementing_volume.pdf used on input line 6962.
+Package pdftex.def Info: images/cementing_volume.pdf used on input line 6963.
 (pdftex.def)             Requested size: 139.12218pt x 194.36188pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 6967--6967
+Underfull \hbox (badness 10000) in paragraph at lines 6968--6968
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6967--6967
+Underfull \hbox (badness 10000) in paragraph at lines 6968--6968
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6975--6975
+Underfull \hbox (badness 10000) in paragraph at lines 6976--6976
 []|\T1/ppl/m/n/8 Moderate den-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6976--6976
+Underfull \hbox (badness 10000) in paragraph at lines 6977--6977
 []|\T1/ppl/m/n/8 16% ben-tonite,
  []
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 6973--7003
+Overfull \hbox (12.0pt too wide) in alignment at lines 6974--7004
 [][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6973--7005
+Underfull \hbox (badness 10000) in paragraph at lines 6974--7006
 
  []
 
 [279 <./images/cementing_volume.pdf>]
-Overfull \hbox (3.61182pt too wide) in paragraph at lines 7011--7012
+Overfull \hbox (3.61182pt too wide) in paragraph at lines 7012--7013
 \T1/ppl/m/n/10.95 ver-ti-cal ex-tent of ce-ment-ing is given in Mitchell and Mi
 ska [[], Sec-tion 4.5.11]. 
  []
@@ -6880,35 +6890,35 @@ ska [[], Sec-tion 4.5.11].
 File: images/cementing_diagram.pdf Graphic file (type pdf)
 
 <use images/cementing_diagram.pdf>
-Package pdftex.def Info: images/cementing_diagram.pdf used on input line 7016.
+Package pdftex.def Info: images/cementing_diagram.pdf used on input line 7017.
 (pdftex.def)             Requested size: 158.99158pt x 313.3295pt.
  [280] [281 <./images/cementing_diagram.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 7025--7025
+Underfull \hbox (badness 10000) in paragraph at lines 7026--7026
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7027--7027
+Underfull \hbox (badness 10000) in paragraph at lines 7028--7028
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7027--7027
+Underfull \hbox (badness 10000) in paragraph at lines 7028--7028
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7027--7027
+Underfull \hbox (badness 10000) in paragraph at lines 7028--7028
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7027--7027
+Underfull \hbox (badness 10000) in paragraph at lines 7028--7028
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Overfull \hbox (4.75249pt too wide) in paragraph at lines 7027--7028
+Overfull \hbox (4.75249pt too wide) in paragraph at lines 7028--7029
 []\T1/ppl/m/n/10.95 OPGEE de-faults are set to 3 in. av-er-age di-am-e-ter of s
 ur-face pip-ing, extra-strength
  []
@@ -6917,124 +6927,124 @@ ur-face pip-ing, extra-strength
 LaTeX Warning: Marginpar on page 282 moved.
 
 
-Overfull \hbox (4.91174pt too wide) in paragraph at lines 7031--7032
+Overfull \hbox (4.91174pt too wide) in paragraph at lines 7032--7033
 \T1/ppl/m/n/10.95 Materials re-quire-ments for frac-tur-ing are as-sumed (in th
 e cur-rent ver-sion of OPGEE)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7033--7033
+Underfull \hbox (badness 10000) in paragraph at lines 7034--7034
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7033--7033
+Underfull \hbox (badness 10000) in paragraph at lines 7034--7034
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
 Package natbib Warning: Citation `Brandtetal2015' on page 282 undefined on inpu
-t line 7033.
+t line 7034.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7033--7033
+Underfull \hbox (badness 10000) in paragraph at lines 7034--7034
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7033--7033
+Underfull \hbox (badness 10000) in paragraph at lines 7034--7034
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7041--7041
+Underfull \hbox (badness 10000) in paragraph at lines 7042--7042
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7041--7041
+Underfull \hbox (badness 10000) in paragraph at lines 7042--7042
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7043--7043
+Underfull \hbox (badness 10000) in paragraph at lines 7044--7044
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7043--7043
+Underfull \hbox (badness 10000) in paragraph at lines 7044--7044
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7043--7043
+Underfull \hbox (badness 10000) in paragraph at lines 7044--7044
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7043--7043
+Underfull \hbox (badness 10000) in paragraph at lines 7044--7044
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7043--7043
+Underfull \hbox (badness 10000) in paragraph at lines 7044--7044
 \T1/ppl/m/it/9 Emis-sions
  []
 
 [282
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 7047--7047
+Underfull \hbox (badness 10000) in paragraph at lines 7048--7048
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7047--7047
+Underfull \hbox (badness 10000) in paragraph at lines 7048--7048
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7047--7047
+Underfull \hbox (badness 10000) in paragraph at lines 7048--7048
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7047--7047
+Underfull \hbox (badness 10000) in paragraph at lines 7048--7048
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7047--7047
+Underfull \hbox (badness 10000) in paragraph at lines 7048--7048
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7047--7047
+Underfull \hbox (badness 10000) in paragraph at lines 7048--7048
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7051--7051
+Underfull \hbox (badness 10000) in paragraph at lines 7052--7052
 [][]\T1/ppl/m/it/9 'Gas Bal-ance
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7051--7051
+Underfull \hbox (badness 10000) in paragraph at lines 7052--7052
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7051--7051
+Underfull \hbox (badness 10000) in paragraph at lines 7052--7052
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7051--7051
+Underfull \hbox (badness 10000) in paragraph at lines 7052--7052
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7051--7051
+Underfull \hbox (badness 10000) in paragraph at lines 7052--7052
 \T1/ppl/m/it/9 Emis-sions
  []
 
@@ -7042,105 +7052,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 7051--7051
 LaTeX Warning: Marginpar on page 283 moved.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7058--7058
+Underfull \hbox (badness 10000) in paragraph at lines 7059--7059
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7058--7058
+Underfull \hbox (badness 10000) in paragraph at lines 7059--7059
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7058--7058
+Underfull \hbox (badness 10000) in paragraph at lines 7059--7059
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7058--7058
+Underfull \hbox (badness 10000) in paragraph at lines 7059--7059
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7060--7060
+Underfull \hbox (badness 10000) in paragraph at lines 7061--7061
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7060--7060
+Underfull \hbox (badness 10000) in paragraph at lines 7061--7061
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7060--7060
+Underfull \hbox (badness 10000) in paragraph at lines 7061--7061
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7060--7060
+Underfull \hbox (badness 10000) in paragraph at lines 7061--7061
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7064--7064
+Underfull \hbox (badness 10000) in paragraph at lines 7065--7065
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7064--7064
+Underfull \hbox (badness 10000) in paragraph at lines 7065--7065
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7066--7066
+Underfull \hbox (badness 10000) in paragraph at lines 7067--7067
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7066--7066
+Underfull \hbox (badness 10000) in paragraph at lines 7067--7067
 \T1/ppl/m/it/9 Emis-sions
  []
 
 [283]
-Underfull \hbox (badness 10000) in paragraph at lines 7070--7070
+Underfull \hbox (badness 10000) in paragraph at lines 7071--7071
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7070--7070
+Underfull \hbox (badness 10000) in paragraph at lines 7071--7071
 \T1/ppl/m/it/9 Emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7070--7070
+Underfull \hbox (badness 10000) in paragraph at lines 7071--7071
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7070--7070
-\T1/ppl/m/it/9 Emis-sions
- []
-
-
-LaTeX Warning: Marginpar on page 284 moved.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7072--7072
-[][]\T1/ppl/m/it/9 'Embodied
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7072--7072
-\T1/ppl/m/it/9 Emis-sions
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7074--7074
-[][]\T1/ppl/m/it/9 'Embodied
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7074--7074
+Underfull \hbox (badness 10000) in paragraph at lines 7071--7071
 \T1/ppl/m/it/9 Emis-sions
  []
 
@@ -7148,170 +7135,193 @@ Underfull \hbox (badness 10000) in paragraph at lines 7074--7074
 LaTeX Warning: Marginpar on page 284 moved.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7082--7082
+Underfull \hbox (badness 10000) in paragraph at lines 7073--7073
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7090--7090
+Underfull \hbox (badness 10000) in paragraph at lines 7073--7073
+\T1/ppl/m/it/9 Emis-sions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7075--7075
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7090--7090
+Underfull \hbox (badness 10000) in paragraph at lines 7075--7075
+\T1/ppl/m/it/9 Emis-sions
+ []
+
+
+LaTeX Warning: Marginpar on page 284 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7083--7083
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7092--7092
+Underfull \hbox (badness 10000) in paragraph at lines 7091--7091
 [][]\T1/ppl/m/it/9 'Embodied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7092--7092
+Underfull \hbox (badness 10000) in paragraph at lines 7091--7091
+[][]\T1/ppl/m/it/9 'Embodied
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7093--7093
+[][]\T1/ppl/m/it/9 'Embodied
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7093--7093
 \T1/ppl/m/it/9 Emis-sions
  []
 
 [284]
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 71
-07.
+08.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7120--7120
+Underfull \hbox (badness 10000) in paragraph at lines 7121--7121
 []|\T1/ppl/m/n/8 Natural
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7120--7120
+Underfull \hbox (badness 10000) in paragraph at lines 7121--7121
 []|\T1/ppl/m/n/8 Residual
  []
 
 
-Overfull \hbox (16.44032pt too wide) in alignment at lines 7118--7129
+Overfull \hbox (16.44032pt too wide) in alignment at lines 7119--7130
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7118--7135
+Underfull \hbox (badness 10000) in paragraph at lines 7119--7136
 
  []
 
 
-LaTeX Warning: Reference `sec:VF' on page 285 undefined on input line 7140.
+LaTeX Warning: Reference `sec:VF' on page 285 undefined on input line 7141.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7149--7149
+Underfull \hbox (badness 10000) in paragraph at lines 7150--7150
 []|\T1/ppl/m/n/8 TotalCO$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7149--7149
+Underfull \hbox (badness 10000) in paragraph at lines 7150--7150
 \T1/ppl/m/n/8 emis-sions (ton-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7149--7149
+Underfull \hbox (badness 10000) in paragraph at lines 7150--7150
 []|\T1/ppl/m/n/8 TotalCH$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7149--7149
+Underfull \hbox (badness 10000) in paragraph at lines 7150--7150
 \T1/ppl/m/n/8 emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7166--7166
+Underfull \hbox (badness 10000) in paragraph at lines 7167--7167
 []|\T1/ppl/m/n/8 Compressor    blow-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7168--7168
+Underfull \hbox (badness 10000) in paragraph at lines 7169--7169
 []|\T1/ppl/m/n/8 Gatheringpipelines main-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7170--7170
+Underfull \hbox (badness 10000) in paragraph at lines 7171--7171
 []|\T1/ppl/m/n/8 Gatheringpipelines pig-
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7147--7172
+Underfull \hbox (badness 10000) in alignment at lines 7148--7173
 [][][][] 
  []
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 71
-84.
+85.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 71
-84.
+85.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 71
-84.
+85.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 71
-84.
+85.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7197--7197
+Underfull \hbox (badness 10000) in paragraph at lines 7198--7198
 []|\T1/ppl/m/n/8 TotalCO$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7197--7197
+Underfull \hbox (badness 10000) in paragraph at lines 7198--7198
 \T1/ppl/m/n/8 emis-sions (ton-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7197--7197
+Underfull \hbox (badness 10000) in paragraph at lines 7198--7198
 []|\T1/ppl/m/n/8 TotalCH$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7197--7197
+Underfull \hbox (badness 10000) in paragraph at lines 7198--7198
 \T1/ppl/m/n/8 emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7195--7219
+Underfull \hbox (badness 10000) in alignment at lines 7196--7220
 [][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7234--7234
+Underfull \hbox (badness 10000) in paragraph at lines 7235--7235
 []|\T1/ppl/m/n/8 CO$[]$ emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7234--7234
+Underfull \hbox (badness 10000) in paragraph at lines 7235--7235
 []|\T1/ppl/m/n/8 CH$[]$ emis-sions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7234--7235
+Underfull \hbox (badness 10000) in paragraph at lines 7235--7236
 []|\T1/ppl/m/n/8 Gas in-put vol-ume
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7232--7244
+Underfull \hbox (badness 10000) in alignment at lines 7233--7245
 [][][][] 
  []
 
 [285] [286]
 
 LaTeX Warning: Reference `tab:component_estimation' on page 287 undefined on in
-put line 7253.
+put line 7254.
 
 
 LaTeX Warning: Reference `sec:fugitives_general' on page 287 undefined on input
- line 7253.
+ line 7254.
 
 
-Overfull \hbox (35.99998pt too wide) in alignment at lines 7259--7290
+Overfull \hbox (35.99998pt too wide) in alignment at lines 7260--7291
 [][][] 
  []
 
@@ -7330,18 +7340,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: images/Boundary_Fugitives.pdf Graphic file (type pdf)
 
 <use images/Boundary_Fugitives.pdf>
-Package pdftex.def Info: images/Boundary_Fugitives.pdf used on input line 7335.
+Package pdftex.def Info: images/Boundary_Fugitives.pdf used on input line 7336.
 
 (pdftex.def)             Requested size: 397.48502pt x 160.97179pt.
 
 <images/Site_VF.pdf, id=6938, 598.235pt x 349.305pt>
 File: images/Site_VF.pdf Graphic file (type pdf)
  <use images/Site_VF.pdf>
-Package pdftex.def Info: images/Site_VF.pdf used on input line 7346.
+Package pdftex.def Info: images/Site_VF.pdf used on input line 7347.
 (pdftex.def)             Requested size: 397.48502pt x 232.09302pt.
 
 [289 <./images/Boundary_Fugitives.pdf>]
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 7366
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 7367
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmss.fd
@@ -7351,52 +7361,52 @@ File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 File: images/OmaraFitA.pdf Graphic file (type pdf)
 
 <use images/OmaraFitA.pdf>
-Package pdftex.def Info: images/OmaraFitA.pdf used on input line 7385.
+Package pdftex.def Info: images/OmaraFitA.pdf used on input line 7386.
 (pdftex.def)             Requested size: 182.84576pt x 184.37602pt.
 
 <images/OmaraFitB.pdf, id=13541, 417.56683pt x 402.06935pt>
 File: images/OmaraFitB.pdf Graphic file (type pdf)
 
 <use images/OmaraFitB.pdf>
-Package pdftex.def Info: images/OmaraFitB.pdf used on input line 7387.
+Package pdftex.def Info: images/OmaraFitB.pdf used on input line 7388.
 (pdftex.def)             Requested size: 190.7911pt x 183.70872pt.
  [291 <./images/OmaraFitA.pdf> <./images/OmaraFitB.pdf>] [292] <images/Mitchell
 FitA.pdf, id=13604, 424.48958pt x 419.10799pt>
 File: images/MitchellFitA.pdf Graphic file (type pdf)
 
 <use images/MitchellFitA.pdf>
-Package pdftex.def Info: images/MitchellFitA.pdf used on input line 7439.
+Package pdftex.def Info: images/MitchellFitA.pdf used on input line 7440.
 (pdftex.def)             Requested size: 182.84576pt x 180.52628pt.
 
 <images/MitchellFitB.pdf, id=13605, 421.46599pt x 407.35402pt>
 File: images/MitchellFitB.pdf Graphic file (type pdf)
 
 <use images/MitchellFitB.pdf>
-Package pdftex.def Info: images/MitchellFitB.pdf used on input line 7441.
+Package pdftex.def Info: images/MitchellFitB.pdf used on input line 7442.
 (pdftex.def)             Requested size: 182.84576pt x 176.72517pt.
 
 
 Package natbib Warning: Citation `EIA2012' on page 293 undefined on input line 
-7450.
-
-
-Package natbib Warning: Citation `Marcheese2015' on page 293 undefined on input
- line 7452.
+7451.
 
 
 Package natbib Warning: Citation `Marcheese2015' on page 293 undefined on input
  line 7453.
 
 
+Package natbib Warning: Citation `Marcheese2015' on page 293 undefined on input
+ line 7454.
+
+
 Package natbib Warning: Citation `EIA2018' on page 293 undefined on input line 
-7453.
+7454.
 
 [293 <./images/MitchellFitA.pdf> <./images/MitchellFitB.pdf>]
 <images/Component_VF.pdf, id=13655, 549.05125pt x 388.45125pt>
 File: images/Component_VF.pdf Graphic file (type pdf)
 
 <use images/Component_VF.pdf>
-Package pdftex.def Info: images/Component_VF.pdf used on input line 7473.
+Package pdftex.def Info: images/Component_VF.pdf used on input line 7474.
 (pdftex.def)             Requested size: 397.48502pt x 281.22577pt.
  [294 <./images/Component_VF.pdf>]
 <images/FugitivesBootstrapLogicalFlow_v2.pdf, id=15315, 841.1425pt x 1596.96625
@@ -7404,16 +7414,16 @@ pt>
 File: images/FugitivesBootstrapLogicalFlow_v2.pdf Graphic file (type pdf)
  <use images/FugitivesBootstrapLogicalFlow_v2.pdf>
 Package pdftex.def Info: images/FugitivesBootstrapLogicalFlow_v2.pdf used on in
-put line 7485.
+put line 7486.
 (pdftex.def)             Requested size: 317.98921pt x 603.73442pt.
  [295]
-Overfull \hbox (4.31352pt too wide) in paragraph at lines 7525--7526
+Overfull \hbox (4.31352pt too wide) in paragraph at lines 7526--7527
 []\T1/ppl/m/n/10.95 Database of leak-age vol-umes for mea-sure-ments clas-si-fi
 ed as ``de-fault 0'' leaks. 
  []
 
 [296]
-Overfull \hbox (0.77792pt too wide) in paragraph at lines 7550--7551
+Overfull \hbox (0.77792pt too wide) in paragraph at lines 7551--7552
 []\T1/ppl/m/n/10.95 Ideally, users of OPGEE will have de-tailed databases on th
 e com-po-nents present
  []
@@ -7421,10 +7431,10 @@ e com-po-nents present
 [297]
 
 Package natbib Warning: Citation `Ravikumar2018' on page 298 undefined on input
- line 7583.
+ line 7584.
 
 [298]
-Overfull \hbox (8.89235pt too wide) in paragraph at lines 7585--7586
+Overfull \hbox (8.89235pt too wide) in paragraph at lines 7586--7587
 []\T1/ppl/m/n/10.95 Non-leaking emis-sions fac-tors are gen-er-ally less avail-
 able than leak-age databases.
  []
@@ -7432,20 +7442,20 @@ able than leak-age databases.
 [299] [300] [301 <./images/FugitivesBootstrapLogicalFlow_v2.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 7631.
+               Default added (so using `tbp') on input line 7632.
 
 
-Overfull \hbox (55.77185pt too wide) in alignment at lines 7635--7682
+Overfull \hbox (55.77185pt too wide) in alignment at lines 7636--7683
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7635--7684
+Underfull \hbox (badness 10000) in paragraph at lines 7636--7685
 
  []
 
 
-LaTeX Warning: Float too large for page by 46.21432pt on input line 7684.
+LaTeX Warning: Float too large for page by 46.21432pt on input line 7685.
 
 [302] [303
 
@@ -7454,131 +7464,131 @@ LaTeX Warning: Float too large for page by 46.21432pt on input line 7684.
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 7696.
+               Default added (so using `tbp') on input line 7697.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7702--7702
+Underfull \hbox (badness 10000) in paragraph at lines 7703--7703
 []|\T1/ppl/m/n/8 Industry
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7707--7707
+Underfull \hbox (badness 10000) in paragraph at lines 7708--7708
 \T1/ppl/m/n/8 plat-forms, gas
  []
 
 
-Overfull \hbox (8.3127pt too wide) in paragraph at lines 7712--7712
+Overfull \hbox (8.3127pt too wide) in paragraph at lines 7713--7713
 []|\T1/ppl/m/n/8 Clearstone2002| 
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 7712--7713
+Underfull \hbox (badness 2512) in paragraph at lines 7713--7714
 []|\T1/ppl/m/n/8 QL: Data re-quested and re-ceived
  []
 
 
-Overfull \hbox (7.97667pt too wide) in paragraph at lines 7717--7717
+Overfull \hbox (7.97667pt too wide) in paragraph at lines 7718--7718
 []|\T1/ppl/m/n/8 Greenpath2017| 
  []
 
 
-Overfull \hbox (2.18486pt too wide) in paragraph at lines 7719--7719
+Overfull \hbox (2.18486pt too wide) in paragraph at lines 7720--7720
 []|\T1/ppl/m/n/8 Harrison2011| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7719--7719
+Underfull \hbox (badness 10000) in paragraph at lines 7720--7720
 []|\T1/ppl/m/n/8 Compressor
  []
 
 
-Overfull \hbox (3.98479pt too wide) in paragraph at lines 7720--7720
+Overfull \hbox (3.98479pt too wide) in paragraph at lines 7721--7721
 []|\T1/ppl/m/n/8 Hendrick2016| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7721--7721
+Underfull \hbox (badness 10000) in paragraph at lines 7722--7722
 []|\T1/ppl/m/n/8 Compressor
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 7724--7724
+Underfull \hbox (badness 3849) in paragraph at lines 7725--7725
 []|\T1/ppl/m/n/8 Distribution pipe
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7726--7726
+Underfull \hbox (badness 10000) in paragraph at lines 7727--7727
 []|\T1/ppl/m/n/8 Gas plant (frac-
  []
 
 
-Overfull \hbox (17.77675pt too wide) in paragraph at lines 7727--7727
+Overfull \hbox (17.77675pt too wide) in paragraph at lines 7728--7728
 []|\T1/ppl/m/n/8 Subramanian2015| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7727--7727
+Underfull \hbox (badness 10000) in paragraph at lines 7728--7728
 []|\T1/ppl/m/n/8 Compressor
  []
 
 
-Overfull \hbox (27.01668pt too wide) in paragraph at lines 7729--7729
+Overfull \hbox (27.01668pt too wide) in paragraph at lines 7730--7730
 []|\T1/ppl/m/n/8 TownsendSmall2016| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7730--7730
+Underfull \hbox (badness 10000) in paragraph at lines 7731--7731
 []|\T1/ppl/m/n/8 Gathering and
  []
 
 
-Overfull \hbox (5.4087pt too wide) in paragraph at lines 7731--7731
+Overfull \hbox (5.4087pt too wide) in paragraph at lines 7732--7732
 []|\T1/ppl/m/n/8 Zimmerle2015| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7731--7731
+Underfull \hbox (badness 10000) in paragraph at lines 7732--7732
 []|\T1/ppl/m/n/8 Transmissions
  []
 
 
-Overfull \hbox (5.4087pt too wide) in paragraph at lines 7732--7732
+Overfull \hbox (5.4087pt too wide) in paragraph at lines 7733--7733
 []|\T1/ppl/m/n/8 Zimmerle2017| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7732--7732
+Underfull \hbox (badness 10000) in paragraph at lines 7733--7733
 []|\T1/ppl/m/n/8 Gathering sys-
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7700--7734
+Underfull \hbox (badness 10000) in alignment at lines 7701--7735
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7700--7736
+Underfull \hbox (badness 10000) in paragraph at lines 7701--7737
 
  []
 
 
-LaTeX Warning: Float too large for page by 123.71452pt on input line 7736.
+LaTeX Warning: Float too large for page by 123.71452pt on input line 7737.
 
 [304]
-Overfull \hbox (3.1764pt too wide) in paragraph at lines 7758--7759
+Overfull \hbox (3.1764pt too wide) in paragraph at lines 7759--7760
 []\T1/ppl/m/n/10.95 We ad-dress these three types of ac-tiv-ity fac-tors be-low
 . The sup-ple-men-tal OPGEE
  []
 
 
 Package natbib Warning: Citation `API1993' on page 305 undefined on input line 
-7763.
+7764.
 
 [305
 
 
 ] [306] [307] [308]
-Overfull \hbox (2.30028pt too wide) in paragraph at lines 7901--7902
+Overfull \hbox (2.30028pt too wide) in paragraph at lines 7902--7903
 []\T1/ppl/m/n/10.95 The re-sult-ing com-po-nent num-bers for each of the stan-d
 ard-ized equip-ment types
  []
@@ -7586,55 +7596,55 @@ ard-ized equip-ment types
 [309]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 7904.
+               Default added (so using `tbp') on input line 7905.
 
 
-Overfull \hbox (4.3481pt too wide) in paragraph at lines 7910--7910
+Overfull \hbox (4.3481pt too wide) in paragraph at lines 7911--7911
 []|\T1/ppl/m/n/8 Connector| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7910--7910
+Underfull \hbox (badness 10000) in paragraph at lines 7911--7911
 []|\T1/ppl/m/n/8 Open-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7910--7910
+Underfull \hbox (badness 10000) in paragraph at lines 7911--7911
 \T1/ppl/m/n/8 ended
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7910--7910
+Underfull \hbox (badness 10000) in paragraph at lines 7911--7911
 \T1/ppl/m/n/8 relief
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7910--7910
+Underfull \hbox (badness 10000) in paragraph at lines 7911--7911
 []|\T1/ppl/m/n/8 Comp.
  []
 
 
-Overfull \hbox (2.38802pt too wide) in paragraph at lines 7910--7910
+Overfull \hbox (2.38802pt too wide) in paragraph at lines 7911--7911
 []|\T1/ppl/m/n/8 Regulator| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7910--7910
+Underfull \hbox (badness 10000) in paragraph at lines 7911--7911
 []|\T1/ppl/m/n/8 Tank
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7908--7938
+Underfull \hbox (badness 10000) in alignment at lines 7909--7939
 [][][][][][][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7908--7940
+Underfull \hbox (badness 10000) in paragraph at lines 7909--7941
 
  []
 
 [310]
-Overfull \hbox (4.93333pt too wide) in paragraph at lines 7949--7950
+Overfull \hbox (4.93333pt too wide) in paragraph at lines 7950--7951
 \T1/ppl/m/n/10.95 in-stead re-sult in a con-tin-u-ous re-lease. For ex-am-ple, 
 well com-ple-tions and workovers
  []
@@ -7645,60 +7655,60 @@ well com-ple-tions and workovers
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 7970.
+               Default added (so using `tbp') on input line 7971.
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7974--7984
+Underfull \hbox (badness 10000) in alignment at lines 7975--7985
 [][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7974--7986
+Underfull \hbox (badness 10000) in paragraph at lines 7975--7987
 
  []
 
 
-Overfull \hbox (4.3481pt too wide) in paragraph at lines 7995--7995
+Overfull \hbox (4.3481pt too wide) in paragraph at lines 7996--7996
 []|\T1/ppl/m/n/8 Connector| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7995--7995
+Underfull \hbox (badness 10000) in paragraph at lines 7996--7996
 []|\T1/ppl/m/n/8 Open-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7995--7995
+Underfull \hbox (badness 10000) in paragraph at lines 7996--7996
 \T1/ppl/m/n/8 ended
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7995--7995
+Underfull \hbox (badness 10000) in paragraph at lines 7996--7996
 \T1/ppl/m/n/8 relief
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7995--7995
+Underfull \hbox (badness 10000) in paragraph at lines 7996--7996
 []|\T1/ppl/m/n/8 Comp.
  []
 
 
-Overfull \hbox (2.38802pt too wide) in paragraph at lines 7995--7995
+Overfull \hbox (2.38802pt too wide) in paragraph at lines 7996--7996
 []|\T1/ppl/m/n/8 Regulator| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7995--7995
+Underfull \hbox (badness 10000) in paragraph at lines 7996--7996
 []|\T1/ppl/m/n/8 Tank
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7993--8013
+Underfull \hbox (badness 10000) in alignment at lines 7994--8014
 [][][][][][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7993--8015
+Underfull \hbox (badness 10000) in paragraph at lines 7994--8016
 
  []
 
@@ -7706,73 +7716,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 7993--8015
 
 
 ]
-Underfull \hbox (badness 1253) in paragraph at lines 8054--8055
+Underfull \hbox (badness 1253) in paragraph at lines 8055--8056
 []|\T1/ppl/m/n/8 Contr. of
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 8052--8071
+Underfull \hbox (badness 10000) in alignment at lines 8053--8072
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8052--8073
+Underfull \hbox (badness 10000) in paragraph at lines 8053--8074
 
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 8085--8086
+Underfull \hbox (badness 1253) in paragraph at lines 8086--8087
 []|\T1/ppl/m/n/8 Contr. of
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 8083--8105
+Underfull \hbox (badness 10000) in alignment at lines 8084--8106
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8083--8107
+Underfull \hbox (badness 10000) in paragraph at lines 8084--8108
 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 8110.
+               Default added (so using `tbp') on input line 8111.
 
 <images/Components_Fat_Tail_Cumulative.pdf, id=15669, 574.145pt x 542.025pt>
 File: images/Components_Fat_Tail_Cumulative.pdf Graphic file (type pdf)
 
 <use images/Components_Fat_Tail_Cumulative.pdf>
 Package pdftex.def Info: images/Components_Fat_Tail_Cumulative.pdf used on inpu
-t line 8111.
+t line 8112.
 (pdftex.def)             Requested size: 278.2383pt x 262.67503pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 8116.
+               Default added (so using `tbp') on input line 8117.
 
 <images/Studies_Fat_Tail_Cumulative.pdf, id=15670, 574.145pt x 542.025pt>
 File: images/Studies_Fat_Tail_Cumulative.pdf Graphic file (type pdf)
 
 <use images/Studies_Fat_Tail_Cumulative.pdf>
 Package pdftex.def Info: images/Studies_Fat_Tail_Cumulative.pdf used on input l
-ine 8117.
+ine 8118.
 (pdftex.def)             Requested size: 278.2383pt x 262.67503pt.
  [314] [315 <./images/Components_Fat_Tail_Cumulative.pdf> <./images/Studies_Fat
 _Tail_Cumulative.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 8143.
+               Default added (so using `tbp') on input line 8144.
 
 <images/VF_Component_PercentilesEquip.pdf, id=15692, 758.835pt x 542.025pt>
 File: images/VF_Component_PercentilesEquip.pdf Graphic file (type pdf)
 
 <use images/VF_Component_PercentilesEquip.pdf>
 Package pdftex.def Info: images/VF_Component_PercentilesEquip.pdf used on input
- line 8144.
+ line 8145.
 (pdftex.def)             Requested size: 397.48502pt x 283.92227pt.
  [316] [317 <./images/VF_Component_PercentilesEquip.pdf>]
-Overfull \hbox (15.2862pt too wide) in paragraph at lines 8173--8174
+Overfull \hbox (15.2862pt too wide) in paragraph at lines 8174--8175
 []\T1/ppl/m/n/10.95 Repeat steps 4-9 for sec-ond dataset ``EF_W_COMP_WORKOVERS_
 NO_FRAC''
  []
@@ -7783,28 +7793,28 @@ NO_FRAC''
 File: images/HF_CO2.pdf Graphic file (type pdf)
 
 <use images/HF_CO2.pdf>
-Package pdftex.def Info: images/HF_CO2.pdf used on input line 8233.
+Package pdftex.def Info: images/HF_CO2.pdf used on input line 8234.
 (pdftex.def)             Requested size: 194.76984pt x 139.55492pt.
 
 <images/HF_CH4.pdf, id=15769, 543.50502pt x 395.86626pt>
 File: images/HF_CH4.pdf Graphic file (type pdf)
 
 <use images/HF_CH4.pdf>
-Package pdftex.def Info: images/HF_CH4.pdf used on input line 8235.
+Package pdftex.def Info: images/HF_CH4.pdf used on input line 8236.
 (pdftex.def)             Requested size: 194.76984pt x 141.85938pt.
 
 <images/Non_HF_CO2.pdf, id=15770, 538.68745pt x 399.67749pt>
 File: images/Non_HF_CO2.pdf Graphic file (type pdf)
 
 <use images/Non_HF_CO2.pdf>
-Package pdftex.def Info: images/Non_HF_CO2.pdf used on input line 8245.
+Package pdftex.def Info: images/Non_HF_CO2.pdf used on input line 8246.
 (pdftex.def)             Requested size: 194.76984pt x 144.51193pt.
 
 <images/Non_HF_CH4.pdf, id=15771, 541.63432pt x 395.95879pt>
 File: images/Non_HF_CH4.pdf Graphic file (type pdf)
 
 <use images/Non_HF_CH4.pdf>
-Package pdftex.def Info: images/Non_HF_CH4.pdf used on input line 8247.
+Package pdftex.def Info: images/Non_HF_CH4.pdf used on input line 8248.
 (pdftex.def)             Requested size: 194.76984pt x 142.38193pt.
 
 <images/PercentilesCO2WithHF.pdf, id=15772, 673.33313pt x 508.86186pt>
@@ -7812,22 +7822,22 @@ File: images/PercentilesCO2WithHF.pdf Graphic file (type pdf)
 
 <use images/PercentilesCO2WithHF.pdf>
 Package pdftex.def Info: images/PercentilesCO2WithHF.pdf used on input line 825
-7.
+8.
 (pdftex.def)             Requested size: 194.76984pt x 147.19345pt.
 
 <images/PercentilesCH4WithHF.pdf, id=15773, 669.80672pt x 503.33955pt>
 File: images/PercentilesCH4WithHF.pdf Graphic file (type pdf)
 
 <use images/PercentilesCH4WithHF.pdf>
-Package pdftex.def Info: images/PercentilesCH4WithHF.pdf used on input line 825
-9.
+Package pdftex.def Info: images/PercentilesCH4WithHF.pdf used on input line 826
+0.
 (pdftex.def)             Requested size: 194.76984pt x 146.3641pt.
 
 <images/PercentilesCO2NonHF.pdf, id=15774, 675.29604pt x 503.92067pt>
 File: images/PercentilesCO2NonHF.pdf Graphic file (type pdf)
 
 <use images/PercentilesCO2NonHF.pdf>
-Package pdftex.def Info: images/PercentilesCO2NonHF.pdf used on input line 8270
+Package pdftex.def Info: images/PercentilesCO2NonHF.pdf used on input line 8271
 .
 (pdftex.def)             Requested size: 194.76984pt x 145.34126pt.
 
@@ -7835,71 +7845,71 @@ Package pdftex.def Info: images/PercentilesCO2NonHF.pdf used on input line 8270
 File: images/PercentilesCH4NonHF.pdf Graphic file (type pdf)
 
 <use images/PercentilesCH4NonHF.pdf>
-Package pdftex.def Info: images/PercentilesCH4NonHF.pdf used on input line 8272
+Package pdftex.def Info: images/PercentilesCH4NonHF.pdf used on input line 8273
 .
 (pdftex.def)             Requested size: 194.76984pt x 144.40276pt.
  [320 <./images/HF_CO2.pdf> <./images/HF_CH4.pdf> <./images/Non_HF_CO2.pdf> <./
 images/Non_HF_CH4.pdf>] [321 <./images/PercentilesCO2WithHF.pdf> <./images/Perc
 entilesCH4WithHF.pdf> <./images/PercentilesCO2NonHF.pdf> <./images/PercentilesC
 H4NonHF.pdf>]
-Underfull \hbox (badness 1762) in paragraph at lines 8288--8288
+Underfull \hbox (badness 1762) in paragraph at lines 8289--8289
 []|\T1/ppl/m/n/8 Mean CO$[]$ emis-
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 8288--8289
+Underfull \hbox (badness 1472) in paragraph at lines 8289--8290
 []|\T1/ppl/m/n/8 Mean CH$[]$ emis-
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 8286--8305
+Underfull \hbox (badness 10000) in alignment at lines 8287--8306
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8286--8307
+Underfull \hbox (badness 10000) in paragraph at lines 8287--8308
 
  []
 
 [322]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 8320.
+               Default added (so using `tbp') on input line 8321.
 
 <images/Liquids_Unloading.pdf, id=15965, 794.97pt x 614.295pt>
 File: images/Liquids_Unloading.pdf Graphic file (type pdf)
 
 <use images/Liquids_Unloading.pdf>
-Package pdftex.def Info: images/Liquids_Unloading.pdf used on input line 8321.
+Package pdftex.def Info: images/Liquids_Unloading.pdf used on input line 8322.
 (pdftex.def)             Requested size: 317.98921pt x 245.723pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 8333--8333
+Underfull \hbox (badness 10000) in paragraph at lines 8334--8334
 []|\T1/ppl/m/n/8 Prod-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8333--8333
+Underfull \hbox (badness 10000) in paragraph at lines 8334--8334
 \T1/ppl/m/n/8 weighted
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8336--8336
+Underfull \hbox (badness 10000) in paragraph at lines 8337--8337
 []|\T1/ppl/m/n/8 Automatic
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 8331--8341
+Underfull \hbox (badness 10000) in alignment at lines 8332--8342
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8331--8343
+Underfull \hbox (badness 10000) in paragraph at lines 8332--8344
 
  []
 
 
 Package natbib Warning: Citation `ZimmerleEmail' on page 323 undefined on input
- line 8354.
+ line 8355.
 
 [323
 
@@ -7907,25 +7917,25 @@ Package natbib Warning: Citation `ZimmerleEmail' on page 323 undefined on input
 ]
 
 Package natbib Warning: Citation `EIA2018' on page 324 undefined on input line 
-8356.
+8357.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8370--8370
+Underfull \hbox (badness 10000) in paragraph at lines 8371--8371
 []|\T1/ppl/m/n/8 Affected
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8370--8370
+Underfull \hbox (badness 10000) in paragraph at lines 8371--8371
 []|\T1/ppl/m/n/8 Fugitive
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 8368--8378
+Underfull \hbox (badness 10000) in alignment at lines 8369--8379
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8368--8380
+Underfull \hbox (badness 10000) in paragraph at lines 8369--8381
 
  []
 
@@ -7942,18 +7952,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 
 LaTeX Warning: Reference `sec:steam_injection' on page 327 undefined on input l
-ine 8440.
+ine 8441.
 
 [327] [328]
 Chapter 11.
 
-Overfull \hbox (4.93872pt too wide) in paragraph at lines 8486--8487
+Overfull \hbox (4.93872pt too wide) in paragraph at lines 8487--8488
 []\T1/ppl/m/n/10.95 Production tech-nolo-gies in-cluded in OPGEE are: pri-mary 
 pro-duc-tion, sec-ondary
  []
 
 
-Overfull \hbox (19.1352pt too wide) in paragraph at lines 8486--8487
+Overfull \hbox (19.1352pt too wide) in paragraph at lines 8487--8488
 \T1/ppl/m/n/10.95 pro-duc-tion (wa-ter flood-ing), and ma-jor ter-tiary re-cov-
 ery tech-nolo-gies (steam injection).
  []
@@ -7969,27 +7979,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ] [330] [331]
 Appendix A.
 
-Underfull \hbox (badness 2384) in paragraph at lines 8568--8568
+Underfull \hbox (badness 2384) in paragraph at lines 8569--8569
 []|\T1/ppl/m/n/8 Acronymor ab-
  []
 
 
-Overfull \hbox (4.12451pt too wide) in paragraph at lines 8568--8568
+Overfull \hbox (4.12451pt too wide) in paragraph at lines 8569--8569
 [] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 8568--8568
+Overfull \hbox (12.0pt too wide) in paragraph at lines 8569--8569
 [] 
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 8568--8568
+Underfull \hbox (badness 2384) in paragraph at lines 8569--8569
 []\T1/ppl/m/n/8 Acronymor ab-
  []
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 8568--8611
+Overfull \hbox (12.0pt too wide) in alignment at lines 8569--8612
 [][] 
  []
 
@@ -8002,17 +8012,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [332
 
 ]
-Underfull \hbox (badness 2384) in paragraph at lines 8611--8611
+Underfull \hbox (badness 2384) in paragraph at lines 8612--8612
 []\T1/ppl/m/n/8 Acronymor ab-
  []
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 8611--8635
+Overfull \hbox (12.0pt too wide) in alignment at lines 8612--8636
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8611--8637
+Underfull \hbox (badness 10000) in paragraph at lines 8612--8638
 
  []
 
@@ -8027,39 +8037,39 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [334
 
 ]
-Overfull \hbox (4.12453pt too wide) in paragraph at lines 8671--8671
+Overfull \hbox (4.12453pt too wide) in paragraph at lines 8672--8672
 [] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 8671--8671
+Overfull \hbox (12.0pt too wide) in paragraph at lines 8672--8672
 [] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 8671--8731
+Overfull \hbox (12.0pt too wide) in alignment at lines 8672--8732
 [][] 
  []
 
 [335
 
 ]
-Overfull \hbox (12.0pt too wide) in alignment at lines 8731--8794
+Overfull \hbox (12.0pt too wide) in alignment at lines 8732--8795
 [][] 
  []
 
 [336]
-Overfull \hbox (12.0pt too wide) in alignment at lines 8794--8856
+Overfull \hbox (12.0pt too wide) in alignment at lines 8795--8857
 [][] 
  []
 
 [337]
-Overfull \hbox (12.0pt too wide) in alignment at lines 8856--8881
+Overfull \hbox (12.0pt too wide) in alignment at lines 8857--8882
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8856--8883
+Underfull \hbox (badness 10000) in paragraph at lines 8857--8884
 
  []
 
@@ -8074,156 +8084,156 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [339
 
 ]
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 8902--8902
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 8903--8903
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8902--8902
+Underfull \hbox (badness 10000) in paragraph at lines 8903--8903
 []|\T1/ppl/b/n/8 Estimated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8942--8942
+Underfull \hbox (badness 10000) in paragraph at lines 8943--8943
 []|\T1/ppl/m/n/8 Energy con-sump-tion (other than prime
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 8948--8948
+Underfull \hbox (badness 2158) in paragraph at lines 8949--8949
 []|\T1/ppl/m/n/8 Fracturing fluid dis-
  []
 
 
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 8965--8965
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 8966--8966
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8965--8965
+Underfull \hbox (badness 10000) in paragraph at lines 8966--8966
 []|\T1/ppl/b/n/8 Estimated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8997--8997
+Underfull \hbox (badness 10000) in paragraph at lines 8998--8998
 []|\T1/ppl/m/n/8 Water rein-jec-tion
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 8997--8997
+Underfull \hbox (badness 1603) in paragraph at lines 8998--8998
 []|\T1/ppl/m/n/8 Various drilling emis-sions from rein-jec-tion
  []
 
 
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 9037--9037
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 9038--9038
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9037--9037
+Underfull \hbox (badness 10000) in paragraph at lines 9038--9038
 []|\T1/ppl/b/n/8 Estimated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9061--9061
+Underfull \hbox (badness 10000) in paragraph at lines 9062--9062
 []|\T1/ppl/m/n/8 NG, pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9061--9061
+Underfull \hbox (badness 10000) in paragraph at lines 9062--9062
 \T1/ppl/m/n/8 duced
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9063--9063
+Underfull \hbox (badness 10000) in paragraph at lines 9064--9064
 []|\T1/ppl/m/n/8 Low,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9067--9067
+Underfull \hbox (badness 10000) in paragraph at lines 9068--9068
 []|\T1/ppl/m/n/8 Grid mix
  []
 
 
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 9094--9094
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 9095--9095
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9094--9094
+Underfull \hbox (badness 10000) in paragraph at lines 9095--9095
 []|\T1/ppl/b/n/8 Estimated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9100--9100
+Underfull \hbox (badness 10000) in paragraph at lines 9101--9101
 []|\T1/ppl/m/n/8 Variations
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9100--9100
+Underfull \hbox (badness 10000) in paragraph at lines 9101--9101
 \T1/ppl/m/n/8 in flare
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9102--9102
+Underfull \hbox (badness 10000) in paragraph at lines 9103--9103
 []|\T1/ppl/m/n/8 Variations
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9102--9102
+Underfull \hbox (badness 10000) in paragraph at lines 9103--9103
 \T1/ppl/m/n/8 in flare
  []
 
 
-Overfull \vbox (9.50002pt too high) detected at line 9114
+Overfull \vbox (9.50002pt too high) detected at line 9115
  []
 
 
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 9139--9139
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 9140--9140
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9139--9139
+Underfull \hbox (badness 10000) in paragraph at lines 9140--9140
 []|\T1/ppl/b/n/8 Estimated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9153--9153
+Underfull \hbox (badness 10000) in paragraph at lines 9154--9154
 []|\T1/ppl/m/n/8 Other main-te-
  []
 
 
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 9166--9166
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 9167--9167
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9166--9166
+Underfull \hbox (badness 10000) in paragraph at lines 9167--9167
 []|\T1/ppl/b/n/8 Estimated
  []
 
 
-Underfull \hbox (badness 4832) in paragraph at lines 9168--9168
+Underfull \hbox (badness 4832) in paragraph at lines 9169--9169
 []|\T1/ppl/m/n/8 Subsurface dis-posal of con-cen-trated WW
  []
 
 
-Overfull \hbox (4.12704pt too wide) in paragraph at lines 9186--9186
+Overfull \hbox (4.12704pt too wide) in paragraph at lines 9187--9187
 \T1/ppl/m/n/8 decommissioning|  
  []
 
 
-Overfull \hbox (4.12704pt too wide) in paragraph at lines 9190--9190
+Overfull \hbox (4.12704pt too wide) in paragraph at lines 9191--9191
 \T1/ppl/m/n/8 decommissioning|  
  []
 
 
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 9207--9207
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 9208--9208
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9207--9207
+Underfull \hbox (badness 10000) in paragraph at lines 9208--9208
 []|\T1/ppl/b/n/8 Estimated
  []
 
@@ -8233,10 +8243,10 @@ Appendix D.
 File: images/macro_logic_2a.pdf Graphic file (type pdf)
 
 <use images/macro_logic_2a.pdf>
-Package pdftex.def Info: images/macro_logic_2a.pdf used on input line 9260.
+Package pdftex.def Info: images/macro_logic_2a.pdf used on input line 9261.
 (pdftex.def)             Requested size: 317.98921pt x 423.99634pt.
 
-Overfull \hbox (2.1557pt too wide) in paragraph at lines 9267--9268
+Overfull \hbox (2.1557pt too wide) in paragraph at lines 9268--9269
 []\T1/ppl/m/n/10.95 Discrepancies be-tween country-average de-fault flar-ing ra
 te and en-tered GOR
  []
@@ -8245,7 +8255,7 @@ te and en-tered GOR
 File: images/macro_logic_3.pdf Graphic file (type pdf)
 
 <use images/macro_logic_3.pdf>
-Package pdftex.def Info: images/macro_logic_3.pdf used on input line 9281.
+Package pdftex.def Info: images/macro_logic_3.pdf used on input line 9282.
 (pdftex.def)             Requested size: 317.98921pt x 423.99634pt.
 
 
@@ -8262,25 +8272,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [349]
 Appendix E.
 
-Overfull \hbox (2.19928pt too wide) in paragraph at lines 9322--9324
+Overfull \hbox (2.19928pt too wide) in paragraph at lines 9323--9325
 []\T1/ppl/m/n/10.95 We have im-ple-mented duct fir-ing in OPGEE 2.0b, as part o
 f a re-implemented
  []
 
 
-Overfull \hbox (13.62035pt too wide) in paragraph at lines 9336--9337
+Overfull \hbox (13.62035pt too wide) in paragraph at lines 9337--9338
 []\T1/ppl/m/n/10.95 Added emis-sions from seis-mic ex-plo-ration ef-forts, non-
 productive drilling
  []
 
 
-Overfull \hbox (0.29439pt too wide) in paragraph at lines 9340--9341
+Overfull \hbox (0.29439pt too wide) in paragraph at lines 9341--9342
 []\T1/ppl/m/n/10.95 Included trans-port en-ergy use in "En-ergy con-sump-tion" 
 gath-er-ing sheet 
  []
 
 
-Overfull \hbox (19.08725pt too wide) in paragraph at lines 9343--9344
+Overfull \hbox (19.08725pt too wide) in paragraph at lines 9344--9345
 []\T1/ppl/m/n/10.95 Included truck trans-port us-ing heavy-duty diesel ve-hi-cl
 e from []\T1/cmtt/m/n/10.95 GREET1_2013
  []
@@ -8294,43 +8304,43 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [350
 
 ]
-Overfull \hbox (5.78056pt too wide) in paragraph at lines 9354--9355
+Overfull \hbox (5.78056pt too wide) in paragraph at lines 9355--9356
 []\T1/ppl/m/n/10.95 New com-pres-sor work cal-cu-la-tions on "Com-pres-sor" sup
 -ple-men-tal sheet 
  []
 
 
-Overfull \hbox (12.71204pt too wide) in paragraph at lines 9356--9357
+Overfull \hbox (12.71204pt too wide) in paragraph at lines 9357--9358
 []\T1/ppl/m/n/10.95 New gas pro-cess-ing tech-nolo-gies in-clud-ing mem-branes 
 and Ryan-Holmes 
  []
 
 [351]
-Overfull \hbox (1.6957pt too wide) in paragraph at lines 9406--9408
+Overfull \hbox (1.6957pt too wide) in paragraph at lines 9407--9409
 []\T1/ppl/m/n/10.95 Pneumatic de-vices (con-trollers and chem-i-cal injection p
 umps) added as vent-
  []
 
 [352] [353] [354]
-Overfull \hbox (13.25928pt too wide) in paragraph at lines 9528--9530
+Overfull \hbox (13.25928pt too wide) in paragraph at lines 9529--9531
 []\T1/ppl/m/n/10.95 More de-tailed demeth-a-nizer model now in-cludes en-ergy c
 on-sumed by demeth-
  []
 
 
-Overfull \hbox (6.8863pt too wide) in paragraph at lines 9533--9534
+Overfull \hbox (6.8863pt too wide) in paragraph at lines 9534--9535
 []\T1/ppl/m/n/10.95 Updated gath-er-ing work-sheets to in-clude en-ergy con-sum
 p-tion and emis-
  []
 
 
-Overfull \hbox (2.90091pt too wide) in paragraph at lines 9543--9544
+Overfull \hbox (2.90091pt too wide) in paragraph at lines 9544--9545
 []\T1/ppl/m/n/10.95 Works with lim-ited datasets, and fills in de-faults or sma
 rt de-faults where
  []
 
 [355]
-Overfull \hbox (6.31648pt too wide) in paragraph at lines 9565--9566
+Overfull \hbox (6.31648pt too wide) in paragraph at lines 9566--9567
 []\T1/ppl/m/n/10.95 Heating value ba-sis in Bi-tu-men Ex-trac-tion & Up-grad-in
 g work-sheet is changed
  []
@@ -8417,12 +8427,12 @@ el-li-gence Agency,
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 9661.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 9662.
 [374]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 9661.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 9662.
  (./OPGEE_v3.0_methodology.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 9661.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 9661.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 9662.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 9662.
 
 Package rerunfilecheck Info: File `OPGEE_v3.0_methodology.out' has not changed.
 
@@ -8434,14 +8444,14 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 9661.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 9662.
  )
 (\end occurred inside a group at level 4)
 
-### simple group (level 4) entered at line 6743 ({)
-### simple group (level 3) entered at line 6743 ({)
-### simple group (level 2) entered at line 6743 ({)
-### simple group (level 1) entered at line 5568 ({)
+### simple group (level 4) entered at line 6744 ({)
+### simple group (level 3) entered at line 6744 ({)
+### simple group (level 2) entered at line 6744 ({)
+### simple group (level 1) entered at line 5569 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
  24700 strings out of 493014
@@ -8469,7 +8479,7 @@ ve/2016/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive
 mf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
 /type1/urw/palatino/uplri8a.pfb>
-Output written on OPGEE_v3.0_methodology.pdf (374 pages, 12169841 bytes).
+Output written on OPGEE_v3.0_methodology.pdf (374 pages, 12169910 bytes).
 PDF statistics:
  16771 PDF objects out of 18468 (max. 8388607)
  13479 compressed objects within 135 object streams

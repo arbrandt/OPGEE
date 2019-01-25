@@ -4997,7 +4997,7 @@ Sulfur emission environmental regulations against H$_2$S toxicity are becoming i
 
 The Claus process is the most famous and well-stablished gas desulfurizing process, capturing elemental sulfur from gaseous hydrogen sulfide, carbonyl sulfide, carbon disulfide, sulfur dioxide, and other sulfur-containing species in a series of thermal and chemical reactions \cite{ClausAspen}. The majority of sulfur produced is byproduct sulfur from petrochemical plants. The elemental sulfur (S) is used for manufacturing sulfuric acid, medicine, cosmetics, fertilizers, pesticide, and rubber products.
 
-In a Claus process, acid gases from the AGR unit (see Figure \ref{fig:Aspen_AGR_general}) is sent to a reaction furnace with air at high temperature. Rapid reactions at 1000-1400$^\circ$C take place to convert one third of the total inlet H$_2$S to SO$_2$ at the outlet. Following heat recovery, elemental sulfur produced in the furnace is drawn out of the system using a low temperature condenser at about 130$^\circ$C. The remaining gaseous effluent is sent through several (typically 2 or 3) catalytic sections in series operating at 170-370$^\circ$C, which continue to convert the remaining SO$_2$ and H$_2$S to elemental sulfur and water (see below reactions). A cumulative sulfur recovery of >98\%\ is typically targeted \cite{ClausAspen}. The gaseous effluent from the last catalytic stage condenser is low in sulfur compounds, but may require some additional treating to meet flare gas specifications. This gas is sent to tail gas treating processing, which can contain process units such as a hydrogenation bed, reducing gas generator, quench tower, amine absorber, incinerator and flare.
+In a Claus process, acid gases from the AGR unit (see Figure \ref{fig:Aspen_AGR_general}) is sent to a reaction furnace with air at high temperature. Rapid reactions at 1832-2552$^\circ$F take place to convert one third of the total inlet H$_2$S to SO$_2$ at the outlet. Following heat recovery, elemental sulfur produced in the furnace is drawn out of the system using a low temperature condenser at about 266$^\circ$F. The remaining gaseous effluent is sent through several (typically 2 or 3) catalytic sections in series operating at 338-698$^\circ$F, which continue to convert the remaining SO$_2$ and H$_2$S to elemental sulfur and water (see below reactions). A cumulative sulfur recovery of >98\%\ is typically targeted \cite{ClausAspen}. The gaseous effluent from the last catalytic stage condenser is low in sulfur compounds, but may require some additional treating to meet flare gas specifications. This gas is sent to tail gas treating processing, which can contain process units such as a hydrogenation bed, reducing gas generator, quench tower, amine absorber, incinerator and flare.
 \begin{align*}
 
 \ce{3H2S + 1.5O2 -> SO2 + 2H2S + H2O}
@@ -5044,6 +5044,7 @@ WHE type {[}-{]}                              &  Single pass\\
 WHE vapor out temperature {[}$^\circ$F{]}  &     572  	  \\ 
 Condensers vapor out temperature {[}$^\circ$F{]}         &      275    \\
 Sulfur recovery efficiency specified target value {[}\%\{]}            &    99\\
+Converter 1, 2, and 3 Intel streams temperatures {[}$^\circ$F{]}         &      518, 410, and 392     \\ 
 Catalytic converter catalyst {[}-{]}                 &              Alumina \\
 Catalytic converter space velocity {[}1/h{]}                     &      1000    \\
 Incinerator fuel gas C$_1$, C$_2$, and C$_3$ mole concentrations {[}mol. fraction{]}         &        0.95, 0.04, 0.01    \\
@@ -5242,7 +5243,7 @@ As different mole fractions of methane and ethane are explored, the remaining sp
 \begin{scriptsize}
 \caption{Settings for fixed operating parameters in Aspen HYSYS demethanizer plant simulations.}
 \label{tab:demethanizer_aspen1}
-\begin{tabular*}{0.75\columnwidth}{p{0.4\columnwidth}p{0.35\columnwidth}}
+\begin{tabular*}{1\columnwidth}{p{0.5\columnwidth}p{0.45\columnwidth}}
 \toprule
 Fixed variables & Value\\
 \midrule
@@ -5265,7 +5266,7 @@ The ranges of independent variables selected based on literature \cite{Manning19
 \begin{scriptsize}
 \caption{Ranges of independent variables explored in generating predictive proxy models using Aspen HYSYS for demethanizer plant.}
 \label{tab:demethanizer_aspen2}
-\begin{tabular*}{0.75\columnwidth}{p{0.4\columnwidth}p{0.35\columnwidth}}
+\begin{tabular*}{1\columnwidth}{p{0.5\columnwidth}p{0.45\columnwidth}}
 \toprule
 Fixed variables & Value\\
 \midrule
