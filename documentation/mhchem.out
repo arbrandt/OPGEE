@@ -1,0 +1,56 @@
+\BOOKMARK [0][]{chapter*.2}{The mhchem Package}{}% 1
+\BOOKMARK [1][]{section*.3}{Work in Progress}{chapter*.2}% 2
+\BOOKMARK [1][]{section*.4}{Preamble}{chapter*.2}% 3
+\BOOKMARK [1][]{section*.5}{Chemical Equations}{chapter*.2}% 4
+\BOOKMARK [1][]{section*.6}{Chemical Formulae}{chapter*.2}% 5
+\BOOKMARK [1][]{section*.7}{Charges}{chapter*.2}% 6
+\BOOKMARK [1][]{section*.8}{Oxidation States}{chapter*.2}% 7
+\BOOKMARK [1][]{section*.9}{Stoichiometric Numbers}{chapter*.2}% 8
+\BOOKMARK [1][]{section*.10}{Isotopes}{chapter*.2}% 9
+\BOOKMARK [1][]{section*.11}{Parenthesis, Brackets, Braces}{chapter*.2}% 10
+\BOOKMARK [1][]{section*.12}{States of Aggregation}{chapter*.2}% 11
+\BOOKMARK [1][]{section*.13}{Unpaired Electrons, Radical Dots}{chapter*.2}% 12
+\BOOKMARK [1][]{section*.14}{Variables like x, n, 2n+1}{chapter*.2}% 13
+\BOOKMARK [1][]{section*.15}{Greek Characters}{chapter*.2}% 14
+\BOOKMARK [1][]{section*.16}{\(Italic\) Math}{chapter*.2}% 15
+\BOOKMARK [1][]{section*.17}{Italic Text}{chapter*.2}% 16
+\BOOKMARK [1][]{section*.18}{Escape Parsing, Upright Text}{chapter*.2}% 17
+\BOOKMARK [1][]{section*.19}{Addition Compounds}{chapter*.2}% 18
+\BOOKMARK [1][]{section*.20}{Bonds}{chapter*.2}% 19
+\BOOKMARK [1][]{section*.21}{Reaction Arrows}{chapter*.2}% 20
+\BOOKMARK [1][]{section*.22}{Equation Operators}{chapter*.2}% 21
+\BOOKMARK [1][]{section*.23}{Precipitate and Gas}{chapter*.2}% 22
+\BOOKMARK [1][]{section*.24}{Further Examples}{chapter*.2}% 23
+\BOOKMARK [1][]{section*.25}{Equation Environments}{chapter*.2}% 24
+\BOOKMARK [2][]{section*.26}{Aligning Equations}{section*.25}% 25
+\BOOKMARK [2][]{section*.27}{Own Equation Command}{section*.25}% 26
+\BOOKMARK [1][]{section*.28}{Splitting the \134ce command}{chapter*.2}% 27
+\BOOKMARK [2][]{section*.29}{Comma Example}{section*.28}% 28
+\BOOKMARK [2][]{section*.30}{Layer Stacks}{section*.28}% 29
+\BOOKMARK [2][]{section*.31}{The Details}{section*.28}% 30
+\BOOKMARK [1][]{section*.32}{Fine Tuning}{chapter*.2}% 31
+\BOOKMARK [2][]{section*.33}{Text Font and Math Font}{section*.32}% 32
+\BOOKMARK [2][]{section*.34}{Greek Font}{section*.32}% 33
+\BOOKMARK [2][]{section*.35}{Arrows}{section*.32}% 34
+\BOOKMARK [2][]{section*.36}{Stacked Superscripts and Subscripts}{section*.32}% 35
+\BOOKMARK [1][]{section*.37}{Rudimentary TeX4HT \(htlatex\) support}{chapter*.2}% 36
+\BOOKMARK [1][]{section*.38}{Major Changes}{chapter*.2}% 37
+\BOOKMARK [2][]{section*.39}{Migrating from version 1}{section*.38}% 38
+\BOOKMARK [2][]{section*.40}{Migrating from version 2}{section*.38}% 39
+\BOOKMARK [2][]{section*.41}{Migrating from version 3}{section*.38}% 40
+\BOOKMARK [1][]{section*.42}{Most Recent Changes}{chapter*.2}% 41
+\BOOKMARK [0][]{chapter*.43}{The hpstatement Package and the rsphrase Package}{}% 42
+\BOOKMARK [1][]{section*.44}{Usage}{chapter*.43}% 43
+\BOOKMARK [1][]{section*.45}{Most Recent Changes}{chapter*.43}% 44
+\BOOKMARK [0][]{chapter*.46}{Appendix}{}% 45
+\BOOKMARK [1][]{section*.47}{List of Implemented H and P Statements}{chapter*.46}% 46
+\BOOKMARK [2][]{section*.48}{English}{section*.47}% 47
+\BOOKMARK [2][]{section*.49}{French}{section*.47}% 48
+\BOOKMARK [2][]{section*.50}{German}{section*.47}% 49
+\BOOKMARK [1][]{section*.51}{List of Implemented R and S Phrases}{chapter*.46}% 50
+\BOOKMARK [2][]{section*.52}{English}{section*.51}% 51
+\BOOKMARK [2][]{section*.53}{Danish}{section*.51}% 52
+\BOOKMARK [2][]{section*.54}{French}{section*.51}% 53
+\BOOKMARK [2][]{section*.55}{German}{section*.51}% 54
+\BOOKMARK [2][]{section*.56}{Italian}{section*.51}% 55
+\BOOKMARK [2][]{section*.57}{Spanish}{section*.51}% 56

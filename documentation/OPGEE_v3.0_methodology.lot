@@ -1,125 +1,130 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Emissions classification, order of magnitude emissions, and significance description.\relax }}{24}{table.caption.7}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Emissions classification, order of magnitude emissions, and significance description.\relax }}{25}{table.caption.7}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Mean and median injector to producer ratios.\relax }}{52}{table.caption.48}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Data on production, number of production wells, and number of injection wells by offshore field.\relax }}{55}{table.caption.50}
-\contentsline {table}{\numberline {4.3}{\ignorespaces GOR values by crude oil API gravity bin.\relax }}{58}{table.caption.53}
-\contentsline {table}{\numberline {4.4}{\ignorespaces Indicators of SOR distributions for California and Alberta thermal EOR production. Units are bbl of cold water equivalent (CWE) per bbl of oil.\relax }}{61}{table.caption.56}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Mean and median injector to producer ratios.\relax }}{53}{table.caption.48}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Data on production, number of production wells, and number of injection wells by offshore field.\relax }}{56}{table.caption.50}
+\contentsline {table}{\numberline {4.3}{\ignorespaces GOR values by crude oil API gravity bin.\relax }}{59}{table.caption.53}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Indicators of SOR distributions for California and Alberta thermal EOR production. Units are bbl of cold water equivalent (CWE) per bbl of oil.\relax }}{62}{table.caption.56}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Properties computed for each stream: Symbol, description, units, and source of relevant equation.\relax }}{63}{table.caption.57}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Source of API gravity for oil streams.\relax }}{65}{table.caption.59}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Constants in equations for liquid stream properties.\relax }}{68}{table.caption.67}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Default inputs for exploration emissions\relax }}{81}{table.caption.90}
-\contentsline {table}{\numberline {7.2}{\ignorespaces Hole diameters for different casing sections under three wellbore designs (in.)\relax }}{83}{table.caption.92}
-\contentsline {table}{\numberline {7.3}{\ignorespaces Bottomhole depth for different segments (ft.)\relax }}{83}{table.caption.94}
-\contentsline {table}{\numberline {7.4}{\ignorespaces Constants for quadratic fit of fracturing fuel consumption equation\relax }}{90}{table.caption.100}
-\contentsline {table}{\numberline {7.5}{\ignorespaces Land use GHG emissions for 30 year analysis period from field drilling and development in OPGEE for conventional oil operations [g CO$_2$ eq./MJ of crude oil produced]. Data from Yeh et al \cite {Yeh2010}.\relax }}{91}{table.caption.102}
-\contentsline {table}{\numberline {7.6}{\ignorespaces Land use GHG emissions for 150 year analysis period from field drilling and development in OPGEE for conventional oil operations [g CO$_2$ eq./MJ of crude oil produced]. Data from Yeh et al \cite {Yeh2010}.\relax }}{92}{table.caption.103}
-\contentsline {table}{\numberline {7.7}{\ignorespaces Default inputs for drilling calculations.\relax }}{93}{table.caption.104}
-\contentsline {table}{\numberline {7.8}{\ignorespaces Streams flowing into and out of the reservoir-well interface process. I/O denotes input or output stream\relax }}{95}{table.caption.105}
-\contentsline {table}{\numberline {7.9}{\ignorespaces Streams flowing into and out of the wellbore/downhole pump process. I/O denotes input or output stream\relax }}{97}{table.caption.107}
-\contentsline {table}{\numberline {7.10}{\ignorespaces Streams flowing into and out of the wellbore/downhole pump process. I/O denotes input or output stream\relax }}{99}{table.caption.108}
-\contentsline {table}{\numberline {7.11}{\ignorespaces Secondary parameter inputs to the wellbore/downhole pump worksheet\relax }}{99}{table.caption.110}
-\contentsline {table}{\numberline {7.12}{\ignorespaces Reynold's number (Re) ranges of different flow patterns. Data from McAllister \cite {Mcallister2009}.\relax }}{102}{table.caption.112}
-\contentsline {table}{\numberline {7.13}{\ignorespaces Streams flowing into and out of the bitumen mining process. I/O denotes input or output stream\relax }}{106}{table.caption.114}
-\contentsline {table}{\numberline {7.14}{\ignorespaces Secondary parameter inputs to the bitumen mining worksheet\relax }}{106}{table.caption.116}
-\contentsline {table}{\numberline {7.15}{\ignorespaces Characteristics of operating mining projects\relax }}{108}{table.caption.117}
-\contentsline {table}{\numberline {7.16}{\ignorespaces Non-integrated PFT mining energy intensities\relax }}{111}{table.caption.123}
-\contentsline {table}{\numberline {7.17}{\ignorespaces Comparison between stand-alone mine energy consumption estimates based on COSIA mine template to integrated NFT mining and upgrading energy consumption reported by AER\relax }}{113}{table.caption.126}
-\contentsline {table}{\numberline {7.18}{\ignorespaces Integrated NFT mining energy intensities\relax }}{114}{table.caption.128}
-\contentsline {table}{\numberline {7.19}{\ignorespaces Streams flowing into and out of the separation process. I/O denotes input or output stream\relax }}{118}{table.caption.131}
-\contentsline {table}{\numberline {7.20}{\ignorespaces Secondary parameter inputs to the separator worksheet\relax }}{118}{table.caption.133}
-\contentsline {table}{\numberline {7.21}{\ignorespaces Streams flowing into and out of the crude oil dewatering process. I/O denotes input or output stream\relax }}{120}{table.caption.134}
-\contentsline {table}{\numberline {7.22}{\ignorespaces Secondary parameter inputs to the crude oil dewatering worksheet.\relax }}{120}{table.caption.136}
-\contentsline {table}{\numberline {7.23}{\ignorespaces Streams flowing into and out of the \textit {`{Crude oil stabilization}'} process. I/O denotes input or output stream\relax }}{123}{table.caption.137}
-\contentsline {table}{\numberline {7.24}{\ignorespaces Secondary parameter inputs to the \textit {`{Crude oil stabilization}'} worksheet.\relax }}{123}{table.caption.139}
-\contentsline {table}{\numberline {7.25}{\ignorespaces Streams flowing into and out of the heavy oil upgrading process. I/O denotes input or output stream\relax }}{124}{table.caption.140}
-\contentsline {table}{\numberline {7.26}{\ignorespaces Inputs to OPGEE upgrading module from the Oil Sands Technology Upgrading Model (OSTUM)\relax }}{130}{table.caption.143}
-\contentsline {table}{\numberline {7.27}{\ignorespaces Streams flowing into and out of the \textit {`{Heavy oil dilution}'} module. I/O denotes input or output stream\relax }}{132}{table.caption.144}
-\contentsline {table}{\numberline {7.28}{\ignorespaces Secondary parameter inputs to the \textit {`{Heavy oil dilution}'} worksheet.\relax }}{132}{table.caption.146}
-\contentsline {table}{\numberline {7.29}{\ignorespaces Streams flowing into and out of the crude oil storage module. I/O denotes input or output stream\relax }}{133}{table.caption.147}
-\contentsline {table}{\numberline {7.30}{\ignorespaces Secondary inputs for crude oil storage.\relax }}{135}{table.7.30}
-\contentsline {table}{\numberline {7.31}{\ignorespaces Streams flowing into and out of the produced water treatment process. I/O denotes input or output stream\relax }}{136}{table.caption.149}
-\contentsline {table}{\numberline {7.32}{\ignorespaces Typical concentrations of process water pollutants. Table from Vlasopoulos et al \cite {Vlasopoulos2006}.\relax }}{136}{table.caption.151}
-\contentsline {table}{\numberline {7.33}{\ignorespaces Categorization of water treatment technologies. Table based on table from Vlasopoulos et al. \cite {Vlasopoulos2006}, with minor modifications\relax }}{138}{table.caption.152}
-\contentsline {table}{\numberline {7.34}{\ignorespaces Default inputs for surface processing.\relax }}{140}{table.7.34}
-\contentsline {table}{\numberline {7.35}{\ignorespaces Streams flowing into and out of the makeup water treatment process. I/O denotes input or output stream\relax }}{141}{table.caption.153}
-\contentsline {table}{\numberline {7.36}{\ignorespaces Streams flowing into and out of the water injection process. I/O denotes input or output stream\relax }}{143}{table.caption.155}
-\contentsline {table}{\numberline {7.37}{\ignorespaces Streams flowing into and out of the steam generation process. I/O denotes input or output stream\relax }}{145}{table.caption.157}
-\contentsline {table}{\numberline {7.38}{\ignorespaces Hydrogen constant $a_H$ as a function of API gravity.\relax }}{150}{table.caption.162}
-\contentsline {table}{\numberline {7.39}{\ignorespaces Gas turbine model results for hypothetical turbines A-D. These results serve as input data to OPGEE GT model.\relax }}{153}{table.caption.169}
-\contentsline {table}{\numberline {7.40}{\ignorespaces Default inputs for steam injection calculations.\relax }}{156}{table.7.40}
-\contentsline {table}{\numberline {7.41}{\ignorespaces Streams flowing into and out of the flaring process. I/O denotes input or output stream\relax }}{158}{table.caption.176}
-\contentsline {table}{\numberline {7.42}{\ignorespaces Sources of flaring data and construction notes\relax }}{159}{table.caption.178}
-\contentsline {table}{\numberline {7.43}{\ignorespaces Data requirements for utilizing field-specific flaring calculation.\relax }}{160}{table.caption.180}
-\contentsline {table}{\numberline {7.44}{\ignorespaces Stoichiometric relationships for complete combustion.\relax }}{163}{table.caption.183}
-\contentsline {table}{\numberline {7.45}{\ignorespaces Default inputs for venting, flaring, and fugitive emissions.\relax }}{166}{table.7.45}
-\contentsline {table}{\numberline {7.46}{\ignorespaces Streams flowing into and out of the venting process. I/O denotes input or output stream\relax }}{167}{table.caption.184}
-\contentsline {table}{\numberline {7.47}{\ignorespaces Streams flowing into and out of the gas gathering process. I/O denotes input or output stream\relax }}{169}{table.caption.186}
-\contentsline {table}{\numberline {7.48}{\ignorespaces Streams flowing into and out of the glycol dehydrator process. I/O denotes input or output stream\relax }}{170}{table.caption.188}
-\contentsline {table}{\numberline {7.49}{\ignorespaces Settings for non-varying operating parameters in Aspen HYSYS TEG dehydration unit simulations. Source ``def.'' is OPGEE assumed default from prior model versions.\relax }}{172}{table.caption.191}
-\contentsline {table}{\numberline {7.50}{\ignorespaces Ranges of independent variables explored in TEG dehydration Aspen HYSYS modeling.\relax }}{173}{table.caption.192}
-\contentsline {table}{\numberline {7.51}{\ignorespaces Default inputs for surface processing.\relax }}{178}{table.7.51}
-\contentsline {table}{\numberline {7.52}{\ignorespaces Streams flowing into and out of the acid gas removal process. I/O denotes input or output stream\relax }}{181}{table.caption.195}
-\contentsline {table}{\numberline {7.53}{\ignorespaces Settings for non-varying operating parameters in Aspen HYSYS AGR unit simulations. Source ``def.'' is OPGEE assumed default from prior model versions.\relax }}{184}{table.caption.199}
-\contentsline {table}{\numberline {7.54}{\ignorespaces Ranges of independent variables explored in generating predictive equations for AGR energy use. DEA-HL = DEA-high-load\relax }}{185}{table.caption.200}
-\contentsline {table}{\numberline {7.55}{\ignorespaces Default inputs for surface processing.\relax }}{197}{table.7.55}
-\contentsline {table}{\numberline {7.56}{\ignorespaces Streams flowing into and out of the demethanizer process. I/O denotes input or output stream\relax }}{199}{table.caption.207}
-\contentsline {table}{\numberline {7.57}{\ignorespaces Default inputs for surface processing.\relax }}{201}{table.7.57}
-\contentsline {table}{\numberline {7.58}{\ignorespaces Streams flowing into and out of the pre-membrane chiller process. I/O denotes input or output stream\relax }}{203}{table.caption.209}
-\contentsline {table}{\numberline {7.59}{\ignorespaces Default inputs for surface processing.\relax }}{205}{table.7.59}
-\contentsline {table}{\numberline {7.60}{\ignorespaces Streams flowing into and out of the CO$_2$ separation membrane process. I/O denotes input or output stream\relax }}{206}{table.caption.211}
-\contentsline {table}{\numberline {7.61}{\ignorespaces Default inputs for surface processing.\relax }}{208}{table.7.61}
-\contentsline {table}{\numberline {7.62}{\ignorespaces Streams flowing into and out of the Ryan-Holmes separation process. I/O denotes input or output stream\relax }}{209}{table.caption.213}
-\contentsline {table}{\numberline {7.63}{\ignorespaces Default inputs for Ryan-Holmes process.\relax }}{211}{table.7.63}
-\contentsline {table}{\numberline {7.64}{\ignorespaces Streams flowing into and out of the gas flooding compressor. I/O denotes input or output stream\relax }}{212}{table.caption.215}
-\contentsline {table}{\numberline {7.65}{\ignorespaces Streams flowing into and out of the gas lifting compressor. I/O denotes input or output stream\relax }}{215}{table.caption.217}
-\contentsline {table}{\numberline {7.66}{\ignorespaces Streams flowing into and out of the gas reinjection compressor. I/O denotes input or output stream\relax }}{216}{table.caption.219}
-\contentsline {table}{\numberline {7.67}{\ignorespaces Streams flowing into and out of the CO2 reinjection compressor. I/O denotes input or output stream\relax }}{217}{table.caption.221}
-\contentsline {table}{\numberline {7.68}{\ignorespaces Streams flowing into and out of the sour gas reinjection compressor. I/O denotes input or output stream\relax }}{219}{table.caption.223}
-\contentsline {table}{\numberline {7.69}{\ignorespaces Streams flowing into and out of the VRU compressor. I/O denotes input or output stream\relax }}{221}{table.caption.225}
-\contentsline {table}{\numberline {7.70}{\ignorespaces Default inputs for Transport.\relax }}{243}{table.caption.227}
-\contentsline {table}{\numberline {7.71}{\ignorespaces Minimum Miscibility Pressure and API Gravity Default Correlation. Source: \cite {NPC1976}.\relax }}{250}{table.caption.230}
-\contentsline {table}{\numberline {7.72}{\ignorespaces Temperature Adjustment to Minimum Miscibility Pressure Default Correlation Source: \cite {NPC1976}.\relax }}{250}{table.caption.231}
-\contentsline {table}{\numberline {7.73}{\ignorespaces Default inputs for production and extraction.\relax }}{253}{table.7.73}
-\contentsline {table}{\numberline {7.74}{\ignorespaces Description of OPGEE's Associated Gas Processing Schemes\relax }}{256}{table.caption.235}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Types and size ranges of the drivers embedded in OPGEE.\relax }}{259}{table.caption.237}
-\contentsline {table}{\numberline {8.2}{\ignorespaces Default inputs for drivers calculations.\relax }}{261}{table.caption.238}
-\contentsline {table}{\numberline {8.3}{\ignorespaces Cement blends modeled in OPGEE.$^a$\relax }}{268}{table.caption.241}
-\contentsline {table}{\numberline {8.4}{\ignorespaces Combustion technologies and fuels included in OPGEE.\relax }}{273}{table.caption.243}
-\contentsline {table}{\numberline {8.5}{\ignorespaces ARB data used in the calculation of venting emissions factors (unit specified below). Source: \cite {Lee2011}.\relax }}{274}{table.caption.245}
-\contentsline {table}{\numberline {8.6}{\ignorespaces ARB data used in the calculation of fugitives emissions factors (unit specified below). Source: \cite {Lee2011}.\relax }}{274}{table.caption.247}
-\contentsline {table}{\numberline {8.7}{\ignorespaces ARB data for gas dehydrators, for systems with and without vapor recovery systems (VRS). Source: \cite {ARB2013}.\relax }}{275}{table.caption.249}
-\contentsline {table}{\numberline {8.8}{\ignorespaces An example of EPA emissions factors for oil and gas production components (g/unit-yr). Source: \cite {API1996b}.\relax }}{275}{table.caption.251}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {9.1}{\ignorespaces Studies considered for inclusion.\relax }}{290}{table.caption.260}
-\contentsline {table}{\numberline {9.2}{\ignorespaces Data types found in studies determined to contain original data of types activity factors (AF), leakage fraction (LF), leakage quantity (LQ), or default-zero (DZ). AF data include equipment quantification (EQ), component quantification (CQ), or activity quantification (AQ). \relax }}{292}{table.caption.261}
-\contentsline {table}{\numberline {9.3}{\ignorespaces Component counts for standard equipment-component pairs, resulting from computations performed on OPGEE supplemental VF worksheet.\relax }}{298}{table.caption.266}
-\contentsline {table}{\numberline {9.4}{\ignorespaces Sources of data on fraction leaking components.\relax }}{300}{table.caption.267}
-\contentsline {table}{\numberline {9.5}{\ignorespaces Resulting fraction leaking (FL) data for the standardized component categories defined above.\relax }}{300}{table.caption.268}
-\contentsline {table}{\numberline {9.6}{\ignorespaces Properties of emissions distributions for component-level emissions.\relax }}{302}{table.caption.269}
-\contentsline {table}{\numberline {9.7}{\ignorespaces Properties of emissions distributions by originating study.\relax }}{302}{table.caption.270}
-\contentsline {table}{\numberline {9.8}{\ignorespaces Properties of each category of gas well completion or well workover, sorted by application of hydraulic fracturing (HF) and application of emissions reduction method (flaring or reduced emissions completions (REC).\relax }}{310}{table.caption.278}
-\contentsline {table}{\numberline {9.9}{\ignorespaces Properties of reported liquids unloading fractional loss rates from Allen et al. 2014b \cite {Allen2014b}.\relax }}{311}{table.caption.280}
-\contentsline {table}{\numberline {9.10}{\ignorespaces Loss rates for off-site emissions, all expressed in fraction of gas flow into the process stage of note.\relax }}{313}{table.caption.281}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Properties computed for each stream: Symbol, description, units, and source of relevant equation.\relax }}{64}{table.caption.57}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Source of API gravity for oil streams.\relax }}{66}{table.caption.59}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Constants in equations for liquid stream properties.\relax }}{69}{table.caption.67}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Primary inputs used on \textit {`{Exploration}'} worksheet \relax }}{81}{table.caption.91}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Secondary inputs for \textit {`{Exploration}'} worksheet\relax }}{81}{table.caption.93}
+\contentsline {table}{\numberline {7.3}{\ignorespaces Constants and fuel specifications used on \textit {`{Exploration}'} worksheet\relax }}{81}{table.caption.95}
+\contentsline {table}{\numberline {7.4}{\ignorespaces Hole diameters for different casing sections under three wellbore designs (in.)\relax }}{83}{table.caption.97}
+\contentsline {table}{\numberline {7.5}{\ignorespaces Bottomhole depth for different segments (ft.)\relax }}{83}{table.caption.99}
+\contentsline {table}{\numberline {7.6}{\ignorespaces Constants for quadratic fit of fracturing fuel consumption equation\relax }}{89}{table.caption.105}
+\contentsline {table}{\numberline {7.7}{\ignorespaces Land use GHG emissions for 30 year analysis period from field drilling and development in OPGEE for conventional oil operations [g CO$_2$ eq./MJ of crude oil produced]. Data from Yeh et al \cite {Yeh2010}.\relax }}{91}{table.caption.107}
+\contentsline {table}{\numberline {7.8}{\ignorespaces Land use GHG emissions for 150 year analysis period from field drilling and development in OPGEE for conventional oil operations [g CO$_2$ eq./MJ of crude oil produced]. Data from Yeh et al \cite {Yeh2010}.\relax }}{92}{table.caption.108}
+\contentsline {table}{\numberline {7.9}{\ignorespaces Default inputs for drilling calculations.\relax }}{93}{table.caption.109}
+\contentsline {table}{\numberline {7.10}{\ignorespaces Streams flowing into and out of the reservoir-well interface process. I/O denotes input or output stream\relax }}{95}{table.caption.110}
+\contentsline {table}{\numberline {7.11}{\ignorespaces Streams flowing into and out of the wellbore/downhole pump process. I/O denotes input or output stream\relax }}{97}{table.caption.112}
+\contentsline {table}{\numberline {7.12}{\ignorespaces Streams flowing into and out of the wellbore/downhole pump process. I/O denotes input or output stream\relax }}{99}{table.caption.113}
+\contentsline {table}{\numberline {7.13}{\ignorespaces Secondary parameter inputs to the wellbore/downhole pump worksheet\relax }}{99}{table.caption.115}
+\contentsline {table}{\numberline {7.14}{\ignorespaces Reynold's number (Re) ranges of different flow patterns. Data from McAllister \cite {Mcallister2009}.\relax }}{102}{table.caption.117}
+\contentsline {table}{\numberline {7.15}{\ignorespaces Streams flowing into and out of the bitumen mining process. I/O denotes input or output stream\relax }}{106}{table.caption.119}
+\contentsline {table}{\numberline {7.16}{\ignorespaces Secondary parameter inputs to the bitumen mining worksheet\relax }}{106}{table.caption.121}
+\contentsline {table}{\numberline {7.17}{\ignorespaces Characteristics of operating mining projects\relax }}{108}{table.caption.122}
+\contentsline {table}{\numberline {7.18}{\ignorespaces Non-integrated PFT mining energy intensities\relax }}{111}{table.caption.128}
+\contentsline {table}{\numberline {7.19}{\ignorespaces Comparison between stand-alone mine energy consumption estimates based on COSIA mine template to integrated NFT mining and upgrading energy consumption reported by AER\relax }}{113}{table.caption.131}
+\contentsline {table}{\numberline {7.20}{\ignorespaces Integrated NFT mining energy intensities\relax }}{114}{table.caption.133}
+\contentsline {table}{\numberline {7.21}{\ignorespaces Streams flowing into and out of the separation process. I/O denotes input or output stream\relax }}{118}{table.caption.136}
+\contentsline {table}{\numberline {7.22}{\ignorespaces Secondary parameter inputs to the separator worksheet\relax }}{118}{table.caption.138}
+\contentsline {table}{\numberline {7.23}{\ignorespaces Streams flowing into and out of the crude oil dewatering process. I/O denotes input or output stream\relax }}{120}{table.caption.139}
+\contentsline {table}{\numberline {7.24}{\ignorespaces Secondary parameter inputs to the crude oil dewatering worksheet.\relax }}{120}{table.caption.141}
+\contentsline {table}{\numberline {7.25}{\ignorespaces Streams flowing into and out of the \textit {`{Crude oil stabilization}'} process. I/O denotes input or output stream\relax }}{123}{table.caption.142}
+\contentsline {table}{\numberline {7.26}{\ignorespaces Secondary parameter inputs to the \textit {`{Crude oil stabilization}'} worksheet.\relax }}{123}{table.caption.144}
+\contentsline {table}{\numberline {7.27}{\ignorespaces Streams flowing into and out of the heavy oil upgrading process. I/O denotes input or output stream\relax }}{124}{table.caption.145}
+\contentsline {table}{\numberline {7.28}{\ignorespaces Inputs to OPGEE upgrading module from the Oil Sands Technology Upgrading Model (OSTUM)\relax }}{129}{table.caption.148}
+\contentsline {table}{\numberline {7.29}{\ignorespaces Streams flowing into and out of the \textit {`{Heavy oil dilution}'} module. I/O denotes input or output stream\relax }}{131}{table.caption.149}
+\contentsline {table}{\numberline {7.30}{\ignorespaces Secondary parameter inputs to the \textit {`{Heavy oil dilution}'} worksheet.\relax }}{131}{table.caption.151}
+\contentsline {table}{\numberline {7.31}{\ignorespaces Streams flowing into and out of the crude oil storage module. I/O denotes input or output stream\relax }}{132}{table.caption.152}
+\contentsline {table}{\numberline {7.32}{\ignorespaces Secondary inputs for crude oil storage.\relax }}{134}{table.7.32}
+\contentsline {table}{\numberline {7.33}{\ignorespaces Streams flowing into and out of the produced water treatment process. I/O denotes input or output stream\relax }}{135}{table.caption.154}
+\contentsline {table}{\numberline {7.34}{\ignorespaces Typical concentrations of process water pollutants. Table from Vlasopoulos et al \cite {Vlasopoulos2006}.\relax }}{135}{table.caption.156}
+\contentsline {table}{\numberline {7.35}{\ignorespaces Categorization of water treatment technologies. Table based on table from Vlasopoulos et al. \cite {Vlasopoulos2006}, with minor modifications\relax }}{137}{table.caption.157}
+\contentsline {table}{\numberline {7.36}{\ignorespaces Default inputs for surface processing.\relax }}{139}{table.7.36}
+\contentsline {table}{\numberline {7.37}{\ignorespaces Streams flowing into and out of the makeup water treatment process. I/O denotes input or output stream\relax }}{140}{table.caption.158}
+\contentsline {table}{\numberline {7.38}{\ignorespaces Streams flowing into and out of the water injection process. I/O denotes input or output stream\relax }}{142}{table.caption.160}
+\contentsline {table}{\numberline {7.39}{\ignorespaces Streams flowing into and out of the steam generation process. I/O denotes input or output stream\relax }}{144}{table.caption.162}
+\contentsline {table}{\numberline {7.40}{\ignorespaces Hydrogen constant $a_H$ as a function of API gravity.\relax }}{149}{table.caption.167}
+\contentsline {table}{\numberline {7.41}{\ignorespaces Gas turbine model results for hypothetical turbines A-D. These results serve as input data to OPGEE GT model.\relax }}{152}{table.caption.174}
+\contentsline {table}{\numberline {7.42}{\ignorespaces Default inputs for steam injection calculations.\relax }}{155}{table.7.42}
+\contentsline {table}{\numberline {7.43}{\ignorespaces Streams flowing into and out of the flaring process. I/O denotes input or output stream\relax }}{157}{table.caption.181}
+\contentsline {table}{\numberline {7.44}{\ignorespaces Sources of flaring data and construction notes\relax }}{157}{table.caption.183}
+\contentsline {table}{\numberline {7.45}{\ignorespaces Data requirements for utilizing field-specific flaring calculation.\relax }}{158}{table.caption.185}
+\contentsline {table}{\numberline {7.46}{\ignorespaces Stoichiometric relationships for complete combustion.\relax }}{162}{table.caption.188}
+\contentsline {table}{\numberline {7.47}{\ignorespaces Default inputs for venting, flaring, and fugitive emissions.\relax }}{165}{table.7.47}
+\contentsline {table}{\numberline {7.48}{\ignorespaces Streams flowing into and out of the venting process. I/O denotes input or output stream\relax }}{166}{table.caption.189}
+\contentsline {table}{\numberline {7.49}{\ignorespaces Streams flowing into and out of the gas gathering process. I/O denotes input or output stream\relax }}{168}{table.caption.191}
+\contentsline {table}{\numberline {7.50}{\ignorespaces Streams flowing into and out of the glycol dehydrator process. I/O denotes input or output stream\relax }}{169}{table.caption.193}
+\contentsline {table}{\numberline {7.51}{\ignorespaces Settings for non-varying operating parameters in Aspen HYSYS TEG dehydration unit simulations. Source ``def.'' is OPGEE assumed default from prior model versions.\relax }}{171}{table.caption.196}
+\contentsline {table}{\numberline {7.52}{\ignorespaces Ranges of independent variables explored in TEG dehydration Aspen HYSYS modeling.\relax }}{172}{table.caption.197}
+\contentsline {table}{\numberline {7.53}{\ignorespaces Default inputs for surface processing.\relax }}{177}{table.7.53}
+\contentsline {table}{\numberline {7.54}{\ignorespaces Streams flowing into and out of the acid gas removal process. I/O denotes input or output stream\relax }}{180}{table.caption.200}
+\contentsline {table}{\numberline {7.55}{\ignorespaces Settings for non-varying operating parameters in Aspen HYSYS AGR unit simulations. Source ``def.'' is OPGEE assumed default from prior model versions.\relax }}{183}{table.caption.204}
+\contentsline {table}{\numberline {7.56}{\ignorespaces Ranges of independent variables explored in generating predictive equations for AGR energy use. DEA-HL = DEA-high-load\relax }}{184}{table.caption.205}
+\contentsline {table}{\numberline {7.57}{\ignorespaces Settings for fixed operating parameters in Aspen HYSYS desulfurization plant simulations.\relax }}{197}{table.caption.213}
+\contentsline {table}{\numberline {7.58}{\ignorespaces Default inputs for surface processing.\relax }}{202}{table.7.58}
+\contentsline {table}{\numberline {7.59}{\ignorespaces Streams flowing into and out of the demethanizer process. I/O denotes input or output stream\relax }}{204}{table.caption.218}
+\contentsline {table}{\numberline {7.60}{\ignorespaces Settings for fixed operating parameters in Aspen HYSYS demethanizer plant simulations.\relax }}{207}{table.caption.221}
+\contentsline {table}{\numberline {7.61}{\ignorespaces Ranges of independent variables explored in generating predictive proxy models using Aspen HYSYS for demethanizer plant.\relax }}{207}{table.caption.222}
+\contentsline {table}{\numberline {7.62}{\ignorespaces Default inputs for surface processing.\relax }}{213}{table.7.62}
+\contentsline {table}{\numberline {7.63}{\ignorespaces Streams flowing into and out of the pre-membrane chiller process. I/O denotes input or output stream\relax }}{215}{table.caption.228}
+\contentsline {table}{\numberline {7.64}{\ignorespaces Default inputs for surface processing.\relax }}{217}{table.7.64}
+\contentsline {table}{\numberline {7.65}{\ignorespaces Streams flowing into and out of the CO$_2$ separation membrane process. I/O denotes input or output stream\relax }}{218}{table.caption.230}
+\contentsline {table}{\numberline {7.66}{\ignorespaces Default inputs for surface processing.\relax }}{220}{table.7.66}
+\contentsline {table}{\numberline {7.67}{\ignorespaces Streams flowing into and out of the Ryan-Holmes separation process. I/O denotes input or output stream\relax }}{221}{table.caption.232}
+\contentsline {table}{\numberline {7.68}{\ignorespaces Default inputs for Ryan-Holmes process.\relax }}{223}{table.7.68}
+\contentsline {table}{\numberline {7.69}{\ignorespaces Streams flowing into and out of the gas flooding compressor. I/O denotes input or output stream\relax }}{224}{table.caption.234}
+\contentsline {table}{\numberline {7.70}{\ignorespaces Streams flowing into and out of the gas lifting compressor. I/O denotes input or output stream\relax }}{227}{table.caption.236}
+\contentsline {table}{\numberline {7.71}{\ignorespaces Streams flowing into and out of the gas reinjection compressor. I/O denotes input or output stream\relax }}{228}{table.caption.238}
+\contentsline {table}{\numberline {7.72}{\ignorespaces Streams flowing into and out of the CO2 reinjection compressor. I/O denotes input or output stream\relax }}{229}{table.caption.240}
+\contentsline {table}{\numberline {7.73}{\ignorespaces Streams flowing into and out of the sour gas reinjection compressor. I/O denotes input or output stream\relax }}{231}{table.caption.242}
+\contentsline {table}{\numberline {7.74}{\ignorespaces Streams flowing into and out of the VRU compressor. I/O denotes input or output stream\relax }}{233}{table.caption.244}
+\contentsline {table}{\numberline {7.75}{\ignorespaces Default inputs for Transport.\relax }}{255}{table.caption.246}
+\contentsline {table}{\numberline {7.76}{\ignorespaces Minimum Miscibility Pressure and API Gravity Default Correlation. Source: \cite {NPC1976}.\relax }}{262}{table.caption.249}
+\contentsline {table}{\numberline {7.77}{\ignorespaces Temperature Adjustment to Minimum Miscibility Pressure Default Correlation Source: \cite {NPC1976}.\relax }}{262}{table.caption.250}
+\contentsline {table}{\numberline {7.78}{\ignorespaces Default inputs for production and extraction.\relax }}{265}{table.7.78}
+\contentsline {table}{\numberline {7.79}{\ignorespaces Description of OPGEE's Associated Gas Processing Schemes\relax }}{268}{table.caption.254}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Acronyms and abbreviations.\relax }}{320}{table.A.1}
+\contentsline {table}{\numberline {8.1}{\ignorespaces Types and size ranges of the drivers embedded in OPGEE.\relax }}{271}{table.caption.256}
+\contentsline {table}{\numberline {8.2}{\ignorespaces Default inputs for drivers calculations.\relax }}{273}{table.caption.257}
+\contentsline {table}{\numberline {8.3}{\ignorespaces Cement blends modeled in OPGEE.$^a$\relax }}{280}{table.caption.260}
+\contentsline {table}{\numberline {8.4}{\ignorespaces Combustion technologies and fuels included in OPGEE.\relax }}{285}{table.caption.262}
+\contentsline {table}{\numberline {8.5}{\ignorespaces ARB data used in the calculation of venting emissions factors (unit specified below). Source: \cite {Lee2011}.\relax }}{286}{table.caption.264}
+\contentsline {table}{\numberline {8.6}{\ignorespaces ARB data used in the calculation of fugitives emissions factors (unit specified below). Source: \cite {Lee2011}.\relax }}{286}{table.caption.266}
+\contentsline {table}{\numberline {8.7}{\ignorespaces ARB data for gas dehydrators, for systems with and without vapor recovery systems (VRS). Source: \cite {ARB2013}.\relax }}{287}{table.caption.268}
+\contentsline {table}{\numberline {8.8}{\ignorespaces An example of EPA emissions factors for oil and gas production components (g/unit-yr). Source: \cite {API1996b}.\relax }}{287}{table.caption.270}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {B.1}{\ignorespaces Mathematical symbols and subscripts.\relax }}{323}{table.B.1}
+\contentsline {table}{\numberline {9.1}{\ignorespaces Studies considered for inclusion.\relax }}{302}{table.caption.279}
+\contentsline {table}{\numberline {9.2}{\ignorespaces Data types found in studies determined to contain original data of types activity factors (AF), leakage fraction (LF), leakage quantity (LQ), or default-zero (DZ). AF data include equipment quantification (EQ), component quantification (CQ), or activity quantification (AQ). \relax }}{304}{table.caption.280}
+\contentsline {table}{\numberline {9.3}{\ignorespaces Component counts for standard equipment-component pairs, resulting from computations performed on OPGEE supplemental VF worksheet.\relax }}{310}{table.caption.285}
+\contentsline {table}{\numberline {9.4}{\ignorespaces Sources of data on fraction leaking components.\relax }}{312}{table.caption.286}
+\contentsline {table}{\numberline {9.5}{\ignorespaces Resulting fraction leaking (FL) data for the standardized component categories defined above.\relax }}{312}{table.caption.287}
+\contentsline {table}{\numberline {9.6}{\ignorespaces Properties of emissions distributions for component-level emissions.\relax }}{314}{table.caption.288}
+\contentsline {table}{\numberline {9.7}{\ignorespaces Properties of emissions distributions by originating study.\relax }}{314}{table.caption.289}
+\contentsline {table}{\numberline {9.8}{\ignorespaces Properties of each category of gas well completion or well workover, sorted by application of hydraulic fracturing (HF) and application of emissions reduction method (flaring or reduced emissions completions (REC).\relax }}{322}{table.caption.297}
+\contentsline {table}{\numberline {9.9}{\ignorespaces Properties of reported liquids unloading fractional loss rates from Allen et al. 2014b \cite {Allen2014b}.\relax }}{323}{table.caption.299}
+\contentsline {table}{\numberline {9.10}{\ignorespaces Loss rates for off-site emissions, all expressed in fraction of gas flow into the process stage of note.\relax }}{325}{table.caption.300}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {C.1}{\ignorespaces Emissions sources from exploratory operations. For inclusion: 0 = not included, 1 = included.\relax }}{328}{table.caption.282}
-\contentsline {table}{\numberline {C.2}{\ignorespaces Emissions sources from drilling operations.\relax }}{329}{table.caption.283}
-\contentsline {table}{\numberline {C.3}{\ignorespaces Emissions sources from production and extraction operations.\relax }}{330}{table.caption.284}
-\contentsline {table}{\numberline {C.4}{\ignorespaces Emissions sources from surface processing operations.\relax }}{331}{table.caption.285}
-\contentsline {table}{\numberline {C.5}{\ignorespaces Emissions sources from maintenance operations.\relax }}{331}{table.caption.286}
-\contentsline {table}{\numberline {C.6}{\ignorespaces Emissions sources from waste treatment and disposal operations.\relax }}{332}{table.caption.287}
-\contentsline {table}{\numberline {C.7}{\ignorespaces Emissions sources from transport.\relax }}{333}{table.caption.288}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Acronyms and abbreviations.\relax }}{332}{table.A.1}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces Mathematical symbols and subscripts.\relax }}{335}{table.B.1}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {C.1}{\ignorespaces Emissions sources from exploratory operations. For inclusion: 0 = not included, 1 = included.\relax }}{340}{table.caption.301}
+\contentsline {table}{\numberline {C.2}{\ignorespaces Emissions sources from drilling operations.\relax }}{341}{table.caption.302}
+\contentsline {table}{\numberline {C.3}{\ignorespaces Emissions sources from production and extraction operations.\relax }}{342}{table.caption.303}
+\contentsline {table}{\numberline {C.4}{\ignorespaces Emissions sources from surface processing operations.\relax }}{343}{table.caption.304}
+\contentsline {table}{\numberline {C.5}{\ignorespaces Emissions sources from maintenance operations.\relax }}{343}{table.caption.305}
+\contentsline {table}{\numberline {C.6}{\ignorespaces Emissions sources from waste treatment and disposal operations.\relax }}{344}{table.caption.306}
+\contentsline {table}{\numberline {C.7}{\ignorespaces Emissions sources from transport.\relax }}{345}{table.caption.307}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

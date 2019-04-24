@@ -1,0 +1,2798 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 JAN 2019 16:33
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**mhchem.tex
+(./mhchem.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrreprt.cls
+Document Class: scrreprt 2016/05/10 v3.20 KOMA-Script document class (report)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2016/05/10 v3.20 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2016/05/10 v3.20 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2016/05/10 v3.20 KOMA-Script package (loading files)
+
+Package scrlfile, 2016/05/10 v3.20 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2016/05/10 v3.20 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip41
+\scr@dte@tocline@numbox=\box26
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 132.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 133.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 134.
+Package tocbasic Info: defining new hook before heading of `' on input line 160
+5.
+Class scrreprt Info: You've used standard option `notitlepage'.
+(scrreprt)           This is correct!
+(scrreprt)           Internally I'm using `titlepage=false'.
+(scrreprt)           If you'd like to set the option with \KOMAoptions,
+(scrreprt)           you'd have to use `titlepage=false' there
+(scrreprt)           instead of `notitlepage', too.
+Class scrreprt Info: File `scrsize11pt.clo' used instead of
+(scrreprt)           file `scrsize11.clo' to setup font sizes on input line 226
+5.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2016/05/10 v3.20 KOMA-Script font size class option (11pt
+)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2016/05/10 v3.20 KOMA-Script package (type area)
+
+Package typearea, 2016/05/10 v3.20 KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip42
+\ta@div=\count79
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+\ta@hblk=\skip43
+\ta@vblk=\skip44
+\ta@temp=\skip45
+\footheight=\skip46
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1528.
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\scr@dte@part@maxnumwidth=\skip47
+\scr@dte@chapter@maxnumwidth=\skip48
+\scr@dte@section@maxnumwidth=\skip49
+\scr@dte@subsection@maxnumwidth=\skip50
+\scr@dte@subsubsection@maxnumwidth=\skip51
+\scr@dte@paragraph@maxnumwidth=\skip52
+\scr@dte@subparagraph@maxnumwidth=\skip53
+LaTeX Info: Redefining \textsubscript on input line 4769.
+\abovecaptionskip=\skip54
+\belowcaptionskip=\skip55
+\c@pti@nb@sid@b@x=\box27
+\c@figure=\count87
+\c@table=\count88
+Class scrreprt Info: Redefining `\numberline' on input line 5764.
+\bibindent=\dimen102
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/04/23 3.9r The Babel package
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-danish/danish.ldf
+Language: danish 2009/09/19 v1.3r Danish support from the babel system
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/04/23 3.9r Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen103
+)
+Package babel Info: Making " an active character on input line 82.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-french/frenchb.ldf
+Language: frenchb 2016/05/14 v3.2c French support from the babel system
+\l@acadian = a dialect from \language\l@french 
+\l@canadien = a dialect from \language\l@french 
+\FB@nonchar=\count90
+\FBcolonskip=\skip56
+\FBthinskip=\skip57
+Package babel Info: Making : an active character on input line 365.
+Package babel Info: Making ; an active character on input line 366.
+Package babel Info: Making ! an active character on input line 367.
+Package babel Info: Making ? an active character on input line 368.
+\FBguillskip=\skip58
+\FBguill@level=\count91
+\FB@everypar=\toks17
+\FB@Mht=\dimen104
+\std@mcc=\count92
+\dec@mcc=\count93
+\listindentFB=\skip59
+\labelwidthFB=\skip60
+\leftmarginFB=\skip61
+\parindentFFN=\dimen105
+\FBfnindent=\skip62
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2013/12/13 v2.7 German support for babel (new orthography)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2013/12/13 v2.7 German support for babel (new orthography)
+\l@naustrian = a dialect from \language\l@ngerman 
+\l@nswissgerman = a dialect from \language\l@ngerman 
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+\es@quottoks=\toks18
+\es@quotdepth=\count94
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-italian/italian.ldf
+Language: italian 2015/03/26 v1.3n Italian support from the babel system
+\it@lettering=\count95
+\it@doublequoteactive=\count96
+\it@ISOcompliance=\count97
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count98
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tex-gyre/tgpagella.sty
+Package: tgpagella 2009/09/27 v1.2 TeX Gyre Pagella as default roman family
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup5
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/sourcecodepro/sourcecodepro.sty
+Package: sourcecodepro 2015/10/09 v2.6 Adobe's Source Code Pro typeface
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+)
+\XKV@depth=\count99
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ot1enc.def
+File: ot1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding OT1 on input line 48.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ly1/ly1enc.def
+File: ly1enc.def 2009/07/22 v0.7 TeX 'n ANSI encoding (DPC/KB)
+Now handling font encoding LY1 ...
+... processing UTF-8 mapping file for font encoding LY1
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ly1enc.dfu
+File: ly1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2122 (decimal 8482)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 105.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mweights/mweights.sty
+Package: mweights 2013/07/21 (Bob Tennent) Support package for multiple-weight 
+font packages. 
+LaTeX Info: Redefining \bfseries on input line 22.
+LaTeX Info: Redefining \mdseries on input line 29.
+LaTeX Info: Redefining \rmfamily on input line 36.
+LaTeX Info: Redefining \sffamily on input line 53.
+LaTeX Info: Redefining \ttfamily on input line 70.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/alegreya/AlegreyaSans.sty
+Package: AlegreyaSans 2015/10/22 (Bob Tennent) Supports AlegreyaSans and Alegre
+yaSansSC fonts for all LaTeX engines. 
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2014/03/23 v1.0d Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \scshape on input line 37.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen106
+\Hy@linkcounter=\count100
+\Hy@pagecounter=\count101
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count102
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4322.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4322.
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count103
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen107
+\Fld@menulength=\count104
+\Field@Width=\dimen108
+\Fld@charsize=\dimen109
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring OFF on input line 6318.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count105
+\c@Item=\count106
+\c@Hfootnote=\count107
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count108
+\c@bookmark@seq@number=\count109
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip63
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2015/12/30 v2.5 Extended list environments
+\pltopsep=\skip64
+\plpartopsep=\skip65
+\plitemsep=\skip66
+\plparsep=\skip67
+\pl@lab=\toks21
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip68
+\RaggedLeftLeftskip=\skip69
+\RaggedRightLeftskip=\skip70
+\CenteringRightskip=\skip71
+\RaggedLeftRightskip=\skip72
+\RaggedRightRightskip=\skip73
+\CenteringParfillskip=\skip74
+\RaggedLeftParfillskip=\skip75
+\RaggedRightParfillskip=\skip76
+\JustifyingParfillskip=\skip77
+\CenteringParindent=\skip78
+\RaggedLeftParindent=\skip79
+\RaggedRightParindent=\skip80
+\JustifyingParindent=\skip81
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyvrb/fvrb-ex.sty
+Package: fvrb-ex 2010/05/16
+
+`fvrb-ex' v1.9, 2010/05/16 (Denis Girou)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count110
+\FV@InFile=\read1
+\FV@TabBox=\box28
+\c@FancyVerbLine=\count111
+\FV@StepNumber=\count112
+\FV@OutFile=\write3
+)
+\ttyin=\read2
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count113
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count114
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2016/02/07 v4.04 for typesetting chemical formulae
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2016/05/18 v6512 L3 programming layer (loader) 
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2016/05/18 v6512 L3 programming layer (code)
+L3 Module: l3bootstrap 2016/02/12 v6412 L3 Bootstrap code
+L3 Module: l3names 2016/03/11 v6433 L3 Namespace for primitives
+L3 Module: l3basics 2015/11/22 v6315 L3 Basic definitions
+L3 Module: l3expan 2015/09/10 v5983 L3 Argument expansion
+L3 Module: l3tl 2016/03/26 v6465 L3 Token lists
+L3 Module: l3str 2016/03/24 v6441 L3 Strings
+L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
+L3 Module: l3int 2016/03/24 v6441 L3 Integers
+\c_max_int=\count115
+\l_tmpa_int=\count116
+\l_tmpb_int=\count117
+\g_tmpa_int=\count118
+\g_tmpb_int=\count119
+L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
+L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
+\g__prg_map_int=\count120
+L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
+L3 Module: l3token 2016/04/03 v6470 L3 Experimental token manipulation
+L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
+L3 Module: l3msg 2016/03/26 v6464 L3 Messages
+L3 Module: l3file 2016/03/25 v6458 L3 File and I/O operations
+\l_iow_line_count_int=\count121
+\l__iow_target_count_int=\count122
+\l__iow_current_line_int=\count123
+\l__iow_current_word_int=\count124
+\l__iow_current_indentation_int=\count125
+L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
+\c_zero_dim=\dimen110
+\c_max_dim=\dimen111
+\l_tmpa_dim=\dimen112
+\l_tmpb_dim=\dimen113
+\g_tmpa_dim=\dimen114
+\g_tmpb_dim=\dimen115
+\c_zero_skip=\skip82
+\c_max_skip=\skip83
+\l_tmpa_skip=\skip84
+\l_tmpb_skip=\skip85
+\g_tmpa_skip=\skip86
+\g_tmpb_skip=\skip87
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
+\g__keyval_level_int=\count126
+\l_keys_choice_int=\count127
+L3 Module: l3fp 2016/03/26 v6465 L3 Floating points
+\c__fp_leading_shift_int=\count128
+\c__fp_middle_shift_int=\count129
+\c__fp_trailing_shift_int=\count130
+\c__fp_big_leading_shift_int=\count131
+\c__fp_big_middle_shift_int=\count132
+\c__fp_big_trailing_shift_int=\count133
+\c__fp_Bigg_leading_shift_int=\count134
+\c__fp_Bigg_middle_shift_int=\count135
+\c__fp_Bigg_trailing_shift_int=\count136
+L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
+\c_empty_box=\box29
+\l_tmpa_box=\box30
+\l_tmpb_box=\box31
+\g_tmpa_box=\box32
+\g_tmpb_box=\box33
+L3 Module: l3coffins 2016/05/17 v6508 L3 Coffin code layer
+\l__coffin_internal_box=\box34
+\l__coffin_internal_dim=\dimen116
+\l__coffin_offset_x_dim=\dimen117
+\l__coffin_offset_y_dim=\dimen118
+\l__coffin_x_dim=\dimen119
+\l__coffin_y_dim=\dimen120
+\l__coffin_x_prime_dim=\dimen121
+\l__coffin_y_prime_dim=\dimen122
+\c_empty_coffin=\box35
+\l__coffin_aligned_coffin=\box36
+\l__coffin_aligned_internal_coffin=\box37
+\l_tmpa_coffin=\box38
+\l_tmpb_coffin=\box39
+\l__coffin_display_coffin=\box40
+\l__coffin_display_coord_coffin=\box41
+\l__coffin_display_pole_coffin=\box42
+\l__coffin_display_offset_dim=\dimen123
+\l__coffin_display_x_dim=\dimen124
+\l__coffin_display_y_dim=\dimen125
+L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
+L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
+L3 Module: l3candidates 2016/05/13 v6484 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen126
+\l__box_bottom_dim=\dimen127
+\l__box_left_dim=\dimen128
+\l__box_right_dim=\dimen129
+\l__box_top_new_dim=\dimen130
+\l__box_bottom_new_dim=\dimen131
+\l__box_left_new_dim=\dimen132
+\l__box_right_new_dim=\dimen133
+\l__box_internal_box=\box43
+\l__coffin_bounding_shift_dim=\dimen134
+\l__coffin_left_corner_dim=\dimen135
+\l__coffin_right_corner_dim=\dimen136
+\l__coffin_bottom_corner_dim=\dimen137
+\l__coffin_top_corner_dim=\dimen138
+\l__coffin_scaled_total_height_dim=\dimen139
+\l__coffin_scaled_width_dim=\dimen140
+L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2016/03/26 v6465 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count137
+\l__driver_tmp_box=\box44
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2016/05/18 v6512 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3regex.st
+y
+Package: l3regex 2016/05/14 v6492 L3 Experimental regular expressions
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3tl-build.s
+ty
+Package: l3tl-build 2016/05/14 v6492 L3 Experimental token list construction
+\l__tl_build_start_index_int=\count138
+\l__tl_build_index_int=\count139
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3tl-analysi
+s.sty
+Package: l3tl-analysis 2016/03/24 v6443 L3 Experimental token lists analysis
+\l__tl_analysis_normal_int=\count140
+\l__tl_analysis_index_int=\count141
+\l__tl_analysis_nesting_int=\count142
+\l__tl_analysis_type_int=\count143
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3flag.sty
+Package: l3flag 2016/05/14 v6492 L3 Experimental flags
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3str-conver
+t.sty
+Package: l3str-convert 2016/03/24 v6443 L3 Experimental string encoding convers
+ions
+\l__str_internal_int=\count144
+\c__str_replacement_char_int=\count145
+)
+\l__regex_internal_a_int=\count146
+\l__regex_internal_b_int=\count147
+\l__regex_internal_c_int=\count148
+\l__regex_balance_int=\count149
+\l__regex_group_level_int=\count150
+\l__regex_mode_int=\count151
+\l__regex_catcodes_int=\count152
+\l__regex_default_catcodes_int=\count153
+\c__regex_catcode_D_int=\count154
+\c__regex_catcode_S_int=\count155
+\c__regex_catcode_L_int=\count156
+\c__regex_catcode_O_int=\count157
+\c__regex_catcode_A_int=\count158
+\c__regex_all_catcodes_int=\count159
+\l__regex_show_lines_int=\count160
+\l__regex_min_state_int=\count161
+\l__regex_max_state_int=\count162
+\l__regex_left_state_int=\count163
+\l__regex_right_state_int=\count164
+\l__regex_capturing_group_int=\count165
+\l__regex_min_pos_int=\count166
+\l__regex_max_pos_int=\count167
+\l__regex_current_pos_int=\count168
+\l__regex_start_pos_int=\count169
+\l__regex_success_pos_int=\count170
+\l__regex_current_char_int=\count171
+\l__regex_current_catcode_int=\count172
+\l__regex_last_char_int=\count173
+\l__regex_case_changed_char_int=\count174
+\l__regex_current_state_int=\count175
+\l__regex_step_int=\count176
+\l__regex_min_active_int=\count177
+\l__regex_max_active_int=\count178
+\l__regex_replacement_csnames_int=\count179
+\l__regex_match_count_int=\count180
+\l__regex_submatch_int=\count181
+\l__regex_zeroth_submatch_int=\count182
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count183
+\calc@Bcount=\count184
+\calc@Adimen=\dimen141
+\calc@Bdimen=\dimen142
+\calc@Askip=\skip88
+\calc@Bskip=\skip89
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count185
+\calc@Cskip=\skip90
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip91
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen143
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen144
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count186
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count187
+\leftroot@=\count188
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count189
+\DOTSCASE@=\count190
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen145
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count191
+\c@MaxMatrixCols=\count192
+\dotsspace@=\muskip17
+\c@parentequation=\count193
+\dspbrk@lvl=\count194
+\tag@help=\toks23
+\row@=\count195
+\column@=\count196
+\maxfields@=\count197
+\andhelp@=\toks24
+\eqnshift@=\dimen146
+\alignsep@=\dimen147
+\tagshift@=\dimen148
+\tagwidth@=\dimen149
+\totwidth@=\dimen150
+\lineht@=\dimen151
+\@envbody=\toks25
+\multlinegap=\skip92
+\multlinetaggap=\skip93
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count198
+\l__xparse_m_args_int=\count199
+\l__xparse_mandatory_args_int=\count266
+\l__xparse_processor_int=\count267
+\l__xparse_v_nesting_int=\count268
+)
+Package: chemgreek 2016/02/10 v1.0e interfaceforuprightgreeklettersforuseinchem
+istry (CN)
+\l__chemgreek_tmpa_int=\count269
+\g__chemgreek_tmpa_int=\count270
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newchemgreekmapping with sig. 'O{}mm' on line 336.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \renewchemgreekmapping with sig. 'O{}mm' on line 339.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \declarechemgreekmapping with sig. 'O{}mm' on line 342.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newchemgreekmappingalias with sig. 'mm' on line 347.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \renewchemgreekmappingalias with sig. 'mm' on line 350.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \declarechemgreekmappingalias with sig. 'mm' on line 353.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \changechemgreeksymbol with sig. 'mmmm' on line 383.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \chemgreekmappingsymbol with sig. 'mm' on line 477.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \activatechemgreekmapping with sig. 'sm' on line 486.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \selectchemgreekmapping with sig. 'm' on line 491.
+.................................................
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count271
+\__mhchem_arrow_extPgfLength_skip=\skip94
+\mhchem@minispace@tmp=\skip95
+\mhchem@minibackspace@tmp=\skip96
+\mhchem@bondwidth=\skip97
+\mhchem@bondheight=\skip98
+\mhchem@smallbondwidth@tmpA=\skip99
+\mhchem@smallbondwidth@tmpB=\skip100
+\mhchem@smallbondwidth=\skip101
+\mhchem@bondtmp@minussidebearingleft=\skip102
+\mhchem@bondtmp@minussidebearingright=\skip103
+\l__mhchem_option_version_int=\count272
+\mhchem@option@minusmathsidebearingleft=\dimen152
+\mhchem@option@minusmathsidebearingright=\dimen153
+\mhchem@option@minustextsidebearingleft=\dimen154
+\mhchem@option@minustextsidebearingright=\dimen155
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mhchem/hpstatement.sty
+Package: hpstatement 2016/02/09 v1.02 H and P statements (mhchem bundle)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/twoopt.sty
+Package: twoopt 2016/05/16 v1.6 Definitions with two optional arguments (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mhchem/rsphrase.sty
+Package: rsphrase 2011/06/03 v3.11 Risk and Safety Phrases (mhchem bundle)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen156
+\pgfutil@tempdimb=\dimen157
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box47
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks30
+))
+\pgf@x=\dimen160
+\pgf@y=\dimen161
+\pgf@xa=\dimen162
+\pgf@ya=\dimen163
+\pgf@xb=\dimen164
+\pgf@yb=\dimen165
+\pgf@xc=\dimen166
+\pgf@yc=\dimen167
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count273
+\c@pgf@countb=\count274
+\c@pgf@countc=\count275
+\c@pgf@countd=\count276
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count277
+\pgfsyssoftpath@bigbuffer@items=\count278
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen168
+\pgfmath@count=\count279
+\pgfmath@box=\box48
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count280
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen169
+\pgf@picmaxx=\dimen170
+\pgf@picminy=\dimen171
+\pgf@picmaxy=\dimen172
+\pgf@pathminx=\dimen173
+\pgf@pathmaxx=\dimen174
+\pgf@pathminy=\dimen175
+\pgf@pathmaxy=\dimen176
+\pgf@xx=\dimen177
+\pgf@xy=\dimen178
+\pgf@yx=\dimen179
+\pgf@yy=\dimen180
+\pgf@zx=\dimen181
+\pgf@zy=\dimen182
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen183
+\pgf@path@lasty=\dimen184
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen185
+\pgf@shorten@start@additional=\dimen186
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box49
+\pgf@hbox=\box50
+\pgf@layerbox@main=\box51
+\pgf@picture@serial@count=\count281
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen187
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen188
+\pgf@pt@y=\dimen189
+\pgf@pt@temp=\dimen190
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen191
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen192
+\pgf@sys@shading@range@num=\count282
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box52
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box53
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen193
+\pgf@nodesepend=\dimen194
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen195
+\pgffor@skip=\dimen196
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count283
+\pgfplotmarksize=\dimen197
+)
+\tikz@lastx=\dimen198
+\tikz@lasty=\dimen199
+\tikz@lastxsaved=\dimen256
+\tikz@lastysaved=\dimen257
+\tikzleveldistance=\dimen258
+\tikzsiblingdistance=\dimen259
+\tikz@figbox=\box54
+\tikz@figbox@bg=\box55
+\tikz@tempbox=\box56
+\tikz@tempbox@bg=\box57
+\tikztreelevel=\count284
+\tikznumberofchildren=\count285
+\tikznumberofcurrentchild=\count286
+\tikz@fig@count=\count287
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count288
+\pgfmatrixcurrentcolumn=\count289
+\pgf@matrix@numberofcolumns=\count290
+)
+\tikz@expandcount=\count291
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
+\pgfarrowinset=\dimen260
+\pgfarrowlength=\dimen261
+\pgfarrowwidth=\dimen262
+\pgfarrowlinewidth=\dimen263
+)
+No file mhchem.aux.
+\openout1 = `mhchem.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 64.
+LaTeX Font Info:    Try loading font information for LY1+ptm on input line 64.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ly1/ly1ptm.fd
+File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
+)
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 64.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 64.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
+)
+LaTeX Info: Redefining \degres on input line 64.
+LaTeX Info: Redefining \dots on input line 64.
+LaTeX Info: Redefining \up on input line 64.
+LaTeX Info: Redefining \it@ocap on input line 64.
+LaTeX Info: Redefining \it@ccap on input line 64.
+\c@mv@tabular=\count292
+\c@mv@boldtabular=\count293
+\AtBeginShipoutBox=\box58
+Package hyperref Info: Link coloring OFF on input line 64.
+LaTeX Info: Redefining \ref on input line 64.
+LaTeX Info: Redefining \pageref on input line 64.
+LaTeX Info: Redefining \nameref on input line 64.
+\@outlinefile=\write5
+\openout5 = `mhchem.out'.
+
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 64.
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count294
+\scratchdimen=\dimen264
+\scratchbox=\box59
+\nofMPsegments=\count295
+\nofMParguments=\count296
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count297
+\MPscratchDim=\dimen265
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
+\everyMPtoPDFconversion=\toks40
+)
+.................................................
+. chemgreek info: "mapping-activated"
+. 
+. Activating mapping `upgreek' on line 64.
+.................................................
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+LaTeX Font Info:    Try loading font information for T1+AlegreyaSans-LF on inpu
+t line 82.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/alegreya/T1AlegreyaSans-LF.fd
+File: T1AlegreyaSans-LF.fd 2014/05/18 (autoinst) Font definitions for T1/Alegre
+yaSans-LF.
+)
+LaTeX Font Info:    Font shape `T1/AlegreyaSans-LF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 82.
+LaTeX Font Info:    Font shape `T1/AlegreyaSans-LF/b/n' will be
+(Font)              scaled to size 10.95pt on input line 82.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 82.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 82.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 82.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 82.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 82.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+) [1
+
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+\tf@toc=\write6
+\openout6 = `mhchem.toc'.
+
+ [2
+
+
+]
+chapter without number
+LaTeX Font Info:    Try loading font information for T1+SourceCodePro-TLF on in
+put line 110.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/sourcecodepro/T1SourceCodePro-TLF
+.fd
+File: T1SourceCodePro-TLF.fd 2015/10/08 (autoinst) Font definitions for T1/Sour
+ceCodePro-TLF.
+)
+LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 110.
+LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 118.
+LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/b/n' will be
+(Font)              scaled to size 12.9599pt on input line 118.
+LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 122.
+\openout3 = `mhchem.tmp'.
+
+ (./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 132--133
+$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 137--138
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 145--146
+$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+[3
+
+
+] (./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 149--150
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp
+LaTeX Font Info:    Font shape `T1/AlegreyaSans-LF/m/it' will be
+(Font)              scaled to size 10.95pt on input line 1.
+LaTeX Font Info:    Font shape `T1/AlegreyaSans-LF/m/it' will be
+(Font)              scaled to size 8.0pt on input line 2.
+LaTeX Font Info:    Font shape `T1/AlegreyaSans-LF/m/it' will be
+(Font)              scaled to size 6.0pt on input line 2.
+)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 160--162
+[]$[]$$[]$ 
+ []
+
+
+LaTeX Warning: Reference `sec:FineTuning' on page 4 undefined on input line 163
+.
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 170--171
+$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 174--175
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 178--179
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 182--183
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 186--187
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 195--196
+$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 201--202
+$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 205--206
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 209--210
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 213--214
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 217--218
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+[4] (./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 221--222
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 230--231
+$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 234--235
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 238--239
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 242--243
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 249--250
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 260--261
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 264--265
+[]$[]$$[]$ 
+ []
+
+[5]
+\openout3 = `mhchem.tmp'.
+
+ (./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 278--279
+$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 282--283
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 286--287
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 295--296
+$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 299--300
+[]$[]$$[]$ 
+ []
+
+[6]
+\openout3 = `mhchem.tmp'.
+
+ (./mhchem.tmp
+LaTeX Font Info:    Font shape `T1/AlegreyaSans-LF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 1.
+LaTeX Font Info:    Font shape `T1/AlegreyaSans-LF/b/n' will be
+(Font)              scaled to size 6.0pt on input line 1.
+LaTeX Font Info:    Font shape `T1/AlegreyaSans-LF/b/it' will be
+(Font)              scaled to size 10.95pt on input line 1.
+)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 312--313
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 316--317
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 334--335
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 338--339
+[]$[]$$[]$ 
+ []
+
+
+LaTeX Warning: Reference `sec:GreekFont' on page 7 undefined on input line 340.
+
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 353--354
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+[7] (./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 359--360
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 365--366
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 371--372
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 382--383
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 397--398
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 404--405
+$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+[8] (./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 408--409
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 412--413
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 421--422
+$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 425--426
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 430--431
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 438--439
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 442--443
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 447--448
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 451--452
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 455--456
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 459--460
+[]$[]$$[]$ 
+ []
+
+[9]
+\openout3 = `mhchem.tmp'.
+
+ (./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 484--485
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 490--491
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 496--497
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 502--503
+[]$[]$$[]$ 
+ []
+
+
+LaTeX Warning: Reference `sec:FineTuning' on page 10 undefined on input line 50
+4.
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 511--512
+$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 515--516
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 519--520
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 523--524
+[]$[]$$[]$ 
+ []
+
+[10]
+\openout3 = `mhchem.tmp'.
+
+ (./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 532--533
+$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 536--537
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+\openout3 = `mhchem.tmp'.
+
+ (./mhchem.tmp)
+\openout3 = `mhchem.tmp'.
+
+ (./mhchem.tmp)
+\openout3 = `mhchem.tmp'.
+
+ (./mhchem.tmp)
+\openout3 = `mhchem.tmp'.
+
+ [11] (./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 579--580
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 600--601
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 623--624
+[]$[]$$[]$ 
+ []
+
+[12]
+\c@reaction=\count300
+\openout3 = `mhchem.tmp'.
+
+ (./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 682--683
+[]$[]$$[]$ 
+ []
+
+[13pdfTeX warning (ext4): destination with the same identifier (name{equation.0
+.0.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.691 \subsection
+                 {Comma Example}pdfTeX warning (ext4): destination with the sam
+e identifier (name{equation.0.0.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.691 \subsection
+                 {Comma Example}]
+\openout3 = `mhchem.tmp'.
+
+ (./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 697--698
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 704--705
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Underfull \hbox (badness 10000) in paragraph at lines 9--725
+[]$[]$[][][]$[]$[][][]$[][][]$[][][]$[]$[][][]$[]$[][]
+ []
+
+
+Overfull \hbox (10.95pt too wide) in paragraph at lines 725--726
+[]$[]$$[]$ 
+ []
+
+[14]
+LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/b/n' will be
+(Font)              scaled to size 9.85492pt on input line 754.
+ [15]
+Overfull \hbox (14.0354pt too wide) in paragraph at lines 819--820
+\T1/ppl/m/n/10.95 spe-cify these `map-pings' by (for in-stance) []\T1/SourceCod
+ePro-TLF/m/n/10.95 \mhchemoptions{text-greek=upgreek, []math-
+ []
+
+[16]
+\openout3 = `mhchem.tmp'.
+
+ (./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 829--830
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 844--845
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 849--850
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 857--858
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 865--866
+$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 870--871
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+[17] (./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 875--876
+[]$[]$$[]$ 
+ []
+
+[18]
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 904.
+
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+) [19
+
+]
+[20] [21]
+chapter without number
+
+Overfull \hbox (8.5048pt too wide) in paragraph at lines 990--1018
+\T1/ppl/m/n/10.95 garian, Ir-ish, Italian, Latvian, Lithuanian, Maltese, Pol-is
+h, Por-tuguese, Ro-manian, Slovak,
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 1044--1045
+[]$[]$$[]$ 
+ []
+
+[22
+
+]
+\openout3 = `mhchem.tmp'.
+
+ (./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 1060--1061
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 1072--1073
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Overfull \hbox (10.95pt too wide) in paragraph at lines 1085--1086
+[]$[]$$[]$ 
+ []
+
+\openout3 = `mhchem.tmp'.
+
+(./mhchem.tmp)
+Underfull \hbox (badness 10000) in paragraph at lines 1--1098
+[]\T1/ppl/m/n/10.95 P210: Keep away from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1098
+\T1/ppl/m/n/10.95 heat/sparks/open flames/hot sur-
+ []
+
+
+Overfull \hbox (10.95pt too wide) in paragraph at lines 1098--1099
+[]$[]$$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1121--1121
+[][][][]$\T1/SourceCodePro-TLF/m/n/9 http : / / new . eur-[]lex . europa . eu /
+ legal-[]content / EN / TXT / ?qid = 1369907325497 & uri = CELEX :
+ []
+
+
+Overfull \hbox (6.7822pt too wide) in paragraph at lines 1109--1123
+\T1/ppl/m/n/9 No 1907/2006[][][], a data-base with the ex-trac-ted phrases, kin
+dly provided by the au-thor of schoolscout24.de[][][], 
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 1129--1129
+[][][]\T1/ppl/m/n/9 Previously to be found un-der []$\T1/SourceCodePro-TLF/m/n/
+9 http : / / europa . eu . int / comm / environment / dansub / pdfs / annex3 _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1129--1129
+\T1/SourceCodePro-TLF/m/n/9 en . pdf$[] \T1/ppl/m/n/9 and []$\T1/SourceCodePro-
+TLF/m/n/9 http : / / europa . eu . int / comm / environment / dansub / pdfs / a
+nnex4 _ en . pdf$[] \T1/ppl/m/n/9 which in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1129--1129
+\T1/ppl/m/n/9 turn were linked from []$\T1/SourceCodePro-TLF/m/n/9 http : / / e
+uropa . eu . int / comm / environment / dansub / main67 _ 548 / index _
+ []
+
+[24]
+Overfull \hbox (10.45615pt too wide) in paragraph at lines 1140--1141
+[]\T1/ppl/m/n/10.95 German: up-dated EUH001, P222, P241, P243, P263, P305+P351+
+P338, P306, P402+P404,
+ []
+
+[25
+
+]
+chapter without number
+
+Overfull \hbox (9.73561pt too wide) in paragraph at lines 1529--1529
+\T1/ppl/b/n/9 EUH014 \T1/ppl/m/n/9 (EUH014): Re-acts vi-ol-ently with wa-ter. \
+T1/ppl/b/n/9 EUH018.0 \T1/ppl/m/n/9 (EUH018): In use may form flam-mable/explos
+ive
+ []
+
+[26
+
+] [27] [28] [29] [30] [31] [32] [33] [34] [35]
+Overfull \hbox (18.05959pt too wide) in paragraph at lines 1539--1539
+\T1/ppl/m/n/9 dung ent-zünd-bar wer-den. \T1/ppl/b/n/9 EUH210 \T1/ppl/m/n/9 (EU
+H210): Si-cher-heits-da-ten-blatt auf An-fra-ge er-hält-lich. \T1/ppl/b/n/9 EUH
+401 \T1/ppl/m/n/9 (EUH401):
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1539.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1539.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1539.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1539.
+[36]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1539.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1539.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1539.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1539.
+ [37]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1539.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1539.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1539.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1539.
+ [38]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1539.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1539.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1539.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1539.
+ [39]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1539.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1539.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1539.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1539.
+ [40] [41] [42]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1768.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1768.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1768.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1768.
+ [43]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1768.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1768.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1768.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1768.
+ [44]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1768.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1768.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1768.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1768.
+ [45] [46] [47] [48]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1780.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1780.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1780.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1780.
+ [49]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1780.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1780.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1780.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1780.
+ [50]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1780.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1780.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1780.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1780.
+
+[51] [52] [53] [54]
+LaTeX Info: Redefining \. on input line 1790.
+LaTeX Info: Redefining \% on input line 1790.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1791.
+ [55]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 1791.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 1791.
+ [56] [57]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1794.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1794.
+ (./mhchem.aux
+LaTeX Info: Redefining \. on input line 156.
+LaTeX Info: Redefining \% on input line 156.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1794.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1794.
+
+
+
+Package rerunfilecheck Warning: File `mhchem.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `mhchem.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  A1DD42A3F970DA8E401648FFDC7EA8E8;3569.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 32158 strings out of 493014
+ 613702 string characters out of 6133351
+ 1085040 words of memory out of 5000000
+ 34845 multiletter control sequences out of 15000+600000
+ 240522 words of font info for 146 fonts, out of 8000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 64i,24n,88p,10372b,1879s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/alegreya/algrs_rus6f4.enc
+}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/te
+xlive/2016/texmf-dist/fonts/enc/dvips/sourcecodepro/a_ind2fo.enc}</usr/local/te
+xlive/2016/texmf-dist/fonts/type1/huerta/alegreya/AlegreyaSans-Bold.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/huerta/alegreya/AlegreyaSans-BoldItali
+c.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/huerta/alegreya/AlegreyaS
+ans-Italic.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/sourcecode
+pro/SourceCodePro-Bold.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adob
+e/sourcecodepro/SourceCodePro-Regular.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
+palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatin
+o/uplri8a.pfb>
+Output written on mhchem.pdf (57 pages, 371430 bytes).
+PDF statistics:
+ 421 PDF objects out of 1000 (max. 8388607)
+ 344 compressed objects within 4 object streams
+ 125 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+
