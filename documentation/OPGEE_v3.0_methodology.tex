@@ -518,8 +518,8 @@ The following need to be considered in formulating an OPGEE run:
 \begin{itemize}
 \item Functional unit: Because these fields are primarily oil producers, we select the functional unit to be 1 MJ of crude petroleum.
 \item System boundary: For this analysis, we wish to include emissions including transportation of the key product (oil) to the refinery gate, so we select 'oil boundary' to be 'Refinery'.
-\item Co-product accounting: The method of co-product accounting should be chosen considering the methodologies of other studies the results might be compared to. These results won't be used for any comparisons, so we use the allocation methodology. In the allocation methodology, emissions are divided proportionally between products and co-products according to energy output. The alternative, co-product displacement, applies emissions credits/debits according to the average emission intensity of products that would be displaced in the economy by the production of the co-product.
-\item Fugitives modelling: A variety of related approaches are applied in OPGEE to estimate venting and fugitive emissions. For this example, we select the 'site-level approach'. More detail on these approaches is provided in Section \ref{sec:VFF}.
+\item Co-product accounting: The method of co-product accounting should be chosen considering the methodologies of other studies the results might be compared to. These results won't be used for any comparisons, so we use the allocation methodology. In the allocation methodology used in OPGEE, emissions are divided proportionally between products and co-products according to energy output (as compared to economic value allocation, for example). The alternative, co-product displacement, applies emissions credits/debits according to the average emission intensity of products that would be displaced in the economy by the production of the co-product.
+\item Fugitives modeling: A variety of related approaches are applied in OPGEE to estimate venting and fugitive emissions. For this example, we select the 'site-level approach'. More detail on these approaches is provided in Section \ref{sec:VFF}.
 \end{itemize}
 
 See Figure \ref{fig:lca_specs} below for the locations of adjustable model parameters on the \sheet{Inputs} worksheet.
@@ -1834,6 +1834,51 @@ CR_{CO_{2}} = P_{oilfield} \cdot (Seq_{CO_{2}} - Blow_{CO_{2}} - Leakage_{CO_{2}
  where $CR_{CO_{2}}$ = CO$_2$ sequestration credit assigned to the oilfield [gCO$_2$/d]; $P_{oilfield}$ = proportion of the overall sequestration credit assigned to the oilfield [-]; $Seq_{CO_{2}}$ = CO$_2$ sequestration rate [gCO$_2$/d]; $Blow_{CO_{2}}$ = CO$_2$ lost from the reservoir from terminal blow-down operations [gCO$_2$/d]; and $Leakage_{CO_{2}}$ = the amount of CO$_2$ leaving the reservoir from long-term leakage [gCO$_2$/d].
 
 
+\section{Allocation}
+
+In LCA there is a persistent challenge with allocation of emissions to the products co-produced in a complex production process. For example, if an oil well produces oil and gas, how are the emissions from the well, both direct and indirect, to be divided between the two products.  OPGEE uses an energy-content allocation system, wherein the emissions from a process are divided between the products output from the process in proportion to their energy content. This is a common approach for energy systems LCA studies, and we adopt it here by convention.
+
+However, even after energy-content allocation is chosen as the allocation scheme, choices remain about the level of aggregation or disaggregation to be applied during the allocation process. Different levels of aggregation during allocation can result in quite different results. It is generally difficult to determine a single, unambiguously ``correct'' allocation scheme, and some expert judgement is required. We will illustrate this challenge with a simple example that will justify the approach used in OPGEE.
+
+First, imagine an oil and gas production system, modeled from the wellbore to the production of final product (i.e., a ``well-to-tank'' system boundary). This system includes LNG transport of gas to an end-consuming country and refining of the petroleum into useful products. This basic system is illustrated in Figure \ref{fig:Allocation_Base}. All energy units and emissions units are arbitrary and chosen to be round numbers for simplicity. Total emissions from the system are 50 units, divided between the process units as shown in underlined italic black font. Total output energy from the system is 10 units of re-gassified LNG at the consuming country and 60 units of refinery products (e.g., gasoline, diesel).
+
+How are we to best divide the emissions between the two products using energy-content allocation? We explore three options here, starting with the most aggregated. Option A, (see Figure \ref{fig:Allocation_OptionA}) applies allocation across the entire process chain at once, allocating all emissions modeled between the two end products. Thus, the total emissions of 50 units are simply divided by the energy content of the products delivered to the end consumers (10 units of gas, 60 units of oil products).
+
+Next, Option B (see Figure \ref{fig:Allocation_OptionB}) applies allocation at a moderate scale, first allocating emissions from the production site to the two products generated at the production site, then allocating emissions further downstream to each product.
+
+Lastly, Option C (see Figure \ref{fig:Allocation_OptionC}) applies allocation at each process unit in specific, dividing any emissions from a single process to the products of that process. This is the most granular of the emissions allocation schemes and needs to be applied iteratively down the process chain to account for recycling streams that might re-introduce embodied emissions back to the upstream portion of the process chain (e.g., if gas is reinjected into the wellbore for gas lift).
+
+One principle that could be applied in choosing the allocation scheme might be to choose a method for simplicity and conciseness. In that case, one might choose Option A because it simply takes the output products from all branches of the process chain and uses those to divide all emissions from the process chain. However, we quickly see that this can lead to a perverse result: the emissions from transport and liquefaction of the natural gas into LNG are ``back allocated'' to the oil produced, even well after the two products are separated. At the point of transport and liquefaction of the gas into LNG, the products likely have undergone commercial transaction, possibly multiple times, and are flowing through entirely separate supply chains, possibly on different continents. Continuing to group these emissions and divide them to end products seems excessive and can lead to strange results.
+
+In response to the above problem, one might aim to use the most disaggregated method possible, allocating emissions at the level of finest process modeling detail allowable given the engineering basis of the LCA model. In the literature, this method was suggested in the past as the preferred method for allocating complex emissions in refinery processing, where many processes are used to produce many products \cite{wang2004}. This principle would lead one to choose Option C. However, a new problem then arises. We see in Option C that emissions from flaring of produced gas at the oilfield are allocated entirely to the gas stream, because the gas and oil have been physically separated upstream of the flare in the separator. However, given the differential output of oil and gas at the oilfield boundary, and the differential value of the two products on an energy basis, it seems perverse to assign flaring emissions to the gas when the gas likely would not have been produced without the oil. 
+
+These issues lead one to favor Option B, which applies Option A-like aggregation of process units, but at a finer scale of resolution corresponding to organizational structure, physical co-location at an oilfield facility, ownership, or other important properties of the sub-parts of the system. While such an option is less clear cut in its principle of determination than Option A or Option C, it results in more sensible results, given what we know about industrial structure and causation in oil and gas production.
+
+
+\begin{figure}[t]
+\includegraphics[width=1\columnwidth]{images/Allocation_Base.pdf}
+\caption{Basic process model for allocation illustrative example. Energy units and emissions units are round number and presented on an arbitrary scale.}
+\label{fig:Allocation_Base}
+\end{figure}
+
+
+\begin{figure}[t]
+\includegraphics[width=1\columnwidth]{images/Allocation_OptionA.pdf}
+\caption{Allocation Option A for allocation illustrative example. Energy units and emissions units are round number and presented on an arbitrary scale.}
+\label{fig:Allocation_OptionA}
+\end{figure}
+
+\begin{figure}[t]
+\includegraphics[width=1\columnwidth]{images/Allocation_OptionB.pdf}
+\caption{Allocation Option B for allocation illustrative example. Energy units and emissions units are round number and presented on an arbitrary scale.}
+\label{fig:Allocation_OptionB}
+\end{figure}
+
+\begin{figure}[t]
+\includegraphics[width=1\columnwidth]{images/Allocation_OptionC.pdf}
+\caption{Allocation Option C for allocation illustrative example. Energy units and emissions units are round number and presented on an arbitrary scale.}
+\label{fig:Allocation_OptionC}
+\end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
