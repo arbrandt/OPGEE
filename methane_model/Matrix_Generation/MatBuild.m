@@ -11,9 +11,9 @@ Trials = 10000;
 %% Import data using external .m file
 
 if size_ppmv == 1   
-    load 'SmallEmitters'; 
+    load 'SMemitters'; 
 else
-    load 'LargeEmitters'; 
+    load 'LGemitters'; 
 end
 
 
