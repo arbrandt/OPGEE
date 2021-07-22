@@ -1,208 +1,62 @@
 This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: OPGEE_v3.0_methodology.aux
-Case mismatch error between cite keys AlShammasi1999 and Alshammasi1999
----line 416 of file OPGEE_v3.0_methodology.aux
- : \citation{AlShammasi1999
- :                         }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys AlShammasi1999 and Alshammasi1999
----line 417 of file OPGEE_v3.0_methodology.aux
- : \citation{AlShammasi1999
- :                         }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys AlShammasi1999 and Alshammasi1999
----line 418 of file OPGEE_v3.0_methodology.aux
- : \citation{AlShammasi1999
- :                         }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys AlShammasi1999 and Alshammasi1999
----line 419 of file OPGEE_v3.0_methodology.aux
- : \citation{AlShammasi1999
- :                         }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys AlShammasi1999 and Alshammasi1999
----line 420 of file OPGEE_v3.0_methodology.aux
- : \citation{AlShammasi1999
- :                         }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys AlShammasi1999 and Alshammasi1999
----line 421 of file OPGEE_v3.0_methodology.aux
- : \citation{AlShammasi1999
- :                         }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys AlShammasi1999 and Alshammasi1999
----line 422 of file OPGEE_v3.0_methodology.aux
- : \citation{AlShammasi1999
- :                         }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys AlShammasi1999 and Alshammasi1999
----line 423 of file OPGEE_v3.0_methodology.aux
- : \citation{AlShammasi1999
- :                         }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys AlShammasi1999 and Alshammasi1999
----line 424 of file OPGEE_v3.0_methodology.aux
- : \citation{AlShammasi1999
- :                         }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys McCain1990 and Mccain1990
----line 425 of file OPGEE_v3.0_methodology.aux
- : \citation{McCain1990
- :                     }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys McCain1990 and Mccain1990
----line 426 of file OPGEE_v3.0_methodology.aux
- : \citation{McCain1990
- :                     }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys McCain1990 and Mccain1990
----line 427 of file OPGEE_v3.0_methodology.aux
- : \citation{McCain1990
- :                     }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys McCain1990 and Mccain1990
----line 428 of file OPGEE_v3.0_methodology.aux
- : \citation{McCain1990
- :                     }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys McCain1990 and Mccain1990
----line 429 of file OPGEE_v3.0_methodology.aux
- : \citation{McCain1990
- :                     }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys McCain1990 and Mccain1990
----line 430 of file OPGEE_v3.0_methodology.aux
- : \citation{McCain1990
- :                     }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys McAllister2009 and Mcallister2009
----line 537 of file OPGEE_v3.0_methodology.aux
- : \citation{McAllister2009
- :                         }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys AlShammasi1999 and Alshammasi1999
----line 580 of file OPGEE_v3.0_methodology.aux
- : \citation{Fanchi2007,AlShammasi1999
- :                                    }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys AlShammasi1999 and Alshammasi1999
----line 581 of file OPGEE_v3.0_methodology.aux
- : \citation{Fanchi2007,AlShammasi1999
- :                                    }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys AlShammasi1999 and Alshammasi1999
----line 582 of file OPGEE_v3.0_methodology.aux
- : \citation{Fanchi2007,AlShammasi1999
- :                                    }
-I'm skipping whatever remains of this command
 The style file: mdpi.bst
-Reallocated field_info (elt_size=4) to 12384 items from 5000.
+Reallocated field_info (elt_size=4) to 11188 items from 5000.
 Database file #1: OPGEE_bibliography.bib
-Warning--entry type for "Aspentech2016" isn't style-file defined
---line 1062 of file OPGEE_bibliography.bib
-Warning--entry type for "Mathworks2016" isn't style-file defined
---line 1068 of file OPGEE_bibliography.bib
-Warning--I didn't find a database entry for "EPA1995"
-Warning--I didn't find a database entry for "guzmann2014review"
-Warning--I didn't find a database entry for "pyo2003co2"
-Warning--I didn't find a database entry for "johnston1988weeks"
-Warning--I didn't find a database entry for "Alshammasi1999"
-Warning--I didn't find a database entry for "Almahoun1992"
-Warning--I didn't find a database entry for "APITechDatabook"
-Warning--I didn't find a database entry for "Brandt2015"
-Warning--I didn't find a database entry for "Scmidth1985"
-Warning--I didn't find a database entry for "Vlasopoulous2006"
-Warning--I didn't find a database entry for "Lake?"
-Warning--I didn't find a database entry for "rojey1997natural"
-Warning--I didn't find a database entry for "orr1987effect"
-Warning--I didn't find a database entry for "kang2015effective"
-Warning--I didn't find a database entry for "celia2011field"
-Warning--I didn't find a database entry for "stevens1999sequestration"
-Warning--I didn't find a database entry for "leach2011co"
-Warning--I didn't find a database entry for "Brandtetal2015"
-Warning--I didn't find a database entry for "EIA2012"
-Warning--I didn't find a database entry for "Marcheese2015"
-Warning--I didn't find a database entry for "EIA2018"
-Warning--I didn't find a database entry for "Ravikumar2018"
-Warning--I didn't find a database entry for "API1993"
-Warning--I didn't find a database entry for "ZimmerleEmail"
-Name 1 in "Beck, S., and Collins, R." has a comma at the end for entry Moody2008
-while executing---line 2017 of file mdpi.bst
-Warning--empty institution in ARB2013
-Warning--empty year in DOGGRonline
-Warning--empty journal in StewartBurkhardtVoo1959
-Name 1 in "Abdel-Aal, H., Fahim, M., and Aggour, M." has a comma at the end for entry Abdelaal2003
-while executing---line 2017 of file mdpi.bst
-Too many commas in name 1 of "Abdel-Aal, H., Fahim, M., and Aggour, M." for entry Abdelaal2003
-while executing---line 2017 of file mdpi.bst
-Warning--empty author in Cantera2012
-Warning--empty author in Farmer2010
+Warning--empty institution in PengTools2021
+Warning--empty year in PengTools2021
 Warning--empty institution in Farmer2010
 Warning--there's a number but no volume in Ganapathy1996
-Name 2 in "Wang, Jingfan and O'Donnell, John, and Brandt, A. R." has a comma at the end for entry Wang2016
-while executing---line 2017 of file mdpi.bst
 Warning--there's a number but no volume in Wang2016
-Name 2 in "Sandler, Joel and Fowler, Garrett, and Cheng, Kris and Kovscek, Anthony R." has a comma at the end for entry Sandler2014
-while executing---line 2017 of file mdpi.bst
 Warning--there's a number but no volume in Palmer2015
-Warning--empty author in EngToolbox
-Warning--empty institution in EngToolbox
-Warning--there's a number but no volume in Gogolek2012
+Warning--there's a number but no volume in Ozumba2000
+Warning--empty institution in Mathworks2016
+Warning--empty year in Mathworks2016
 Warning--there's a number but no volume in Parro1984
 Warning--there's a number but no volume in Guntis2002
 Warning--empty booktitle in Bocker2013
 Warning--empty booktitle in Benson2005
-Name 1 in "Solar Turbines,," has a comma at the end for entry Solarturbines2012
-while executing---line 2017 of file mdpi.bst
-Name 1 in "Solar Turbines,," has a comma at the end for entry Solarturbines2012
-while executing---line 2017 of file mdpi.bst
-Name 1 in "Surface Equipment Corporation," has a comma at the end for entry Surfaceequip2014
-while executing---line 2017 of file mdpi.bst
-Name 1 in "National Risk Management,," has a comma at the end for entry EPA1996
-while executing---line 2017 of file mdpi.bst
-Name 1 in "National Risk Management,," has a comma at the end for entry EPA1996
-while executing---line 2017 of file mdpi.bst
-Warning--there's a number but no volume in Picard2006
-You've used 260 entries,
+Warning--empty institution in EngToolbox
+You've used 238 entries,
             2152 wiz_defined-function locations,
-            1853 strings with 45318 characters,
-and the built_in function-call counts, 47209 in all, are:
-= -- 3894
-> -- 2500
-< -- 46
-+ -- 963
-- -- 703
-* -- 3245
-:= -- 8195
-add.period$ -- 716
-call.type$ -- 260
-change.case$ -- 81
+            1683 strings with 37627 characters,
+and the built_in function-call counts, 40327 in all, are:
+= -- 3421
+> -- 1904
+< -- 43
++ -- 757
+- -- 519
+* -- 2466
+:= -- 7040
+add.period$ -- 656
+call.type$ -- 238
+change.case$ -- 78
 chr.to.int$ -- 0
-cite$ -- 277
-duplicate$ -- 2181
-empty$ -- 4545
-format.name$ -- 703
-if$ -- 10226
+cite$ -- 252
+duplicate$ -- 1981
+empty$ -- 4076
+format.name$ -- 519
+if$ -- 8886
 int.to.chr$ -- 0
-int.to.str$ -- 260
-missing$ -- 184
-newline$ -- 1233
-num.names$ -- 269
-pop$ -- 794
+int.to.str$ -- 238
+missing$ -- 171
+newline$ -- 1126
+num.names$ -- 251
+pop$ -- 790
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 594
+skip$ -- 501
 stack$ -- 0
-substring$ -- 1609
-swap$ -- 383
-text.length$ -- 46
+substring$ -- 1047
+swap$ -- 311
+text.length$ -- 43
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 17
-while$ -- 363
-width$ -- 263
-write$ -- 2658
-(There were 29 error messages)
+warning$ -- 14
+while$ -- 311
+width$ -- 241
+write$ -- 2446
+(There were 14 warnings)

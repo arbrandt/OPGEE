@@ -4,111 +4,104 @@
 \BOOKMARK [1][-]{section.2.1}{Model motivation}{chapter.2}% 4
 \BOOKMARK [1][-]{section.2.2}{OPGEE model goals}{chapter.2}% 5
 \BOOKMARK [1][-]{section.2.3}{OPGEE model construction}{chapter.2}% 6
-\BOOKMARK [0][-]{chapter.3}{User Guide}{part.1}% 7
-\BOOKMARK [1][-]{section.3.1}{OPGEE Quick Start Guide}{chapter.3}% 8
-\BOOKMARK [1][-]{section.3.2}{Example OPGEE calculation}{chapter.3}% 9
-\BOOKMARK [1][-]{section.3.3}{OPGEE model structure}{chapter.3}% 10
-\BOOKMARK [-1][-]{part.2}{II Technical documentation}{}% 11
-\BOOKMARK [0][-]{chapter.4}{`Active Field' gathering worksheet}{part.2}% 12
-\BOOKMARK [1][-]{section.4.1}{Introduction to the `Active Field' worksheet}{chapter.4}% 13
-\BOOKMARK [1][-]{section.4.2}{GHG calculations on the `Active Field' worksheet}{chapter.4}% 14
-\BOOKMARK [1][-]{section.4.3}{Smart defaults and uncertainty distributions of key parameters}{chapter.4}% 15
-\BOOKMARK [1][-]{section.4.4}{Probabilistic uncertainty analysis for missing key parameters}{chapter.4}% 16
-\BOOKMARK [0][-]{chapter.5}{Flow sheet}{part.2}% 17
-\BOOKMARK [1][-]{section.5.1}{Flow sheet introduction}{chapter.5}% 18
-\BOOKMARK [1][-]{section.5.2}{Flow table}{chapter.5}% 19
-\BOOKMARK [1][-]{section.5.3}{Computing properties of flows}{chapter.5}% 20
-\BOOKMARK [1][-]{section.5.4}{Process flow diagram}{chapter.5}% 21
-\BOOKMARK [0][-]{chapter.6}{Gathering worksheets}{part.2}% 22
-\BOOKMARK [1][-]{section.6.1}{`Energy Consumption' gathering worksheet}{chapter.6}% 23
-\BOOKMARK [1][-]{section.6.2}{`GHG Emissions' gathering worksheet}{chapter.6}% 24
-\BOOKMARK [1][-]{section.6.3}{Allocation}{chapter.6}% 25
-\BOOKMARK [0][-]{chapter.7}{Process worksheets}{part.2}% 26
-\BOOKMARK [1][-]{section.7.1}{Exploration}{chapter.7}% 27
-\BOOKMARK [1][-]{section.7.2}{Drilling \046 development}{chapter.7}% 28
-\BOOKMARK [1][-]{section.7.3}{Reservoir}{chapter.7}% 29
-\BOOKMARK [1][-]{section.7.4}{Well and downhole pump}{chapter.7}% 30
-\BOOKMARK [1][-]{section.7.5}{Bitumen mining}{chapter.7}% 31
-\BOOKMARK [1][-]{section.7.6}{Separation}{chapter.7}% 32
-\BOOKMARK [1][-]{section.7.7}{Crude oil dewatering}{chapter.7}% 33
-\BOOKMARK [1][-]{section.7.8}{Crude oil stabilization}{chapter.7}% 34
-\BOOKMARK [1][-]{section.7.9}{Heavy oil upgrading}{chapter.7}% 35
-\BOOKMARK [1][-]{section.7.10}{Heavy oil dilution}{chapter.7}% 36
-\BOOKMARK [1][-]{section.7.11}{Crude oil storage}{chapter.7}% 37
-\BOOKMARK [1][-]{section.7.12}{Produced water treatment}{chapter.7}% 38
-\BOOKMARK [1][-]{section.7.13}{Makeup water treatment}{chapter.7}% 39
-\BOOKMARK [1][-]{section.7.14}{Water injection}{chapter.7}% 40
-\BOOKMARK [1][-]{section.7.15}{Steam generation}{chapter.7}% 41
-\BOOKMARK [1][-]{section.7.16}{Flaring}{chapter.7}% 42
-\BOOKMARK [1][-]{section.7.17}{Venting}{chapter.7}% 43
-\BOOKMARK [1][-]{section.7.18}{Gas gathering}{chapter.7}% 44
-\BOOKMARK [1][-]{section.7.19}{Glycol dehydrator}{chapter.7}% 45
-\BOOKMARK [1][-]{section.7.20}{Acid gas removal}{chapter.7}% 46
-\BOOKMARK [1][-]{section.7.21}{Demethanizer}{chapter.7}% 47
-\BOOKMARK [1][-]{section.7.22}{Chiller}{chapter.7}% 48
-\BOOKMARK [1][-]{section.7.23}{Membrane}{chapter.7}% 49
-\BOOKMARK [1][-]{section.7.24}{Ryan-Holmes}{chapter.7}% 50
-\BOOKMARK [1][-]{section.7.25}{Gas reinjection compressor}{chapter.7}% 51
-\BOOKMARK [1][-]{section.7.26}{Gas flooding compressor}{chapter.7}% 52
-\BOOKMARK [1][-]{section.7.27}{Gas lifting compressor}{chapter.7}% 53
-\BOOKMARK [1][-]{section.7.28}{CO2 reinjection compressor}{chapter.7}% 54
-\BOOKMARK [1][-]{section.7.29}{Sour gas reinjection compressor}{chapter.7}% 55
-\BOOKMARK [1][-]{section.7.30}{VRU compressor}{chapter.7}% 56
-\BOOKMARK [1][-]{section.7.31}{Pre-membrane compressor}{chapter.7}% 57
-\BOOKMARK [1][-]{section.7.32}{Transmission compressor}{chapter.7}% 58
-\BOOKMARK [1][-]{section.7.33}{LNG liquefaction}{chapter.7}% 59
-\BOOKMARK [1][-]{section.7.34}{LNG transport}{chapter.7}% 60
-\BOOKMARK [1][-]{section.7.35}{LNG Regasification}{chapter.7}% 61
-\BOOKMARK [1][-]{section.7.36}{Storage compressor}{chapter.7}% 62
-\BOOKMARK [1][-]{section.7.37}{Post-storage compressor}{chapter.7}% 63
-\BOOKMARK [1][-]{section.7.38}{HC gas injection wells}{chapter.7}% 64
-\BOOKMARK [1][-]{section.7.39}{CO2 injection wells}{chapter.7}% 65
-\BOOKMARK [1][-]{section.7.40}{Sour gas injection wells}{chapter.7}% 66
-\BOOKMARK [1][-]{section.7.41}{Steam injection wells}{chapter.7}% 67
-\BOOKMARK [1][-]{section.7.42}{Gas storage wells}{chapter.7}% 68
-\BOOKMARK [1][-]{section.7.43}{Storage separator}{chapter.7}% 69
-\BOOKMARK [1][-]{section.7.44}{Gas partition A}{chapter.7}% 70
-\BOOKMARK [1][-]{section.7.45}{Gas partition B}{chapter.7}% 71
-\BOOKMARK [1][-]{section.7.46}{Fuel gas consumed}{chapter.7}% 72
-\BOOKMARK [1][-]{section.7.47}{Maintenance}{chapter.7}% 73
-\BOOKMARK [1][-]{section.7.48}{Waste treatment and disposal}{chapter.7}% 74
-\BOOKMARK [1][-]{section.7.49}{Crude oil transport}{chapter.7}% 75
-\BOOKMARK [1][-]{section.7.50}{Petcoke transport}{chapter.7}% 76
-\BOOKMARK [1][-]{section.7.51}{Gas distribution}{chapter.7}% 77
-\BOOKMARK [1][-]{section.7.52}{Fuel gas imports \(FGI\)}{chapter.7}% 78
-\BOOKMARK [1][-]{section.7.53}{Electricity generation and imports}{chapter.7}% 79
-\BOOKMARK [1][-]{section.7.54}{NGL or diluent production and imports}{chapter.7}% 80
-\BOOKMARK [0][-]{chapter.8}{Supplemental calculations worksheets}{part.2}% 81
-\BOOKMARK [1][-]{section.8.1}{Drivers}{chapter.8}% 82
-\BOOKMARK [1][-]{section.8.2}{Fuel cycle}{chapter.8}% 83
-\BOOKMARK [1][-]{section.8.3}{Embodied emissions}{chapter.8}% 84
-\BOOKMARK [1][-]{section.8.4}{Emissions factors}{chapter.8}% 85
-\BOOKMARK [0][-]{chapter.9}{Venting and fugitive emissions}{part.2}% 86
-\BOOKMARK [1][-]{section.9.1}{Introduction to venting and fugitive emissions}{chapter.9}% 87
-\BOOKMARK [1][-]{section.9.2}{Site-level methods for on-site emissions}{chapter.9}% 88
-\BOOKMARK [1][-]{section.9.3}{Component-level methods for on-site emissions}{chapter.9}% 89
-\BOOKMARK [1][-]{section.9.4}{Statistical analysis of leakage datasets}{chapter.9}% 90
-\BOOKMARK [1][-]{section.9.5}{Off-site emissions}{chapter.9}% 91
-\BOOKMARK [1][-]{section.9.6}{Deprecated OPGEE v2.0 VF modeling methods}{chapter.9}% 92
-\BOOKMARK [0][-]{chapter.10}{Fundamental data inputs}{part.2}% 93
-\BOOKMARK [1][-]{section.10.1}{Global warming potentials}{chapter.10}% 94
-\BOOKMARK [1][-]{section.10.2}{Properties of water and steam}{chapter.10}% 95
-\BOOKMARK [1][-]{section.10.3}{Properties of air and exhaust gas components}{chapter.10}% 96
-\BOOKMARK [1][-]{section.10.4}{Compositions and properties of fuels}{chapter.10}% 97
-\BOOKMARK [0][-]{chapter.11}{OPGEE limitations}{part.2}% 98
-\BOOKMARK [1][-]{section.11.1}{Scope limitations}{chapter.11}% 99
-\BOOKMARK [1][-]{section.11.2}{Technical limitations}{chapter.11}% 100
-\BOOKMARK [1][-]{section.11.3}{Future work}{chapter.11}% 101
-\BOOKMARK [0][-]{appendix.A}{Terminology: Acronyms and abbreviations}{part.2}% 102
-\BOOKMARK [0][-]{appendix.B}{Mathematical terms and definitions}{part.2}% 103
-\BOOKMARK [0][-]{appendix.C}{Tabulated sources for each production stage}{part.2}% 104
-\BOOKMARK [0][-]{appendix.D}{Bulk assessment macro error correction}{part.2}% 105
-\BOOKMARK [0][-]{appendix.E}{Changes and updates from previous versions of OPGEE}{part.2}% 106
-\BOOKMARK [1][-]{section.E.1}{Changes from OPGEE v2.0a to OPGEE v2.0b}{appendix.E}% 107
-\BOOKMARK [1][-]{section.E.2}{Changes from OPGEE v1.1 Draft E to OPGEE v2.0a}{appendix.E}% 108
-\BOOKMARK [1][-]{section.E.3}{Changes from OPGEE v1.1 Draft D to OPGEE v1.1 Draft E}{appendix.E}% 109
-\BOOKMARK [1][-]{section.E.4}{Changes from OPGEE v1.1 Draft C to OPGEE v1.1 Draft D}{appendix.E}% 110
-\BOOKMARK [1][-]{section.E.5}{Changes from OPGEE v1.1 Draft B to OPGEE v1.1 Draft C}{appendix.E}% 111
-\BOOKMARK [1][-]{section.E.6}{Changes from OPGEE v1.1 Draft A to OPGEE v1.1 Draft B}{appendix.E}% 112
-\BOOKMARK [1][-]{section.E.7}{Changes from OPGEE v1.0 to OPGEE v1.1 Draft A}{appendix.E}% 113
-\BOOKMARK [1][-]{section.E.8}{Changes from OPGEE v1.0 Draft A to OPGEE v1.0}{appendix.E}% 114
+\BOOKMARK [1][-]{section.2.4}{OPGEE model structure}{chapter.2}% 7
+\BOOKMARK [-1][-]{part.2}{II Technical documentation}{}% 8
+\BOOKMARK [0][-]{chapter.3}{`Active Field' gathering worksheet}{part.2}% 9
+\BOOKMARK [1][-]{section.3.1}{Introduction to the `Active Field' worksheet}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.2}{Energy and GHG calculations on the `Active Field' worksheet}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.3}{Smart defaults and uncertainty distributions of key parameters}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.4}{Probabilistic uncertainty analysis for missing key parameters}{chapter.3}% 13
+\BOOKMARK [0][-]{chapter.4}{Flow sheet}{part.2}% 14
+\BOOKMARK [1][-]{section.4.1}{Flow sheet introduction}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.2}{Flow table}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.3}{Computing properties of flows}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.4}{Process flow diagram}{chapter.4}% 18
+\BOOKMARK [0][-]{chapter.5}{Gathering worksheets}{part.2}% 19
+\BOOKMARK [1][-]{section.5.1}{`Energy Summary' gathering worksheet}{chapter.5}% 20
+\BOOKMARK [1][-]{section.5.2}{`GHG Summary' gathering worksheet}{chapter.5}% 21
+\BOOKMARK [0][-]{chapter.6}{Process worksheets}{part.2}% 22
+\BOOKMARK [1][-]{section.6.1}{Exploration}{chapter.6}% 23
+\BOOKMARK [1][-]{section.6.2}{Drilling \046 development}{chapter.6}% 24
+\BOOKMARK [1][-]{section.6.3}{Reservoir}{chapter.6}% 25
+\BOOKMARK [1][-]{section.6.4}{Well and downhole pump}{chapter.6}% 26
+\BOOKMARK [1][-]{section.6.5}{Bitumen mining}{chapter.6}% 27
+\BOOKMARK [1][-]{section.6.6}{Separation}{chapter.6}% 28
+\BOOKMARK [1][-]{section.6.7}{Crude oil dewatering}{chapter.6}% 29
+\BOOKMARK [1][-]{section.6.8}{Crude oil stabilization}{chapter.6}% 30
+\BOOKMARK [1][-]{section.6.9}{Heavy oil upgrading}{chapter.6}% 31
+\BOOKMARK [1][-]{section.6.10}{Heavy oil dilution}{chapter.6}% 32
+\BOOKMARK [1][-]{section.6.11}{Crude oil storage}{chapter.6}% 33
+\BOOKMARK [1][-]{section.6.12}{Produced water treatment}{chapter.6}% 34
+\BOOKMARK [1][-]{section.6.13}{Makeup water treatment}{chapter.6}% 35
+\BOOKMARK [1][-]{section.6.14}{Water injection}{chapter.6}% 36
+\BOOKMARK [1][-]{section.6.15}{Steam generation}{chapter.6}% 37
+\BOOKMARK [1][-]{section.6.16}{Flaring}{chapter.6}% 38
+\BOOKMARK [1][-]{section.6.17}{Venting}{chapter.6}% 39
+\BOOKMARK [1][-]{section.6.18}{Gas gathering}{chapter.6}% 40
+\BOOKMARK [1][-]{section.6.19}{Glycol dehydrator}{chapter.6}% 41
+\BOOKMARK [1][-]{section.6.20}{Acid gas removal}{chapter.6}% 42
+\BOOKMARK [1][-]{section.6.21}{Demethanizer}{chapter.6}% 43
+\BOOKMARK [1][-]{section.6.22}{Chiller}{chapter.6}% 44
+\BOOKMARK [1][-]{section.6.23}{Membrane}{chapter.6}% 45
+\BOOKMARK [1][-]{section.6.24}{Ryan-Holmes}{chapter.6}% 46
+\BOOKMARK [1][-]{section.6.25}{Gas reinjection compressor}{chapter.6}% 47
+\BOOKMARK [1][-]{section.6.26}{Gas flooding compressor}{chapter.6}% 48
+\BOOKMARK [1][-]{section.6.27}{Gas lifting compressor}{chapter.6}% 49
+\BOOKMARK [1][-]{section.6.28}{CO2 reinjection compressor}{chapter.6}% 50
+\BOOKMARK [1][-]{section.6.29}{Sour gas reinjection compressor}{chapter.6}% 51
+\BOOKMARK [1][-]{section.6.30}{VRU compressor}{chapter.6}% 52
+\BOOKMARK [1][-]{section.6.31}{Pre-membrane compressor}{chapter.6}% 53
+\BOOKMARK [1][-]{section.6.32}{Transmission compressor}{chapter.6}% 54
+\BOOKMARK [1][-]{section.6.33}{LNG liquefaction}{chapter.6}% 55
+\BOOKMARK [1][-]{section.6.34}{LNG transport}{chapter.6}% 56
+\BOOKMARK [1][-]{section.6.35}{LNG Regasification}{chapter.6}% 57
+\BOOKMARK [1][-]{section.6.36}{Storage compressor}{chapter.6}% 58
+\BOOKMARK [1][-]{section.6.37}{Post-storage compressor}{chapter.6}% 59
+\BOOKMARK [1][-]{section.6.38}{HC gas injection wells}{chapter.6}% 60
+\BOOKMARK [1][-]{section.6.39}{CO2 injection wells}{chapter.6}% 61
+\BOOKMARK [1][-]{section.6.40}{Sour gas injection wells}{chapter.6}% 62
+\BOOKMARK [1][-]{section.6.41}{Steam injection wells}{chapter.6}% 63
+\BOOKMARK [1][-]{section.6.42}{Gas storage wells}{chapter.6}% 64
+\BOOKMARK [1][-]{section.6.43}{Storage separator}{chapter.6}% 65
+\BOOKMARK [1][-]{section.6.44}{Gas partition A}{chapter.6}% 66
+\BOOKMARK [1][-]{section.6.45}{Gas partition B}{chapter.6}% 67
+\BOOKMARK [1][-]{section.6.46}{Fuel gas consumed}{chapter.6}% 68
+\BOOKMARK [1][-]{section.6.47}{Maintenance}{chapter.6}% 69
+\BOOKMARK [1][-]{section.6.48}{Waste treatment and disposal}{chapter.6}% 70
+\BOOKMARK [1][-]{section.6.49}{Crude oil transport}{chapter.6}% 71
+\BOOKMARK [1][-]{section.6.50}{Petcoke transport}{chapter.6}% 72
+\BOOKMARK [1][-]{section.6.51}{Gas distribution}{chapter.6}% 73
+\BOOKMARK [1][-]{section.6.52}{Fuel gas imports \(FGI\)}{chapter.6}% 74
+\BOOKMARK [1][-]{section.6.53}{Electricity generation and imports}{chapter.6}% 75
+\BOOKMARK [1][-]{section.6.54}{NGL or diluent production and imports}{chapter.6}% 76
+\BOOKMARK [0][-]{chapter.7}{Supplemental calculations worksheets}{part.2}% 77
+\BOOKMARK [1][-]{section.7.1}{Drivers}{chapter.7}% 78
+\BOOKMARK [1][-]{section.7.2}{Fuel cycle}{chapter.7}% 79
+\BOOKMARK [1][-]{section.7.3}{Embodied emissions}{chapter.7}% 80
+\BOOKMARK [1][-]{section.7.4}{Emissions factors}{chapter.7}% 81
+\BOOKMARK [0][-]{chapter.8}{Venting and fugitive emissions}{part.2}% 82
+\BOOKMARK [1][-]{section.8.1}{Introduction to venting and fugitive emissions}{chapter.8}% 83
+\BOOKMARK [1][-]{section.8.2}{Deterministic versus uncertainty analysis}{chapter.8}% 84
+\BOOKMARK [1][-]{section.8.3}{Deprecated OPGEE v2.0 VF modeling methods}{chapter.8}% 85
+\BOOKMARK [0][-]{chapter.9}{Fundamental data inputs}{part.2}% 86
+\BOOKMARK [1][-]{section.9.1}{Global warming potentials}{chapter.9}% 87
+\BOOKMARK [1][-]{section.9.2}{Properties of water and steam}{chapter.9}% 88
+\BOOKMARK [1][-]{section.9.3}{Properties of air and exhaust gas components}{chapter.9}% 89
+\BOOKMARK [1][-]{section.9.4}{Compositions and properties of fuels}{chapter.9}% 90
+\BOOKMARK [0][-]{chapter.10}{OPGEE limitations}{part.2}% 91
+\BOOKMARK [1][-]{section.10.1}{Scope limitations}{chapter.10}% 92
+\BOOKMARK [1][-]{section.10.2}{Technical limitations}{chapter.10}% 93
+\BOOKMARK [1][-]{section.10.3}{Future work}{chapter.10}% 94
+\BOOKMARK [0][-]{appendix.A}{Terminology: Acronyms and abbreviations}{part.2}% 95
+\BOOKMARK [0][-]{appendix.B}{Mathematical terms and definitions}{part.2}% 96
+\BOOKMARK [0][-]{appendix.C}{Tabulated sources for each production stage}{part.2}% 97
+\BOOKMARK [0][-]{appendix.D}{Bulk assessment macro error correction}{part.2}% 98
+\BOOKMARK [0][-]{appendix.E}{Changes and updates from previous versions of OPGEE}{part.2}% 99
+\BOOKMARK [1][-]{section.E.1}{Changes from OPGEE v2.0a to OPGEE v2.0b}{appendix.E}% 100
+\BOOKMARK [1][-]{section.E.2}{Changes from OPGEE v1.1 Draft E to OPGEE v2.0a}{appendix.E}% 101
+\BOOKMARK [1][-]{section.E.3}{Changes from OPGEE v1.1 Draft D to OPGEE v1.1 Draft E}{appendix.E}% 102
+\BOOKMARK [1][-]{section.E.4}{Changes from OPGEE v1.1 Draft C to OPGEE v1.1 Draft D}{appendix.E}% 103
+\BOOKMARK [1][-]{section.E.5}{Changes from OPGEE v1.1 Draft B to OPGEE v1.1 Draft C}{appendix.E}% 104
+\BOOKMARK [1][-]{section.E.6}{Changes from OPGEE v1.1 Draft A to OPGEE v1.1 Draft B}{appendix.E}% 105
+\BOOKMARK [1][-]{section.E.7}{Changes from OPGEE v1.0 to OPGEE v1.1 Draft A}{appendix.E}% 106
+\BOOKMARK [1][-]{section.E.8}{Changes from OPGEE v1.0 Draft A to OPGEE v1.0}{appendix.E}% 107

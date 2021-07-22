@@ -24,21 +24,7 @@ Manning, F.S.; Thompson, R.
 \bibitem{Aspentech2016}
 Inc., A.
 \newblock Aspen HYSYS v. 8.8.
-
-\bibitem{NETL2013}
-Skone, T.J.; R., J.; Cooney, G.; Jamieson, M.; Littlefield, J.; Marriott, J.
-\newblock Gate-to-Gate Life Cycle Inventory and Model of CO2-Enhanced Oil
-  Recovery.
-\newblock Technical Report DOE/NETL-2013/1599, U.S. Department of Energy,
-  National Energy Technology Laboratory,  2013.
-
-\bibitem{Allen2014b}
-Allen, D.T.; Pacsi, A.P.; Sullivan, D.W.; Zavala-Araiza, D.; Harrison, M.;
-  Keen, K.; Fraser, M.P.; Daniel~Hill, A.; Sawyer, R.F.; Seinfeld, J.H.
-\newblock Methane emissions from process equipment at natural gas production
-  sites in the United States: Pneumatic controllers.
-\newblock {\em Environmental science \& technology} {\bf 2014}, {\em
-  49},~633--640.
+\newblock Technical report, AspenTech Inc.,  2016.
 
 \bibitem{Yeh2010}
 Yeh, S.; Jordann, S.M.; Brandt, A.R.; Turetsky, M.; Spatari, S.; Keith, D.W.
@@ -63,24 +49,6 @@ Haynes, H.; Thrasher, L.; Katz, M.; Eck, T.
 \newblock An Analysis of the Potential for Enhanced Oil Recovery from Known
   Fields in the United States--1976 to 2000.
 \newblock Technical report, National Petroleum Council,  1976.
-
-\bibitem{Lee2011}
-Lee, S.
-\newblock 2007 Oil and Gas Industry Survey Results: Draft Report.
-\newblock Technical report, California Environmental Protection Agency, Air
-  Resources Board,  2011.
-
-\bibitem{ARB2013}
-Detwiler, S.
-\newblock 2007 Oil and Gas Industry Survey Results - Final Report (Revised).
-\newblock Technical report,  October 2013.
-
-\bibitem{API1996b}
-API.
-\newblock Calculation Workbook For Oil And Gas Production Equipment Fugitive
-  Emissions.
-\newblock Workbook API publication number 4638, American Petroleum Institute,
-  1996.
 
 \bibitem{Keesom2009}
 Keesom, W.; Unnasch, S.; Moretta, J.
@@ -135,6 +103,13 @@ Charpentier, A.; Kofoworola, O.; Bergerson, J.; MacLean, H.
 \newblock {\em Environmental Science \& Technology} {\bf 2011}, {\em
   45},~9393--9404.
 
+\bibitem{Masnadi2018}
+Masnadi, M.S.; El-Houjeiri, H.M.; Schunack, D.; Li, Y.; Englander, J.G.;
+  Badahdah, A.; Monfort, J.C.; Anderson, J.E.; Wallington, T.J.; Bergerson,
+  J.A.; others.
+\newblock Global carbon intensity of crude oil production.
+\newblock {\em Science} {\bf 2018}, {\em 361},~851--853.
+
 \bibitem{Brandt2010}
 Brandt, A.R.; Unnasch, S.
 \newblock Energy intensity and greenhouse gas emissions from California thermal
@@ -178,6 +153,11 @@ Abella, J.; Bergerson, J.
 \newblock Model to investigate energy and greenhouse gas emissions implications
   of refining petroleum: Impacts of crude quality and refinery configuration.
 \newblock {\em Environmental Science \& Technology} {\bf 2012}, {\em 46}.
+
+\bibitem{EPA1995a}
+EPA.
+\newblock AP-42: Compilation of air pollutant emissions factors, Fifth edition.
+\newblock Technical report, Environmental Protection Agency,  1995.
 
 \bibitem{Shires2004}
 Shires, T.M.; Loughran, C.J.
@@ -240,6 +220,13 @@ API.
 \newblock Emissions factors for oil and gas production operations.
 \newblock Technical Report API Publication 4615, American Petroleum Institute,
   1995.
+
+\bibitem{API1996b}
+API.
+\newblock Calculation Workbook For Oil And Gas Production Equipment Fugitive
+  Emissions.
+\newblock Workbook API publication number 4638, American Petroleum Institute,
+  1996.
 
 \bibitem{API1998a}
 API.
@@ -517,11 +504,11 @@ Deffeyes, K.S.
 \newblock {\em Beyond oil: The view from Hubbert's peak}; Hill and Wang: New
   York,  2005.
 
-\bibitem{OGJ2009b}
+\bibitem{OGJ2015}
 O\&GJ.
-\newblock A worldwide look at reserves and production.
+\newblock Worldwide Oil Field Production Survey 2015.
 \newblock Technical Report Microsoft Excel dataset, Oil \& Gas Journal,
-  PennWell publishers,  2009.
+  PennWell publishers,  2015.
 
 \bibitem{DOGGR2011}
 CDC-DOGGR.
@@ -536,46 +523,54 @@ AOGCC.
   \verb+http://doa.alaska.gov/ogc/annual/current/annindex_current.html+, Alaska
   Oil and Gas Conservation Commission,  2012.
 
+\bibitem{Guo2019}
+Guo, B.
+\newblock {\em Well productivity handbook}, 2nd ed.; Gulf Professional
+  Publishing,  2019.
+
+\bibitem{PengTools2021}
+Pengtools.com.
+\newblock Beggs and Robinson Oil Viscosity correlation.
+\newblock Technical report.
+
+\bibitem{fertl1981abnormal}
+Fertl, W.H.
+\newblock {\em Abnormal formation pressures}; Vol.~2, Elsevier,  1981.
+
+\bibitem{Littlefield2019}
+Littlefield, J.; Roman-White, S.; Augustine, D.; Pegallapati, A.; Zaimes, G.G.;
+  Rai, S.; Cooney, G.; Timothy J.~Skone, P.
+\newblock Life Cycle Analysis of Natural Gas Extraction and Power Generation.
+\newblock Technical Report DOE/NETL-2019/2039, National Energy Technology
+  Laboratory,  2019.
+
+\bibitem{Lee2011}
+Lee, S.
+\newblock 2007 Oil and Gas Industry Survey Results: Draft Report.
+\newblock Technical report, California Environmental Protection Agency, Air
+  Resources Board,  2011.
+
 \bibitem{Mccain1990}
 McCain, W.D.
 \newblock {\em Properties of Petroleum Fluids}, 2nd ed.; PennWell,  1990.
-
-\bibitem{DOGGR1982}
-CDC-DOGGR.
-\newblock California Oil and Gas Fields, Volume III - Northern California.
-\newblock Technical report, California Department of Conservation, Division of
-  Oil Gas and Geothermal Resources,  1982.
-
-\bibitem{DOGGR1992}
-CDC-DOGGR.
-\newblock California Oil and Gas Fields, Volume II - Southern, Central Coastal,
-  and Offshore California.
-\newblock Technical report, California Department of Conservation, Division of
-  Oil Gas and Geothermal Resources,  1992.
-
-\bibitem{DOGGR1998}
-CDC-DOGGR.
-\newblock California Oil and Gas Fields, Volume I - Central California.
-\newblock Technical report, California Department of Conservation, Division of
-  Oil Gas and Geothermal Resources,  1998.
-
-\bibitem{DOGGRonline}
-CDC-DOGGR.
-\newblock Online production and injection database.
-\newblock Technical report, California Department of Conservation, Division of
-  Oil, Gas, and Geothermal Resources, http://opi.consrv.ca.gov/opi/opi.dll.
-
-\bibitem{DOGGRmonthly2010}
-CDC-DOGGR.
-\newblock Monthly oil and gas production and injection report
-  (January-December).
-\newblock Technical report, California Department of Conservation, Department
-  of Oil, Gas and Geothermal Resources,  2010.
 
 \bibitem{Kuo2001}
 Kuo, J.; Luna-Melo, J.; Perez, P.
 \newblock World's largest N2 generation plant.
 \newblock {\em Oil \& Gas Journal} {\bf 2001}.
+
+\bibitem{Guzman2014}
+Guzmann, M.S.
+\newblock Review of a Forgotten Technology With High Potential-The World
+  Largest Nitrogen Based IOR Project in the Supergiant Field Cantarell, Mexico.
+\newblock  SPE Russian Oil and Gas Exploration \& Production Technical
+  Conference and Exhibition. Society of Petroleum Engineers,  2014.
+
+\bibitem{Pyo2003}
+Pyo, K.; Damian-Diaz, N.; Powell, M.; Nieuwkerk, V.
+\newblock CO$_2$ flooding in Joffre Viking pool.
+\newblock  Canadian International Petroleum Conference. Petroleum Society of
+  Canada,  2003.
 
 \bibitem{NETL2014}
 Malone, T.; Kuuskraa, V.
@@ -583,9 +578,22 @@ Malone, T.; Kuuskraa, V.
 \newblock Technical Report DOE/NETL-2014/1631, U.S. Department of Energy,
   National Energy Technology Laboratory,  2014.
 
+\bibitem{Johnson1988}
+Johnston, J.
+\newblock Weeks Island gravity stable CO2 pilot.
+\newblock  SPE Enhanced Oil Recovery Symposium. Society of Petroleum Engineers,
+   1988.
+
 \bibitem{DOGGR2010}
 CDC-DOGGR.
 \newblock 2009 Annual Report of the State Oil \& Gas Supervisor.
+\newblock Technical report, California Department of Conservation, Department
+  of Oil, Gas and Geothermal Resources,  2010.
+
+\bibitem{DOGGRmonthly2010}
+CDC-DOGGR.
+\newblock Monthly oil and gas production and injection report
+  (January-December).
 \newblock Technical report, California Department of Conservation, Department
   of Oil, Gas and Geothermal Resources,  2010.
 
@@ -601,10 +609,38 @@ ERCB.
   2010.
 \newblock Technical report, Energy Resources Conservation Board,  2011.
 
+\bibitem{brandt2014uncertainty}
+Brandt, A.R.; Sun, Y.; Vafi, K.
+\newblock Uncertainty in regional-average petroleum ghg intensities: countering
+  information gaps with targeted data gathering.
+\newblock {\em Environmental science \& technology} {\bf 2014}, {\em
+  49},~679--686.
+
+\bibitem{vafi2014uncertainty}
+Vafi, K.; Brandt, A.R.
+\newblock Uncertainty of oil field GHG emissions resulting from information
+  gaps: a Monte Carlo approach.
+\newblock {\em Environmental science \& technology} {\bf 2014}, {\em
+  48},~10511--10518.
+
+\bibitem{Alshammasi2001}
+Al-Shammasi, A.
+\newblock A review of bubblepoint pressure and oil formation volume factor
+  corrrelations.
+\newblock {\em SPE Reservoir Evaluation \& Engineering} {\bf 2001}, {\em
+  4},~146--160.
+
+\bibitem{Almarhoun1992}
+Al-Marhoun, M.A.; others.
+\newblock New Correlation for formation Volume Factor of oil and gas Mixtures.
+\newblock {\em Journal of Canadian Petroleum Technology} {\bf 1992}, {\em
+  31},~22--26.
+
 \bibitem{StewartBurkhardtVoo1959}
 Stewart, W.F.; Burkhardt, S.F.; Voo, D.
-\newblock Prediction of Pseudocritical Parameters for Mixtures {\bf 1959}.
-\newblock {\em Presented at the AIChE Meeting, Kansas City, MO}.
+\newblock Prediction of Pseudocritical Parameters for Mixtures.
+\newblock {\em AIChE Meeting Proceedings} {\bf 1959}, {\em Presented at the
+  AIChE Meeting, Kansas City, MO}.
 
 \bibitem{WichertAziz1972}
 Wichert, E.; Aziz, K.
@@ -666,21 +702,16 @@ Vafi, K.; Brandt, A.R., A.R.
 \newblock GHGfrack v.1.0 model code.
 \newblock Technical report, Stanford University,  2016.
 
+\bibitem{Brandt2015a}
+Brandt, A.R.
+\newblock Embodied energy and GHG emissions from material use in conventional
+  and unconventional oil and gas operations.
+\newblock {\em Environmental Science \& Technology} {\bf 2015}.
+
 \bibitem{Yeh2012}
 Yeh, S.
 \newblock 2012 updates to calculations on land use emissions.
 \newblock Technical report, University of California, Davis,  2012.
-
-\bibitem{Schmidt1985}
-Schmidt, P.F.
-\newblock {\em Fuel oil manual}, 4th ed.; Industrial Press: New York,  1985.
-
-\bibitem{Valko2003}
-Vako, P.; McCain, W.D.
-\newblock Reservoir oil bubblepoint pressures revisited; solution gas-oil
-  ratios and surface gas specific gravities.
-\newblock {\em Journal of Petroleum Science \& Engineering} {\bf 2003}, {\em
-  37},~153--169.
 
 \bibitem{Takacs2005}
 Takacs, G.
@@ -746,8 +777,16 @@ Consultancy, J.E.
 \newblock A greenhouse gas reduction roadmap for oil sands.
 \newblock Technical report, CCEMC,  2012.
 
+\bibitem{Surfaceequip2014}
+Corporation, S.E.
+\newblock Two \& Three Phase Vertical \& Horizontal Separators \& Gas
+  Scrubbers.
+\newblock Technical report, Surface Equipment Corporation,
+  http://www.surfaceequip.com/two-three-phase-vertical-horizontal-separators-gas-scrubbers.html,
+   2014.
+
 \bibitem{Abdelaal2003}
-Abdel-Aal, H., F.M.; Aggour, M.
+Abdel-Aal, H.; Fahim, M.; Aggour, M.
 \newblock {\em Petroleum \& Gas Field Processing}; CRC,  2003.
 
 \bibitem{EPA2008}
@@ -788,11 +827,22 @@ Donaldson, E.C.; Chilingarian, G.V.
 \newblock {\em Enhanced oil recovery, processes and operations}; Vol. 17B, {\em
   Developments in Petroleum Science}, Elsevier: Amsterdam,  1989.
 
-\bibitem{Knovel2006}
+\bibitem{Knovel}
 Knovel.
 \newblock Knovel Steam Tables.
 \newblock Technical report, Available from www.knovel.com,  2006, Accessed
   2012.
+
+\bibitem{Ganapathy2003}
+Ganapathy, V.
+\newblock {\em Industrial boilers and heat recovery steam generators: Design,
+  applications and calculations}; Marcel Dekker: New York,  2003.
+
+\bibitem{Buchanan2009}
+Buchanan, I.; Westphalen, D.; Davies, S.; Chawla, N.; Gieseman, J.
+\newblock SAGD Energy Efficiency Study.
+\newblock Technical report, Jacobs Consultancy, Prepared for Alberta Energy
+  Research Insitute,  2009.
 
 \bibitem{Tackett2008}
 Tackett, H.H.; Cripe, J.A.; Dyson, G.
@@ -801,21 +851,14 @@ Tackett, H.H.; Cripe, J.A.; Dyson, G.
 \newblock  Proceedings of the twenty-fourth international pump users symposim,
   2008.
 
-\bibitem{Ganapathy2003}
-Ganapathy, V.
-\newblock {\em Industrial boilers and heat recovery steam generators: Design,
-  applications and calculations}; Marcel Dekker: New York,  2003.
-
 \bibitem{Cengel2006}
 Cengel, Y.A.; Boles, M.
 \newblock {\em Thermodynamics: An engineering approach}, 5th ed.; McGraw-Hill:
   New York,  2006.
 
-\bibitem{Buchanan2009}
-Buchanan, I.; Westphalen, D.; Davies, S.; Chawla, N.; Gieseman, J.
-\newblock SAGD Energy Efficiency Study.
-\newblock Technical report, Jacobs Consultancy, Prepared for Alberta Energy
-  Research Insitute,  2009.
+\bibitem{Schmidt1985}
+Schmidt, P.F.
+\newblock {\em Fuel oil manual}, 4th ed.; Industrial Press: New York,  1985.
 
 \bibitem{speight1994}
 Speight, J.G.
@@ -827,10 +870,12 @@ Swafford, P.
 \newblock Understanding the quality of Canadian bitumen and synthetic crudes.
 \newblock Technical report, Spiral Software,  2009.
 
-\bibitem{Cantera2012}
-Cantera: An object-oriented software toolkit for chemical kinetics,
-  thermodynamics, and transport processes.
-\newblock Technical report, http://code.google.com/p/cantera/,  2012.
+\bibitem{cantera}
+Goodwin, D.G.; Speth, R.L.; Moffat, H.K.; Weber, B.W.
+\newblock Cantera: An Object-oriented Software Toolkit for Chemical Kinetics,
+  Thermodynamics, and Transport Processes.
+\newblock \url{https://www.cantera.org},  2021.
+\newblock Version 2.5.1.
 
 \bibitem{Siemens2012}
 Siemens.
@@ -844,7 +889,8 @@ Badeer, G.
 \newblock Technical report, GE Power Systems,  2012.
 
 \bibitem{Farmer2010}
-Gas Turbine World: 2010 GTW Handbook.
+Farmer, R.
+\newblock Gas Turbine World: 2010 GTW Handbook.
 \newblock Technical report, Fairfield, CT,  2010.
 
 \bibitem{Kim2004}
@@ -880,10 +926,6 @@ company authors, V.
 \newblock In situ progress reports to Alberta Energy Regulator.
 \newblock Technical report, Alberta Energy Regulator,  Various.
 
-\bibitem{EngToolbox}
-The Engineering Toolbox.
-\newblock Technical report, www.engineeringtoolbox.com,  2012.
-
 \bibitem{NOAA2010}
 NOAA.
 \newblock Global Gas Flaring Estimates.
@@ -894,59 +936,58 @@ EIA.
 \newblock International Energy Statistics - Petroleum.
 \newblock Technical report, U.S. Energy Information Administration,  2010.
 
-\bibitem{Johnson2002}
-Johnson, M.R.; Kostiuk, L.
-\newblock A parametric model for the efficiency of a flare in crosswind.
-\newblock {\em Proceedings of the Combustion Institute} {\bf 2002}, {\em
-  29},~1943--1950.
+\bibitem{Ozumba2000}
+Ozumba, C.; Okoro, I.
+\newblock Combustion Efficiency Measurements of Flares Operated By An Operating
+  Company.
+\newblock {\em SPE International Conference on Health, Safety, and the
+  Environment in Oil and Gas Exploration and Production} {\bf 2000}.
 
-\bibitem{Gogolek2012}
-Gogolek, P.
-\newblock Methane emissions factors for biogas flares.
-\newblock {\em Industrial combustion} {\bf 2012}, p.~17.
+\bibitem{Gvakharia2017}
+Gvakharia, A.; Kort, E.A.; Brandt, A.; Peischl, J.; Ryerson, T.B.; Schwarz,
+  J.P.; Smith, M.L.; Sweeney, C.
+\newblock Methane, black carbon, and ethane emissions from natural gas flares
+  in the Bakken Shale, North Dakota.
+\newblock {\em Environmental Science \& Technology} {\bf 2017}, {\em
+  51},~5317--5325.
 
-\bibitem{EPA2010}
-EPA.
-\newblock EPA Flaring Regulation.
-\newblock Technical Report 60.18 40CFR Ch.1, US Environmental Protection
-  Agency,  2010.
+\bibitem{Chambers2003}
+Chambers.
+\newblock Well Test Flare Plume Monitoring Phase II: DIAL Testing in Alberta.
+\newblock Technical Report Project No: CEM 7454-2003, Alberta Research Council,
+   2003.
 
-\bibitem{daRosa2012}
-da~Rossa, A.
-\newblock {\em Fundamentals of Renewable Energy Processes}; Vol. Version 3,
-  Elsevier Inc.,  2012.
+\bibitem{Zavala2021}
+Zavala-Araiza, D.; Omara, M.; Gautam, R.; Smith, M.L.; Pandey, S.; Aben, I.;
+  Almanza-Veloz, V.; Conley, S.; Houweling, S.; Kort, E.A.; others.
+\newblock A tale of two regions: methane emissions from oil and gas production
+  in offshore/onshore Mexico.
+\newblock {\em Environmental Research Letters} {\bf 2021}, {\em 16},~024019.
 
-\bibitem{Johnson2000}
-Johnson, M.; Kistiuk, L.
-\newblock Efficiencies of low-momentum jet diffusion flames in crosswinds.
-\newblock {\em Combustion and Flame} {\bf 2000}, {\em 123},~189--200.
+\bibitem{Caulton2014a}
+Caulton, D.R.; Shepson, P.B.; Cambaliza, M.O.; McCabe, D.; Baum, E.; Stirm,
+  B.H.
+\newblock Methane destruction efficiency of natural gas flares associated with
+  shale formation wells.
+\newblock {\em Environmental science \& technology} {\bf 2014}, {\em
+  48},~9548--9554.
 
-\bibitem{IPCC2007}
-Solomon, S.; Qin, D.; Manning, M.; Chen, Z.; Marquis, M.; Averyt, K.B.; Tignor,
-  M.; Miller, H.L., Eds.
-\newblock {\em Contribution of Working Group I to the Fourth Assessment Report
-  of the Intergovernmental Panel on Climate Change 2007}; Cambridge University
-  Press,  2007.
+\bibitem{EDF2021}
+Fund, E.D.
+\newblock PermianMAP Dataset.
+\newblock Technical report, Environmental Defense Fund, www.permianmap.org,
+  2021.
+
+\bibitem{Masnadi2020}
+Masnadi, M.S.; Perriera, P.R.; Wang, J.; Rutherford, J.; Brandt, A.R.
+\newblock Statistical proxy modeling for life cycle assessment and energetic
+  analysis.
+\newblock {\em Energy} {\bf 2020}, {\em in press}.
 
 \bibitem{Mathworks2016}
 Inc., M.
 \newblock MATLAB 2016B.
-
-\bibitem{Nawaz2010}
-Nawaz, M.; Jobson, M.
-\newblock Synthesis and optimization of demethanizer flowsheets for low
-  temperature separation processes.
-\newblock {\em Distillation Absorption} {\bf 2010}, pp. 79--84.
-
-\bibitem{NETLChillerModel}
-U.S. Department~of Energy, N.E.T.L.
-\newblock NETL Life Cycle Inventory Data - Unit Process: Gas Stream Chilling,
-  2012.
-
-\bibitem{NETLRyanHolmesModel}
-U.S. Department~of Energy, N.E.T.L.
-\newblock NETL Life Cycle Inventory Data - Unit Process: Ryan Holmes Gas
-  Separation,  2012.
+\newblock Technical report.
 
 \bibitem{FundNatGasProcessing}
 Kidnay, A.J.; Parrish, W.R.; McCartney, D.
@@ -974,18 +1015,11 @@ Jones, V.; Perry, C.
 \newblock Fundamentals of gas treating.
 \newblock  Gas Conditioning Conference,  1973.
 
-\bibitem{ClausAspen}
-Mondor, C.; Dyment, J.
-\newblock {\em Jump Start Guide: Sulsim{\texttrademark} Sulfur Recovery in
-  Aspen HYSYS{\textregistered} V9}.
-\newblock Aspen Technology Inc.,  2018.
-
-\bibitem{masnadi2018global}
-Masnadi, M.S.; El-Houjeiri, H.M.; Schunack, D.; Li, Y.; Englander, J.G.;
-  Badahdah, A.; Monfort, J.C.; Anderson, J.E.; Wallington, T.J.; Bergerson,
-  J.A.; others.
-\newblock Global carbon intensity of crude oil production.
-\newblock {\em Science} {\bf 2018}, {\em 361},~851--853.
+\bibitem{Nawaz2010}
+Nawaz, M.; Jobson, M.
+\newblock Synthesis and optimization of demethanizer flowsheets for low
+  temperature separation processes.
+\newblock {\em Distillation Absorption} {\bf 2010}, pp. 79--84.
 
 \bibitem{roy2011aspen}
 Roy, P.S.; Amin, M.R.
@@ -1004,6 +1038,33 @@ Nawaz, M.; Jobson, M.
   temperature separation processes.
 \newblock {\em Distillation Absorption} {\bf 2010}, pp. 79--84.
 
+\bibitem{NETL2013}
+Skone, T.J.; R., J.; Cooney, G.; Jamieson, M.; Littlefield, J.; Marriott, J.
+\newblock Gate-to-Gate Life Cycle Inventory and Model of CO2-Enhanced Oil
+  Recovery.
+\newblock Technical Report DOE/NETL-2013/1599, U.S. Department of Energy,
+  National Energy Technology Laboratory,  2013.
+
+\bibitem{NETLChillerModel}
+U.S. Department~of Energy, N.E.T.L.
+\newblock NETL Life Cycle Inventory Data - Unit Process: Gas Stream Chilling,
+  2012.
+
+\bibitem{NETLMembraneModel}
+U.S. Department~of Energy, N.E.T.L.
+\newblock NETL Life Cycle Inventory Data - Unit Process: Membrane Separation of
+  CO2 and Hydrocarbons,  2012.
+
+\bibitem{rojey1997}
+Rojey, A.; Jaffret, C.
+\newblock {\em Natural gas: production, processing, transport}; Editions
+  Technip,  1997.
+
+\bibitem{NETLRyanHolmesModel}
+U.S. Department~of Energy, N.E.T.L.
+\newblock NETL Life Cycle Inventory Data - Unit Process: Ryan Holmes Gas
+  Separation,  2012.
+
 \bibitem{MilliganRyanHolmesPermit}
 Milligan, E.
 \newblock Evaluation of Permit Application No. 2005-100-TVR, Whiting Oil and
@@ -1019,6 +1080,12 @@ UNEP.
 Bocker, N.; Grahl, M.; Tota, A.; Haussinger, P.; Leitgeb, P.; Schmucker, B.,
   Ullmann's Encyclopeida of Industrial Chemistry; Wiley,  2013; chapter
   Nitrogen.
+
+\bibitem{orr1987}
+Orr~Jr, F.; Silva, M.
+\newblock Effect of oil composition on minimum miscibility pressure-part 2:
+  correlation.
+\newblock {\em SPE Reservoir Engineering} {\bf 1987}, {\em 2},~479--491.
 
 \bibitem{Oxy2015}
 Oxy Denver Unit CO$_2$ Subpart RR Monitoring, Reporting and Verification (MRV)
@@ -1037,29 +1104,63 @@ Oxy CO$_2$ EOR Project.
    2012.
 \newblock Accessed April 2016.
 
+\bibitem{Kang2015}
+Kang, M.; Baik, E.; Miller, A.R.; Bandilla, K.W.; Celia, M.A.
+\newblock Effective permeabilities of abandoned oil and gas wells: Analysis of
+  Data from Pennsylvania.
+\newblock {\em Environmental science \& technology} {\bf 2015}, {\em
+  49},~4757--4764.
+
+\bibitem{Celia2011}
+Celia, M.A.; Nordbotten, J.M.; Court, B.; Dobossy, M.; Bachu, S.
+\newblock Field-scale application of a semi-analytical model for estimation of
+  CO 2 and brine leakage along old wells.
+\newblock {\em International Journal of Greenhouse Gas Control} {\bf 2011},
+  {\em 5},~257--269.
+
 \bibitem{Benson2005}
 Benson, S.; Cook, P., IPCC Special Report on Carbon Dioxide Capture and
   Storage; IPCC,  2005; chapter Chapter 5: Underground Geologic Storage.
+
+\bibitem{Stevens1999}
+Stevens, S.; Kuuskraa, V.; Taber, J.
+\newblock Sequestration of CO2 in depleted oil and gas fields: Barriers to
+  overcome in implementation of CO2 capture and sequestration.
+\newblock {\em International Energy Agency Greenhouse Gas R\&D Programme} {\bf
+  1999}.
+
+\bibitem{Leach2011}
+Leach, A.; Mason, C.; van~'t Veld, K.
+\newblock Co-optimization of enhanced oil recovery and carbon sequestration.
+\newblock {\em Resource and Energy Economics} {\bf 2011}, pp. 893--912.
+
+\bibitem{RodaStuart2018}
+Roda-Stuart, D.
+\newblock A Life-cycle Assessment of Canadian-produced Liquefied Natural Gas
+  for Consumption in China.
+\newblock PhD thesis, Stanford University,  2018.
+
+\bibitem{abrahams2015}
+Abrahams, L.S.; Samaras, C.; Griffin, W.M.; Matthews, H.S.
+\newblock Life cycle greenhouse gas emissions from US liquefied natural gas
+  exports: implications for end uses.
+\newblock {\em Environmental science \& technology} {\bf 2015}, {\em
+  49},~3237--3245.
 
 \bibitem{Caterpillar2012}
 Caterpillar.
 \newblock Oil \& Gas Production Power Spec Sheets.
 \newblock Technical report, Caterpillar Oil \& Gas Resource Center,  2012.
 
-\bibitem{GE2011}
-GE.
-\newblock GE Motors Catalog 1.3.
-\newblock Technical report, General Electric,  2011.
-
-\bibitem{NETLMembraneModel}
-U.S. Department~of Energy, N.E.T.L.
-\newblock NETL Life Cycle Inventory Data - Unit Process: Membrane Separation of
-  CO2 and Hydrocarbons,  2012.
-
 \bibitem{Solarturbines2012}
 Turbines, S.
 \newblock Gas Turbine Generator Sets.
 \newblock Technical report, Solar Turbines,  2012.
+
+\bibitem{GE2011}
+GE.
+\newblock GE Motors Catalog 1.3.
+\newblock Technical report, General Electric,  2011.
 
 \bibitem{Caterpillar2012b}
 Caterpillar.
@@ -1081,9 +1182,9 @@ Centre, E.
 \newblock EcoInvent v.3.0 Dataset.
 \newblock Technical report, Swiss Centre for Life Cycle Inventories,  2014.
 
-\bibitem{wang2012}
-Wang, M.
-\newblock GREET Model 2\_2012.
+\bibitem{Wang2012}
+Wang, M.e.a.
+\newblock GREET Model 2012-2.
 \newblock Computer program, Argonne National Laboratory,
   http://greet.es.anl.gov/,  2012.
 
@@ -1112,14 +1213,6 @@ Inc., A.D.
 \newblock Technical report, Apex Distribution Inc.,
   http://www.monarchapex.com/pdf/Oilfield%20Data%20Handbook.pdf,  2010.
 
-\bibitem{Surfaceequip2014}
-Corporation, S.E.
-\newblock Two \& Three Phase Vertical \& Horizontal Separators \& Gas
-  Scrubbers.
-\newblock Technical report, Surface Equipment Corporation,
-  http://www.surfaceequip.com/two-three-phase-vertical-horizontal-separators-gas-scrubbers.html,
-   2014.
-
 \bibitem{Exterran2012}
 Exterran.
 \newblock Production Soltuions: Glycol Dehydration Unit.
@@ -1140,39 +1233,12 @@ CIA.
 \newblock Technical report, Central Intelligence Agency,
   https://www.cia.gov/library/publications/the-world-factbook/,  2013.
 
-\bibitem{EPA1996}
-Management, N.R.
-\newblock Methane Emissions from the NG Industry.
-\newblock Technical report, Environmental Protection Agency,  1996.
-
-\bibitem{Brantley2014}
-Brantley, H.L.; Thoma, E.D.; Squier, W.C.; Guven, B.B.; Lyon, D.
-\newblock Assessment of methane emissions from oil and gas production pads
-  using mobile measurements.
-\newblock {\em Environmental science \& technology} {\bf 2014}, {\em
-  48},~14508--14515.
-
-\bibitem{Goetz2017}
-Goetz, J.D.; Avery, A.; Werden, B.; Floerchinger, C.; Fortner, E.C.; Wormhoudt,
-  J.; Massoli, P.; Herndon, S.C.; Kolb, C.E.; Knighton, W.B.; others.
-\newblock Analysis of local-scale background concentrations of methane and
-  other gas-phase species in the Marcellus Shale.
-\newblock {\em Elem Sci Anth} {\bf 2017}, {\em 5}.
-
-\bibitem{Lan2015}
-Lan, X.; Talbot, R.; Laine, P.; Torres, A.
-\newblock Characterizing Fugitive Methane Emissions in the Barnett Shale Area
-  Using a Mobile Laboratory.
-\newblock {\em Environmental Science \& Technology} {\bf 2015}, {\em
-  49},~8139--8146.
-
-\bibitem{Omara2016}
-Omara, M.; Sullivan, M.R.; Li, X.; Subramanian, R.; Robinson, A.L.; Presto,
-  A.A.
-\newblock Methane emissions from conventional and unconventional natural gas
-  production sites in the Marcellus Shale Basin.
-\newblock {\em Environmental science \& technology} {\bf 2016}, {\em
-  50},~2099--2107.
+\bibitem{IPCC2007}
+Solomon, S.; Qin, D.; Manning, M.; Chen, Z.; Marquis, M.; Averyt, K.B.; Tignor,
+  M.; Miller, H.L., Eds.
+\newblock {\em Contribution of Working Group I to the Fourth Assessment Report
+  of the Intergovernmental Panel on Climate Change 2007}; Cambridge University
+  Press,  2007.
 
 \bibitem{Yacovitch2015}
 Yacovitch, T.I.; Herndon, S.C.; P{\'e}tron, G.; Kofler, J.; Lyon, D.; Zahniser,
@@ -1189,95 +1255,12 @@ Rella, C.W.; Tsai, T.R.; Botkin, C.G.; Crosson, E.R.; Steele, D.
 \newblock {\em Environmental science \& technology} {\bf 2015}, {\em
   49},~4742--4748.
 
-\bibitem{Robertson2017}
-Robertson, A.M.; Edie, R.; Snare, D.; Soltis, J.; Field, R.A.; Burkhart, M.D.;
-  Bell, C.S.; Zimmerle, D.; Murphy, S.M.
-\newblock Variation in methane emission rates from well pads in four oil and
-  gas basins with contrasting production volumes and compositions.
-\newblock {\em Environmental Science \& Technology} {\bf 2017}, {\em
-  51},~8832--8840.
-
-\bibitem{Bell2017}
-Bell, C.S.; Vaughn, T.L.; Zimmerle, D.; Herndon, S.C.; Yacovitch, T.I.; Heath,
-  G.A.; P{\'e}tron, G.; Edie, R.; Field, R.A.; Murphy, S.M.; others.
-\newblock Comparison of methane emission estimates from multiple measurement
-  techniques at natural gas production pads.
-\newblock {\em Elementa} {\bf 2017}, {\em 5}.
-
-\bibitem{Conley2016}
-Conley, S.; Franco, G.; Faloona, I.; Blake, D.R.; Peischl, J.; Ryerson, T.
-\newblock Methane emissions from the 2015 Aliso Canyon blowout in Los Angeles,
-  CA.
-\newblock {\em Science} {\bf 2016}, p. aaf2348.
-
-\bibitem{Schwietzke2017}
-Schwietzke, S.; P{\'e}tron, G.; Conley, S.; Pickering, C.; Mielke-Maday, I.;
-  Dlugokencky, E.J.; Tans, P.P.; Vaughn, T.; Bell, C.; Zimmerle, D.; others.
-\newblock Improved mechanistic understanding of natural gas methane emissions
-  from spatially resolved aircraft measurements.
-\newblock {\em Environmental Science \& Technology} {\bf 2017}, {\em
-  51},~7286--7294.
-
-\bibitem{Englander2018}
-Englander, J.G.; Brandt, A.R.; Conley, S.; Lyon, D.R.; Jackson, R.B.
-\newblock Aerial Interyear Comparison and Quantification of Methane Emissions
-  Persistence in the Bakken Formation of North Dakota, USA.
-\newblock {\em Environmental science \& technology} {\bf 2018}, {\em
-  52},~8947--8953.
-
-\bibitem{Lavoie2015}
-Lavoie, T.N.; Shepson, P.B.; Cambaliza, M.O.; Stirm, B.H.; Karion, A.; Sweeney,
-  C.; Yacovitch, T.I.; Herndon, S.C.; Lan, X.; Lyon, D.
-\newblock Aircraft-based measurements of point source methane emissions in the
-  Barnett Shale basin.
-\newblock {\em Environmental science \& technology} {\bf 2015}, {\em
-  49},~7904--7913.
-
-\bibitem{Lavoie2017a}
-Lavoie, T.N.; Shepson, P.B.; Cambaliza, M.O.; Stirm, B.H.; Conley, S.;
-  Mehrotra, S.; Faloona, I.C.; Lyon, D.
-\newblock Spatiotemporal variability of methane emissions at oil and natural
-  gas operations in the Eagle Ford Basin.
-\newblock {\em Environmental science \& technology} {\bf 2017}, {\em
-  51},~8001--8009.
-
-\bibitem{Lavoie2017b}
-Lavoie, T.N.; Shepson, P.B.; Gore, C.A.; Stirm, B.H.; Kaeser, R.; Wulle, B.;
-  Lyon, D.; Rudek, J.
-\newblock Assessing the methane emissions from natural gas-fired power plants
-  and oil refineries.
-\newblock {\em Environmental science \& technology} {\bf 2017}, {\em
-  51},~3373--3381.
-
-\bibitem{Mehrotra2017}
-Mehrotra, S.; Faloona, I.; Suard, M.; Conley, S.; Fischer, M.L.
-\newblock Airborne Methane Emission Measurements for Selected Oil and Gas
-  Facilities Across California.
-\newblock {\em Environmental science \& technology} {\bf 2017}, {\em
-  51},~12981--12987.
-
-\bibitem{Frankenberg2016}
-Frankenberg, C.; Thorpe, A.K.; Thompson, D.R.; Hulley, G.; Kort, E.A.; Vance,
-  N.; Borchardt, J.; Krings, T.; Gerilowski, K.; Sweeney, C.; others.
-\newblock Airborne methane remote measurements reveal heavy-tail flux
-  distribution in Four Corners region.
-\newblock {\em Proceedings of the National Academy of Sciences} {\bf 2016},
-  {\em 113},~9734--9739.
-
-\bibitem{Nathan2015}
-Nathan, B.J.; Golston, L.M.; O'Brien, A.S.; Ross, K.; Harrison, W.A.; Tao, L.;
-  Lary, D.J.; Johnson, D.R.; Covington, A.N.; Clark, N.N.; others.
-\newblock Near-field characterization of methane emission variability from a
-  compressor station using a model aircraft.
-\newblock {\em Environmental science \& technology} {\bf 2015}, {\em
-  49},~7896--7903.
-
-\bibitem{Omara2018}
-Omara, M.; Zimmerman, N.; Sullivan, M.R.; Li, X.; Ellis, A.; Cesa, R.;
-  Subramanian, R.; Presto, A.A.; Robinson, A.L.
-\newblock Methane emissions from natural gas production sites in the United
-  States: Data synthesis and national estimate.
-\newblock {\em Environmental science \& technology} {\bf 2018}.
+\bibitem{Brantley2014}
+Brantley, H.L.; Thoma, E.D.; Squier, W.C.; Guven, B.B.; Lyon, D.
+\newblock Assessment of methane emissions from oil and gas production pads
+  using mobile measurements.
+\newblock {\em Environmental science \& technology} {\bf 2014}, {\em
+  48},~14508--14515.
 
 \bibitem{Mitchell2015}
 Mitchell, A.L.; Tkacik, D.S.; Roscioli, J.R.; Herndon, S.C.; Yacovitch, T.I.;
@@ -1288,243 +1271,24 @@ Mitchell, A.L.; Tkacik, D.S.; Roscioli, J.R.; Herndon, S.C.; Yacovitch, T.I.;
 \newblock {\em Environmental science \& technology} {\bf 2015}, {\em
   49},~3219--3227.
 
-\bibitem{Brandt2016}
-Brandt, A.R.; Heath, G.A.; Cooley, D.
-\newblock Methane leaks from natural gas systems follow extreme distributions.
-\newblock {\em Environmental science \& technology} {\bf 2016}, {\em
-  50},~12512--12520.
+\bibitem{EIA2012}
+EIA.
+\newblock International Energy Statistics - Petroleum.
+\newblock Technical report, U.S. Energy Information Administration,  2012.
 
-\bibitem{Brandt2014}
-Brandt, A.R.; Heath, G.; Kort, E.; O'sullivan, F.; P{\'e}tron, G.; Jordaan, S.;
-  Tans, P.; Wilcox, J.; Gopstein, A.; Arent, D.; others.
-\newblock Methane leaks from North American natural gas systems.
-\newblock {\em Science} {\bf 2014}, {\em 343},~733--735.
-
-\bibitem{Allen2013}
-Allen, D.T.; Torres, V.M.; Thomas, J.; Sullivan, D.W.; Harrison, M.; Hendler,
-  A.; Herndon, S.C.; Kolb, C.E.; Fraser, M.P.; Hill, A.D.; others.
-\newblock Measurements of methane emissions at natural gas production sites in
-  the United States.
-\newblock {\em Proceedings of the National Academy of Sciences} {\bf 2013},
-  {\em 110},~17768--17773.
-
-\bibitem{Allen2014a}
-Allen, D.T.; Sullivan, D.W.; Zavala-Araiza, D.; Pacsi, A.P.; Harrison, M.;
-  Keen, K.; Fraser, M.P.; Daniel~Hill, A.; Lamb, B.K.; Sawyer, R.F.; others.
-\newblock Methane emissions from process equipment at natural gas production
-  sites in the United States: Liquid unloadings.
-\newblock {\em Environmental science \& technology} {\bf 2014}, {\em
-  49},~641--648.
-
-\bibitem{Shires2009}
-Shires, T.; Loughran, C.; Jones, S.; Hopkins, E.
-\newblock Compendium of greenhouse gas emissions methodologies for the oil and
-  natural gas industry.
-\newblock Technical report, Prepared by URS Corporation for the American
-  Petroleum Institute, Washington DC.,  2009.
-
-\bibitem{Alvarez2018}
-Alvarez, R.; Zavala-Araiza, D.; Lyon, D.; Allen, D.; Barkley, Z.; Brandt, A.;
-  Davis, K.; Herndon, S.; Jacob, D.; Karion, A.; others.
-\newblock Assessment of methane emissions from the US oil and gas supply chain,
-  Science, eaar7204,  2018.
-
-\bibitem{Balcombe2018}
-Balcombe, P.; Brandon, N.; Hawkes, A.
-\newblock Characterising the distribution of methane and carbon dioxide
-  emissions from the natural gas supply chain.
-\newblock {\em Journal of Cleaner Production} {\bf 2018}, {\em
-  172},~2019--2032.
-
-\bibitem{Boothroyd2016}
-Boothroyd, I.; Almond, S.; Qassim, S.; Worrall, F.; Davies, R.
-\newblock Fugitive emissions of methane from abandoned, decommissioned oil and
-  gas wells.
-\newblock {\em Science of the Total Environment} {\bf 2016}, {\em
-  547},~461--469.
-
-\bibitem{Boothroyd2018}
-Boothroyd, I.M.; Almond, S.; Worrall, F.; Davies, R.K.; Davies, R.J.
-\newblock Assessing fugitive emissions of CH4 from high-pressure gas pipelines
-  in the UK.
-\newblock {\em Science of the Total Environment} {\bf 2018}, {\em
-  631},~1638--1648.
-
-\bibitem{CAPP2014}
-CAPP.
-\newblock Update of fugitive equipment leak emission factors.
-\newblock Technical Report 2014-0023, Canadian Association of Petroleum
-  Producers,  2014.
-
-\bibitem{Clearstone2002}
-Ltd., C.E.
-\newblock Identification and evaluation of opportunities to reduce methane
-  losses at four gas processing plants.
-\newblock Technical report, Gas Technology Institute,  2002.
-
-\bibitem{Clearstone2015}
-Ltd., C.E.
-\newblock Potential cost-effective flare and vent gas reduction opportunities
-  at selected production facilities in Mexico.
-\newblock Technical report, Petroleum Technology Alliance Canada,  2015.
-
-\bibitem{Day2014}
-Day, S.; Dell'Amico, M.; Fry, R.; Tousi, H.
-\newblock Field measurements of fugitive emissions from equipment and well
-  casings in austalian coal seam gas production facilities.
-\newblock Technical report, CSIRO Energy Technology,  2014.
-
-\bibitem{Environ2010}
-Corporation, E.I.
-\newblock Upstream Oil and Gas Tank Emission Measurements TCEQ Project 2010 --
-  39.
-\newblock Technical Report 06-17477X, Texas Commission on Environmental
-  Quality,  2010.
-
-\bibitem{EPA1993}
-EPA, U.
-\newblock Protocol for equipment leak emission estimates.
-\newblock Technical Report EPA-453/R-93-026, U.S. Environmental Protection
-  Agency,  1993.
-
-\bibitem{EPA1995b}
-EPA, U.
-\newblock Protocol for equipment leak emission estimates.
-\newblock Technical Report EPA-453/R-95-017, U.S. Environmental Protection
-  Agency,  1995.
-
-\bibitem{ERG2011}
-Eastern Research~Group, I.; Sage Environmental~Consulting, L.
-\newblock City of Fort Worth Natural Gas Air Quality Study.
-\newblock Technical report, City of Fort Worth,  2011.
-
-\bibitem{ERG2012}
-Eastern Research~Group, I.
-\newblock Condensate Tank Oil and Gas Activities.
-\newblock Technical report, Texas Commission on Environmental Quality,  2012.
-
-\bibitem{Gidney2009}
-Gidney, B.
-\newblock Upstream oil and gas storage tnak project flash emissions models
-  evaluation.
-\newblock Technical report, Texas Commission on Environmental Quality and
-  Eastern Research Group,  2009.
-
-\bibitem{Greenpath2017}
-Ltd., G.E.
-\newblock Historical Canadian Fugitive Emissions Management Program Assessment.
-\newblock Technical report, Petroleum Technology Alliance Canada,  2017.
-
-\bibitem{Hendler2009}
-Hendler, A.; Nunn, J.; Lundeen, J.
-\newblock VOC Emissions from Oil and Condensate Storage Tanks.
-\newblock Technical report, Texas Environmental Research Consortium,  2009.
-
-\bibitem{Harrison2011}
-Harrison, M.R.; Galloway, K.E.; Al, H.
-\newblock Natural gas industry methane emission factor improvement study.
-\newblock Technical report, U.S. Environmental Protection Agency,  2011.
-
-\bibitem{Hendrick2016}
-Hendrick, M.F.; Ackley, R.; Sanaie-Movahed, B.; Tang, X.; Phillips, N.G.
-\newblock Fugitive methane emissions from leak-prone natural gas distribution
-  infrastructure in urban environments.
-\newblock {\em Environmental pollution} {\bf 2016}, {\em 213},~710--716.
-
-\bibitem{Johnson2015}
-Johnson, D.R.; Covington, A.N.; Clark, N.N.
-\newblock Methane emissions from leak and loss audits of natural gas compressor
-  stations and storage facilities.
+\bibitem{Marchese2015}
+Marchese, A.J.; Vaughn, T.L.; Zimmerle, D.J.; Martinez, D.M.; Williams, L.L.;
+  Robinson, A.L.; Mitchell, A.L.; Subramanian, R.; Tkacik, D.S.; Roscioli,
+  J.R.; others.
+\newblock Methane emissions from United States natural gas gathering and
+  processing.
 \newblock {\em Environmental science \& technology} {\bf 2015}, {\em
-  49},~8132--8138.
+  49},~10718--10727.
 
-\bibitem{Kang2014}
-Kang, M.; Kanno, C.M.; Reid, M.C.; Zhang, X.; Mauzerall, D.L.; Celia, M.A.;
-  Chen, Y.; Onstott, T.C.
-\newblock Direct measurements of methane emissions from abandoned oil and gas
-  wells in Pennsylvania.
-\newblock {\em Proceedings of the National Academy of Sciences} {\bf 2014},
-  {\em 111},~18173--18177.
-
-\bibitem{Kuo2012}
-Kuo, J.
-\newblock Estimation of methane emissions from the California natural gas
-  system.
-\newblock Technical Report CEC-500-2014-072, California Energy Commission,
-  2012.
-
-\bibitem{Jacobs2016}
-Inc., J.T.
-\newblock Uinta Basin well pad pneumatic controller emissions research study.
-\newblock Technical Report QAPP-1J16-019.R1, Environmental Protection Agency,
-  2016.
-
-\bibitem{Lamb2015}
-Lamb, B.K.; Edburg, S.L.; Ferrara, T.W.; Howard, T.; Harrison, M.R.; Kolb,
-  C.E.; Townsend-Small, A.; Dyck, W.; Possolo, A.; Whetstone, J.R.
-\newblock Direct measurements show decreasing methane emissions from natural
-  gas local distribution systems in the United States.
-\newblock {\em Environmental Science \& Technology} {\bf 2015}, {\em
-  49},~5161--5169.
-
-\bibitem{Lyman2017}
-Lyman, S.N.; Watkins, C.; Jones, C.P.; Mansfield, M.L.; McKinley, M.; Kenney,
-  D.; Evans, J.
-\newblock Hydrocarbon and carbon dioxide fluxes from natural gas well pad soils
-  and surrounding soils in Eastern Utah.
-\newblock {\em Environmental science \& technology} {\bf 2017}, {\em
-  51},~11625--11633.
-
-\bibitem{NGML2006}
-Laboratory, N.G.M.; Ltd., C.E.; Ltd., I.E.S.
-\newblock Cost-effective direct inspection and maintenance control
-  opportunities at five gas processing plants and upstream gathering compressor
-  stations and well sites.
-\newblock Technical report, Environmental Protection Agency,  2006.
-
-\bibitem{Picard2006}
-Picard, D.; Panek, J.
-\newblock Directed inspection and maintenance leak survey at a gas
-  fractionation plant using traditional methods and optical gas imaging.
-\newblock {\em Proceedings of the Air and Waste Management Association} {\bf
-  2006}.
-
-\bibitem{Subramanian2015}
-Subramanian, R.; Williams, L.L.; Vaughn, T.L.; Zimmerle, D.; Roscioli, J.R.;
-  Herndon, S.C.; Yacovitch, T.I.; Floerchinger, C.; Tkacik, D.S.; Mitchell,
-  A.L.; others.
-\newblock Methane emissions from natural gas compressor stations in the
-  transmission and storage sector: Measurements and comparisons with the EPA
-  greenhouse gas reporting program protocol.
-\newblock {\em Environmental science \& technology} {\bf 2015}, {\em
-  49},~3252--3261.
-
-\bibitem{Thoma2017}
-Thoma, E.D.; Deshmukh, P.; Logan, R.; Stovern, M.; Dresser, C.; Brantley, H.L.
-\newblock Assessment of Uinta Basin Oil and Natural Gas Well Pad Pneumatic
-  Controller Emissions.
-\newblock {\em Journal of Environmental Protection} {\bf 2017}, {\em 8},~394.
-
-\bibitem{TownsendSmall2016}
-Townsend-Small, A.; Ferrara, T.W.; Lyon, D.R.; Fries, A.; Lamb, B.K.
-\newblock Emissions of coalbned and natural gas methane from abandoned oil and
-  gas wells in the United States.
-\newblock {\em Geophysical Research Letters} {\bf 2016}, {\em 43},~2283--2290.
-
-\bibitem{Vaughn2017}
-Vaughn, T.L.; Bell, C.S.; Yacovitch, T.I.; Roscioli, J.R.; Herndon, S.C.;
-  Conley, S.; Schwietzke, S.; Heath, G.A.; P{\'e}tron, G.; Zimmerle, D.
-\newblock Comparing facility-level methane emission rate estimates at natural
-  gas gathering and boosting stations.
-\newblock {\em Elementa Science of the Anthropocene} {\bf 2017}, {\em 5}.
-
-\bibitem{VonFischer2017}
-von Fischer, J.C.; Cooley, D.; Chamberlain, S.; Gaylord, A.; Griebenow, C.J.;
-  Hamburg, S.P.; Salo, J.; Schumacher, R.; Theobald, D.; Ham, J.
-\newblock Rapid, vehicle-based identification of location and magnitude of
-  urban natural gas pipeline leaks.
-\newblock {\em Environmental Science \& Technology} {\bf 2017}, {\em
-  51},~4091--4099.
+\bibitem{EIA2020gas}
+EIA.
+\newblock Natural Gas Gross Withdrawals and Production [Online].
+\newblock Technical report, Energy Information Administration,  2020.
 
 \bibitem{Zimmerle2015}
 Zimmerle, D.J.; Williams, L.L.; Vaughn, T.L.; Quinn, C.; Subramanian, R.;
@@ -1535,12 +1299,85 @@ Zimmerle, D.J.; Williams, L.L.; Vaughn, T.L.; Quinn, C.; Subramanian, R.;
 \newblock {\em Environmental science \& technology} {\bf 2015}, {\em
   49},~9374--9383.
 
-\bibitem{Zimmerle2017}
-Zimmerle, D.J.; Pickering, C.K.; Bell, C.S.; Heath, G.A.; Nummedal, D.;
-  P{\'e}tron, G.; Vaughn, T.L.
-\newblock Gathering pipeline methane emissions in Fayetteville shale pipelines
-  and scoping guidelines for future pipeline measurement campaigns.
-\newblock {\em Elem Sci Anth} {\bf 2017}, {\em 5}.
+\bibitem{EIA2012NGAnnual}
+EIA.
+\newblock Natural Gas Annual - 2012.
+\newblock Technical report, Energy Information Administration,  2012.
+
+\bibitem{EPA2020}
+USEPA.
+\newblock Inventory of US greenhouse gas emissions and sinks: 1990-2018, Annex
+  3.
+\newblock Technical report, United States Environmental Protection Agency,
+  2020.
+
+\bibitem{EIA2019NGAnnual}
+EIA.
+\newblock Natural Gas Annual - 2019.
+\newblock Technical report, Energy Information Administration,  2019.
+
+\bibitem{Alvarez2018}
+Alvarez, R.; Zavala-Araiza, D.; Lyon, D.; Allen, D.; Barkley, Z.; Brandt, A.;
+  Davis, K.; Herndon, S.; Jacob, D.; Karion, A.; others.
+\newblock Assessment of methane emissions from the US oil and gas supply chain,
+  Science, eaar7204,  2018.
+
+\bibitem{Rutherford2021}
+Rutherford, J.a.
+\newblock Closing the methane gap in US oil and natural gas production
+  emissions inventories.
+\newblock {\em Nature Communications} {\bf 2021}, {\em In press}.
+
+\bibitem{ARB2013}
+Detwiler, S.
+\newblock 2007 Oil and Gas Industry Survey Results - Final Report (Revised).
+\newblock Technical report, California Air Resources Board,  October 2013.
+
+\bibitem{CAPCOA1999}
+CAPCOA.
+\newblock California implementation guidelines for estimating mass emissions of
+  fugitive hydrocarbon leaks at petroleum facilitities.
+\newblock Technical report, California Air Pollution Control Officers
+  Association,  1999.
+
+\bibitem{Hummel1996}
+Hummel, K.; Campbell, L.; Harrison, M.
+\newblock Methane Emissions from the Natural Gas Industry: Volume 8. Equipment
+  Leaks.
+\newblock Technical Report PB-97-142996/XAB, Radian Corp.,  1996.
+
+\bibitem{STAR1995}
+Inc., S.E.
+\newblock Fugitive Hydrocarbon Emissions: Eastern Gas Wells.
+\newblock Technical Report GRI-95/0117, Gas Research Institute,  1995.
+
+\bibitem{Enverus2020}
+Enverus.
+\newblock Enervus Exploration and Production Database [Online].
+\newblock Technical Report
+  {https://www.enverus.com/industry/exploration-and-production/}, Enverus Inc.,
+   2021.
+
+\bibitem{Hendler2009}
+Hendler, A.; Nunn, J.; Lundeen, J.
+\newblock VOC Emissions from Oil and Condensate Storage Tanks.
+\newblock Technical report, Texas Environmental Research Consortium,  2009.
+
+\bibitem{IPCC2013}
+Stocker, T.; Qin, D.; Plattner, G.K.; Tignor, M.; Allen, S.; Boschung, J.;
+  Nauels, A.; Xia, Y.; Bex, V.; Midgley, P., Eds.
+\newblock {\em Climate Change 2013: The Physical Science Basis.}; Cambridge
+  University Press, Cambridge, United Kingdom,  2013.
+
+\bibitem{xsteam}
+Holmgren, M.
+\newblock XSteam.
+\newblock Technical report, X-Eng.com,  2020.
+
+\bibitem{EngToolbox}
+Toolbox, T.E.
+\newblock The Engineering Toolbox.
+\newblock Technical report, www.engineeringtoolbox.com,  2012.
 
 \bibitem{Kutz2006}
 Kutz, M., Ed.
