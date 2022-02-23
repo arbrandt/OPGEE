@@ -70,96 +70,95 @@
 \contentsline {table}{\numberline {6.54}{\ignorespaces Primary inputs used in \textit {`{Steam generation}'} sheet.\relax }}{183}{table.caption.174}
 \contentsline {table}{\numberline {6.55}{\ignorespaces Secondary inputs used in \textit {`{Steam generation}'} sheet.\relax }}{184}{table.6.55}
 \contentsline {table}{\numberline {6.56}{\ignorespaces Streams flowing into and out of the flaring process. I/O denotes input or output stream.\relax }}{187}{table.caption.175}
-\contentsline {table}{\numberline {6.57}{\ignorespaces Sources of flaring data and construction notes.\relax }}{188}{table.caption.177}
-\contentsline {table}{\numberline {6.58}{\ignorespaces Flare methane destruction efficiency measurements\relax }}{189}{table.caption.178}
-\contentsline {table}{\numberline {6.59}{\ignorespaces Stoichiometric relationships for complete combustion.\relax }}{190}{table.caption.179}
-\contentsline {table}{\numberline {6.60}{\ignorespaces Primary inputs used in \textit {`{Flaring}'} sheet.\relax }}{191}{table.caption.180}
-\contentsline {table}{\numberline {6.61}{\ignorespaces Secondary inputs used in \textit {`{Flaring}'} sheet.\relax }}{192}{table.caption.181}
-\contentsline {table}{\numberline {6.62}{\ignorespaces Streams flowing into and out of the venting process. I/O denotes input or output stream.\relax }}{193}{table.caption.182}
-\contentsline {table}{\numberline {6.63}{\ignorespaces Primary inputs used in \textit {`{Venting}'} sheet.\relax }}{196}{table.caption.184}
-\contentsline {table}{\numberline {6.64}{\ignorespaces Streams flowing into and out of the gas gathering process. I/O denotes input or output stream.\relax }}{197}{table.caption.185}
-\contentsline {table}{\numberline {6.65}{\ignorespaces Streams flowing into and out of the glycol dehydrator process. I/O denotes input or output stream.\relax }}{199}{table.caption.187}
-\contentsline {table}{\numberline {6.66}{\ignorespaces Settings for non-varying operating parameters in Aspen HYSYS TEG dehydration unit simulations. Source ``def.'' is OPGEE assumed default from prior model versions.\relax }}{201}{table.caption.190}
-\contentsline {table}{\numberline {6.67}{\ignorespaces Ranges of independent variables explored in TEG dehydration Aspen HYSYS modeling.\relax }}{202}{table.caption.191}
-\contentsline {table}{\numberline {6.68}{\ignorespaces Secondary inputs used in \textit {`{Glycol dehydrator}'} sheet.\relax }}{207}{table.caption.194}
-\contentsline {table}{\numberline {6.69}{\ignorespaces Streams flowing into and out of the acid gas removal process. I/O denotes input or output stream.\relax }}{209}{table.caption.195}
-\contentsline {table}{\numberline {6.70}{\ignorespaces Settings for non-varying operating parameters in Aspen HYSYS AGR unit simulations. Source ``def.'' is OPGEE assumed default from prior model versions.\relax }}{212}{table.caption.199}
-\contentsline {table}{\numberline {6.71}{\ignorespaces Ranges of independent variables explored in generating predictive equations for AGR energy use. DEA-HL = DEA-high-load.\relax }}{213}{table.caption.200}
-\contentsline {table}{\numberline {6.72}{\ignorespaces Primary inputs used in \textit {`{Acid Gas Removal}'} sheet.\relax }}{225}{table.caption.207}
-\contentsline {table}{\numberline {6.73}{\ignorespaces Secondary inputs used in \textit {`{Acid Gas Removal}'} sheet.\relax }}{226}{table.6.73}
-\contentsline {table}{\numberline {6.74}{\ignorespaces Streams flowing into and out of the demethanizer process. I/O denotes input or output stream.\relax }}{227}{table.caption.208}
-\contentsline {table}{\numberline {6.75}{\ignorespaces Settings for fixed operating parameters in Aspen HYSYS demethanizer plant simulations.\relax }}{230}{table.caption.211}
-\contentsline {table}{\numberline {6.76}{\ignorespaces Ranges of independent variables explored in generating predictive proxy models using Aspen HYSYS for demethanizer plant.\relax }}{230}{table.caption.212}
-\contentsline {table}{\numberline {6.77}{\ignorespaces Primary inputs used in \textit {`{Demethanizer}'} sheet.\relax }}{236}{table.caption.218}
-\contentsline {table}{\numberline {6.78}{\ignorespaces Secondary inputs used in \textit {`{Demethanizer}'} sheet.\relax }}{237}{table.caption.219}
-\contentsline {table}{\numberline {6.79}{\ignorespaces Streams flowing into and out of the pre-membrane chiller process. I/O denotes input or output stream.\relax }}{238}{table.caption.220}
-\contentsline {table}{\numberline {6.80}{\ignorespaces Secondary inputs used in \textit {`{Chiller}'} sheet.\relax }}{240}{table.caption.222}
-\contentsline {table}{\numberline {6.81}{\ignorespaces Streams flowing into and out of the CO$_2$ separation membrane process. I/O denotes input or output stream\relax }}{241}{table.caption.223}
-\contentsline {table}{\numberline {6.82}{\ignorespaces Secondary inputs used in \textit {`{Membrane}'} sheet.\relax }}{243}{table.caption.225}
-\contentsline {table}{\numberline {6.83}{\ignorespaces Streams flowing into and out of the Ryan-Holmes separation process. I/O denotes input or output stream.\relax }}{244}{table.caption.226}
-\contentsline {table}{\numberline {6.84}{\ignorespaces Secondary inputs used in \textit {`{Ryan-Holmes unit}'} sheet.\relax }}{246}{table.caption.228}
-\contentsline {table}{\numberline {6.85}{\ignorespaces Streams flowing into and out of the gas reinjection compressor. I/O denotes input or output stream.\relax }}{247}{table.caption.229}
-\contentsline {table}{\numberline {6.86}{\ignorespaces Primary inputs used in \textit {`{Gas reinjection}'} sheet.\relax }}{251}{table.caption.231}
-\contentsline {table}{\numberline {6.87}{\ignorespaces Secondary inputs used in \textit {`{Gas reinjection compressor}'} sheet.\relax }}{252}{table.caption.232}
-\contentsline {table}{\numberline {6.88}{\ignorespaces Streams flowing into and out of the gas flooding compressor. I/O denotes input or output stream.\relax }}{255}{table.caption.237}
-\contentsline {table}{\numberline {6.89}{\ignorespaces Primary inputs used in \textit {`{Gas flooding compressor}'} sheet.\relax }}{257}{table.caption.239}
-\contentsline {table}{\numberline {6.90}{\ignorespaces Secondary inputs used in \textit {`{Gas flooding compressor}'} sheet.\relax }}{258}{table.caption.240}
-\contentsline {table}{\numberline {6.91}{\ignorespaces Streams flowing into and out of the gas lifting compressor. I/O denotes input or output stream.\relax }}{259}{table.caption.241}
-\contentsline {table}{\numberline {6.92}{\ignorespaces Primary inputs used in \textit {`{Gas lifting}'} sheet.\relax }}{261}{table.caption.243}
-\contentsline {table}{\numberline {6.93}{\ignorespaces Secondary inputs used in \textit {`{Gas lifting}'} sheet.\relax }}{262}{table.caption.244}
-\contentsline {table}{\numberline {6.94}{\ignorespaces Streams flowing into and out of the CO2 reinjection compressor. I/O denotes input or output stream.\relax }}{263}{table.caption.245}
-\contentsline {table}{\numberline {6.95}{\ignorespaces Primary inputs used in \textit {`{CO2 reinjection compressor}'} sheet.\relax }}{265}{table.caption.247}
-\contentsline {table}{\numberline {6.96}{\ignorespaces Secondary inputs used in \textit {`{CO2 reinjection compressor}'} sheet.\relax }}{266}{table.caption.248}
-\contentsline {table}{\numberline {6.97}{\ignorespaces Streams flowing into and out of the sour gas reinjection compressor. I/O denotes input or output stream.\relax }}{267}{table.caption.249}
-\contentsline {table}{\numberline {6.98}{\ignorespaces Secondary inputs used in \textit {`{Sour gas reinjection compressor}'} sheet.\relax }}{269}{table.caption.251}
-\contentsline {table}{\numberline {6.99}{\ignorespaces Streams flowing into and out of the VRU compressor. I/O denotes input or output stream.\relax }}{270}{table.caption.252}
-\contentsline {table}{\numberline {6.100}{\ignorespaces Secondary inputs used in \textit {`{VRU compressor}'} sheet.\relax }}{272}{table.caption.254}
-\contentsline {table}{\numberline {6.101}{\ignorespaces Streams flowing into and out of the pre-membrane compressor. I/O denotes input or output stream\relax }}{273}{table.caption.255}
-\contentsline {table}{\numberline {6.102}{\ignorespaces Secondary inputs used in \textit {`{Pre-membrane compressor}'} sheet.\relax }}{275}{table.caption.257}
-\contentsline {table}{\numberline {6.103}{\ignorespaces Streams flowing into and out of the transmission compressor. I/O denotes input or output stream\relax }}{276}{table.caption.258}
-\contentsline {table}{\numberline {6.104}{\ignorespaces Secondary inputs used in \textit {`{Transmissions compressor}'} sheet.\relax }}{278}{table.caption.260}
-\contentsline {table}{\numberline {6.105}{\ignorespaces Intensity factors used in LNG liquefaction calculations\relax }}{280}{table.caption.262}
-\contentsline {table}{\numberline {6.106}{\ignorespaces Intensity factors used in LNG regasification calculations\relax }}{282}{table.caption.263}
-\contentsline {table}{\numberline {6.107}{\ignorespaces Streams flowing into and out of the storage compressor. I/O denotes input or output stream.\relax }}{283}{table.caption.264}
-\contentsline {table}{\numberline {6.108}{\ignorespaces Secondary inputs used in \textit {`{Storage compressor}'} sheet.\relax }}{284}{table.caption.266}
-\contentsline {table}{\numberline {6.109}{\ignorespaces Streams flowing into and out of the post-storage compressor. I/O denotes input or output stream.\relax }}{285}{table.caption.267}
-\contentsline {table}{\numberline {6.110}{\ignorespaces Secondary inputs used in \textit {`{Post-storage compressor}'} sheet.\relax }}{287}{table.caption.269}
-\contentsline {table}{\numberline {6.111}{\ignorespaces Streams flowing into and out of HC gas reinjection wells. I/O denotes input or output stream\relax }}{288}{table.caption.270}
-\contentsline {table}{\numberline {6.112}{\ignorespaces Streams flowing into and out of CO2 injection wells. I/O denotes input or output stream\relax }}{290}{table.caption.272}
-\contentsline {table}{\numberline {6.113}{\ignorespaces Streams flowing into and out of sour gas injection wells. I/O denotes input or output stream.\relax }}{291}{table.caption.274}
-\contentsline {table}{\numberline {6.114}{\ignorespaces Streams flowing into and out of steam injection wells. I/O denotes input or output stream.\relax }}{292}{table.caption.276}
-\contentsline {table}{\numberline {6.115}{\ignorespaces Streams flowing into and out of gas storage wells. I/O denotes input or output stream.\relax }}{293}{table.caption.278}
-\contentsline {table}{\numberline {6.116}{\ignorespaces Streams flowing into and out of gas storage wells. I/O denotes input or output stream.\relax }}{294}{table.caption.280}
-\contentsline {table}{\numberline {6.117}{\ignorespaces Primary inputs used in \textit {`{Gas partition A}'} sheet.\relax }}{296}{table.caption.282}
-\contentsline {table}{\numberline {6.118}{\ignorespaces Primary inputs used in \textit {`{Gas partition B}'} sheet.\relax }}{298}{table.caption.283}
-\contentsline {table}{\numberline {6.119}{\ignorespaces Primary inputs used in \textit {`{Crude oil transport}'} sheet.\relax }}{305}{table.caption.284}
-\contentsline {table}{\numberline {6.120}{\ignorespaces Secondary inputs used in \textit {`{Crude oil transport}'} sheet.\relax }}{306}{table.caption.285}
-\contentsline {table}{\numberline {6.121}{\ignorespaces Secondary inputs used in \textit {`{Petcoke transport}'} sheet.\relax }}{308}{table.caption.286}
-\contentsline {table}{\numberline {6.122}{\ignorespaces Secondary inputs used in \textit {`{Gas distribution}'} sheet.\relax }}{310}{table.caption.287}
-\contentsline {table}{\numberline {6.123}{\ignorespaces Secondary inputs used in \textit {`{Fuel gas imports}'} sheet.\relax }}{312}{table.caption.288}
-\contentsline {table}{\numberline {6.124}{\ignorespaces Secondary inputs used in \textit {`{Electricity generation and imports}'} sheet.\relax }}{314}{table.caption.289}
-\contentsline {table}{\numberline {6.125}{\ignorespaces Secondary inputs used in \textit {`{NGL or diluent production and imports}'} sheet.\relax }}{316}{table.caption.290}
+\contentsline {table}{\numberline {6.57}{\ignorespaces Flare methane destruction efficiency measurements\relax }}{190}{table.caption.179}
+\contentsline {table}{\numberline {6.58}{\ignorespaces Stoichiometric relationships for complete combustion.\relax }}{191}{table.caption.180}
+\contentsline {table}{\numberline {6.59}{\ignorespaces Primary inputs used in \textit {`{Flaring}'} sheet.\relax }}{192}{table.caption.181}
+\contentsline {table}{\numberline {6.60}{\ignorespaces Secondary inputs used in \textit {`{Flaring}'} sheet.\relax }}{193}{table.caption.182}
+\contentsline {table}{\numberline {6.61}{\ignorespaces Streams flowing into and out of the venting process. I/O denotes input or output stream.\relax }}{194}{table.caption.183}
+\contentsline {table}{\numberline {6.62}{\ignorespaces Primary inputs used in \textit {`{Venting}'} sheet.\relax }}{197}{table.caption.185}
+\contentsline {table}{\numberline {6.63}{\ignorespaces Streams flowing into and out of the gas gathering process. I/O denotes input or output stream.\relax }}{198}{table.caption.186}
+\contentsline {table}{\numberline {6.64}{\ignorespaces Streams flowing into and out of the glycol dehydrator process. I/O denotes input or output stream.\relax }}{200}{table.caption.188}
+\contentsline {table}{\numberline {6.65}{\ignorespaces Settings for non-varying operating parameters in Aspen HYSYS TEG dehydration unit simulations. Source ``def.'' is OPGEE assumed default from prior model versions.\relax }}{202}{table.caption.191}
+\contentsline {table}{\numberline {6.66}{\ignorespaces Ranges of independent variables explored in TEG dehydration Aspen HYSYS modeling.\relax }}{203}{table.caption.192}
+\contentsline {table}{\numberline {6.67}{\ignorespaces Secondary inputs used in \textit {`{Glycol dehydrator}'} sheet.\relax }}{208}{table.caption.195}
+\contentsline {table}{\numberline {6.68}{\ignorespaces Streams flowing into and out of the acid gas removal process. I/O denotes input or output stream.\relax }}{210}{table.caption.196}
+\contentsline {table}{\numberline {6.69}{\ignorespaces Settings for non-varying operating parameters in Aspen HYSYS AGR unit simulations. Source ``def.'' is OPGEE assumed default from prior model versions.\relax }}{213}{table.caption.200}
+\contentsline {table}{\numberline {6.70}{\ignorespaces Ranges of independent variables explored in generating predictive equations for AGR energy use. DEA-HL = DEA-high-load.\relax }}{214}{table.caption.201}
+\contentsline {table}{\numberline {6.71}{\ignorespaces Primary inputs used in \textit {`{Acid Gas Removal}'} sheet.\relax }}{226}{table.caption.208}
+\contentsline {table}{\numberline {6.72}{\ignorespaces Secondary inputs used in \textit {`{Acid Gas Removal}'} sheet.\relax }}{227}{table.6.72}
+\contentsline {table}{\numberline {6.73}{\ignorespaces Streams flowing into and out of the demethanizer process. I/O denotes input or output stream.\relax }}{228}{table.caption.209}
+\contentsline {table}{\numberline {6.74}{\ignorespaces Settings for fixed operating parameters in Aspen HYSYS demethanizer plant simulations.\relax }}{231}{table.caption.212}
+\contentsline {table}{\numberline {6.75}{\ignorespaces Ranges of independent variables explored in generating predictive proxy models using Aspen HYSYS for demethanizer plant.\relax }}{231}{table.caption.213}
+\contentsline {table}{\numberline {6.76}{\ignorespaces Primary inputs used in \textit {`{Demethanizer}'} sheet.\relax }}{237}{table.caption.219}
+\contentsline {table}{\numberline {6.77}{\ignorespaces Secondary inputs used in \textit {`{Demethanizer}'} sheet.\relax }}{238}{table.caption.220}
+\contentsline {table}{\numberline {6.78}{\ignorespaces Streams flowing into and out of the pre-membrane chiller process. I/O denotes input or output stream.\relax }}{239}{table.caption.221}
+\contentsline {table}{\numberline {6.79}{\ignorespaces Secondary inputs used in \textit {`{Chiller}'} sheet.\relax }}{241}{table.caption.223}
+\contentsline {table}{\numberline {6.80}{\ignorespaces Streams flowing into and out of the CO$_2$ separation membrane process. I/O denotes input or output stream\relax }}{242}{table.caption.224}
+\contentsline {table}{\numberline {6.81}{\ignorespaces Secondary inputs used in \textit {`{Membrane}'} sheet.\relax }}{244}{table.caption.226}
+\contentsline {table}{\numberline {6.82}{\ignorespaces Streams flowing into and out of the Ryan-Holmes separation process. I/O denotes input or output stream.\relax }}{245}{table.caption.227}
+\contentsline {table}{\numberline {6.83}{\ignorespaces Secondary inputs used in \textit {`{Ryan-Holmes unit}'} sheet.\relax }}{247}{table.caption.229}
+\contentsline {table}{\numberline {6.84}{\ignorespaces Streams flowing into and out of the gas reinjection compressor. I/O denotes input or output stream.\relax }}{248}{table.caption.230}
+\contentsline {table}{\numberline {6.85}{\ignorespaces Primary inputs used in \textit {`{Gas reinjection}'} sheet.\relax }}{252}{table.caption.232}
+\contentsline {table}{\numberline {6.86}{\ignorespaces Secondary inputs used in \textit {`{Gas reinjection compressor}'} sheet.\relax }}{253}{table.caption.233}
+\contentsline {table}{\numberline {6.87}{\ignorespaces Streams flowing into and out of the gas flooding compressor. I/O denotes input or output stream.\relax }}{256}{table.caption.238}
+\contentsline {table}{\numberline {6.88}{\ignorespaces Primary inputs used in \textit {`{Gas flooding compressor}'} sheet.\relax }}{258}{table.caption.240}
+\contentsline {table}{\numberline {6.89}{\ignorespaces Secondary inputs used in \textit {`{Gas flooding compressor}'} sheet.\relax }}{259}{table.caption.241}
+\contentsline {table}{\numberline {6.90}{\ignorespaces Streams flowing into and out of the gas lifting compressor. I/O denotes input or output stream.\relax }}{260}{table.caption.242}
+\contentsline {table}{\numberline {6.91}{\ignorespaces Primary inputs used in \textit {`{Gas lifting}'} sheet.\relax }}{262}{table.caption.244}
+\contentsline {table}{\numberline {6.92}{\ignorespaces Secondary inputs used in \textit {`{Gas lifting}'} sheet.\relax }}{263}{table.caption.245}
+\contentsline {table}{\numberline {6.93}{\ignorespaces Streams flowing into and out of the CO2 reinjection compressor. I/O denotes input or output stream.\relax }}{264}{table.caption.246}
+\contentsline {table}{\numberline {6.94}{\ignorespaces Primary inputs used in \textit {`{CO2 reinjection compressor}'} sheet.\relax }}{266}{table.caption.248}
+\contentsline {table}{\numberline {6.95}{\ignorespaces Secondary inputs used in \textit {`{CO2 reinjection compressor}'} sheet.\relax }}{267}{table.caption.249}
+\contentsline {table}{\numberline {6.96}{\ignorespaces Streams flowing into and out of the sour gas reinjection compressor. I/O denotes input or output stream.\relax }}{268}{table.caption.250}
+\contentsline {table}{\numberline {6.97}{\ignorespaces Secondary inputs used in \textit {`{Sour gas reinjection compressor}'} sheet.\relax }}{270}{table.caption.252}
+\contentsline {table}{\numberline {6.98}{\ignorespaces Streams flowing into and out of the VRU compressor. I/O denotes input or output stream.\relax }}{271}{table.caption.253}
+\contentsline {table}{\numberline {6.99}{\ignorespaces Secondary inputs used in \textit {`{VRU compressor}'} sheet.\relax }}{273}{table.caption.255}
+\contentsline {table}{\numberline {6.100}{\ignorespaces Streams flowing into and out of the pre-membrane compressor. I/O denotes input or output stream\relax }}{274}{table.caption.256}
+\contentsline {table}{\numberline {6.101}{\ignorespaces Secondary inputs used in \textit {`{Pre-membrane compressor}'} sheet.\relax }}{276}{table.caption.258}
+\contentsline {table}{\numberline {6.102}{\ignorespaces Streams flowing into and out of the transmission compressor. I/O denotes input or output stream\relax }}{277}{table.caption.259}
+\contentsline {table}{\numberline {6.103}{\ignorespaces Secondary inputs used in \textit {`{Transmissions compressor}'} sheet.\relax }}{279}{table.caption.261}
+\contentsline {table}{\numberline {6.104}{\ignorespaces Intensity factors used in LNG liquefaction calculations\relax }}{281}{table.caption.263}
+\contentsline {table}{\numberline {6.105}{\ignorespaces Intensity factors used in LNG regasification calculations\relax }}{283}{table.caption.264}
+\contentsline {table}{\numberline {6.106}{\ignorespaces Streams flowing into and out of the storage compressor. I/O denotes input or output stream.\relax }}{284}{table.caption.265}
+\contentsline {table}{\numberline {6.107}{\ignorespaces Secondary inputs used in \textit {`{Storage compressor}'} sheet.\relax }}{285}{table.caption.267}
+\contentsline {table}{\numberline {6.108}{\ignorespaces Streams flowing into and out of the post-storage compressor. I/O denotes input or output stream.\relax }}{286}{table.caption.268}
+\contentsline {table}{\numberline {6.109}{\ignorespaces Secondary inputs used in \textit {`{Post-storage compressor}'} sheet.\relax }}{288}{table.caption.270}
+\contentsline {table}{\numberline {6.110}{\ignorespaces Streams flowing into and out of HC gas reinjection wells. I/O denotes input or output stream\relax }}{289}{table.caption.271}
+\contentsline {table}{\numberline {6.111}{\ignorespaces Streams flowing into and out of CO2 injection wells. I/O denotes input or output stream\relax }}{291}{table.caption.273}
+\contentsline {table}{\numberline {6.112}{\ignorespaces Streams flowing into and out of sour gas injection wells. I/O denotes input or output stream.\relax }}{292}{table.caption.275}
+\contentsline {table}{\numberline {6.113}{\ignorespaces Streams flowing into and out of steam injection wells. I/O denotes input or output stream.\relax }}{293}{table.caption.277}
+\contentsline {table}{\numberline {6.114}{\ignorespaces Streams flowing into and out of gas storage wells. I/O denotes input or output stream.\relax }}{294}{table.caption.279}
+\contentsline {table}{\numberline {6.115}{\ignorespaces Streams flowing into and out of gas storage wells. I/O denotes input or output stream.\relax }}{295}{table.caption.281}
+\contentsline {table}{\numberline {6.116}{\ignorespaces Primary inputs used in \textit {`{Gas partition A}'} sheet.\relax }}{297}{table.caption.283}
+\contentsline {table}{\numberline {6.117}{\ignorespaces Primary inputs used in \textit {`{Gas partition B}'} sheet.\relax }}{299}{table.caption.284}
+\contentsline {table}{\numberline {6.118}{\ignorespaces Primary inputs used in \textit {`{Crude oil transport}'} sheet.\relax }}{306}{table.caption.285}
+\contentsline {table}{\numberline {6.119}{\ignorespaces Secondary inputs used in \textit {`{Crude oil transport}'} sheet.\relax }}{307}{table.caption.286}
+\contentsline {table}{\numberline {6.120}{\ignorespaces Secondary inputs used in \textit {`{Petcoke transport}'} sheet.\relax }}{309}{table.caption.287}
+\contentsline {table}{\numberline {6.121}{\ignorespaces Secondary inputs used in \textit {`{Gas distribution}'} sheet.\relax }}{311}{table.caption.288}
+\contentsline {table}{\numberline {6.122}{\ignorespaces Secondary inputs used in \textit {`{Fuel gas imports}'} sheet.\relax }}{313}{table.caption.289}
+\contentsline {table}{\numberline {6.123}{\ignorespaces Secondary inputs used in \textit {`{Electricity generation and imports}'} sheet.\relax }}{315}{table.caption.290}
+\contentsline {table}{\numberline {6.124}{\ignorespaces Secondary inputs used in \textit {`{NGL or diluent production and imports}'} sheet.\relax }}{317}{table.caption.291}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Types and size ranges of the drivers embedded in OPGEE.\relax }}{317}{table.caption.291}
-\contentsline {table}{\numberline {7.2}{\ignorespaces Default inputs for drivers calculations.\relax }}{319}{table.caption.292}
-\contentsline {table}{\numberline {7.3}{\ignorespaces Cement blends modeled in OPGEE.$^a$\relax }}{326}{table.caption.295}
-\contentsline {table}{\numberline {7.4}{\ignorespaces Combustion technologies and fuels included in OPGEE.\relax }}{331}{table.caption.297}
+\contentsline {table}{\numberline {7.1}{\ignorespaces Types and size ranges of the drivers embedded in OPGEE.\relax }}{318}{table.caption.292}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Default inputs for drivers calculations.\relax }}{320}{table.caption.293}
+\contentsline {table}{\numberline {7.3}{\ignorespaces Cement blends modeled in OPGEE.$^a$\relax }}{327}{table.caption.296}
+\contentsline {table}{\numberline {7.4}{\ignorespaces Combustion technologies and fuels included in OPGEE.\relax }}{332}{table.caption.298}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Summary of OPGEE modeling approaches for VF emissions. Each of these approaches is described in detail later in this section.\relax }}{332}{table.caption.300}
-\contentsline {table}{\numberline {8.2}{\ignorespaces Averaged equipment (row) and well gas productivity (column, mscf/well/day) loss rates for oil systems (GOR < 100 mscf/bbl) and natural gas systems (GOR > 100 mscf/bbl).\relax }}{342}{table.caption.312}
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {8.1}{\ignorespaces Summary of OPGEE modeling approaches for VF emissions. Each of these approaches is described in detail later in this section.\relax }}{333}{table.caption.301}
+\contentsline {table}{\numberline {8.2}{\ignorespaces Averaged equipment (row) and well gas productivity (column, mscf/well/day) loss rates for oil systems (GOR < 100 mscf/bbl) and natural gas systems (GOR > 100 mscf/bbl).\relax }}{343}{table.caption.313}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Acronyms and abbreviations.\relax }}{351}{table.A.1}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {B.1}{\ignorespaces Mathematical symbols and subscripts.\relax }}{354}{table.B.1}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Acronyms and abbreviations.\relax }}{352}{table.A.1}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {C.1}{\ignorespaces Emissions sources from exploratory operations. For inclusion: 0 = not included, 1 = included.\relax }}{359}{table.caption.318}
-\contentsline {table}{\numberline {C.2}{\ignorespaces Emissions sources from drilling operations.\relax }}{360}{table.caption.319}
-\contentsline {table}{\numberline {C.3}{\ignorespaces Emissions sources from production and extraction operations.\relax }}{361}{table.caption.320}
-\contentsline {table}{\numberline {C.4}{\ignorespaces Emissions sources from surface processing operations.\relax }}{362}{table.caption.321}
-\contentsline {table}{\numberline {C.5}{\ignorespaces Emissions sources from maintenance operations.\relax }}{362}{table.caption.322}
-\contentsline {table}{\numberline {C.6}{\ignorespaces Emissions sources from waste treatment and disposal operations.\relax }}{363}{table.caption.323}
-\contentsline {table}{\numberline {C.7}{\ignorespaces Emissions sources from transport.\relax }}{364}{table.caption.324}
+\contentsline {table}{\numberline {B.1}{\ignorespaces Mathematical symbols and subscripts.\relax }}{355}{table.B.1}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {C.1}{\ignorespaces Emissions sources from exploratory operations. For inclusion: 0 = not included, 1 = included.\relax }}{360}{table.caption.319}
+\contentsline {table}{\numberline {C.2}{\ignorespaces Emissions sources from drilling operations.\relax }}{361}{table.caption.320}
+\contentsline {table}{\numberline {C.3}{\ignorespaces Emissions sources from production and extraction operations.\relax }}{362}{table.caption.321}
+\contentsline {table}{\numberline {C.4}{\ignorespaces Emissions sources from surface processing operations.\relax }}{363}{table.caption.322}
+\contentsline {table}{\numberline {C.5}{\ignorespaces Emissions sources from maintenance operations.\relax }}{363}{table.caption.323}
+\contentsline {table}{\numberline {C.6}{\ignorespaces Emissions sources from waste treatment and disposal operations.\relax }}{364}{table.caption.324}
+\contentsline {table}{\numberline {C.7}{\ignorespaces Emissions sources from transport.\relax }}{365}{table.caption.325}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

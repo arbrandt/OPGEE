@@ -112,7 +112,7 @@
 \newcommand{\margcellref}[1]{\marginpar{\cellref{#1}}}
 \newcommand{\margcellrefsheet}[2]{\marginpar{\marg{#1}}\marginpar{\cellref{#2}}}
 
-\newcommand{\version}{v3.0a }
+\newcommand{\version}{v3.0b }
 \newcommand{\sheet}[1]{\textit{`{#1}'}}
 \newcommand{\stream}[1]{\begin{footnotesize}{\textcolor{stanford}{$\overrightarrow{#1}$}}\end{footnotesize}}
 \newcommand{\mstream}[1]{{\scriptscriptstyle{\textcolor{stanford}{\overrightarrow{#1}\!}}}}
@@ -5550,7 +5550,7 @@ $p_{R}$ & Average reservoir pressure & \xlname{Res\_press} & Function of \xlname
 
 
 
-Flaring is used to dispose of associated natural gas produced during bulk separation (see Section \ref{sec:Separation}) when it cannot be used economically. Flaring is the major driver of GHG emissions from global oil fields \cite{Masnadi2018}. Gas flaring resulted in emissions of 0.28 GtCO$_2$eq\ in 2008, or about 1\% of global GHG emissions \cite{Elvidge2009}.  Since 1994, NOAA National Geophysical Data Center has estimated flaring volume using satellite imagery \cite{Elvidge2009}. The distribution of estimate flaring volume by country is highly skewed \cite{Elvidge2009}.
+Flaring is used to dispose of associated natural gas produced during bulk separation (see Section \ref{sec:Separation}) when it cannot be used economically. Flaring is one of the major drivers of GHG emissions from global oil fields \cite{Masnadi2018}. Gas flaring resulted in emissions of 0.28 GtCO$_2$eq\ in 2008, or about 1\% of global GHG emissions \cite{Elvidge2009}.  Since 1994, NOAA National Geophysical Data Center has estimated flaring volume using satellite imagery \cite{Elvidge2009}. The distribution of estimate flaring volume by country is highly skewed \cite{Elvidge2009}.
 
 
 The streams flowing into and out of the flaring process are shown in Figure \ref{fig:flaring_PF} and are listed in Table \ref{tab:flaring_PF}.
@@ -5611,26 +5611,45 @@ Q_{F}= \frac{FOR \cdot Q_{o}}{10^6} \quad\quad\eqnunitfrac{mmscf}{d}
 %%%%%%%%%%
 where $Q_{F}$ = flaring volume [mmscf/d]; $FOR$ = flaring-to-oil ratio [scf/bbl of oil]; and $Q_{o}$ = volume of oil produced [bbl/d].
 
-The OPGEE default FOR is given by country-level flaring data \cite{NOAA2010} and production volumes \cite{EIA2010} for the years 2010 to 2015.  A detailed listing of sources and compilation notes for flaring data is given in Table \ref{tab:flaringdata}. The default flaring rate is retrieved from the \sheet{Flaring} worksheet based on the field location specified in the \sheet{Active Field} worksheet. The flaring rate in a specific oil field could be significantly higher or lower than the country-average. In the case no default is available for the specified field location, the world average is taken as the default value.
+The OPGEE default FOR is given by country-level flaring data \cite{NOAA2010} and production volumes \cite{EIA2010} for the years 2010 to 2020, inclusive.  A detailed listing of sources and compilation notes for flaring data is given in Table \ref{tab:flaringdata}. The default flaring rate is retrieved from the \sheet{Flaring} worksheet based on the field country specified in the \sheet{Active Field} worksheet. The flaring rate in a specific oil field could be significantly higher or lower than the country-average. In the case no default is available for the specified field location, the world average is taken as the default value.
 
-\begin{table}
-\begin{scriptsize}
-\caption{Sources of flaring data and construction notes.}
-\label{tab:flaringdata}
-\begin{tabular*}{1\columnwidth}{p{0.03\columnwidth}p{0.45\columnwidth}p{0.45\columnwidth}}
-\toprule
-	 & Flaring volumes & Oil production volumes \\
-\midrule
-2010 & OPGEE 1.1e, \sheet{Flaring} worksheet & BP 2016 Statistical Review of World Energy. If unavailable, EIA International Petroleum Production, data series ``Total Petroleum and Other Liquids'' \\
-2011 & OPGEE 1.1e, \sheet{Flaring} worksheet & \emph{ibid.} \\
-2012 & Dataset obtained from Chris Elvidge via Jim Duffy, California Air Resources Board, July 21st, 2015. Contains country-level totals from NOAA analysis & \emph{ibid.} \\
-2013 & World Bank Global Gas Flaring Reduction Partnership, website accessed 5/30/2017 & \emph{ibid.} \\
-2014 & \emph{ibid.} &\emph{ibid.} \\
-2015 & \emph{ibid.} &\emph{ibid.} \\
-\bottomrule
-\end{tabular*}
-\end{scriptsize}
-\end{table}
+
+\subsection{Average flaring rate defaults in case of no information}
+
+In the case where the user does not have field specific flaring rates, OPGEE provides estimates from our prior work on flaring intensities using satellite-derived flaring information. 
+
+\paragraph{Country-level flaring rate averages}
+
+Flaring rates at the country average level are obtained from dividing estimated flaring volumes by oil production to obtain flaring rates in [scf/bbl]. The following data sources were used for flaring volumes:
+\begin{itemize}
+\item[2010-2011] Data on flaring rates obtained from OPGEE v1.1e, \sheet{Flaring} worksheet
+\item[2012-2020] Data from Earth Observation Group website, Colorado School of Mines. \url{https://eogdata.mines.edu/download_global_flare.html}. Accessed Feb 23 2021. Worksheet varies by year. Data from spreadsheet tab ``Countries Upstream''.
+\end{itemize}
+For oil production data, numerous problems exist with datasets used in prior versions of OPGEE. EIA international data are sparsely updated and as of February 2022 did not include international data past year 2018. BP Statistical Review of World Energy data had also been used in the past, but those data are incomplete, and only contain top oil producers, missing information from a variety of minor producers. For these reasons, IEA data are now used for all years.
+\begin{itemize}
+\item[2010-2020] Source: IEA (2022), "World oil statistics", IEA Oil Information Statistics (database), \url{https://doi-org.stanford.idm.oclc.org/10.1787/data-00474-en} (accessed on 04 February 2022).
+\end{itemize}
+
+
+\paragraph{Field-level flaring rates}
+
+In addition to the country-level default, if the user turns on the proper setting on the \sheet{Secondary Inputs} sheet, the model will attempt to find a field-level default. The following methods were used in generating these defaults.
+
+Field-level flaring rates were obtained from Zhang et al. 2021 \cite{Zhang2021}. As described in great detail in the cited paper and its supporting information, Zhang et al. generated field level flaring rates for [x] fields across the world. 
+
+In the US, field-level flaring rates were converted to rates per AAPG producing basin. This is for a few reasons. First, the US dataset from Zhang et al. had many tens of thousands of ``fields'' in the US. This is because naming of fields in the US does not follow international conventions, and many fields were named historically without any organized or centralized effort to ensure consistency. These field names are also (for the same reason) not used in the private production and economic datasets such as Wood MacKenzie or Rystad. AAPG basins are a standard source for dividing oil production by county into major producing regions, and have been widely used since the 1970s. These AAPG basins are also used in the EPA Greenhouse Gas Reporting Program (GHGRP). This will allow us to align flaring intensities and other production data as well.
+
+Because often datasets in the US will use field names directly, we have the option to perform a lookup on field names to assign the field name to the appropriate AAPG producing basin. To turn this option on, change binary setting \xlname{US\_field\_name\_lookup} on \sheet{Secondary Inputs} from its default setting of 0 to 1. 
+
+
+Using the new combined shapefile, which combines the field boundaries from Zhang et al. 2021 with AAPG basin shapefiles, we can then sum total flaring rates within each boundary.
+
+After generating the field / basin specific flaring rates are generated through this summation, we then need matching production data in bbl per day in order to generate an estimate of flaring measured in scf/bbl. The dataset from Masnadi et al. \cite{Masnadi2018}, containing $\approx$8000 fields was used. Field names were matched using string matching tools in the R programming language. Names with excellent matching scores were kept as is. Names with partial matching scores were adjudicated by hand and non-matching names were removed. We were purposely conservitive in matching names: only names that were clearly from the same fields were obtained, and in the case of ambiguity the default was to remove the match rather than accept the match. This results in fewer fields matched, but higher quality of matching.
+
+In order to default to these field-level flaring rate estimates, change binary setting \xlname{Field\_level\_flaring\_01} on \sheet{Secondary Inputs} from its default setting of 0 to 1. 
+
+
+\subsection{Flaring efficiency}
 
 Carbon-dioxide-equivalent flaring emissions are calculated from the flaring volume using the flare efficiency $\eta_F$. The flare efficiency is the fraction of flared gas that is combusted. The remaining gas undergoes fuel stripping and is emitted as unburned hydrocarbons. 
 
