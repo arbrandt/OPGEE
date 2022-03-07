@@ -44,12 +44,6 @@ Vlasopoulos, N.; Memon, F.; Butler, D.; Murphy, R.
   petroleum process waters.
 \newblock {\em Science of the Total Environment} {\bf 2006}, {\em 367},~58--70.
 
-\bibitem{NPC1976}
-Haynes, H.; Thrasher, L.; Katz, M.; Eck, T.
-\newblock An Analysis of the Potential for Enhanced Oil Recovery from Known
-  Fields in the United States--1976 to 2000.
-\newblock Technical report, National Petroleum Council,  1976.
-
 \bibitem{Keesom2009}
 Keesom, W.; Unnasch, S.; Moretta, J.
 \newblock Life cycle assessment comparison of North American and imported
@@ -753,24 +747,14 @@ COSIA.
   Balance -- NFT.
 \newblock Technical report, Canadian Oil Sands Innovation Alliance,  2015.
 
-\bibitem{AEMERA2015}
-AEMERA.
-\newblock Fugitive GHG Emissions for SGER Oil Sands Facilities: 2011-2014.
-\newblock Technical report, Alberta Environmental Monitoring, Evaluation, and
-  Reporting Agency, Lower Athabasca,  2015.
-
-\bibitem{Johnson2016}
-Johnson, M.; Crosland, B.; McEwen, J.; Hager, D.; Armitage, J.;
-  Karimi-Golpayegani, M.; Picard, D.
-\newblock Estimating fugitive methane emissions from oil sands mining using
-  extractive core samples.
-\newblock {\em Atmospheric Environment} {\bf 2016}, {\em 144},~111--123.
-
-\bibitem{GHGenius4.03}
-(S\&T)$^2$.
-\newblock GHGenius, model version 4.03.
-\newblock Technical report, (S\&T)$^2$ consultants, for Natural Resources
-  Canada,  2013.
+\bibitem{Baray2018}
+Baray, S.; Darlington, A.; Gordon, M.; Hayden, K.L.; Leithead, A.; Li, S.M.;
+  Liu, P.S.K.; Mittermeier, R.L.; Moussa, S.G.; O'Brien, J.; Staebler, R.;
+  Wolde, M.; Worthy, D.; McLaren, R.
+\newblock Quantification of methane sources in the Athabasca Oil Sands Region
+  of Alberta by aircraft mass balance.
+\newblock {\em Atmospheric Chemistry and Physics} {\bf 2018}, {\em
+  18},~7361--7378.
 
 \bibitem{Jacobs2012}
 Consultancy, J.E.
@@ -799,6 +783,11 @@ EPA, U.
 Pacheco, D.; MacLean, H.L.
 \newblock Oil Sands Technology Upgrading Model (OSTUM) model documentation.
 \newblock Technical report, University of Toronto,  2016.
+
+\bibitem{Hendler2009}
+Hendler, A.; Nunn, J.; Lundeen, J.
+\newblock VOC Emissions from Oil and Condensate Storage Tanks.
+\newblock Technical report, Texas Environmental Research Consortium,  2009.
 
 \bibitem{Dillon2003}
 Dillon, J.
@@ -1081,12 +1070,6 @@ Bocker, N.; Grahl, M.; Tota, A.; Haussinger, P.; Leitgeb, P.; Schmucker, B.,
   Ullmann's Encyclopeida of Industrial Chemistry; Wiley,  2013; chapter
   Nitrogen.
 
-\bibitem{orr1987}
-Orr~Jr, F.; Silva, M.
-\newblock Effect of oil composition on minimum miscibility pressure-part 2:
-  correlation.
-\newblock {\em SPE Reservoir Engineering} {\bf 1987}, {\em 2},~479--491.
-
 \bibitem{Oxy2015}
 Oxy Denver Unit CO$_2$ Subpart RR Monitoring, Reporting and Verification (MRV)
   Plan.
@@ -1176,6 +1159,13 @@ ISO.
 ISO.
 \newblock ISO 14044: Environmental management - Life cycle assessment -
   Requirements and guidelines,  2006.
+
+\bibitem{Ou2020}
+Ou, L.; Cai, H.
+\newblock Update of Emission Factors of Greenhouse Gases and Criteria Air
+  Pollutants, and Generation Efficiencies of the U.S. Electricity Generation
+  Sector.
+\newblock Technical Report ANL-20/41, Argonne National Laboratory,  2020.
 
 \bibitem{ecoinvent2014}
 Centre, E.
@@ -1358,11 +1348,6 @@ Enverus.
   {https://www.enverus.com/industry/exploration-and-production/}, Enverus Inc.,
    2021.
 
-\bibitem{Hendler2009}
-Hendler, A.; Nunn, J.; Lundeen, J.
-\newblock VOC Emissions from Oil and Condensate Storage Tanks.
-\newblock Technical report, Texas Environmental Research Consortium,  2009.
-
 \bibitem{IPCC2013}
 Stocker, T.; Qin, D.; Plattner, G.K.; Tignor, M.; Allen, S.; Boschung, J.;
   Nauels, A.; Xia, Y.; Bex, V.; Midgley, P., Eds.
@@ -1383,10 +1368,5 @@ Toolbox, T.E.
 Kutz, M., Ed.
 \newblock {\em Mechanical Engineer's Handbook}, 3rd ed.; Vol.~4, John Wiley \&
   Sons,  2006.
-
-\bibitem{Elvidge2012ARB}
-Elvidge, C.D.
-\newblock Satellite Data Estimation of Gas Flaring Volumes.
-\newblock Technical report, NOAA,  2012.
 
 \end{thebibliography}
