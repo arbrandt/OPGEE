@@ -1480,7 +1480,7 @@ A number of properties of oil are tracked.  These properties can be a function o
 \paragraph{API gravity of oil}
 
 
-The API gravity of the oil is tracked as variable in the flow sheet \xlname{API\_O}.  For conventional oil streams, this is generally defined as equal to the defined input parameter \xlname{API\_grav} (streams given in Table \ref{tab:Source_API_Gravity}).  For bitumen streams it is equal to defined input parameter \xlname{Bitumen\_API}.  For diluent streams it is equal to \xlname{Diluent\_API}. For LPG the API gravity is not computed as this parameter is not typically used to represent these products.
+The API gravity of the oil in a particular stream is tracked as variable in the flow sheet \xlname{API\_O}.  For conventional oil and bitumen, this is simply equal to the raw crude API gravity entered on the input sheet (\xlname{API\_grav}). For diluent streams it is equal to \xlname{Diluent\_API}. For LPG the API gravity is not computed as this parameter is not typically used to represent these products. As the crude progresses through processing, the API gravity changes due to exsolution of gas, upgrading, or blending with lighter products. These updated values for \xlname{API\_O} are listed in Table \ref{tab:Source_API_Gravity}.
 
 \begin{table}
 \begin{scriptsize}
@@ -1491,23 +1491,23 @@ The API gravity of the oil is tracked as variable in the flow sheet \xlname{API\
 Stream num. & Stream name	&	Source of API gravity term		& Default		& Notes \\
 \midrule
 \stream{1}		& Crude oil in reservoir	& \xlname{API\_grav}			& 30$^\circ$ API &  \\
-\stream{2}		& Bitumen in mine		& \xlname{API\_Bitumen}				& 30$^\circ$ API &  \\
+\stream{2}		& Bitumen in mine		& \xlname{API\_grav}				& 30$^\circ$ API &  \\
 \stream{3}		& Crude oil at well bottom	& \xlname{API\_grav}			& 30$^\circ$ API &  \\
 \stream{4}		& Crude oil at wellhead	& \xlname{API\_grav}				& 30$^\circ$ API &  \\
-\stream{5}		& Bitumen from mine to upgrader	& \xlname{API\_Bitumen}		& 30$^\circ$ API &  \\
-\stream{6}		& Bitumen from mine to dilution	& \xlname{API\_Bitumen}		& 30$^\circ$ API &  \\
+\stream{5}		& Bitumen from mine to upgrader	& \xlname{API\_grav}		& 30$^\circ$ API &  \\
+\stream{6}		& Bitumen from mine to dilution	& \xlname{API\_grav}		& 30$^\circ$ API &  \\
 \stream{7}		& Crude oil after separator	& \xlname{API\_grav}			& 30$^\circ$ API &  \\
 \stream{8}		& Crude oil to stabilizer	& \xlname{API\_grav}			& 30$^\circ$ API &  \\
 \stream{9}		& Crude oil to storage	& \xlname{API\_grav}				& 30$^\circ$ API &  \\
-\stream{10}		& Stabilized crude to storage	& \xlname{API\_grav}		& 30$^\circ$ API &  \\
-\stream{11}		& Upgraded crude to storage	& \xlname{API\_grav}			& 30$^\circ$ API &  \\
-\stream{12}		& Diluted bitumen to storage	& \xlname{API\_grav}		& 30$^\circ$ API &  \\
-\stream{13}		& Crude oil to transport	& \xlname{API\_grav}			& 30$^\circ$ API &  \\
-\stream{14}		& Transported crude oil at refinery	& \xlname{API\_grav}    & 30$^\circ$ API &  \\
+\stream{10}		& Stabilized crude to storage	& \sheet{Crude oil storage} sheet		& - &  \\
+\stream{11}		& Upgraded crude to storage	& \sheet{Heavy oil upgrading} sheet			& 30$^\circ$ API &  \\
+\stream{12}		& Diluted bitumen to storage	& \xlname{dilbit\_API\_grav}		& 30$^\circ$ API &  \\
+\stream{13}		& Crude oil to transport	& \sheet{Crude oil storage} sheet			& 30$^\circ$ API &  \\
+\stream{14}		& Transported crude oil at refinery	& \sheet{Crude oil storage} sheet   & 30$^\circ$ API &  \\
 \stream{15}		& Petcoke export from upgrader	& -				& NA &  \\
 \stream{16}		& NGL/diluent to dilution	& \xlname{API\_diluent}			& 30$^\circ$ API &  \\
-\stream{17}		& LPG to blend with crude oil	& \xlname{API\_diluent}		& 30$^\circ$ API &  \\
-\stream{18}		& LPG to direct sales	& \xlname{API\_diluent}				& 30$^\circ$ API &  \\
+\stream{17}		& LPG to blend with crude oil	& \xlname{API\_grav}		& 30$^\circ$ API &  \\
+\stream{18}		& LPG to direct sales	& \xlname{API\_grav}				& 30$^\circ$ API &  \\
 \stream{19}		& Crude oil to upgrader	& \xlname{API\_grav}				& 30$^\circ$ API &  \\
 \stream{20}		& Crude oil in dilution	& \xlname{API\_grav}				& 30$^\circ$ API &  \\
 \bottomrule
@@ -1517,7 +1517,7 @@ Stream num. & Stream name	&	Source of API gravity term		& Default		& Notes \\
 
 \paragraph{Specific gravity of oil}
 
-The specific gravity of the oil is tracked as variable \xlname{GAMMA\_O}. Specific gravity is the density of a fluid compared to the density of water, both measured at 60 $^\circ$F and atmospheric pressure. Specific gravity is computed from the API gravity as follows:
+The specific gravity of an oil stream is tracked as variable \xlname{GAMMA\_O}. Specific gravity is the density of a fluid compared to the density of water, both measured at 60 $^\circ$F and atmospheric pressure. Specific gravity is computed from the API gravity as follows:
 
 \begin{minipage}{0.6\columnwidth}
 \begin{fleqn}[0pt]
