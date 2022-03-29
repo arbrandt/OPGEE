@@ -9592,7 +9592,7 @@ As we described in the User Guide and in our discussion of the Active Field shee
 
 In an uncertainty approach, according to the user-specified number of Monte Carlo realizations OPGEE will randomly draw VF emissions from the empirical distribution (component-level tool) or a fitted distribution (site-level tools). In the deterministic approach, OPGEE applies values from the underlying distributions.
 
-\subsection{Off-site modelling}
+\subsection{Off-site modeling}
 
 OPGEE models off-site emissions using a simple overall loss-fraction approach based on site-level methods. Attempting to model mass loss rates from individual compression/transmission stations, for example, would lead to erroneous results because gas from many fields flows through each compressor station and gas may flow through multiple compressor stations before arriving at end users.
 
@@ -9642,7 +9642,7 @@ Unfortunately, Zimmerle et al. \cite{Zimmerle2015} is unclear on exactly which e
 \subsubsection{Distribution}
 Similarly, we estimate distribution emissions using loss rates from Alvarez et al. (\cite[SI p. 14]{Alvarez2018}, SI p. 14), who estimate local distribution system losses of 0.16\% before the customer meter. 
 
-\subsection{Component-level modelling}
+\subsection{Component-level modeling}
 
 The component-level tool draws from work conducted by Rutherford et al. \cite{Rutherford2021} who developed a component-level methane emissions estimation tool for the O\&NG production-segment only. The Rutherford et al. emissions estimation tool was validated for all U.S. onshore, production-segment wells and associated equipment through comparisons with site-level emissions estimates from Alvarez et al. \cite{Alvarez2018}. The model is also able to match key empirical results of the methane emissions literature, including:
 \begin{itemize}
@@ -9668,7 +9668,7 @@ Where $f_s$ is the proportional CH$_4$ loss rate for equipment type $s$ [kg CH$_
 
 Rutherford et al. developed CH$_4$ emission distributions [kg/equipment/day] for all well-pad equipment. These emissions distributions are transformed into fractional loss rate distributions. These distributions for on-site equipment are located in the Worksheet \sheet{VF - Component}. 
 
-Because of the close relationship between loss fraction of CH$_4$ and gas productivity demonstrated in Rutherford et al., $f_s$ distributions are disaggregated by gas-per-well productivity tranches. Equipment classes included in the Rutherford et al. model are: Wells, headers, heaters, separators, meters, tanks ? leaks, tanks ? vents, reciprocating compressors, dehydrators, chemical injection pumps, and pneumatic controller/actuators. 
+Because of the close relationship between loss fraction of CH$_4$ and gas productivity demonstrated in Rutherford et al., $f_s$ distributions are disaggregated by gas-per-well productivity tranches. Equipment classes included in the Rutherford et al. model are: Wells, headers, heaters, separators, meters, tanks - leaks, tanks - vents, reciprocating compressors, dehydrators, chemical injection pumps, and pneumatic controller/actuators. 
 
 Note that the ``tanks - leaks'' category tracks all non-vent/hatch emissions on a tank, e.g., connectors, valves, etc., while the ``tanks - vents'' category tracks all vent/hatch related emissions.
 
@@ -9786,6 +9786,42 @@ Pneumatic Controller    & 12.59\% & 8.87\% & 5.81\% & 2.43\%  & 1.22\%  & 0.52\%
 \caption{Equipment loss rate cumulative probability distributions for oil systems (GOR < 100 mscf/bbl). A sample of four (out of ten) gas productivity tranches are represented.}
 \label{fig:VF_dists_oil}
 \end{figure}  
+
+
+\subsubsection{Customizing equipment counts to match local conditions}
+
+One challenge with the above approach is that it was based on Rutherford et al. component counts when running the underlying simulations. For example, at a given wellsite, $x$ tanks may be present and $y$ pneumatic controllers. This reliance on static activity factors may not be a useful assumption for regions where the equipment counts are not consistent. For example: in sour gas regions, the use of pneumatic controllers that purposely vent gas is very unlikely because of the highly toxic nature of H$_2$S. Due to its toxicity, fields that produce sour gas must employ much more stringent controls on gas and would not purposely vent the gas for safety reasons. This suggests that in (for example) Saudi Arabia much of the co-produced gas is sour, the number of pneumatic controllers should be set to 0.
+
+For this reason, the ability to customize the equipment counts for a given region was designed into OPGEE \version at the bottom of the \sheet{Secondary Inputs} sheet. This customization was performed as follows:
+\begin{enumerate}
+\item OPGEE venting and fugitive calculations in the offline MATLAB resampling script were performed [x] times using a variety of gas productivities and component count samples.
+\item The loss rate per piece of equipment and the overall loss rate was recorded
+\item The data were exported with equipment count details as inputs and loss rates per equipment as outputs
+\item A fit was performed to recreate the results of the outputs from the inputs, using a training size of [x] and hold out test set of [y]
+\end{enumerate} 
+
+The resulting model fits allows the user to change the component counts and approximately account for all of the mass balance and other considerations that should be accounted for if the user were to directly sample 10,000 times in OPGEE. It essentially ``off-loads'' this computationally expensive step to a pre-computed step. 
+
+After experimentation, a quadratic function was found to fit well. The quadratic function takes as inputs when modeling a given piece of equipment the following pieces of information:
+\begin{itemize}
+\item The component count for the piece of equipment in question
+\item The component counts for all other pieces of equipment
+\item The productivity tranche as defined above
+\end{itemize}
+
+A quadratic function that incorporated all of these data directly would have an enormous number of fitting terms. For example, there are 10 productivity tranches, and 11 pieces of equipment. Thus, in the equation for each productivity tranche we would have 1 constant term ($\beta_1$), 11 linear terms ($\beta_i$ for each equipment type $i$), 121 two-variable quadratic cross-terms ($\beta_{i,j}$) for each combination of type $i$ and $j$, and 11 single variable quadratic terms ($\beta_{i2}$) for each type $i$. Thus, each equation would have ~140 fitting parameters and there would be 10 such equations.
+
+In order to reduce this number of fitting degrees of freedom, we performed the following simplifications:
+\begin{itemize}
+\item The number of productivity tranches was reduced from 10 to 3. The combined tranche 1 contains the detailed productivity tranches [1-4], the combined tranche 2 contains [5-7] and the combined tranche 3 contains [8-10].
+\item The equations were simplified to contain, for each piece of equipment, the counts for that piece of equipment and the total counts for all other equipment. This allows us to account for the overall complexity of the site and the piece of equipment being modeled, without an excess of parameters.
+\end{itemize}
+
+The resulting fitted equations are as follows, for each productivity tranche $i$ and piece of equipment $j$ the estimated leak:
+\begin{equation} 
+\widehat{LFR}_{(i,j)} = \beta_{i,j,1}AFR_j  + \beta_{i,j,2} AFR_{oth} + \beta_{i,j,3}\left( AFR_j \times AFR_{oth} \right) +  \beta_{i,j,4} AFR_j^2 +  \beta_{i,j,5} AFR_{oth}^2
+\end{equation}
+Here, $AFR_j$ is the activity factor ratio for equipment type $j$, defined as the ratio of the given activity factor being modeled to the baseline Rutherford et al. activity factor. For example, if the site being modeled has 6 pneumatic controllers and the Rutherford et al. default has 2 pnuematic controllers, then $AFR_j$ for pneumatic controllers = 3. $AFR_{oth}$ is defined similarly, but is the overall activity factor ratio for all other pieces of equipment, normalized by the corresponding factors from Rutherford et al. $\beta_{i,j,1} \ldots \beta_{i,j,5}$ are the 5 fitting terms for each equation for the combination of productivity tranche $i$ and equipment $j$.
 
 
 \subsubsection{Tank flashing}

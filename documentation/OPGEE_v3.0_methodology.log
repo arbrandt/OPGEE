@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 MAR 2022 08:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 MAR 2022 10:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -7312,34 +7312,49 @@ File: images/VF_dists_oil.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/VF_dists_oil.jpg used on input line 9785.
 (pdftex.def)             Requested size: 397.48502pt x 349.42056pt.
 
-Overfull \hbox (6.45576pt too wide) in paragraph at lines 9794--9795
+Overfull \hbox (0.14291pt too wide) in paragraph at lines 9805--9807
+[]\T1/ppl/m/n/10.95 After ex-per-i-men-ta-tion, a quadratic func-tion was found
+ to fit well. The quadratic
+ []
+
+[347
+
+
+]
+Overfull \hbox (14.481pt too wide) detected at line 9823
+[][][] \OT1/zplm/m/n/10.95 = \OML/zplm/m/it/10.95 ^^L[]AFR[] \OT1/zplm/m/n/10.9
+5 + \OML/zplm/m/it/10.95 ^^L[]AFR[] \OT1/zplm/m/n/10.95 + \OML/zplm/m/it/10.95 
+^^L[] [] \OT1/zplm/m/n/10.95 + \OML/zplm/m/it/10.95 ^^L[]AFR[] \OT1/zplm/m/n/10
+.95 + \OML/zplm/m/it/10.95 ^^L[]AFR[]
+ []
+
+[348 <./images/VF_dists_gas.jpg>]
+Overfull \hbox (6.45576pt too wide) in paragraph at lines 9830--9831
 \T1/ppl/m/n/10.95 flash fac-tors. The draws are based on the de-fault oil sys-t
 em gas pro-duc-tiv-ity tranches
  []
 
-<images/Flash_factors.jpg, id=10282, 532.99126pt x 435.6275pt>
+[349 <./images/VF_dists_oil.jpg>]
+<images/Flash_factors.jpg, id=10302, 532.99126pt x 435.6275pt>
 File: images/Flash_factors.jpg Graphic file (type jpg)
 
 <use images/Flash_factors.jpg>
-Package pdftex.def Info: images/Flash_factors.jpg used on input line 9803.
+Package pdftex.def Info: images/Flash_factors.jpg used on input line 9839.
 (pdftex.def)             Requested size: 397.48502pt x 324.88521pt.
 
-Overfull \hbox (10.04681pt too wide) in paragraph at lines 9809--9810
+Overfull \hbox (10.04681pt too wide) in paragraph at lines 9845--9846
 \T1/ppl/m/n/10.95 Like tank flash-ing, OPGEE mod-els emis-sions from liq-uids u
 n-load-ings us-ing a slightly
  []
 
-<images/LU_dists.jpg, id=10283, 844.15375pt x 427.5975pt>
+[350 <./images/Flash_factors.jpg>]
+<images/LU_dists.jpg, id=10309, 844.15375pt x 427.5975pt>
 File: images/LU_dists.jpg Graphic file (type jpg)
 
 <use images/LU_dists.jpg>
-Package pdftex.def Info: images/LU_dists.jpg used on input line 9816.
+Package pdftex.def Info: images/LU_dists.jpg used on input line 9852.
 (pdftex.def)             Requested size: 397.48502pt x 201.34274pt.
- [347
-
-
-] [348 <./images/VF_dists_gas.jpg>] [349 <./images/VF_dists_oil.jpg>] [350 <./i
-mages/Flash_factors.jpg> <./images/LU_dists.jpg>]
+ [351 <./images/LU_dists.jpg>] [352]
 Chapter 9.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -7347,12 +7362,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[351
+[353
 
-] [352]
+] [354]
 Chapter 10.
 
-Overfull \hbox (2.43166pt too wide) in paragraph at lines 9909--9910
+Overfull \hbox (2.43166pt too wide) in paragraph at lines 9945--9946
 []\T1/ppl/m/n/10.95 Some pro-duc-tion tech-nolo-gies are not in-cluded in the c
 ur-rent ver-sion of OPGEE:
  []
@@ -7363,60 +7378,35 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[353
+[355
 
-] [354]
+] [356]
 Appendix A.
 
-Underfull \hbox (badness 2384) in paragraph at lines 9990--9990
+Underfull \hbox (badness 2384) in paragraph at lines 10026--10026
 []|\T1/ppl/m/n/8 Acronymor ab-
  []
 
 
-Overfull \hbox (4.12451pt too wide) in paragraph at lines 9990--9990
+Overfull \hbox (4.12451pt too wide) in paragraph at lines 10026--10026
 [] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 9990--9990
+Overfull \hbox (12.0pt too wide) in paragraph at lines 10026--10026
 [] 
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 9990--9990
+Underfull \hbox (badness 2384) in paragraph at lines 10026--10026
 []\T1/ppl/m/n/8 Acronymor ab-
  []
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 9990--10033
+Overfull \hbox (12.0pt too wide) in alignment at lines 10026--10069
 [][] 
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[355
-
-]
-Underfull \hbox (badness 2384) in paragraph at lines 10033--10033
-[]\T1/ppl/m/n/8 Acronymor ab-
- []
-
-
-Overfull \hbox (12.0pt too wide) in alignment at lines 10033--10057
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10033--10059
-
- []
-
-[356]
-Appendix B.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -7426,45 +7416,70 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [357
 
 ]
-Overfull \hbox (4.12453pt too wide) in paragraph at lines 10093--10093
+Underfull \hbox (badness 2384) in paragraph at lines 10069--10069
+[]\T1/ppl/m/n/8 Acronymor ab-
+ []
+
+
+Overfull \hbox (12.0pt too wide) in alignment at lines 10069--10093
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10069--10095
+
+ []
+
+[358]
+Appendix B.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[359
+
+]
+Overfull \hbox (4.12453pt too wide) in paragraph at lines 10129--10129
 [] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 10093--10093
+Overfull \hbox (12.0pt too wide) in paragraph at lines 10129--10129
 [] 
  []
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 10095.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 10131.
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 10093--10153
+Overfull \hbox (12.0pt too wide) in alignment at lines 10129--10189
 [][] 
  []
 
-[358
+[360
 
 ]
-Overfull \hbox (12.0pt too wide) in alignment at lines 10153--10216
+Overfull \hbox (12.0pt too wide) in alignment at lines 10189--10252
 [][] 
- []
-
-[359]
-Overfull \hbox (12.0pt too wide) in alignment at lines 10216--10278
-[][] 
- []
-
-[360]
-Overfull \hbox (12.0pt too wide) in alignment at lines 10278--10303
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10278--10305
-
  []
 
 [361]
+Overfull \hbox (12.0pt too wide) in alignment at lines 10252--10314
+[][] 
+ []
+
+[362]
+Overfull \hbox (12.0pt too wide) in alignment at lines 10314--10339
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10314--10341
+
+ []
+
+[363]
 Appendix C.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -7472,181 +7487,181 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[362
+[364
 
 ]
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 10324--10324
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 10360--10360
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10324--10324
+Underfull \hbox (badness 10000) in paragraph at lines 10360--10360
 []|\T1/ppl/b/n/8 Estimated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10364--10364
+Underfull \hbox (badness 10000) in paragraph at lines 10400--10400
 []|\T1/ppl/m/n/8 Energy con-sump-tion (other than prime
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 10370--10370
+Underfull \hbox (badness 2158) in paragraph at lines 10406--10406
 []|\T1/ppl/m/n/8 Fracturing fluid dis-
  []
 
 
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 10387--10387
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 10423--10423
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10387--10387
+Underfull \hbox (badness 10000) in paragraph at lines 10423--10423
 []|\T1/ppl/b/n/8 Estimated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10419--10419
+Underfull \hbox (badness 10000) in paragraph at lines 10455--10455
 []|\T1/ppl/m/n/8 Water rein-jec-tion
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 10419--10419
+Underfull \hbox (badness 1603) in paragraph at lines 10455--10455
 []|\T1/ppl/m/n/8 Various drilling emis-sions from rein-jec-tion
  []
 
 
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 10459--10459
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 10495--10495
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10459--10459
+Underfull \hbox (badness 10000) in paragraph at lines 10495--10495
 []|\T1/ppl/b/n/8 Estimated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10483--10483
+Underfull \hbox (badness 10000) in paragraph at lines 10519--10519
 []|\T1/ppl/m/n/8 NG, pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10483--10483
+Underfull \hbox (badness 10000) in paragraph at lines 10519--10519
 \T1/ppl/m/n/8 duced
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10485--10485
+Underfull \hbox (badness 10000) in paragraph at lines 10521--10521
 []|\T1/ppl/m/n/8 Low,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10489--10489
+Underfull \hbox (badness 10000) in paragraph at lines 10525--10525
 []|\T1/ppl/m/n/8 Grid mix
  []
 
 
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 10516--10516
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 10552--10552
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10516--10516
+Underfull \hbox (badness 10000) in paragraph at lines 10552--10552
 []|\T1/ppl/b/n/8 Estimated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10522--10522
+Underfull \hbox (badness 10000) in paragraph at lines 10558--10558
 []|\T1/ppl/m/n/8 Variations
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10522--10522
+Underfull \hbox (badness 10000) in paragraph at lines 10558--10558
 \T1/ppl/m/n/8 in flare
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10524--10524
+Underfull \hbox (badness 10000) in paragraph at lines 10560--10560
 []|\T1/ppl/m/n/8 Variations
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10524--10524
+Underfull \hbox (badness 10000) in paragraph at lines 10560--10560
 \T1/ppl/m/n/8 in flare
  []
 
 
-Overfull \vbox (9.50002pt too high) detected at line 10536
+Overfull \vbox (9.50002pt too high) detected at line 10572
  []
 
 
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 10561--10561
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 10597--10597
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10561--10561
+Underfull \hbox (badness 10000) in paragraph at lines 10597--10597
 []|\T1/ppl/b/n/8 Estimated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10575--10575
+Underfull \hbox (badness 10000) in paragraph at lines 10611--10611
 []|\T1/ppl/m/n/8 Other main-te-
  []
 
 
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 10588--10588
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 10624--10624
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10588--10588
+Underfull \hbox (badness 10000) in paragraph at lines 10624--10624
 []|\T1/ppl/b/n/8 Estimated
  []
 
 
-Underfull \hbox (badness 4832) in paragraph at lines 10590--10590
+Underfull \hbox (badness 4832) in paragraph at lines 10626--10626
 []|\T1/ppl/m/n/8 Subsurface dis-posal of con-cen-trated WW
  []
 
 
-Overfull \hbox (4.12704pt too wide) in paragraph at lines 10608--10608
+Overfull \hbox (4.12704pt too wide) in paragraph at lines 10644--10644
 \T1/ppl/m/n/8 decommissioning|  
  []
 
 
-Overfull \hbox (4.12704pt too wide) in paragraph at lines 10612--10612
+Overfull \hbox (4.12704pt too wide) in paragraph at lines 10648--10648
 \T1/ppl/m/n/8 decommissioning|  
  []
 
 
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 10629--10629
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 10665--10665
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10629--10629
+Underfull \hbox (badness 10000) in paragraph at lines 10665--10665
 []|\T1/ppl/b/n/8 Estimated
  []
 
-[363] [364] [365] [366] [367] [368]
+[365] [366] [367] [368] [369] [370]
 Appendix D.
-<images/macro_logic_2a.pdf, id=10422, 542.025pt x 722.7pt>
+<images/macro_logic_2a.pdf, id=10436, 542.025pt x 722.7pt>
 File: images/macro_logic_2a.pdf Graphic file (type pdf)
 
 <use images/macro_logic_2a.pdf>
-Package pdftex.def Info: images/macro_logic_2a.pdf used on input line 10682.
+Package pdftex.def Info: images/macro_logic_2a.pdf used on input line 10718.
 (pdftex.def)             Requested size: 317.98921pt x 423.99634pt.
 
-Overfull \hbox (2.1557pt too wide) in paragraph at lines 10689--10690
+Overfull \hbox (2.1557pt too wide) in paragraph at lines 10725--10726
 []\T1/ppl/m/n/10.95 Discrepancies be-tween country-average de-fault flar-ing ra
 te and en-tered GOR
  []
 
-<images/macro_logic_3.pdf, id=10427, 542.025pt x 722.7pt>
+<images/macro_logic_3.pdf, id=10441, 542.025pt x 722.7pt>
 File: images/macro_logic_3.pdf Graphic file (type pdf)
 
 <use images/macro_logic_3.pdf>
-Package pdftex.def Info: images/macro_logic_3.pdf used on input line 10703.
+Package pdftex.def Info: images/macro_logic_3.pdf used on input line 10739.
 (pdftex.def)             Requested size: 317.98921pt x 423.99634pt.
 
 
@@ -7655,33 +7670,33 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[369
+[371
 
 
 
-] [370 <./images/macro_logic_2a.pdf>] [371 <./images/macro_logic_3.pdf>]
-[372]
+] [372 <./images/macro_logic_2a.pdf>] [373 <./images/macro_logic_3.pdf>]
+[374]
 Appendix E.
 
-Overfull \hbox (2.19928pt too wide) in paragraph at lines 10744--10746
+Overfull \hbox (2.19928pt too wide) in paragraph at lines 10780--10782
 []\T1/ppl/m/n/10.95 We have im-ple-mented duct fir-ing in OPGEE 2.0b, as part o
 f a re-implemented
  []
 
 
-Overfull \hbox (13.62035pt too wide) in paragraph at lines 10758--10759
+Overfull \hbox (13.62035pt too wide) in paragraph at lines 10794--10795
 []\T1/ppl/m/n/10.95 Added emis-sions from seis-mic ex-plo-ration ef-forts, non-
 productive drilling
  []
 
 
-Overfull \hbox (0.29439pt too wide) in paragraph at lines 10762--10763
+Overfull \hbox (0.29439pt too wide) in paragraph at lines 10798--10799
 []\T1/ppl/m/n/10.95 Included trans-port en-ergy use in "En-ergy con-sump-tion" 
 gath-er-ing sheet 
  []
 
 
-Overfull \hbox (19.08725pt too wide) in paragraph at lines 10765--10766
+Overfull \hbox (19.08725pt too wide) in paragraph at lines 10801--10802
 []\T1/ppl/m/n/10.95 Included truck trans-port us-ing heavy-duty diesel ve-hi-cl
 e from []\T1/cmtt/m/n/10.95 GREET1_2013
  []
@@ -7692,60 +7707,60 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[373
+[375
 
 ]
-Overfull \hbox (5.78056pt too wide) in paragraph at lines 10776--10777
+Overfull \hbox (5.78056pt too wide) in paragraph at lines 10812--10813
 []\T1/ppl/m/n/10.95 New com-pres-sor work cal-cu-la-tions on "Com-pres-sor" sup
 -ple-men-tal sheet 
  []
 
 
-Overfull \hbox (12.71204pt too wide) in paragraph at lines 10778--10779
+Overfull \hbox (12.71204pt too wide) in paragraph at lines 10814--10815
 []\T1/ppl/m/n/10.95 New gas pro-cess-ing tech-nolo-gies in-clud-ing mem-branes 
 and Ryan-Holmes 
  []
 
-[374]
-Overfull \hbox (1.6957pt too wide) in paragraph at lines 10828--10830
+[376]
+Overfull \hbox (1.6957pt too wide) in paragraph at lines 10864--10866
 []\T1/ppl/m/n/10.95 Pneumatic de-vices (con-trollers and chem-i-cal injection p
 umps) added as vent-
  []
 
-[375] [376] [377]
-Overfull \hbox (13.25928pt too wide) in paragraph at lines 10950--10952
+[377] [378] [379]
+Overfull \hbox (13.25928pt too wide) in paragraph at lines 10986--10988
 []\T1/ppl/m/n/10.95 More de-tailed demeth-a-nizer model now in-cludes en-ergy c
 on-sumed by demeth-
  []
 
 
-Overfull \hbox (6.8863pt too wide) in paragraph at lines 10955--10956
+Overfull \hbox (6.8863pt too wide) in paragraph at lines 10991--10992
 []\T1/ppl/m/n/10.95 Updated gath-er-ing work-sheets to in-clude en-ergy con-sum
 p-tion and emis-
  []
 
 
-Overfull \hbox (2.90091pt too wide) in paragraph at lines 10965--10966
+Overfull \hbox (2.90091pt too wide) in paragraph at lines 11001--11002
 []\T1/ppl/m/n/10.95 Works with lim-ited datasets, and fills in de-faults or sma
 rt de-faults where
  []
 
 
-LaTeX Warning: Reference `sec:inputs' on page 378 undefined on input line 10966
+LaTeX Warning: Reference `sec:inputs' on page 380 undefined on input line 11002
 .
 
-[378]
-Overfull \hbox (6.31648pt too wide) in paragraph at lines 10987--10988
+[380]
+Overfull \hbox (6.31648pt too wide) in paragraph at lines 11023--11024
 []\T1/ppl/m/n/10.95 Heating value ba-sis in Bi-tu-men Ex-trac-tion & Up-grad-in
 g work-sheet is changed
  []
 
-[379] [380]
+[381] [382]
 
-LaTeX Warning: Reference `sec:primary_interaction' on page 381 undefined on inp
-ut line 11042.
+LaTeX Warning: Reference `sec:primary_interaction' on page 383 undefined on inp
+ut line 11078.
 
-(./OPGEE_v3.0_methodology.bbl [381]
+(./OPGEE_v3.0_methodology.bbl [383]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
 
@@ -7755,9 +7770,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[382
+[384
 
-] [383] [384] [385]
+] [385] [386] [387]
 Underfull \hbox (badness 10000) in paragraph at lines 514--519
 []\T1/ppl/m/n/10 AOGCC.  Oil and Gas Pools - Statis-tics Pages.  Tech-ni-cal Re
 -port
@@ -7769,7 +7784,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 514--519
 l\T1/ppl/m/n/10 , Alaska
  []
 
-[386] [387] [388]
+[388] [389] [390]
 Underfull \hbox (badness 7981) in paragraph at lines 765--771
 []\T1/ppl/m/n/10 Corporation, S.E.  Two & Three Phase Ver-ti-cal & Hor-i-zon-ta
 l Sep-a-ra-
@@ -7787,7 +7802,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 765--771
 separators-
  []
 
-[389] [390] [391]
+[391] [392] [393]
 Underfull \hbox (badness 1242) in paragraph at lines 1083--1089
 []\T1/ppl/m/n/10 Oxy CO$[]$ EOR Project.  Pre-sen-ta-tion sub-mit-ted by Oc-c-c
 i-den-tal Petroleum to
@@ -7799,7 +7814,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1083--1089
 6-[]20 _ OEHI _ Project _
  []
 
-[392]
+[394]
 Underfull \hbox (badness 1024) in paragraph at lines 1187--1193
 []\T1/ppl/m/n/10 Vetcogray.  Spe-cialty Con-nec-tors & Pipe: For land, plat-for
 m, jackup, floater
@@ -7823,7 +7838,7 @@ Underfull \hbox (badness 1917) in paragraph at lines 1221--1225
 el-li-gence Agency,
  []
 
-[393] [394]
+[395] [396]
 Underfull \hbox (badness 1796) in paragraph at lines 1345--1350
 \T1/ppl/m/n/10 port https://www.enverus.com/industry/exploration-and-production
 /, En-verus
@@ -7839,13 +7854,13 @@ rt,
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 11083.
-[395]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 11083.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 11119.
+[397]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 11119.
  (./OPGEE_v3.0_methodology.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 11083.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 11119.
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 11083
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 11119
 .
 Package rerunfilecheck Info: File `OPGEE_v3.0_methodology.out' has not changed.
 
@@ -7857,12 +7872,12 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 11083.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 11119.
  ) 
 Here is how much of TeX's memory you used:
- 24624 strings out of 493014
- 426748 string characters out of 6133351
- 691728 words of memory out of 5000000
+ 24632 strings out of 493014
+ 426827 string characters out of 6133351
+ 690747 words of memory out of 5000000
  26148 multiletter control sequences out of 15000+600000
  73021 words of font info for 169 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -7883,10 +7898,10 @@ dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
 /palatino/uplri8a.pfb>
-Output written on OPGEE_v3.0_methodology.pdf (395 pages, 10521252 bytes).
+Output written on OPGEE_v3.0_methodology.pdf (397 pages, 10526954 bytes).
 PDF statistics:
- 11024 PDF objects out of 12825 (max. 8388607)
- 8900 compressed objects within 89 object streams
- 1556 named destinations out of 1728 (max. 500000)
+ 11042 PDF objects out of 12825 (max. 8388607)
+ 8915 compressed objects within 90 object streams
+ 1564 named destinations out of 1728 (max. 500000)
  1417 words of extra memory for PDF output out of 10000 (max. 10000000)
 

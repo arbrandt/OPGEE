@@ -285,68 +285,69 @@
 \contentsline {chapter}{\numberline {8}Venting and fugitive emissions}{336}{chapter.8}
 \contentsline {section}{\numberline {8.1}Introduction to venting and fugitive emissions}{336}{section.8.1}
 \contentsline {section}{\numberline {8.2}Deterministic versus uncertainty analysis}{337}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Off-site modelling}{338}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.1}Off-site modeling}{338}{subsection.8.2.1}
 \contentsline {subsubsection}{\numberline {8.2.1.1}Gathering and processing}{338}{subsubsection.8.2.1.1}
 \contentsline {subsubsection}{\numberline {8.2.1.2}Transmission and storage}{339}{subsubsection.8.2.1.2}
 \contentsline {subsubsection}{\numberline {8.2.1.3}Distribution}{341}{subsubsection.8.2.1.3}
-\contentsline {subsection}{\numberline {8.2.2}Component-level modelling}{341}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.2}Component-level modeling}{341}{subsection.8.2.2}
 \contentsline {subsubsection}{\numberline {8.2.2.1}Design of the reduced order tool}{342}{subsubsection.8.2.2.1}
 \contentsline {paragraph}{Emissions from well-pad equipment}{342}{paragraph*.307}
 \contentsline {paragraph}{Fitting OPGEE columns to well productivity and loss rate functions}{343}{paragraph*.308}
 \contentsline {paragraph}{Productivity distributions}{343}{paragraph*.309}
 \contentsline {paragraph}{Loss rate functions}{344}{paragraph*.311}
-\contentsline {subsubsection}{\numberline {8.2.2.2}Tank flashing}{347}{subsubsection.8.2.2.2}
-\contentsline {subsubsection}{\numberline {8.2.2.3}Liquids unloadings}{347}{subsubsection.8.2.2.3}
-\contentsline {subsection}{\numberline {8.2.3}Secondary production operations}{347}{subsection.8.2.3}
-\contentsline {section}{\numberline {8.3}Deprecated OPGEE v2.0 VF modeling methods}{349}{section.8.3}
-\contentsline {chapter}{\numberline {9}Fundamental data inputs}{351}{chapter.9}
-\contentsline {section}{\numberline {9.1}Global warming potentials}{351}{section.9.1}
-\contentsline {section}{\numberline {9.2}Properties of water and steam}{351}{section.9.2}
-\contentsline {section}{\numberline {9.3}Properties of air and exhaust gas components}{351}{section.9.3}
-\contentsline {subsection}{\numberline {9.3.1}Enthalpies of air and exhaust gas components}{351}{subsection.9.3.1}
-\contentsline {section}{\numberline {9.4}Compositions and properties of fuels}{352}{section.9.4}
-\contentsline {subsection}{\numberline {9.4.1}Heating value of crude oil as a function of density}{352}{subsection.9.4.1}
-\contentsline {subsection}{\numberline {9.4.2}Crude oil chemical composition as a function of density}{352}{subsection.9.4.2}
-\contentsline {subsection}{\numberline {9.4.3}Heat of combustion of gaseous fuel components}{352}{subsection.9.4.3}
-\contentsline {subsection}{\numberline {9.4.4}Refined and processed fuels heating values}{352}{subsection.9.4.4}
-\contentsline {chapter}{\numberline {10}OPGEE limitations}{353}{chapter.10}
-\contentsline {section}{\numberline {10.1}Scope limitations}{353}{section.10.1}
-\contentsline {section}{\numberline {10.2}Technical limitations}{353}{section.10.2}
-\contentsline {subsection}{\numberline {10.2.1}Production modeling}{353}{subsection.10.2.1}
-\contentsline {subsection}{\numberline {10.2.2}Surface processing}{353}{subsection.10.2.2}
-\contentsline {subsection}{\numberline {10.2.3}Data limitations}{354}{subsection.10.2.3}
-\contentsline {subsubsection}{\numberline {10.2.3.1}VFF data}{354}{subsubsection.10.2.3.1}
-\contentsline {subsubsection}{\numberline {10.2.3.2}Default specifications}{354}{subsubsection.10.2.3.2}
-\contentsline {section}{\numberline {10.3}Future work}{354}{section.10.3}
-\contentsline {chapter}{\numberline {A}Terminology: Acronyms and abbreviations}{355}{appendix.A}
-\contentsline {chapter}{\numberline {B}Mathematical terms and definitions}{357}{appendix.B}
-\contentsline {chapter}{\numberline {C}Tabulated sources for each production stage}{362}{appendix.C}
-\contentsline {chapter}{\numberline {D}Bulk assessment macro error correction}{369}{appendix.D}
-\contentsline {chapter}{\numberline {E}Changes and updates from previous versions of OPGEE}{373}{appendix.E}
-\contentsline {section}{\numberline {E.1}Changes from OPGEE v2.0a to OPGEE v2.0b}{373}{section.E.1}
-\contentsline {section}{\numberline {E.2}Changes from OPGEE v1.1 Draft E to OPGEE v2.0a}{373}{section.E.2}
-\contentsline {section}{\numberline {E.3}Changes from OPGEE v1.1 Draft D to OPGEE v1.1 Draft E}{374}{section.E.3}
-\contentsline {subsection}{\numberline {E.3.1}Steam Injection changes }{374}{subsection.E.3.1}
-\contentsline {section}{\numberline {E.4}Changes from OPGEE v1.1 Draft C to OPGEE v1.1 Draft D}{374}{section.E.4}
-\contentsline {subsection}{\numberline {E.4.1}Bulk assessment changes }{374}{subsection.E.4.1}
-\contentsline {subsection}{\numberline {E.4.2}Fugitive emissions changes}{375}{subsection.E.4.2}
-\contentsline {subsection}{\numberline {E.4.3}Documentation and clarity improvements}{375}{subsection.E.4.3}
-\contentsline {section}{\numberline {E.5}Changes from OPGEE v1.1 Draft B to OPGEE v1.1 Draft C}{375}{section.E.5}
-\contentsline {section}{\numberline {E.6}Changes from OPGEE v1.1 Draft A to OPGEE v1.1 Draft B}{376}{section.E.6}
-\contentsline {subsection}{\numberline {E.6.1}Gas balance and gas properties}{376}{subsection.E.6.1}
-\contentsline {subsection}{\numberline {E.6.2}Production emissions}{376}{subsection.E.6.2}
-\contentsline {subsection}{\numberline {E.6.3}Venting and fugitives}{376}{subsection.E.6.3}
-\contentsline {subsection}{\numberline {E.6.4}Other corrections and error fixes}{377}{subsection.E.6.4}
-\contentsline {section}{\numberline {E.7}Changes from OPGEE v1.0 to OPGEE v1.1 Draft A}{377}{section.E.7}
-\contentsline {subsection}{\numberline {E.7.1}Overall model organization}{377}{subsection.E.7.1}
-\contentsline {subsection}{\numberline {E.7.2}User inputs \& results worksheet}{377}{subsection.E.7.2}
-\contentsline {subsection}{\numberline {E.7.3}Defaults and smart defaults}{378}{subsection.E.7.3}
-\contentsline {subsection}{\numberline {E.7.4}Data and input parameters}{378}{subsection.E.7.4}
-\contentsline {subsection}{\numberline {E.7.5}Error checks}{378}{subsection.E.7.5}
-\contentsline {subsection}{\numberline {E.7.6}New model functionality}{378}{subsection.E.7.6}
-\contentsline {subsection}{\numberline {E.7.7}Bulk assessment macro changes}{378}{subsection.E.7.7}
-\contentsline {subsection}{\numberline {E.7.8}Corrections and improvements}{379}{subsection.E.7.8}
-\contentsline {subsection}{\numberline {E.7.9}Documentation and model explanation}{380}{subsection.E.7.9}
-\contentsline {section}{\numberline {E.8}Changes from OPGEE v1.0 Draft A to OPGEE v1.0}{380}{section.E.8}
-\contentsline {subsection}{\numberline {E.8.1}Major changes}{380}{subsection.E.8.1}
-\contentsline {subsection}{\numberline {E.8.2}Minor changes}{381}{subsection.E.8.2}
+\contentsline {subsubsection}{\numberline {8.2.2.2}Customizing equipment counts to match local conditions}{347}{subsubsection.8.2.2.2}
+\contentsline {subsubsection}{\numberline {8.2.2.3}Tank flashing}{349}{subsubsection.8.2.2.3}
+\contentsline {subsubsection}{\numberline {8.2.2.4}Liquids unloadings}{350}{subsubsection.8.2.2.4}
+\contentsline {subsection}{\numberline {8.2.3}Secondary production operations}{351}{subsection.8.2.3}
+\contentsline {section}{\numberline {8.3}Deprecated OPGEE v2.0 VF modeling methods}{352}{section.8.3}
+\contentsline {chapter}{\numberline {9}Fundamental data inputs}{353}{chapter.9}
+\contentsline {section}{\numberline {9.1}Global warming potentials}{353}{section.9.1}
+\contentsline {section}{\numberline {9.2}Properties of water and steam}{353}{section.9.2}
+\contentsline {section}{\numberline {9.3}Properties of air and exhaust gas components}{353}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Enthalpies of air and exhaust gas components}{353}{subsection.9.3.1}
+\contentsline {section}{\numberline {9.4}Compositions and properties of fuels}{354}{section.9.4}
+\contentsline {subsection}{\numberline {9.4.1}Heating value of crude oil as a function of density}{354}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {9.4.2}Crude oil chemical composition as a function of density}{354}{subsection.9.4.2}
+\contentsline {subsection}{\numberline {9.4.3}Heat of combustion of gaseous fuel components}{354}{subsection.9.4.3}
+\contentsline {subsection}{\numberline {9.4.4}Refined and processed fuels heating values}{354}{subsection.9.4.4}
+\contentsline {chapter}{\numberline {10}OPGEE limitations}{355}{chapter.10}
+\contentsline {section}{\numberline {10.1}Scope limitations}{355}{section.10.1}
+\contentsline {section}{\numberline {10.2}Technical limitations}{355}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}Production modeling}{355}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {10.2.2}Surface processing}{355}{subsection.10.2.2}
+\contentsline {subsection}{\numberline {10.2.3}Data limitations}{356}{subsection.10.2.3}
+\contentsline {subsubsection}{\numberline {10.2.3.1}VFF data}{356}{subsubsection.10.2.3.1}
+\contentsline {subsubsection}{\numberline {10.2.3.2}Default specifications}{356}{subsubsection.10.2.3.2}
+\contentsline {section}{\numberline {10.3}Future work}{356}{section.10.3}
+\contentsline {chapter}{\numberline {A}Terminology: Acronyms and abbreviations}{357}{appendix.A}
+\contentsline {chapter}{\numberline {B}Mathematical terms and definitions}{359}{appendix.B}
+\contentsline {chapter}{\numberline {C}Tabulated sources for each production stage}{364}{appendix.C}
+\contentsline {chapter}{\numberline {D}Bulk assessment macro error correction}{371}{appendix.D}
+\contentsline {chapter}{\numberline {E}Changes and updates from previous versions of OPGEE}{375}{appendix.E}
+\contentsline {section}{\numberline {E.1}Changes from OPGEE v2.0a to OPGEE v2.0b}{375}{section.E.1}
+\contentsline {section}{\numberline {E.2}Changes from OPGEE v1.1 Draft E to OPGEE v2.0a}{375}{section.E.2}
+\contentsline {section}{\numberline {E.3}Changes from OPGEE v1.1 Draft D to OPGEE v1.1 Draft E}{376}{section.E.3}
+\contentsline {subsection}{\numberline {E.3.1}Steam Injection changes }{376}{subsection.E.3.1}
+\contentsline {section}{\numberline {E.4}Changes from OPGEE v1.1 Draft C to OPGEE v1.1 Draft D}{376}{section.E.4}
+\contentsline {subsection}{\numberline {E.4.1}Bulk assessment changes }{376}{subsection.E.4.1}
+\contentsline {subsection}{\numberline {E.4.2}Fugitive emissions changes}{377}{subsection.E.4.2}
+\contentsline {subsection}{\numberline {E.4.3}Documentation and clarity improvements}{377}{subsection.E.4.3}
+\contentsline {section}{\numberline {E.5}Changes from OPGEE v1.1 Draft B to OPGEE v1.1 Draft C}{377}{section.E.5}
+\contentsline {section}{\numberline {E.6}Changes from OPGEE v1.1 Draft A to OPGEE v1.1 Draft B}{378}{section.E.6}
+\contentsline {subsection}{\numberline {E.6.1}Gas balance and gas properties}{378}{subsection.E.6.1}
+\contentsline {subsection}{\numberline {E.6.2}Production emissions}{378}{subsection.E.6.2}
+\contentsline {subsection}{\numberline {E.6.3}Venting and fugitives}{378}{subsection.E.6.3}
+\contentsline {subsection}{\numberline {E.6.4}Other corrections and error fixes}{379}{subsection.E.6.4}
+\contentsline {section}{\numberline {E.7}Changes from OPGEE v1.0 to OPGEE v1.1 Draft A}{379}{section.E.7}
+\contentsline {subsection}{\numberline {E.7.1}Overall model organization}{379}{subsection.E.7.1}
+\contentsline {subsection}{\numberline {E.7.2}User inputs \& results worksheet}{379}{subsection.E.7.2}
+\contentsline {subsection}{\numberline {E.7.3}Defaults and smart defaults}{380}{subsection.E.7.3}
+\contentsline {subsection}{\numberline {E.7.4}Data and input parameters}{380}{subsection.E.7.4}
+\contentsline {subsection}{\numberline {E.7.5}Error checks}{380}{subsection.E.7.5}
+\contentsline {subsection}{\numberline {E.7.6}New model functionality}{380}{subsection.E.7.6}
+\contentsline {subsection}{\numberline {E.7.7}Bulk assessment macro changes}{380}{subsection.E.7.7}
+\contentsline {subsection}{\numberline {E.7.8}Corrections and improvements}{381}{subsection.E.7.8}
+\contentsline {subsection}{\numberline {E.7.9}Documentation and model explanation}{382}{subsection.E.7.9}
+\contentsline {section}{\numberline {E.8}Changes from OPGEE v1.0 Draft A to OPGEE v1.0}{382}{section.E.8}
+\contentsline {subsection}{\numberline {E.8.1}Major changes}{382}{subsection.E.8.1}
+\contentsline {subsection}{\numberline {E.8.2}Minor changes}{383}{subsection.E.8.2}
