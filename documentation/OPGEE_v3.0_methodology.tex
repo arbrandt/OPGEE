@@ -9823,6 +9823,46 @@ The resulting fitted equations are as follows, for each productivity tranche $i$
 \end{equation}
 Here, $AFR_j$ is the activity factor ratio for equipment type $j$, defined as the ratio of the given activity factor being modeled to the baseline Rutherford et al. activity factor. For example, if the site being modeled has 6 pneumatic controllers and the Rutherford et al. default has 2 pnuematic controllers, then $AFR_j$ for pneumatic controllers = 3. $AFR_{oth}$ is defined similarly, but is the overall activity factor ratio for all other pieces of equipment, normalized by the corresponding factors from Rutherford et al. $\beta_{i,j,1} \ldots \beta_{i,j,5}$ are the 5 fitting terms for each equation for the combination of productivity tranche $i$ and equipment $j$.
 
+The resulting model fits are shown below in Figures \ref{fig:AFproxy1} to [y]. Figure \ref{fig:AFproxy1} shows the effect of changing the activity factor ratio $AFR_j$ from 1 to 4 for each of the pieces of equipment in gas systems. The shape of the symbol gives the overall scaling factor for all other pieces of equipment, $AFR_{oth}$. As we see, there is virtually no impact of the other pieces of equipment, but that in most cases the effect of changing $AFR_j$ is linear. Figure \ref{fig:AFproxy2} shows the same results but for oil systems.
+
+ \begin{figure}[t]
+\includegraphics[width=1\columnwidth]{images/ProxyAF_Model_Pic1.pdf}
+\caption{Loss rate as a function of $AFR_j$ for various pieces of equipment $j$. This is only for the equipment in gas systems, not oil systems.}
+\label{fig:AFproxy1}
+\end{figure}  
+
+ \begin{figure}[t]
+\includegraphics[width=1\columnwidth]{images/ProxyAF_Model_Pic2.pdf}
+\caption{Loss rate as a function of $AFR_j$ for various pieces of equipment $j$. This is only for the equipment in oil systems, not gas systems.}
+\label{fig:AFproxy2}
+\end{figure}  
+
+In order to understand how the results of the proxy model differ from that of the original Monte-Carlo-generated results, we can create a parity chart comparing the results from the proxy model to the original results for a holdout set not used in the training process. In this parity chart, perfect agreement between the proxy model and the underlying Monte-Carlo generated results would be indicated by all points falling along the 45 degree line. An example result is shown in Figure \ref{fig:AFproxy6} for the case of tank vents in gas systems. We see overall agreement with some spread in the results of the proxy model compared to the underlying Monte-Carlo-generated results. Overall, across all types of equipment, the parity charts are shown in Figure \ref{fig:AFproxy3} and \ref{fig:AFproxy4} for gas and oil systems respectively. We see general good agreement using only the simple quadratic model described above.
+
+ \begin{figure}[t]
+\includegraphics[width=1\columnwidth]{images/ProxyAF_Model_Pic6.pdf}
+\caption{Parity chart showing prediction of proxy model compared to underlying Monte-Carlo-Generated results for the case of tank vents in gas systems. Performance is measured by closeness to the 45-degree line, which indicates perfect agreement.}
+\label{fig:AFproxy6}
+\end{figure}  
+
+ \begin{figure}[t]
+\includegraphics[width=1\columnwidth]{images/ProxyAF_Model_Pic3.pdf}
+\caption{Parity chart showing prediction of proxy model compared to underlying Monte-Carlo-Generated results for gas systems across all pieces of equipment. Performance is measured by closeness to the 45-degree line, which indicates perfect agreement.}
+\label{fig:AFproxy3}
+\end{figure}  
+
+ \begin{figure}[t]
+\includegraphics[width=1\columnwidth]{images/ProxyAF_Model_Pic4.pdf}
+\caption{Parity chart showing prediction of proxy model compared to underlying Monte-Carlo-Generated results for oil systems across all pieces of equipment. Performance is measured by closeness to the 45-degree line, which indicates perfect agreement.}
+\label{fig:AFproxy4}
+\end{figure}  
+
+
+This agreement is sufficiently good that we feel comfortable using this proxy model in current Excel-based versions of OPGEE. Future versions based on coding platforms such as Python or similar may want to incorporate the underlying Monte Carlo draws into the model with each calculation.
+
+
+\clearpage
+
 
 \subsubsection{Tank flashing}
 Tank flash emissions are handled differently from the previous section. The general approach from Rutherford et al. applies flash factors ($FF$, kg CH$_4$ per bbl liquid) based on direct flash gas measurements from the Houston Advanced Research Center (HARC) study \cite{Hendler2009}. Vectors of flash factors are back-calculated from Rutherford et al. outputs (in order to maintain mass balance) and well-level liquids production. Flash factors are binned into the same gas productivity tranches as the previous section.
