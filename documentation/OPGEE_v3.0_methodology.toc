@@ -168,9 +168,9 @@
 \contentsline {paragraph}{Steam generation technology}{184}{paragraph*.173}
 \contentsline {section}{\numberline {6.16}Flaring}{189}{section.6.16}
 \contentsline {subsection}{\numberline {6.16.1}Calculation of flaring emissions}{189}{subsection.6.16.1}
-\contentsline {subsection}{\numberline {6.16.2}Average flaring rate defaults in case of no information}{189}{subsection.6.16.2}
-\contentsline {paragraph}{Country-level flaring rate averages}{189}{paragraph*.177}
-\contentsline {paragraph}{Field-level flaring rates}{190}{paragraph*.178}
+\contentsline {subsection}{\numberline {6.16.2}Average flaring rate defaults in case of no information}{190}{subsection.6.16.2}
+\contentsline {paragraph}{Country-level flaring rate averages}{190}{paragraph*.177}
+\contentsline {paragraph}{Field-level flaring rates}{191}{paragraph*.178}
 \contentsline {subsection}{\numberline {6.16.3}Flaring efficiency}{191}{subsection.6.16.3}
 \contentsline {subsection}{\numberline {6.16.4}Emissions from flares}{192}{subsection.6.16.4}
 \contentsline {subsection}{\numberline {6.16.5}Defaults for Flaring}{193}{subsection.6.16.5}

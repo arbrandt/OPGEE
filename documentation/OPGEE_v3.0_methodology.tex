@@ -1356,8 +1356,8 @@ Processing practices                                                            
 Stabilizer column \xlname{Stabilizer}                                                                                                                                        & 0        & 0          & 0         & 0          &                    & Binary            \\
 Upgrader type \xlname{Upgrader\_type} (0: None, 1: Delayed coking, 2: Hydroconversion, 3: Hydroconversion and fluid coking)                                                      & 0        & 0          & 0         & 0          & 0                  & Uniform           \\
 Associated gas processing path \xlname{Gas\_processing\_path} (1: None, 2: Minimal - Dehydrator, 3: Acid Gas, 4: Wet Gas, 5: Acid Wet Gas, 6: CO$_2$-EOR Membrane, 7: CO$_2$-EOR Ryan Holmes) & 5        & 0          & 5         & 5          & -                  & Uniform           \\
- Flare-oil-ratio \xlname{FOR} {[}scf flared/bbl oil{]}                                                                                                           & NOAA     & NOAA*0.2   & 1         & 3000       & -                  & Normal            \\
- Ratio of venting to oil production \xlname{VOR}                                                                                                                       & 10       & 3          & 0         & 100        & -                  & Normal            \\
+Flare-oil-ratio \xlname{FOR} {[}scf flared/bbl oil{]}                                                                                                           & NOAA     & NOAA*0.2   & 1         & 3000       & -                  & Normal            \\
+Venting fraction \xlname{VOR}  {[}frac.{]}                                                                                                                       & 0.002      & 0.001          & 0.00        & 0.1        & -                  & Lognormal          \\
 Volume fraction of diluent in diluted crude \xlname{Fraction\_diluent}                                                                                                             & 0        & 0          & 0         & 0          & -                  & Uniform           \\
 \midrule
  Land use impacts                                                                                                                                            &          &            &           &            &                    &                   \\
@@ -3616,7 +3616,7 @@ $Q_0$ & Oil production volume & \xlname{Oil\_prod} & 1,500 & 10-3,000,000 & [bbl
 $y_{OS,mi}$     & Oil sands mine integrated with upgrader?  & \xlname{Oil\_sands\_mine\_int\_01} & 0 & 0-1 & [binary 0-1] & & \\
 $y_{OS,mn}$     & Oil sands mine non-integrated with upgrader?  & \xlname{Oil\_sands\_mine\_nonint\_01} & 0 & 0-1 & [binary 0-1] & & \\
 $FOR$     & Ratio of flaring to oil production  & \xlname{FOR} & var. & var.  & [scf/bbl] & & \\
-$VOR$     & Ratio of venting to oil production  & \xlname{VOR} & var. & 0  & [scf/bbl] & & \\
+$VOR$     & Fraction of post-flare gas vented  & \xlname{VOR} & var. & var.  & [frac.] & & \\
 $x_{N_2}$     & Nitrogen gas composition & \xlname{Gas\_comp\_N2} & 2 & var. & mol\% & & \\
 $x_{CO_2}$     & CO$_2$ gas composition & \xlname{Gas\_comp\_CO2} & 6 & var. & mol\% & & \\
 $x_{C_1}$     & Methane gas composition & \xlname{Gas\_comp\_C1} & 84 & var. & mol\% & & \\
@@ -4443,7 +4443,7 @@ Fugitives from HC storage tank				& \stream{279}			& O		& Emitted to atmosphere	
 
 Under normal operating conditions, the amount of vapor leaving solution into the tank headspace (the gas ``flashed'') is a key driver of emissions from tank storage of crude oil. Flashing emissions are a well-known source of uncertainty, with wide ranges observed in different empirical studies and in different thermodynamic or correlational models. In OPGEE we use empirical results from the HARC/TERC study of tank flashing emissions \cite{Hendler2009}.  
 
-These flashing emissions are then partitioned into emissions that are captured, captured and flared, or simply emitted.
+These flashing emissions are then partitioned into emissions that are captured, captured and flared, or simply emitted. Note that the amount of gas flared off of the crude storage tanks is considered to be a separate stream than the overall flaring rate that is defined with the flaring-to-oil ratio \xlname{FOR}.
 
 \begin{minipage}{0.6\columnwidth}
 \begin{fleqn}[0pt]
@@ -4460,6 +4460,8 @@ $f_{VRU}$       & \xlname{f\_FG\_CS\_VRU}\\
         & \\
         \end{tabular}
 \end{minipage}
+
+The fractions of flare gas estimated to be recovered and flared are derived from the US Greenhouse gas reporting program (GHGRP), as given in reporting year 2015.
 
 \subsection{Defaults for crude oil storage}
 
@@ -4499,8 +4501,8 @@ $GOR$ & Gas-to-oil ratio & \xlname{GOR} & Function of API gravity & 1->100,000 &
 \label{tab:secondary_inputs_storage}
 \begin{threeparttable}
 \begin{supertabular*}{1\columnwidth}{p{0.03\columnwidth}p{0.3\columnwidth}p{0.25\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}p{0.025\columnwidth}}
-    $f_{VRU}$    & Storage gas recovery fraction & \xlname{f\_FG\_CS\_VRU} & 100	& 0-100  & [wt\%]  & Assumption  &   \\
-    $f_{fl}$    & Storage gas flare fraction & \xlname{f\_FG\_CS\_FL} & 0	& 0-100  & [wt\%]  & Assumption  &   \\
+    $f_{VRU}$    & Storage gas recovery fraction & \xlname{f\_FG\_CS\_VRU} & 6	& 0-100  & [wt\%]  & US GHGRP  &   \\
+    $f_{fl}$    & Storage gas flare fraction & \xlname{f\_FG\_CS\_FL} & 44	& 0-100  & [wt\%]  & US GHGRP   &   \\
 \end{supertabular*}
 %\begin{tablenotes}
 %\item[a] Insert text of note here
@@ -5576,6 +5578,7 @@ The streams flowing into and out of the flaring process are shown in Figure \ref
 Flow name							& Stream   			& I/O 	& Source/Destination       			& Units 			&  Notes\\ 
 \midrule
 Gas after separator						& \stream{28}			& I		& Separator					& [t/d]			&			\\
+Storage vapors to flare					& \stream{81}			& I		& Crude oil storage				& [t/d]			&			\\
 Mine offgas to flare						& \stream{84}			& I		& Mining						& [t/d]			&			\\
 \midrule
 Gas consumed in flare		 			& \stream{29}			& O		& Environment					& [t/d]			&			\\
@@ -5605,7 +5608,7 @@ For the calculation of flaring emissions, the key input parameter is the flaring
 \begin{minipage}{0.6\columnwidth}
 \begin{fleqn}[0pt]
 \begin{equation} \label{eq:flaring_volume}
-Q_{F}= \frac{FOR \cdot Q_{o}}{10^6} \quad\quad\eqnunitfrac{mmscf}{d}
+Q_{F}= \frac{FOR \cdot Q_{o}}{10^6} + Q_{F,st} + Q_{F,mine} \quad\quad\eqnunitfrac{mmscf}{d}
 \end{equation}
 \end{fleqn}
 \end{minipage}\hfill
@@ -5614,14 +5617,15 @@ Q_{F}= \frac{FOR \cdot Q_{o}}{10^6} \quad\quad\eqnunitfrac{mmscf}{d}
                         & \\
         $FOR$       & \xlname{FOR}\\
         $Q_0$       & \xlname{Oil\_prod}\\
-        & \\
+        $Q_{F,st}$  & stream \stream{81}\\
+        $Q_{F,mine}$  & stream \stream{84}\\
         \end{tabular}
 \end{minipage}
 
 %%%%%%%%%%
-where $Q_{F}$ = flaring volume [mmscf/d]; $FOR$ = flaring-to-oil ratio [scf/bbl of oil]; and $Q_{o}$ = volume of oil produced [bbl/d].
+where $Q_{F}$ = flaring volume [mmscf/d]; $FOR$ = flaring-to-oil ratio [scf/bbl of oil]; and $Q_{o}$ = volume of oil produced [bbl/d]. $Q_{F,st}$ is the amount of gas routed from oil storage tanks to flares (stream \stream{81}), while $Q_{F,mine}$ is the amount of gas routed to the flares from mine off-gas collection (stream \stream{84}).
 
-The OPGEE default FOR is given by country-level flaring data \cite{NOAA2010} and production volumes \cite{EIA2010} for the years 2010 to 2020, inclusive.  A detailed listing of sources and compilation notes for flaring data is given in Table \ref{tab:flaringdata}. The default flaring rate is retrieved from the \sheet{Flaring} worksheet based on the field country specified in the \sheet{Active Field} worksheet. The flaring rate in a specific oil field could be significantly higher or lower than the country-average. In the case no default is available for the specified field location, the world average is taken as the default value.
+The OPGEE default FOR is given by country-level flaring data \cite{NOAA2010} and production volumes \cite{EIA2010} for the years 2010 to 2020, inclusive.  The default flaring rate is retrieved from the \sheet{Flaring} worksheet based on the field name if available (see below). If the field is not in our field-specific database, the average for the entire country (with country specified in the \sheet{Active Field} worksheet) is used in place of a field specific value. Of course, the flaring rate in a specific oil field could be significantly higher or lower than the country-average, but in cases where no data are available, the country-wide flaring rate is used. In the case no default is available for the specified field country, the global average flaring rate is taken as the default value.
 
 
 \subsection{Average flaring rate defaults in case of no information}
@@ -5645,16 +5649,17 @@ For oil production data, numerous problems exist with datasets used in prior ver
 
 In addition to the country-level default, if the user turns on the proper setting on the \sheet{Secondary Inputs} sheet, the model will attempt to find a field-level default. The following methods were used in generating these defaults.
 
-Field-level flaring rates were obtained from Zhang et al. 2021 \cite{Zhang2021}. As described in great detail in the cited paper and its supporting information, Zhang et al. generated field level flaring rates for [x] fields across the world. 
+Field-level flaring rates were obtained from Zhang et al. 2021 \cite{Zhang2021}. As described in great detail in the cited paper and its supporting information, Zhang et al. generated field level flaring rates for 50,000 fields across the world. Because the definition of what makes a ``field'' is so different, it is challenging to arrive at a global field count. A large number of these fields are in the USA. This is because naming of fields in the US does not follow international conventions, and many fields were named historically without any organized or centralized effort to ensure consistency. These field names are also (for the same reason) not used in the private production and economic datasets used in the industry such as Wood MacKenzie or Rystad. 
 
-In the US, field-level flaring rates were converted to rates per AAPG producing basin. This is for a few reasons. First, the US dataset from Zhang et al. had many tens of thousands of ``fields'' in the US. This is because naming of fields in the US does not follow international conventions, and many fields were named historically without any organized or centralized effort to ensure consistency. These field names are also (for the same reason) not used in the private production and economic datasets such as Wood MacKenzie or Rystad. AAPG basins are a standard source for dividing oil production by county into major producing regions, and have been widely used since the 1970s. These AAPG basins are also used in the EPA Greenhouse Gas Reporting Program (GHGRP). This will allow us to align flaring intensities and other production data as well.
+Instead, in OPGEE we rely for the US on production and flaring by AAPG basin. AAPG basin definitions are a standard source for dividing oil production by county into major producing regions, and have been widely used since the 1970s. These AAPG basins are also used in the EPA Greenhouse Gas Reporting Program (GHGRP). This will allow us to align flaring intensities and other production data as well.
 
 Because often datasets in the US will use field names directly, we have the option to perform a lookup on field names to assign the field name to the appropriate AAPG producing basin. To turn this option on, change binary setting \xlname{US\_field\_name\_lookup} on \sheet{Secondary Inputs} from its default setting of 0 to 1. 
 
-
 Using the new combined shapefile, which combines the field boundaries from Zhang et al. 2021 with AAPG basin shapefiles, we can then sum total flaring rates within each boundary.
 
-After generating the field / basin specific flaring rates are generated through this summation, we then need matching production data in bbl per day in order to generate an estimate of flaring measured in scf/bbl. The dataset from Masnadi et al. \cite{Masnadi2018}, containing $\approx$8000 fields was used. Field names were matched using string matching tools in the R programming language. Names with excellent matching scores were kept as is. Names with partial matching scores were adjudicated by hand and non-matching names were removed. We were purposely conservitive in matching names: only names that were clearly from the same fields were obtained, and in the case of ambiguity the default was to remove the match rather than accept the match. This results in fewer fields matched, but higher quality of matching.
+After generating the field / basin specific flaring rates are generated through this summation, we then need matching production data in bbl per day in order to generate an estimate of flaring measured in scf/bbl. The dataset from Masnadi et al. \cite{Masnadi2018}, containing $\approx$8000 fields was used. Field names were matched using string matching tools in the R programming language. Names with excellent matching scores were kept as is. Names with partial matching scores were adjudicated by hand and non-matching names were removed. We were purposely conservative in matching names: only names that were clearly from the same fields were obtained, and in the case of ambiguity the default was to remove the match rather than accept the match. This results in fewer fields matched, but higher quality of matching.
+
+Because the dataset of Masnadi et al. only contains production for the year 2015, all flaring volumes from 2012 to 2020 are converted into a flaring intensity [scf/bbl] using the production in 2015. This introduces another uncertainty into the estimate, but we believe these field-specific estimates are still superior to ones derived from country or global averages.
 
 In order to default to these field-level flaring rate estimates, change binary setting \xlname{Field\_level\_flaring\_01} on \sheet{Secondary Inputs} from its default setting of 0 to 1. 
 
@@ -5663,7 +5668,7 @@ In order to default to these field-level flaring rate estimates, change binary s
 
 Carbon-dioxide-equivalent flaring emissions are calculated from the flaring volume using the flare efficiency $\eta_F$. The flare efficiency is the fraction of flared gas that is combusted. The remaining gas undergoes fuel stripping and is emitted as unburned hydrocarbons. 
 
-Flare efficiency varies with flare exit velocities and diameters, cross wind speed, and gas composition \cite{Johnson2001, Johnson2008}. For example, flare efficiencies in Alberta were estimated to range from 55\% to $\geq 99$\%, with a median value of 95\%, adjusted for wind speed distributions \cite{Johnson2008}. A number of studies on flare efficiency have been performed over the years, but datasets are still quite limited. Prior versions of OPGEE used an emprical relationship between flare tip exit velocity, cross wind speed, and destruction efficiency. However, in many if not most cases, no local data on winds or flare tip exit velocities are available, so use of the correlation was extremely limited in practice.
+Flare efficiency varies with flare exit velocities and diameters, cross wind speed, and gas composition \cite{Johnson2001, Johnson2008}. For example, flare efficiencies in Alberta were estimated to range from 55\% to $\geq 99$\%, with a median value of 95\%, adjusted for wind speed distributions \cite{Johnson2008}. A number of studies on flare efficiency have been performed over the years, but datasets are still quite limited. Prior versions of OPGEE used an empirical relationship between flare tip exit velocity, cross wind speed, and destruction efficiency. However, in many if not most cases, no local data on winds or flare tip exit velocities are available, so use of the correlation was extremely limited in practice.
 
 For this reason, OPGEE \version uses empirical flare efficiency measurements from a number of studies \cite{Ozumba2000, Gvakharia2017, Chambers2003, Zavala2021, Caulton2014a}. A total of 79 measurements were recorded in these studies from USA-Bakken, Nigeria, Mexico, Canada, and USA-Pennsylvania. Using these studies the properties of methane flare destruction efficiency are given in Table \ref{tab:empirical_flare_eff}.
 
