@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 APR 2022 13:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 APR 2022 14:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -4659,111 +4659,111 @@ Package pdftex.def Info: images/flaring_PF.pdf used on input line 5594.
 
 
 ] [190 <./images/flaring_PF.pdf>] [191]
-Overfull \hbox (0.29657pt too wide) in paragraph at lines 5671--5672
+Overfull \hbox (0.29657pt too wide) in paragraph at lines 5673--5674
 []\T1/ppl/m/n/10.95 For this rea-son, OPGEE v3.0b uses em-pir-i-cal flare ef-fi
 -ciency mea-sure-ments from
  []
 
 
-Overfull \hbox (4.67422pt too wide) in alignment at lines 5679--5691
+Overfull \hbox (4.67422pt too wide) in alignment at lines 5681--5693
 [][][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5679--5693
+Underfull \hbox (badness 10000) in paragraph at lines 5681--5695
 
  []
 
-
-Overfull \hbox (7.82861pt too wide) in paragraph at lines 5725--5726
+[192]
+Overfull \hbox (7.82861pt too wide) in paragraph at lines 5727--5728
 []\T1/ppl/m/n/10.95 where $\OML/zplm/m/it/10.95 EM[]$ \T1/ppl/m/n/10.95 = flar-
 ing emis-sions from stripped, non-combusted gas [tCO$[]$eq/d];
  []
 
-[192]
-Overfull \hbox (23.99998pt too wide) in alignment at lines 5739--5749
+
+Overfull \hbox (23.99998pt too wide) in alignment at lines 5741--5751
 [][] 
  []
 
 [193]
-Underfull \hbox (badness 10000) in paragraph at lines 5778--5778
+Underfull \hbox (badness 10000) in paragraph at lines 5780--5780
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (4.13101pt too wide) in paragraph at lines 5778--5778
+Overfull \hbox (4.13101pt too wide) in paragraph at lines 5780--5780
 []|\T1/ppl/m/n/6 Sources| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5778--5778
+Underfull \hbox (badness 10000) in paragraph at lines 5780--5780
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (4.13101pt too wide) in paragraph at lines 5778--5778
+Overfull \hbox (4.13101pt too wide) in paragraph at lines 5780--5780
 []\T1/ppl/m/n/6 Sources| 
  []
 
 
-Overfull \hbox (16.49078pt too wide) in paragraph at lines 5780--5780
+Overfull \hbox (16.49078pt too wide) in paragraph at lines 5782--5782
 []\T1/ppl/m/n/6 Assumption| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 5778--5782
+Underfull \hbox (badness 10000) in alignment at lines 5780--5784
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5778--5788
+Underfull \hbox (badness 10000) in paragraph at lines 5780--5790
 
  []
 
 [194
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5801--5801
+Underfull \hbox (badness 10000) in paragraph at lines 5803--5803
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5801--5801
+Underfull \hbox (badness 10000) in paragraph at lines 5803--5803
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (3.12364pt too wide) in paragraph at lines 5804--5804
+Overfull \hbox (3.12364pt too wide) in paragraph at lines 5806--5806
 []$\OML/zplm/m/it/6 Year[]$| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 5801--5807
+Underfull \hbox (badness 10000) in alignment at lines 5803--5809
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5801--5813
+Underfull \hbox (badness 10000) in paragraph at lines 5803--5815
 
  []
 
 [195]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 5839--5839
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 5841--5841
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 5839--5839
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 5841--5841
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 5839--5839
+Overfull \hbox (4.4343pt too wide) in alignment at lines 5841--5841
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5839--5841
+Underfull \hbox (badness 10000) in paragraph at lines 5841--5843
 
  []
 
@@ -4771,7 +4771,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5839--5841
 File: images/Venting_PF.pdf Graphic file (type pdf)
 
 <use images/Venting_PF.pdf>
-Package pdftex.def Info: images/Venting_PF.pdf used on input line 5847.
+Package pdftex.def Info: images/Venting_PF.pdf used on input line 5849.
 (pdftex.def)             Requested size: 337.86469pt x 272.2191pt.
  [196
 
@@ -4779,69 +4779,69 @@ Package pdftex.def Info: images/Venting_PF.pdf used on input line 5847.
 ] [197 <./images/Venting_PF.pdf>] [198
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5879--5879
+Underfull \hbox (badness 10000) in paragraph at lines 5881--5881
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (4.13101pt too wide) in paragraph at lines 5879--5879
+Overfull \hbox (4.13101pt too wide) in paragraph at lines 5881--5881
 []|\T1/ppl/m/n/6 Sources| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5879--5879
+Underfull \hbox (badness 10000) in paragraph at lines 5881--5881
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (4.13101pt too wide) in paragraph at lines 5879--5879
+Overfull \hbox (4.13101pt too wide) in paragraph at lines 5881--5881
 []\T1/ppl/m/n/6 Sources| 
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 5881--5881
+Underfull \hbox (badness 1400) in paragraph at lines 5883--5883
 []\T1/ppl/m/n/6 Function of
  []
 
 
-Overfull \hbox (16.49078pt too wide) in paragraph at lines 5881--5881
+Overfull \hbox (16.49078pt too wide) in paragraph at lines 5883--5883
 []\T1/ppl/m/n/6 Assumption| 
  []
 
 
-Overfull \hbox (16.49078pt too wide) in paragraph at lines 5882--5882
+Overfull \hbox (16.49078pt too wide) in paragraph at lines 5884--5884
 []\T1/ppl/m/n/6 Assumption| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 5879--5884
+Underfull \hbox (badness 10000) in alignment at lines 5881--5886
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5879--5890
+Underfull \hbox (badness 10000) in paragraph at lines 5881--5892
 
  []
 
 [199
 
 ]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 5922--5922
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 5924--5924
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 5922--5922
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 5924--5924
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 5922--5922
+Overfull \hbox (4.4343pt too wide) in alignment at lines 5924--5924
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5922--5924
+Underfull \hbox (badness 10000) in paragraph at lines 5924--5926
 
  []
 
@@ -4849,33 +4849,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 5922--5924
 File: images/Gas_gathering_PF.pdf Graphic file (type pdf)
 
 <use images/Gas_gathering_PF.pdf>
-Package pdftex.def Info: images/Gas_gathering_PF.pdf used on input line 5930.
+Package pdftex.def Info: images/Gas_gathering_PF.pdf used on input line 5932.
 (pdftex.def)             Requested size: 337.86469pt x 273.4236pt.
  [200
 
 
 ] [201 <./images/Gas_gathering_PF.pdf>]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 5966--5966
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 5968--5968
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 5966--5966
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 5968--5968
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (15.41234pt too wide) in paragraph at lines 5966--5966
+Overfull \hbox (15.41234pt too wide) in paragraph at lines 5968--5968
 []|\T1/ppl/m/n/8 [MWh/d]| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 5966--5966
+Overfull \hbox (4.4343pt too wide) in alignment at lines 5968--5968
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5966--5968
+Underfull \hbox (badness 10000) in paragraph at lines 5968--5970
 
  []
 
@@ -4884,49 +4884,49 @@ File: images/Glycol_dehydrator_PF.pdf Graphic file (type pdf)
 
 <use images/Glycol_dehydrator_PF.pdf>
 Package pdftex.def Info: images/Glycol_dehydrator_PF.pdf used on input line 597
-4.
+6.
 (pdftex.def)             Requested size: 337.86469pt x 272.2191pt.
 
 <images/DehydrationPFD.pdf, id=4555, 733.63165pt x 373.25838pt>
 File: images/DehydrationPFD.pdf Graphic file (type pdf)
 
 <use images/DehydrationPFD.pdf>
-Package pdftex.def Info: images/DehydrationPFD.pdf used on input line 5989.
+Package pdftex.def Info: images/DehydrationPFD.pdf used on input line 5991.
 (pdftex.def)             Requested size: 437.23593pt x 222.45885pt.
 
-Overfull \hbox (39.75092pt too wide) in paragraph at lines 5989--5990
+Overfull \hbox (39.75092pt too wide) in paragraph at lines 5991--5992
 [][] 
  []
 
 [202
 
 ]
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 6013--6014
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 6015--6016
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 6011--6027
+Underfull \hbox (badness 10000) in alignment at lines 6013--6029
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6011--6029
+Underfull \hbox (badness 10000) in paragraph at lines 6013--6031
 
  []
 
 [203 <./images/Glycol_dehydrator_PF.pdf>]
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 6041--6042
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 6043--6044
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 6039--6049
+Underfull \hbox (badness 10000) in alignment at lines 6041--6051
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6039--6051
+Underfull \hbox (badness 10000) in paragraph at lines 6041--6053
 
  []
 
@@ -4935,7 +4935,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6039--6051
 File: images/DehydrationParity.pdf Graphic file (type pdf)
 
 <use images/DehydrationParity.pdf>
-Package pdftex.def Info: images/DehydrationParity.pdf used on input line 6066.
+Package pdftex.def Info: images/DehydrationParity.pdf used on input line 6068.
 (pdftex.def)             Requested size: 397.48502pt x 378.99767pt.
  [205] [206 <./images/DehydrationParity.pdf>] [207] <images/glycol_dehydrator_p
 rocess.pdf, id=4677, 722.7pt x 542.025pt>
@@ -4943,59 +4943,59 @@ File: images/glycol_dehydrator_process.pdf Graphic file (type pdf)
 
 <use images/glycol_dehydrator_process.pdf>
 Package pdftex.def Info: images/glycol_dehydrator_process.pdf used on input lin
-e 6097.
+e 6099.
 (pdftex.def)             Requested size: 552.86948pt x 414.65604pt.
 
 
-LaTeX Warning: Float too large for page by 44.07106pt on input line 6100.
+LaTeX Warning: Float too large for page by 44.07106pt on input line 6102.
 
 [208 <./images/glycol_dehydrator_process.pdf>] [209
 
 
 ]
-Overfull \hbox (2.49207pt too wide) in paragraph at lines 6143--6143
+Overfull \hbox (2.49207pt too wide) in paragraph at lines 6145--6145
 []$\OML/zplm/m/it/6 ^^Q[]$| 
  []
 
 
-Overfull \hbox (5.65306pt too wide) in paragraph at lines 6145--6145
+Overfull \hbox (5.65306pt too wide) in paragraph at lines 6147--6147
 [][]| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 6135--6148
+Underfull \hbox (badness 10000) in alignment at lines 6137--6150
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6135--6154
+Underfull \hbox (badness 10000) in paragraph at lines 6137--6156
 
  []
 
 [210
 
 ]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 6196--6196
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 6198--6198
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 6196--6196
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 6198--6198
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (15.41234pt too wide) in paragraph at lines 6196--6196
+Overfull \hbox (15.41234pt too wide) in paragraph at lines 6198--6198
 []|\T1/ppl/m/n/8 [MWh/d]| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 6196--6196
+Overfull \hbox (4.4343pt too wide) in alignment at lines 6198--6198
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6196--6198
+Underfull \hbox (badness 10000) in paragraph at lines 6198--6200
 
  []
 
@@ -5003,7 +5003,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6196--6198
 File: images/Acid_gas_removal_PF.pdf Graphic file (type pdf)
 
 <use images/Acid_gas_removal_PF.pdf>
-Package pdftex.def Info: images/Acid_gas_removal_PF.pdf used on input line 6204
+Package pdftex.def Info: images/Acid_gas_removal_PF.pdf used on input line 6206
 .
 (pdftex.def)             Requested size: 337.86469pt x 272.2191pt.
  [211
@@ -5014,10 +5014,10 @@ Package pdftex.def Info: images/Acid_gas_removal_PF.pdf used on input line 6204
 File: images/Aspen_AGR_General.png Graphic file (type png)
 
 <use images/Aspen_AGR_General.png>
-Package pdftex.def Info: images/Aspen_AGR_General.png used on input line 6229.
+Package pdftex.def Info: images/Aspen_AGR_General.png used on input line 6231.
 (pdftex.def)             Requested size: 476.9808pt x 260.25934pt.
 
-Overfull \hbox (79.49579pt too wide) in paragraph at lines 6229--6230
+Overfull \hbox (79.49579pt too wide) in paragraph at lines 6231--6232
 [][] 
  []
 
@@ -5025,30 +5025,30 @@ Overfull \hbox (79.49579pt too wide) in paragraph at lines 6229--6230
 File: images/Aspen_AGR_MEA.png Graphic file (type png)
 
 <use images/Aspen_AGR_MEA.png>
-Package pdftex.def Info: images/Aspen_AGR_MEA.png used on input line 6235.
+Package pdftex.def Info: images/Aspen_AGR_MEA.png used on input line 6237.
 (pdftex.def)             Requested size: 476.9808pt x 233.35283pt.
 
-Overfull \hbox (79.49579pt too wide) in paragraph at lines 6235--6236
+Overfull \hbox (79.49579pt too wide) in paragraph at lines 6237--6238
 [][] 
  []
 
 [213] [214 <./images/Aspen_AGR_General.png> <./images/Aspen_AGR_MEA.png>]
-Overfull \hbox (12.38568pt too wide) in alignment at lines 6257--6275
+Overfull \hbox (12.38568pt too wide) in alignment at lines 6259--6277
 [][][][][][] 
  []
 
 [215]
-Overfull \hbox (12.36752pt too wide) in alignment at lines 6287--6300
+Overfull \hbox (12.36752pt too wide) in alignment at lines 6289--6302
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6287--6302
+Underfull \hbox (badness 10000) in paragraph at lines 6289--6304
 
  []
 
 
-Overfull \hbox (5.69507pt too wide) in paragraph at lines 6307--6308
+Overfull \hbox (5.69507pt too wide) in paragraph at lines 6309--6310
 []\T1/ppl/m/n/10.95 The sam-pling strat-egy used com-bines de-ter-min-is-tic an
 d ran-dom sam-pling across
  []
@@ -5057,40 +5057,40 @@ d ran-dom sam-pling across
 File: images/MEA_comb.pdf Graphic file (type pdf)
 
 <use images/MEA_comb.pdf>
-Package pdftex.def Info: images/MEA_comb.pdf used on input line 6326.
+Package pdftex.def Info: images/MEA_comb.pdf used on input line 6328.
 (pdftex.def)             Requested size: 397.48502pt x 377.18327pt.
 
 <images/DGA_comb.pdf, id=4849, 435.64839pt x 416.60158pt>
 File: images/DGA_comb.pdf Graphic file (type pdf)
 
 <use images/DGA_comb.pdf>
-Package pdftex.def Info: images/DGA_comb.pdf used on input line 6332.
+Package pdftex.def Info: images/DGA_comb.pdf used on input line 6334.
 (pdftex.def)             Requested size: 397.48502pt x 380.12512pt.
 
 <images/DEA_comb.pdf, id=4850, 438.52232pt x 416.05801pt>
 File: images/DEA_comb.pdf Graphic file (type pdf)
 
 <use images/DEA_comb.pdf>
-Package pdftex.def Info: images/DEA_comb.pdf used on input line 6338.
+Package pdftex.def Info: images/DEA_comb.pdf used on input line 6340.
 (pdftex.def)             Requested size: 397.48502pt x 377.14052pt.
 
 <images/DEA_high_comb.pdf, id=4851, 433.93839pt x 416.41808pt>
 File: images/DEA_high_comb.pdf Graphic file (type pdf)
 
 <use images/DEA_high_comb.pdf>
-Package pdftex.def Info: images/DEA_high_comb.pdf used on input line 6344.
+Package pdftex.def Info: images/DEA_high_comb.pdf used on input line 6346.
 (pdftex.def)             Requested size: 397.48502pt x 381.46358pt.
 
 <images/MDEA_comb.pdf, id=4852, 437.99695pt x 419.58649pt>
 File: images/MDEA_comb.pdf Graphic file (type pdf)
 
 <use images/MDEA_comb.pdf>
-Package pdftex.def Info: images/MDEA_comb.pdf used on input line 6350.
+Package pdftex.def Info: images/MDEA_comb.pdf used on input line 6352.
 (pdftex.def)             Requested size: 397.48502pt x 380.79993pt.
  [217] [218 <./images/MEA_comb.pdf>] [219 <./images/DGA_comb.pdf>] [220 <./imag
 es/DEA_comb.pdf>] [221 <./images/DEA_high_comb.pdf>]
 [222 <./images/MDEA_comb.pdf>]
-Overfull \hbox (1.47334pt too wide) in paragraph at lines 6377--6378
+Overfull \hbox (1.47334pt too wide) in paragraph at lines 6379--6380
 \T1/ppl/m/n/10.95 This method uses AGR mod-el-ing meth-ods from a well-known ga
 s pro-cess-ing hand-
  []
@@ -5101,19 +5101,19 @@ s pro-cess-ing hand-
 File: images/Amine_process.pdf Graphic file (type pdf)
 
 <use images/Amine_process.pdf>
-Package pdftex.def Info: images/Amine_process.pdf used on input line 6383.
+Package pdftex.def Info: images/Amine_process.pdf used on input line 6385.
 (pdftex.def)             Requested size: 552.86948pt x 414.65604pt.
 
 
-LaTeX Warning: Float too large for page by 44.07106pt on input line 6386.
+LaTeX Warning: Float too large for page by 44.07106pt on input line 6388.
 
 [225 <./images/Amine_process.pdf>]
-Overfull \hbox (56.7509pt too wide) in paragraph at lines 6393--6409
+Overfull \hbox (56.7509pt too wide) in paragraph at lines 6395--6411
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (16.08328pt too wide) in paragraph at lines 6423--6427
+Overfull \hbox (16.08328pt too wide) in paragraph at lines 6425--6429
 \T1/ppl/m/n/10.95 where $\OML/zplm/m/it/10.95 Q[]$ \T1/ppl/m/n/10.95 = amine fl
 ow rate [gpm]; $\OML/zplm/m/it/10.95 K$ \T1/ppl/m/n/10.95 = amine so-lu-tion K 
 value [gpm-d/100mmscf];
@@ -5123,134 +5123,134 @@ value [gpm-d/100mmscf];
 
 
 ] [227]
-Underfull \hbox (badness 10000) in paragraph at lines 6481--6481
+Underfull \hbox (badness 10000) in paragraph at lines 6483--6483
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (4.13101pt too wide) in paragraph at lines 6481--6481
+Overfull \hbox (4.13101pt too wide) in paragraph at lines 6483--6483
 []|\T1/ppl/m/n/6 Sources| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6481--6481
+Underfull \hbox (badness 10000) in paragraph at lines 6483--6483
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (4.13101pt too wide) in paragraph at lines 6481--6481
+Overfull \hbox (4.13101pt too wide) in paragraph at lines 6483--6483
 []\T1/ppl/m/n/6 Sources| 
  []
 
 
-Overfull \hbox (16.49078pt too wide) in paragraph at lines 6483--6483
+Overfull \hbox (16.49078pt too wide) in paragraph at lines 6485--6485
 []\T1/ppl/m/n/6 Assumption| 
  []
 
 
-Overfull \hbox (16.49078pt too wide) in paragraph at lines 6484--6484
+Overfull \hbox (16.49078pt too wide) in paragraph at lines 6486--6486
 []\T1/ppl/m/n/6 Assumption| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 6481--6486
+Underfull \hbox (badness 10000) in alignment at lines 6483--6488
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6481--6492
+Underfull \hbox (badness 10000) in paragraph at lines 6483--6494
 
  []
 
 [228
 
 ]
-Overfull \hbox (6.80948pt too wide) in paragraph at lines 6504--6504
+Overfull \hbox (6.80948pt too wide) in paragraph at lines 6506--6506
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (9.13509pt too wide) in paragraph at lines 6504--6504
+Overfull \hbox (9.13509pt too wide) in paragraph at lines 6506--6506
 []|\T1/ppl/m/n/6 Notes| 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 6504--6504
+Overfull \hbox (12.0pt too wide) in paragraph at lines 6506--6506
 [] 
  []
 
 
-Overfull \hbox (6.80948pt too wide) in paragraph at lines 6504--6504
+Overfull \hbox (6.80948pt too wide) in paragraph at lines 6506--6506
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (9.13509pt too wide) in paragraph at lines 6504--6504
+Overfull \hbox (9.13509pt too wide) in paragraph at lines 6506--6506
 []\T1/ppl/m/n/6 Notes| 
  []
 
 
-Overfull \hbox (1.083pt too wide) in paragraph at lines 6507--6507
+Overfull \hbox (1.083pt too wide) in paragraph at lines 6509--6509
 []$\OML/zplm/m/it/6 R[]$| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6508--6508
+Underfull \hbox (badness 10000) in paragraph at lines 6510--6510
 []\T1/ppl/m/n/6 200-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6509--6509
+Underfull \hbox (badness 10000) in paragraph at lines 6511--6511
 []\T1/ppl/m/n/6 0.95-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6510--6510
+Underfull \hbox (badness 10000) in paragraph at lines 6512--6512
 []\T1/ppl/m/n/6 150-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6511--6511
+Underfull \hbox (badness 10000) in paragraph at lines 6513--6513
 []\T1/ppl/m/n/6 300-
  []
 
 
-Overfull \hbox (1.01105pt too wide) in paragraph at lines 6513--6513
+Overfull \hbox (1.01105pt too wide) in paragraph at lines 6515--6515
 []$\OT1/zplm/m/n/6 ^^A\OML/zplm/m/it/6 T[]$| 
  []
 
 
-Overfull \hbox (1.04704pt too wide) in paragraph at lines 6514--6514
+Overfull \hbox (1.04704pt too wide) in paragraph at lines 6516--6516
 []$\OT1/zplm/m/n/6 ^^A\OML/zplm/m/it/6 p[]$| 
  []
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 6504--6516
+Overfull \hbox (12.0pt too wide) in alignment at lines 6506--6518
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6504--6518
+Underfull \hbox (badness 10000) in paragraph at lines 6506--6520
 
  []
 
 [229]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 6638--6638
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 6640--6640
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 6638--6638
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 6640--6640
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 6638--6638
+Overfull \hbox (4.4343pt too wide) in alignment at lines 6640--6640
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6638--6640
+Underfull \hbox (badness 10000) in paragraph at lines 6640--6642
 
  []
 
@@ -5258,7 +5258,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6638--6640
 File: images/Demethanizer_PF.pdf Graphic file (type pdf)
 
 <use images/Demethanizer_PF.pdf>
-Package pdftex.def Info: images/Demethanizer_PF.pdf used on input line 6646.
+Package pdftex.def Info: images/Demethanizer_PF.pdf used on input line 6648.
 (pdftex.def)             Requested size: 337.86469pt x 275.83263pt.
  [230
 
@@ -5268,27 +5268,27 @@ Package pdftex.def Info: images/Demethanizer_PF.pdf used on input line 6646.
 File: images/demethanizer_aspen.pdf Graphic file (type pdf)
 
 <use images/demethanizer_aspen.pdf>
-Package pdftex.def Info: images/demethanizer_aspen.pdf used on input line 6664.
+Package pdftex.def Info: images/demethanizer_aspen.pdf used on input line 6666.
 
 (pdftex.def)             Requested size: 337.86469pt x 242.26059pt.
  [231 <./images/Demethanizer_PF.pdf>]
 [232 <./images/demethanizer_aspen.pdf>]
-Overfull \hbox (43.87546pt too wide) in alignment at lines 6700--6713
+Overfull \hbox (43.87546pt too wide) in alignment at lines 6702--6715
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6700--6715
+Underfull \hbox (badness 10000) in paragraph at lines 6702--6717
 
  []
 
 
-Overfull \hbox (43.87546pt too wide) in alignment at lines 6723--6733
+Overfull \hbox (43.87546pt too wide) in alignment at lines 6725--6735
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6723--6735
+Underfull \hbox (badness 10000) in paragraph at lines 6725--6737
 
  []
 
@@ -5296,7 +5296,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6723--6735
 File: images/demethanizer_duty.pdf Graphic file (type pdf)
 
 <use images/demethanizer_duty.pdf>
-Package pdftex.def Info: images/demethanizer_duty.pdf used on input line 6748.
+Package pdftex.def Info: images/demethanizer_duty.pdf used on input line 6750.
 (pdftex.def)             Requested size: 337.86469pt x 264.45222pt.
 
 <images/demethanizer_turboepander.pdf, id=5227, 437.80261pt x 340.98892pt>
@@ -5304,14 +5304,14 @@ File: images/demethanizer_turboepander.pdf Graphic file (type pdf)
 
 <use images/demethanizer_turboepander.pdf>
 Package pdftex.def Info: images/demethanizer_turboepander.pdf used on input lin
-e 6754.
+e 6756.
 (pdftex.def)             Requested size: 337.86469pt x 263.16063pt.
 
 <images/demethanizer_NGL.pdf, id=5228, 687.11833pt x 538.04271pt>
 File: images/demethanizer_NGL.pdf Graphic file (type pdf)
 
 <use images/demethanizer_NGL.pdf>
-Package pdftex.def Info: images/demethanizer_NGL.pdf used on input line 6760.
+Package pdftex.def Info: images/demethanizer_NGL.pdf used on input line 6762.
 (pdftex.def)             Requested size: 337.86469pt x 264.57095pt.
 
 <images/demethanizer_Fuelgas.pdf, id=5229, 682.83444pt x 520.05148pt>
@@ -5319,7 +5319,7 @@ File: images/demethanizer_Fuelgas.pdf Graphic file (type pdf)
 
 <use images/demethanizer_Fuelgas.pdf>
 Package pdftex.def Info: images/demethanizer_Fuelgas.pdf used on input line 676
-6.
+8.
 (pdftex.def)             Requested size: 337.86469pt x 257.32709pt.
  [235 <./images/demethanizer_duty.pdf> <./images/demethanizer_turboepander.pdf>
 ] [236 <./images/demethanizer_NGL.pdf> <./images/demethanizer_Fuelgas.pdf>]
@@ -5328,86 +5328,66 @@ File: images/demethanizer_Fuelgasp.pdf Graphic file (type pdf)
 
 <use images/demethanizer_Fuelgasp.pdf>
 Package pdftex.def Info: images/demethanizer_Fuelgasp.pdf used on input line 67
-75.
+77.
 (pdftex.def)             Requested size: 337.86469pt x 263.60129pt.
  [237
 
 
  <./images/demethanizer_Fuelgasp.pdf>] [238]
-Underfull \hbox (badness 10000) in paragraph at lines 6815--6815
+Underfull \hbox (badness 10000) in paragraph at lines 6817--6817
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (4.13101pt too wide) in paragraph at lines 6815--6815
+Overfull \hbox (4.13101pt too wide) in paragraph at lines 6817--6817
 []|\T1/ppl/m/n/6 Sources| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6815--6815
+Underfull \hbox (badness 10000) in paragraph at lines 6817--6817
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (4.13101pt too wide) in paragraph at lines 6815--6815
+Overfull \hbox (4.13101pt too wide) in paragraph at lines 6817--6817
 []\T1/ppl/m/n/6 Sources| 
  []
 
 
-Overfull \hbox (16.49078pt too wide) in paragraph at lines 6817--6817
+Overfull \hbox (16.49078pt too wide) in paragraph at lines 6819--6819
 []\T1/ppl/m/n/6 Assumption| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 6815--6819
+Underfull \hbox (badness 10000) in alignment at lines 6817--6821
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6815--6825
+Underfull \hbox (badness 10000) in paragraph at lines 6817--6827
 
  []
 
 [239
 
 ]
-Overfull \hbox (6.80948pt too wide) in paragraph at lines 6838--6838
+Overfull \hbox (6.80948pt too wide) in paragraph at lines 6840--6840
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (0.87569pt too wide) in paragraph at lines 6838--6838
+Overfull \hbox (0.87569pt too wide) in paragraph at lines 6840--6840
 []|\T1/ppl/m/n/6 Sources| 
  []
 
 
-Overfull \hbox (6.80948pt too wide) in paragraph at lines 6838--6838
+Overfull \hbox (6.80948pt too wide) in paragraph at lines 6840--6840
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (0.87569pt too wide) in paragraph at lines 6838--6838
+Overfull \hbox (0.87569pt too wide) in paragraph at lines 6840--6840
 []\T1/ppl/m/n/6 Sources| 
- []
-
-
-Overfull \hbox (13.23546pt too wide) in paragraph at lines 6839--6839
-[]\T1/ppl/m/n/6 Assumption| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6840--6840
-[]\T1/ppl/m/n/6 230-
- []
-
-
-Overfull \hbox (13.23546pt too wide) in paragraph at lines 6840--6840
-[]\T1/ppl/m/n/6 Assumption| 
- []
-
-
-Overfull \hbox (7.99431pt too wide) in paragraph at lines 6841--6841
-[]$\OML/zplm/m/it/6 f[]$| 
  []
 
 
@@ -5416,8 +5396,8 @@ Overfull \hbox (13.23546pt too wide) in paragraph at lines 6841--6841
  []
 
 
-Overfull \hbox (5.11703pt too wide) in paragraph at lines 6842--6842
-[]$\OML/zplm/m/it/6 ^^Q[]$| 
+Underfull \hbox (badness 10000) in paragraph at lines 6842--6842
+[]\T1/ppl/m/n/6 230-
  []
 
 
@@ -5426,8 +5406,8 @@ Overfull \hbox (13.23546pt too wide) in paragraph at lines 6842--6842
  []
 
 
-Overfull \hbox (6.10104pt too wide) in paragraph at lines 6843--6843
-[]$\OT1/zplm/m/n/6 ^^A\OML/zplm/m/it/6 T[]$| 
+Overfull \hbox (7.99431pt too wide) in paragraph at lines 6843--6843
+[]$\OML/zplm/m/it/6 f[]$| 
  []
 
 
@@ -5436,8 +5416,8 @@ Overfull \hbox (13.23546pt too wide) in paragraph at lines 6843--6843
  []
 
 
-Overfull \hbox (6.13704pt too wide) in paragraph at lines 6844--6844
-[]$\OT1/zplm/m/n/6 ^^A\OML/zplm/m/it/6 p[]$| 
+Overfull \hbox (5.11703pt too wide) in paragraph at lines 6844--6844
+[]$\OML/zplm/m/it/6 ^^Q[]$| 
  []
 
 
@@ -5446,8 +5426,8 @@ Overfull \hbox (13.23546pt too wide) in paragraph at lines 6844--6844
  []
 
 
-Overfull \hbox (1.63228pt too wide) in paragraph at lines 6845--6845
-[]$\OML/zplm/m/it/6 ^^Q[]$| 
+Overfull \hbox (6.10104pt too wide) in paragraph at lines 6845--6845
+[]$\OT1/zplm/m/n/6 ^^A\OML/zplm/m/it/6 T[]$| 
  []
 
 
@@ -5456,8 +5436,8 @@ Overfull \hbox (13.23546pt too wide) in paragraph at lines 6845--6845
  []
 
 
-Overfull \hbox (6.17125pt too wide) in paragraph at lines 6846--6846
-[]$\OML/zplm/m/it/6 y[]$| 
+Overfull \hbox (6.13704pt too wide) in paragraph at lines 6846--6846
+[]$\OT1/zplm/m/n/6 ^^A\OML/zplm/m/it/6 p[]$| 
  []
 
 
@@ -5466,8 +5446,8 @@ Overfull \hbox (13.23546pt too wide) in paragraph at lines 6846--6846
  []
 
 
-Overfull \hbox (3.4043pt too wide) in paragraph at lines 6847--6847
-[]$\OML/zplm/m/it/6 f[]$| 
+Overfull \hbox (1.63228pt too wide) in paragraph at lines 6847--6847
+[]$\OML/zplm/m/it/6 ^^Q[]$| 
  []
 
 
@@ -5476,8 +5456,8 @@ Overfull \hbox (13.23546pt too wide) in paragraph at lines 6847--6847
  []
 
 
-Overfull \hbox (1.36908pt too wide) in paragraph at lines 6848--6848
-[]$\OML/zplm/m/it/6 f[]$| 
+Overfull \hbox (6.17125pt too wide) in paragraph at lines 6848--6848
+[]$\OML/zplm/m/it/6 y[]$| 
  []
 
 
@@ -5486,13 +5466,18 @@ Overfull \hbox (13.23546pt too wide) in paragraph at lines 6848--6848
  []
 
 
+Overfull \hbox (3.4043pt too wide) in paragraph at lines 6849--6849
+[]$\OML/zplm/m/it/6 f[]$| 
+ []
+
+
 Overfull \hbox (13.23546pt too wide) in paragraph at lines 6849--6849
 []\T1/ppl/m/n/6 Assumption| 
  []
 
 
-Overfull \hbox (1.75229pt too wide) in paragraph at lines 6850--6850
-[]$\OML/zplm/m/it/6 P[]$| 
+Overfull \hbox (1.36908pt too wide) in paragraph at lines 6850--6850
+[]$\OML/zplm/m/it/6 f[]$| 
  []
 
 
@@ -5501,32 +5486,47 @@ Overfull \hbox (13.23546pt too wide) in paragraph at lines 6850--6850
  []
 
 
-Overfull \hbox (1.68483pt too wide) in alignment at lines 6838--6852
+Overfull \hbox (13.23546pt too wide) in paragraph at lines 6851--6851
+[]\T1/ppl/m/n/6 Assumption| 
+ []
+
+
+Overfull \hbox (1.75229pt too wide) in paragraph at lines 6852--6852
+[]$\OML/zplm/m/it/6 P[]$| 
+ []
+
+
+Overfull \hbox (13.23546pt too wide) in paragraph at lines 6852--6852
+[]\T1/ppl/m/n/6 Assumption| 
+ []
+
+
+Overfull \hbox (1.68483pt too wide) in alignment at lines 6840--6854
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6838--6858
+Underfull \hbox (badness 10000) in paragraph at lines 6840--6860
 
  []
 
 [240]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 6887--6887
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 6889--6889
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 6887--6887
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 6889--6889
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 6887--6887
+Overfull \hbox (4.4343pt too wide) in alignment at lines 6889--6889
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6887--6889
+Underfull \hbox (badness 10000) in paragraph at lines 6889--6891
 
  []
 
@@ -5535,55 +5535,55 @@ File: images/Pre-membrane_chiller_PF.pdf Graphic file (type pdf)
 
 <use images/Pre-membrane_chiller_PF.pdf>
 Package pdftex.def Info: images/Pre-membrane_chiller_PF.pdf used on input line 
-6895.
+6897.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
  [241
 
 
 ] [242 <./images/Pre-membrane_chiller_PF.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 6932--6932
+Underfull \hbox (badness 10000) in paragraph at lines 6934--6934
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6932--6932
+Underfull \hbox (badness 10000) in paragraph at lines 6934--6934
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (0.92896pt too wide) in paragraph at lines 6934--6934
+Overfull \hbox (0.92896pt too wide) in paragraph at lines 6936--6936
 []$\OML/zplm/m/it/6 ER[]$| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 6932--6936
+Underfull \hbox (badness 10000) in alignment at lines 6934--6938
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6932--6942
+Underfull \hbox (badness 10000) in paragraph at lines 6934--6944
 
  []
 
 [243
 
 ]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 6977--6977
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 6979--6979
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 6977--6977
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 6979--6979
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 6977--6977
+Overfull \hbox (4.4343pt too wide) in alignment at lines 6979--6979
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6977--6979
+Underfull \hbox (badness 10000) in paragraph at lines 6979--6981
 
  []
 
@@ -5591,55 +5591,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 6977--6979
 File: images/CO2_membrane_PF.pdf Graphic file (type pdf)
 
 <use images/CO2_membrane_PF.pdf>
-Package pdftex.def Info: images/CO2_membrane_PF.pdf used on input line 6985.
+Package pdftex.def Info: images/CO2_membrane_PF.pdf used on input line 6987.
 (pdftex.def)             Requested size: 337.86469pt x 172.22748pt.
  [244
 
 
 ] [245 <./images/CO2_membrane_PF.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 7007--7007
+Underfull \hbox (badness 10000) in paragraph at lines 7009--7009
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7007--7007
+Underfull \hbox (badness 10000) in paragraph at lines 7009--7009
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7007--7010
+Underfull \hbox (badness 10000) in alignment at lines 7009--7012
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7007--7016
+Underfull \hbox (badness 10000) in paragraph at lines 7009--7018
 
  []
 
 [246
 
 ]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 7047--7047
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 7049--7049
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 7047--7047
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 7049--7049
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7047--7047
+Underfull \hbox (badness 10000) in paragraph at lines 7049--7049
 []|\T1/ppl/m/n/8 Heavy HC stream from Ryan-
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 7047--7047
+Overfull \hbox (4.4343pt too wide) in alignment at lines 7049--7049
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7047--7049
+Underfull \hbox (badness 10000) in paragraph at lines 7049--7051
 
  []
 
@@ -5647,55 +5647,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 7047--7049
 File: images/Ryan_holmes_PF.pdf Graphic file (type pdf)
 
 <use images/Ryan_holmes_PF.pdf>
-Package pdftex.def Info: images/Ryan_holmes_PF.pdf used on input line 7055.
+Package pdftex.def Info: images/Ryan_holmes_PF.pdf used on input line 7057.
 (pdftex.def)             Requested size: 337.86469pt x 283.35959pt.
  [247
 
 
 ] [248 <./images/Ryan_holmes_PF.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 7109--7109
+Underfull \hbox (badness 10000) in paragraph at lines 7111--7111
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7109--7109
+Underfull \hbox (badness 10000) in paragraph at lines 7111--7111
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (1.39221pt too wide) in paragraph at lines 7110--7110
+Overfull \hbox (1.39221pt too wide) in paragraph at lines 7112--7112
 []$\OML/zplm/m/it/6 H[]$| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7109--7112
+Underfull \hbox (badness 10000) in alignment at lines 7111--7114
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7109--7118
+Underfull \hbox (badness 10000) in paragraph at lines 7111--7120
 
  []
 
 [249
 
 ]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 7147--7147
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 7149--7149
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 7147--7147
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 7149--7149
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 7147--7147
+Overfull \hbox (4.4343pt too wide) in alignment at lines 7149--7149
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7147--7149
+Underfull \hbox (badness 10000) in paragraph at lines 7149--7151
 
  []
 
@@ -5704,18 +5704,18 @@ File: images/Gas_reinjection_compressor_PF.pdf Graphic file (type pdf)
 
 <use images/Gas_reinjection_compressor_PF.pdf>
 Package pdftex.def Info: images/Gas_reinjection_compressor_PF.pdf used on input
- line 7153.
+ line 7155.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
 
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 71
-66.
+68.
 
 
-LaTeX Warning: Command \textless invalid in math mode on input line 7174.
+LaTeX Warning: Command \textless invalid in math mode on input line 7176.
 
 
-Overfull \hbox (26.8897pt too wide) detected at line 7176
+Overfull \hbox (26.8897pt too wide) detected at line 7178
 [][]  []  \OML/zplm/m/it/10.95 <  \OT1/ppl/m/n/10.95 5,   []  \OML/zplm/m/it/10
 .95 R[] \OT1/zplm/m/n/10.95 = []\OT1/ppl/m/n/10.95 ,   []   [][]  \OML/zplm/m/i
 t/10.95 <  \OT1/ppl/m/n/10.95 5,   []  \OML/zplm/m/it/10.95 R[] \OT1/zplm/m/n/1
@@ -5726,44 +5726,44 @@ t/10.95 <  \OT1/ppl/m/n/10.95 5,   []  \OML/zplm/m/it/10.95 R[] \OT1/zplm/m/n/1
 
 
 ] [251 <./images/Gas_reinjection_compressor_PF.pdf>] [252] [253]
-Underfull \hbox (badness 10000) in paragraph at lines 7268--7268
+Underfull \hbox (badness 10000) in paragraph at lines 7270--7270
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7268--7268
+Underfull \hbox (badness 10000) in paragraph at lines 7270--7270
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7268--7272
+Underfull \hbox (badness 10000) in alignment at lines 7270--7274
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7267--7278
+Underfull \hbox (badness 10000) in paragraph at lines 7269--7280
 
  []
 
 [254
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 7291--7291
+Underfull \hbox (badness 10000) in paragraph at lines 7293--7293
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7291--7291
+Underfull \hbox (badness 10000) in paragraph at lines 7293--7293
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7291--7294
+Underfull \hbox (badness 10000) in alignment at lines 7293--7296
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7291--7300
+Underfull \hbox (badness 10000) in paragraph at lines 7293--7302
 
  []
 
@@ -5771,27 +5771,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 7291--7300
 
 
 ] [257]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 7401--7401
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 7403--7403
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 7401--7401
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 7403--7403
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 7401--7401
+Underfull \hbox (badness 1137) in paragraph at lines 7403--7403
 []|\T1/ppl/m/n/8 Hydrocarbon gas from off-site for
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 7401--7401
+Overfull \hbox (4.4343pt too wide) in alignment at lines 7403--7403
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7401--7403
+Underfull \hbox (badness 10000) in paragraph at lines 7403--7405
 
  []
 
@@ -5800,117 +5800,117 @@ File: images/Gas_flooding_compressor_PF.pdf Graphic file (type pdf)
 
 <use images/Gas_flooding_compressor_PF.pdf>
 Package pdftex.def Info: images/Gas_flooding_compressor_PF.pdf used on input li
-ne 7409.
+ne 7411.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
  [258] [259 <./images/Gas_flooding_compressor_PF.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 7431--7431
+Underfull \hbox (badness 10000) in paragraph at lines 7433--7433
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7431--7431
+Underfull \hbox (badness 10000) in paragraph at lines 7433--7433
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (1.2385pt too wide) in paragraph at lines 7436--7436
+Overfull \hbox (1.2385pt too wide) in paragraph at lines 7438--7438
 [][]| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7431--7438
+Underfull \hbox (badness 10000) in alignment at lines 7433--7440
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7430--7444
+Underfull \hbox (badness 10000) in paragraph at lines 7432--7446
 
  []
 
 [260
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 7457--7457
+Underfull \hbox (badness 10000) in paragraph at lines 7459--7459
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (2.62444pt too wide) in paragraph at lines 7457--7457
+Overfull \hbox (2.62444pt too wide) in paragraph at lines 7459--7459
 []|\T1/ppl/m/n/6 Notes| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7457--7457
+Underfull \hbox (badness 10000) in paragraph at lines 7459--7459
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (2.62444pt too wide) in paragraph at lines 7457--7457
+Overfull \hbox (2.62444pt too wide) in paragraph at lines 7459--7459
 []\T1/ppl/m/n/6 Notes| 
  []
 
 
-Overfull \hbox (1.45589pt too wide) in paragraph at lines 7462--7462
+Overfull \hbox (1.45589pt too wide) in paragraph at lines 7464--7464
 []$\OML/zplm/m/it/6 T[]$| 
  []
 
 
-Overfull \hbox (1.49188pt too wide) in paragraph at lines 7463--7463
+Overfull \hbox (1.49188pt too wide) in paragraph at lines 7465--7465
 []$\OML/zplm/m/it/6 p[]$| 
  []
 
 
-Overfull \hbox (5.92293pt too wide) in paragraph at lines 7465--7465
+Overfull \hbox (5.92293pt too wide) in paragraph at lines 7467--7467
 []$\OML/zplm/m/it/6 P[]$| 
  []
 
 
-Overfull \hbox (4.49086pt too wide) in paragraph at lines 7466--7466
+Overfull \hbox (4.49086pt too wide) in paragraph at lines 7468--7468
 []$\OML/zplm/m/it/6 T[]$| 
  []
 
 
-Overfull \hbox (3.59286pt too wide) in paragraph at lines 7467--7467
+Overfull \hbox (3.59286pt too wide) in paragraph at lines 7469--7469
 []$\OML/zplm/m/it/6 ^^Q[]$| 
  []
 
 
-Overfull \hbox (4.52686pt too wide) in paragraph at lines 7468--7468
+Overfull \hbox (4.52686pt too wide) in paragraph at lines 7470--7470
 []$\OML/zplm/m/it/6 p[]$| 
  []
 
 
-Overfull \hbox (11.13675pt too wide) in paragraph at lines 7469--7469
+Overfull \hbox (11.13675pt too wide) in paragraph at lines 7471--7471
 []$\OML/zplm/m/it/6 y[]$| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7457--7471
+Underfull \hbox (badness 10000) in alignment at lines 7459--7473
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7457--7477
+Underfull \hbox (badness 10000) in paragraph at lines 7459--7479
 
  []
 
 [261]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 7511--7511
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 7513--7513
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 7511--7511
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 7513--7513
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 7511--7511
+Overfull \hbox (4.4343pt too wide) in alignment at lines 7513--7513
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7511--7513
+Underfull \hbox (badness 10000) in paragraph at lines 7513--7515
 
  []
 
@@ -5919,88 +5919,88 @@ File: images/Lifting_gas_compressor_PF.pdf Graphic file (type pdf)
 
 <use images/Lifting_gas_compressor_PF.pdf>
 Package pdftex.def Info: images/Lifting_gas_compressor_PF.pdf used on input lin
-e 7519.
+e 7521.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
  [262
 
 
 ] [263 <./images/Lifting_gas_compressor_PF.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 7537--7537
+Underfull \hbox (badness 10000) in paragraph at lines 7539--7539
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7537--7537
+Underfull \hbox (badness 10000) in paragraph at lines 7539--7539
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7537--7541
+Underfull \hbox (badness 10000) in alignment at lines 7539--7543
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7537--7547
+Underfull \hbox (badness 10000) in paragraph at lines 7539--7549
 
  []
 
 [264
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 7560--7560
+Underfull \hbox (badness 10000) in paragraph at lines 7562--7562
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7560--7560
+Underfull \hbox (badness 10000) in paragraph at lines 7562--7562
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7560--7563
+Underfull \hbox (badness 10000) in alignment at lines 7562--7565
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7560--7569
+Underfull \hbox (badness 10000) in paragraph at lines 7562--7571
 
  []
 
 [265]
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 7575.
+(Font)              scaled to size 12.50409pt on input line 7577.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 7575.
+(Font)              scaled to size 12.50409pt on input line 7577.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 7575.
+(hyperref)                removing `math shift' on input line 7577.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 7575.
+(hyperref)                removing `subscript' on input line 7577.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 7575.
+(hyperref)                removing `math shift' on input line 7577.
 
 
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 7610--7610
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 7612--7612
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 7610--7610
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 7612--7612
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 7610--7610
+Overfull \hbox (4.4343pt too wide) in alignment at lines 7612--7612
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7610--7612
+Underfull \hbox (badness 10000) in paragraph at lines 7612--7614
 
  []
 
@@ -6009,90 +6009,90 @@ File: images/CO2_reinjection_compressor_PF.pdf Graphic file (type pdf)
 
 <use images/CO2_reinjection_compressor_PF.pdf>
 Package pdftex.def Info: images/CO2_reinjection_compressor_PF.pdf used on input
- line 7618.
+ line 7620.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
  [266
 
 
 ] [267 <./images/CO2_reinjection_compressor_PF.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 7636--7636
+Underfull \hbox (badness 10000) in paragraph at lines 7638--7638
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7636--7636
+Underfull \hbox (badness 10000) in paragraph at lines 7638--7638
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7636--7640
+Underfull \hbox (badness 10000) in alignment at lines 7638--7642
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7636--7646
+Underfull \hbox (badness 10000) in paragraph at lines 7638--7648
 
  []
 
 [268
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 7659--7659
+Underfull \hbox (badness 10000) in paragraph at lines 7661--7661
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7659--7659
+Underfull \hbox (badness 10000) in paragraph at lines 7661--7661
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (1.54121pt too wide) in paragraph at lines 7660--7660
+Overfull \hbox (1.54121pt too wide) in paragraph at lines 7662--7662
 []$\OML/zplm/m/it/6 y[]$| 
  []
 
 
-Overfull \hbox (4.18484pt too wide) in paragraph at lines 7660--7660
+Overfull \hbox (4.18484pt too wide) in paragraph at lines 7662--7662
 [][]| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7659--7662
+Underfull \hbox (badness 10000) in alignment at lines 7661--7664
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7659--7668
+Underfull \hbox (badness 10000) in paragraph at lines 7661--7670
 
  []
 
 [269]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 7703--7703
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 7705--7705
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 7703--7703
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 7705--7705
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Underfull \hbox (badness 3333) in paragraph at lines 7703--7703
+Underfull \hbox (badness 3333) in paragraph at lines 7705--7705
 []|\T1/ppl/m/n/8 Electricity - Sour gas rein-jec-tion
  []
 
 
-Underfull \hbox (badness 2351) in paragraph at lines 7703--7703
+Underfull \hbox (badness 2351) in paragraph at lines 7705--7705
 []|\T1/ppl/m/n/8 Sour gas to sour gas rein-jec-tion
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 7703--7703
+Overfull \hbox (4.4343pt too wide) in alignment at lines 7705--7705
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7703--7705
+Underfull \hbox (badness 10000) in paragraph at lines 7705--7707
 
  []
 
@@ -6102,60 +6102,60 @@ t>
 File: images/Sour_gas_reinjection_compressor_PF.pdf Graphic file (type pdf)
  <use images/Sour_gas_reinjection_compressor_PF.pdf>
 Package pdftex.def Info: images/Sour_gas_reinjection_compressor_PF.pdf used on 
-input line 7711.
+input line 7713.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
  [270
 
 
 ] [271 <./images/Sour_gas_reinjection_compressor_PF.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 7729--7729
+Underfull \hbox (badness 10000) in paragraph at lines 7731--7731
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7729--7729
+Underfull \hbox (badness 10000) in paragraph at lines 7731--7731
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (1.10115pt too wide) in paragraph at lines 7730--7730
+Overfull \hbox (1.10115pt too wide) in paragraph at lines 7732--7732
 []$\OML/zplm/m/it/6 y[]$| 
  []
 
 
-Overfull \hbox (0.71213pt too wide) in paragraph at lines 7731--7731
+Overfull \hbox (0.71213pt too wide) in paragraph at lines 7733--7733
 []$\OML/zplm/m/it/6 ^^Q[]$| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7729--7732
+Underfull \hbox (badness 10000) in alignment at lines 7731--7734
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7729--7738
+Underfull \hbox (badness 10000) in paragraph at lines 7731--7740
 
  []
 
 [272
 
 ]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 7775--7775
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 7777--7777
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 7775--7775
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 7777--7777
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 7775--7775
+Overfull \hbox (4.4343pt too wide) in alignment at lines 7777--7777
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7775--7777
+Underfull \hbox (badness 10000) in paragraph at lines 7777--7779
 
  []
 
@@ -6163,75 +6163,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 7775--7777
 File: images/VRU_compressor_PF.pdf Graphic file (type pdf)
 
 <use images/VRU_compressor_PF.pdf>
-Package pdftex.def Info: images/VRU_compressor_PF.pdf used on input line 7783.
+Package pdftex.def Info: images/VRU_compressor_PF.pdf used on input line 7785.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
  [273
 
 
 ] [274 <./images/VRU_compressor_PF.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 7802--7802
+Underfull \hbox (badness 10000) in paragraph at lines 7804--7804
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7802--7802
+Underfull \hbox (badness 10000) in paragraph at lines 7804--7804
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (10.10269pt too wide) in paragraph at lines 7803--7803
+Overfull \hbox (10.10269pt too wide) in paragraph at lines 7805--7805
 []$\OML/zplm/m/it/6 y[]$| 
  []
 
 
-Overfull \hbox (5.62761pt too wide) in paragraph at lines 7804--7804
+Overfull \hbox (5.62761pt too wide) in paragraph at lines 7806--7806
 []$\OML/zplm/m/it/6 p[]$| 
  []
 
 
-Overfull \hbox (8.46367pt too wide) in paragraph at lines 7805--7805
+Overfull \hbox (8.46367pt too wide) in paragraph at lines 7807--7807
 []$\OML/zplm/m/it/6 ^^Q[]$| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7802--7806
+Underfull \hbox (badness 10000) in alignment at lines 7804--7808
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7802--7812
+Underfull \hbox (badness 10000) in paragraph at lines 7804--7814
 
  []
 
 [275
 
 ]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 7852--7852
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 7854--7854
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 7852--7852
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 7854--7854
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Underfull \hbox (badness 4569) in paragraph at lines 7852--7852
+Underfull \hbox (badness 4569) in paragraph at lines 7854--7854
 []|\T1/ppl/m/n/8 Electricity - Pre-membrane com-
  []
 
 
-Overfull \hbox (15.41234pt too wide) in paragraph at lines 7852--7852
+Overfull \hbox (15.41234pt too wide) in paragraph at lines 7854--7854
 []|\T1/ppl/m/n/8 [MWh/d]| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 7852--7852
+Overfull \hbox (4.4343pt too wide) in alignment at lines 7854--7854
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7852--7854
+Underfull \hbox (badness 10000) in paragraph at lines 7854--7856
 
  []
 
@@ -6240,65 +6240,65 @@ File: images/Pre-membrane_compressor_PF.pdf Graphic file (type pdf)
 
 <use images/Pre-membrane_compressor_PF.pdf>
 Package pdftex.def Info: images/Pre-membrane_compressor_PF.pdf used on input li
-ne 7860.
+ne 7862.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
  [276
 
 
 ] [277 <./images/Pre-membrane_compressor_PF.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 7878--7878
+Underfull \hbox (badness 10000) in paragraph at lines 7880--7880
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7878--7878
+Underfull \hbox (badness 10000) in paragraph at lines 7880--7880
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 7879--7879
+Underfull \hbox (badness 3942) in paragraph at lines 7881--7881
 []\T1/ppl/m/n/6 Choice for pre-membrane com-pres-sor prime
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7878--7882
+Underfull \hbox (badness 10000) in alignment at lines 7880--7884
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7878--7888
+Underfull \hbox (badness 10000) in paragraph at lines 7880--7890
 
  []
 
 [278
 
 ]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 7927--7927
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 7929--7929
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 7927--7927
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 7929--7929
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (15.41234pt too wide) in paragraph at lines 7927--7927
+Overfull \hbox (15.41234pt too wide) in paragraph at lines 7929--7929
 []|\T1/ppl/m/n/8 [MWh/d]| 
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 7927--7927
+Underfull \hbox (badness 1132) in paragraph at lines 7929--7929
 []|\T1/ppl/m/n/8 Transmission to dis-tri-bu-tion step-
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 7927--7927
+Overfull \hbox (4.4343pt too wide) in alignment at lines 7929--7929
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7927--7929
+Underfull \hbox (badness 10000) in paragraph at lines 7929--7931
 
  []
 
@@ -6307,38 +6307,38 @@ File: images/Transmission_compressor_PF.pdf Graphic file (type pdf)
 
 <use images/Transmission_compressor_PF.pdf>
 Package pdftex.def Info: images/Transmission_compressor_PF.pdf used on input li
-ne 7935.
+ne 7937.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
  [279
 
 
 ] [280 <./images/Transmission_compressor_PF.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 7954--7954
+Underfull \hbox (badness 10000) in paragraph at lines 7956--7956
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7954--7954
+Underfull \hbox (badness 10000) in paragraph at lines 7956--7956
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (8.58191pt too wide) in paragraph at lines 7955--7955
+Overfull \hbox (8.58191pt too wide) in paragraph at lines 7957--7957
 []$\OML/zplm/m/it/6 y[]$| 
  []
 
 
-Overfull \hbox (8.45683pt too wide) in paragraph at lines 7960--7960
+Overfull \hbox (8.45683pt too wide) in paragraph at lines 7962--7962
 []$\OML/zplm/m/it/6 p[]$| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 7954--7962
+Underfull \hbox (badness 10000) in alignment at lines 7956--7964
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7954--7968
+Underfull \hbox (badness 10000) in paragraph at lines 7956--7970
 
  []
 
@@ -6348,20 +6348,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 7954--7968
 File: images/Liquefaction_flow.jpg Graphic file (type jpg)
 
 <use images/Liquefaction_flow.jpg>
-Package pdftex.def Info: images/Liquefaction_flow.jpg used on input line 7983.
+Package pdftex.def Info: images/Liquefaction_flow.jpg used on input line 7985.
 (pdftex.def)             Requested size: 397.48502pt x 298.11467pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 8000--8000
+Underfull \hbox (badness 10000) in paragraph at lines 8002--8002
 []|\T1/ppl/m/n/8 Refrigeration power req.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8001--8001
+Underfull \hbox (badness 10000) in paragraph at lines 8003--8003
 []|\T1/ppl/m/n/8 Ancillary load power req.
  []
 
 
-Overfull \hbox (35.99998pt too wide) in alignment at lines 7996--8005
+Overfull \hbox (35.99998pt too wide) in alignment at lines 7998--8007
 [][][] 
  []
 
@@ -6371,39 +6371,39 @@ Overfull \hbox (35.99998pt too wide) in alignment at lines 7996--8005
  <./images/Liquefaction_flow.jpg>] [283] [284
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 8064--8064
+Underfull \hbox (badness 10000) in paragraph at lines 8066--8066
 []|\T1/ppl/m/n/8 Regasification en-ergy in-ten-sity
  []
 
 
-Overfull \hbox (35.99998pt too wide) in alignment at lines 8060--8066
+Overfull \hbox (35.99998pt too wide) in alignment at lines 8062--8068
 [][][] 
  []
 
 [285
 
 ]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 8109--8109
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 8111--8111
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 8109--8109
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 8111--8111
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (15.41234pt too wide) in paragraph at lines 8109--8109
+Overfull \hbox (15.41234pt too wide) in paragraph at lines 8111--8111
 []|\T1/ppl/m/n/8 [MWh/d]| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 8109--8109
+Overfull \hbox (4.4343pt too wide) in alignment at lines 8111--8111
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8109--8111
+Underfull \hbox (badness 10000) in paragraph at lines 8111--8113
 
  []
 
@@ -6412,64 +6412,64 @@ File: images/Storage_compressor_PF.pdf Graphic file (type pdf)
 
 <use images/Storage_compressor_PF.pdf>
 Package pdftex.def Info: images/Storage_compressor_PF.pdf used on input line 81
-17.
+19.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
  [286
 
  <./images/Storage_compressor_PF.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 8135--8135
+Underfull \hbox (badness 10000) in paragraph at lines 8137--8137
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8135--8135
+Underfull \hbox (badness 10000) in paragraph at lines 8137--8137
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (0.80965pt too wide) in paragraph at lines 8136--8136
+Overfull \hbox (0.80965pt too wide) in paragraph at lines 8138--8138
 []$\OML/zplm/m/it/6 y[]$| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 8135--8139
+Underfull \hbox (badness 10000) in alignment at lines 8137--8141
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8135--8145
+Underfull \hbox (badness 10000) in paragraph at lines 8137--8147
 
  []
 
 [287
 
 ]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 8182--8182
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 8184--8184
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 8182--8182
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 8184--8184
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (15.41234pt too wide) in paragraph at lines 8182--8182
+Overfull \hbox (15.41234pt too wide) in paragraph at lines 8184--8184
 []|\T1/ppl/m/n/8 [MWh/d]| 
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 8182--8182
+Underfull \hbox (badness 1132) in paragraph at lines 8184--8184
 []|\T1/ppl/m/n/8 Transmission to dis-tri-bu-tion step-
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 8182--8182
+Overfull \hbox (4.4343pt too wide) in alignment at lines 8184--8184
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8182--8184
+Underfull \hbox (badness 10000) in paragraph at lines 8184--8186
 
  []
 
@@ -6478,50 +6478,50 @@ File: images/Post-storage_compressor_PF.pdf Graphic file (type pdf)
 
 <use images/Post-storage_compressor_PF.pdf>
 Package pdftex.def Info: images/Post-storage_compressor_PF.pdf used on input li
-ne 8190.
+ne 8192.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
  [288
 
 
 ] [289 <./images/Post-storage_compressor_PF.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 8208--8208
+Underfull \hbox (badness 10000) in paragraph at lines 8210--8210
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8208--8208
+Underfull \hbox (badness 10000) in paragraph at lines 8210--8210
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 8208--8212
+Underfull \hbox (badness 10000) in alignment at lines 8210--8214
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8208--8218
+Underfull \hbox (badness 10000) in paragraph at lines 8210--8220
 
  []
 
 [290
 
 ]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 8250--8250
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 8252--8252
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 8250--8250
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 8252--8252
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 8250--8250
+Overfull \hbox (4.4343pt too wide) in alignment at lines 8252--8252
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8250--8252
+Underfull \hbox (badness 10000) in paragraph at lines 8252--8254
 
  []
 
@@ -6530,7 +6530,7 @@ File: images/HC_gas_reinjection_wells_PF.pdf Graphic file (type pdf)
 
 <use images/HC_gas_reinjection_wells_PF.pdf>
 Package pdftex.def Info: images/HC_gas_reinjection_wells_PF.pdf used on input l
-ine 8258.
+ine 8260.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
  [291
 
@@ -6538,33 +6538,33 @@ ine 8258.
 ] [292 <./images/HC_gas_reinjection_wells_PF.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 8269.
+(hyperref)                removing `math shift' on input line 8271.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 8269.
+(hyperref)                removing `subscript' on input line 8271.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 8269.
+(hyperref)                removing `math shift' on input line 8271.
 
 
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 8291--8291
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 8293--8293
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 8291--8291
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 8293--8293
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 8291--8291
+Overfull \hbox (4.4343pt too wide) in alignment at lines 8293--8293
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8291--8293
+Underfull \hbox (badness 10000) in paragraph at lines 8293--8295
 
  []
 
@@ -6573,27 +6573,27 @@ File: images/CO2_injection_wells_PF.pdf Graphic file (type pdf)
 
 <use images/CO2_injection_wells_PF.pdf>
 Package pdftex.def Info: images/CO2_injection_wells_PF.pdf used on input line 8
-299.
+301.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
  [293
 
  <./images/CO2_injection_wells_PF.pdf>]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 8332--8332
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 8334--8334
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 8332--8332
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 8334--8334
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 8332--8332
+Overfull \hbox (4.4343pt too wide) in alignment at lines 8334--8334
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8332--8334
+Underfull \hbox (badness 10000) in paragraph at lines 8334--8336
 
  []
 
@@ -6602,27 +6602,27 @@ File: images/Sour_gas_injection_wells_PF.pdf Graphic file (type pdf)
 
 <use images/Sour_gas_injection_wells_PF.pdf>
 Package pdftex.def Info: images/Sour_gas_injection_wells_PF.pdf used on input l
-ine 8340.
+ine 8342.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
  [294
 
  <./images/Sour_gas_injection_wells_PF.pdf>]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 8373--8373
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 8375--8375
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 8373--8373
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 8375--8375
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 8373--8373
+Overfull \hbox (4.4343pt too wide) in alignment at lines 8375--8375
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8373--8375
+Underfull \hbox (badness 10000) in paragraph at lines 8375--8377
 
  []
 
@@ -6631,27 +6631,27 @@ File: images/Steam_injection_wells_PF.pdf Graphic file (type pdf)
 
 <use images/Steam_injection_wells_PF.pdf>
 Package pdftex.def Info: images/Steam_injection_wells_PF.pdf used on input line
- 8381.
+ 8383.
 (pdftex.def)             Requested size: 337.86469pt x 272.2191pt.
  [295
 
  <./images/Steam_injection_wells_PF.pdf>]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 8413--8413
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 8415--8415
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 8413--8413
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 8415--8415
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 8413--8413
+Overfull \hbox (4.4343pt too wide) in alignment at lines 8415--8415
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8413--8415
+Underfull \hbox (badness 10000) in paragraph at lines 8415--8417
 
  []
 
@@ -6659,27 +6659,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 8413--8415
 File: images/Storage_wells_PF.pdf Graphic file (type pdf)
 
 <use images/Storage_wells_PF.pdf>
-Package pdftex.def Info: images/Storage_wells_PF.pdf used on input line 8421.
+Package pdftex.def Info: images/Storage_wells_PF.pdf used on input line 8423.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
  [296
 
  <./images/Storage_wells_PF.pdf>]
-Overfull \hbox (4.84436pt too wide) in paragraph at lines 8458--8458
+Overfull \hbox (4.84436pt too wide) in paragraph at lines 8460--8460
 []|\T1/ppl/m/n/8 Stream| 
  []
 
 
-Overfull \hbox (0.97229pt too wide) in paragraph at lines 8458--8458
+Overfull \hbox (0.97229pt too wide) in paragraph at lines 8460--8460
 []|\T1/ppl/m/n/8 Notes| 
  []
 
 
-Overfull \hbox (4.4343pt too wide) in alignment at lines 8458--8458
+Overfull \hbox (4.4343pt too wide) in alignment at lines 8460--8460
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8458--8460
+Underfull \hbox (badness 10000) in paragraph at lines 8460--8462
 
  []
 
@@ -6688,36 +6688,36 @@ File: images/Storage_separator_PF.pdf Graphic file (type pdf)
 
 <use images/Storage_separator_PF.pdf>
 Package pdftex.def Info: images/Storage_separator_PF.pdf used on input line 846
-6.
+8.
 (pdftex.def)             Requested size: 337.86469pt x 246.21732pt.
  [297
 
  <./images/Storage_separator_PF.pdf>] [298
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 8502--8502
+Underfull \hbox (badness 10000) in paragraph at lines 8504--8504
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8502--8502
+Underfull \hbox (badness 10000) in paragraph at lines 8504--8504
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 8502--8507
+Underfull \hbox (badness 10000) in alignment at lines 8504--8509
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8502--8513
+Underfull \hbox (badness 10000) in paragraph at lines 8504--8515
 
  []
 
 [299
 
 ]
-Overfull \hbox (50.22821pt too wide) in paragraph at lines 8533--8538
+Overfull \hbox (50.22821pt too wide) in paragraph at lines 8535--8540
 [][] 
  []
 
@@ -6725,29 +6725,29 @@ Overfull \hbox (50.22821pt too wide) in paragraph at lines 8533--8538
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 8557--8557
+Underfull \hbox (badness 10000) in paragraph at lines 8559--8559
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8557--8557
+Underfull \hbox (badness 10000) in paragraph at lines 8559--8559
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 8557--8559
+Underfull \hbox (badness 10000) in alignment at lines 8559--8561
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8557--8565
+Underfull \hbox (badness 10000) in paragraph at lines 8559--8567
 
  []
 
 [301
 
 ]
-Overfull \hbox (53.80453pt too wide) in paragraph at lines 8586--8591
+Overfull \hbox (53.80453pt too wide) in paragraph at lines 8588--8593
 [][] 
  []
 
@@ -6759,25 +6759,25 @@ Overfull \hbox (53.80453pt too wide) in paragraph at lines 8586--8591
 ] [304
 
 ]
-Overfull \hbox (10.27612pt too wide) in paragraph at lines 8654--8655
+Overfull \hbox (10.27612pt too wide) in paragraph at lines 8656--8657
 \T1/ppl/m/n/10.95 OPGEE crude oil trans-port cal-cu-la-tions use sets of trans-
 port modes, trans-port propul-
  []
 
 
-Overfull \hbox (1.5987pt too wide) in paragraph at lines 8664--8666
+Overfull \hbox (1.5987pt too wide) in paragraph at lines 8666--8668
 []\T1/ppl/m/n/10.95 For the case of pipeline and rail trans-port, the cal-cu-la
 -tion is sim-pler. For pipeline
  []
 
 
-Overfull \hbox (7.97006pt too wide) in paragraph at lines 8677--8695
+Overfull \hbox (7.97006pt too wide) in paragraph at lines 8679--8697
 \T1/ppl/m/n/10.95 where $\OML/zplm/m/it/10.95 U[]$ \T1/ppl/m/n/10.95 = crude oi
 l trans-port in-ten-sity per unit of en-ergy trans-ported [Btu/mmBtu-
  []
 
 
-Overfull \hbox (3.0287pt too wide) in paragraph at lines 8677--8695
+Overfull \hbox (3.0287pt too wide) in paragraph at lines 8679--8697
 \T1/ppl/m/n/10.95 mi], $\OML/zplm/m/it/10.95 LHV[]$ \T1/ppl/m/n/10.95 = crude l
 ower heat-ing value [mmB-tu/bbl]; $\OML/zplm/m/it/10.95 ^^Z[]$ \T1/ppl/m/n/10.9
 5 = den-sity of wa-ter [lb/bbl];
@@ -6786,104 +6786,104 @@ ower heat-ing value [mmB-tu/bbl]; $\OML/zplm/m/it/10.95 ^^Z[]$ \T1/ppl/m/n/10.9
 [305
 
 ] [306] [307]
-Underfull \hbox (badness 10000) in paragraph at lines 8765--8765
+Underfull \hbox (badness 10000) in paragraph at lines 8767--8767
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8765--8765
+Underfull \hbox (badness 10000) in paragraph at lines 8767--8767
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (0.85571pt too wide) in paragraph at lines 8767--8767
+Overfull \hbox (0.85571pt too wide) in paragraph at lines 8769--8769
 []$\OML/zplm/m/it/6 f[]$| 
  []
 
 
-Overfull \hbox (0.77074pt too wide) in paragraph at lines 8768--8768
+Overfull \hbox (0.77074pt too wide) in paragraph at lines 8770--8770
 []$\OML/zplm/m/it/6 f[]$| 
  []
 
 
-Overfull \hbox (0.77077pt too wide) in paragraph at lines 8769--8769
+Overfull \hbox (0.77077pt too wide) in paragraph at lines 8771--8771
 []$\OML/zplm/m/it/6 f[]$| 
  []
 
 
-Overfull \hbox (1.05072pt too wide) in paragraph at lines 8770--8770
+Overfull \hbox (1.05072pt too wide) in paragraph at lines 8772--8772
 []$\OML/zplm/m/it/6 f[]$| 
  []
 
 
-Overfull \hbox (4.41566pt too wide) in paragraph at lines 8771--8771
+Overfull \hbox (4.41566pt too wide) in paragraph at lines 8773--8773
 []$\OML/zplm/m/it/6 f[]$| 
  []
 
 
-Overfull \hbox (1.2577pt too wide) in paragraph at lines 8773--8773
+Overfull \hbox (1.2577pt too wide) in paragraph at lines 8775--8775
 []$\OML/zplm/m/it/6 d[]$| 
  []
 
 
-Overfull \hbox (1.17273pt too wide) in paragraph at lines 8774--8774
+Overfull \hbox (1.17273pt too wide) in paragraph at lines 8776--8776
 []$\OML/zplm/m/it/6 d[]$| 
  []
 
 
-Overfull \hbox (1.17276pt too wide) in paragraph at lines 8775--8775
+Overfull \hbox (1.17276pt too wide) in paragraph at lines 8777--8777
 []$\OML/zplm/m/it/6 d[]$| 
  []
 
 
-Overfull \hbox (1.45271pt too wide) in paragraph at lines 8776--8776
+Overfull \hbox (1.45271pt too wide) in paragraph at lines 8778--8778
 []$\OML/zplm/m/it/6 d[]$| 
  []
 
 
-Overfull \hbox (4.81766pt too wide) in paragraph at lines 8777--8777
+Overfull \hbox (4.81766pt too wide) in paragraph at lines 8779--8779
 []$\OML/zplm/m/it/6 d[]$| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 8765--8781
+Underfull \hbox (badness 10000) in alignment at lines 8767--8783
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8765--8787
+Underfull \hbox (badness 10000) in paragraph at lines 8767--8789
 
  []
 
 [308
 
 ]
-Overfull \hbox (6.80948pt too wide) in paragraph at lines 8800--8800
+Overfull \hbox (6.80948pt too wide) in paragraph at lines 8802--8802
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (6.80948pt too wide) in paragraph at lines 8800--8800
+Overfull \hbox (6.80948pt too wide) in paragraph at lines 8802--8802
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (4.54865pt too wide) in paragraph at lines 8813--8813
+Overfull \hbox (4.54865pt too wide) in paragraph at lines 8815--8815
 []$\OML/zplm/m/it/6 P[]$| 
  []
 
 
-Overfull \hbox (1.13962pt too wide) in paragraph at lines 8814--8814
+Overfull \hbox (1.13962pt too wide) in paragraph at lines 8816--8816
 [][]| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 8800--8825
+Underfull \hbox (badness 10000) in alignment at lines 8802--8827
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8800--8830
+Underfull \hbox (badness 10000) in paragraph at lines 8802--8832
 
  []
 
@@ -6891,62 +6891,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 8800--8830
 
 
 ]
-Overfull \hbox (6.80948pt too wide) in paragraph at lines 8862--8862
+Overfull \hbox (6.80948pt too wide) in paragraph at lines 8864--8864
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (6.80948pt too wide) in paragraph at lines 8862--8862
+Overfull \hbox (6.80948pt too wide) in paragraph at lines 8864--8864
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (4.10564pt too wide) in paragraph at lines 8864--8864
+Overfull \hbox (4.10564pt too wide) in paragraph at lines 8866--8866
 []$\OML/zplm/m/it/6 f[]$| 
  []
 
 
-Overfull \hbox (4.02066pt too wide) in paragraph at lines 8865--8865
+Overfull \hbox (4.02066pt too wide) in paragraph at lines 8867--8867
 []$\OML/zplm/m/it/6 f[]$| 
  []
 
 
-Overfull \hbox (4.30064pt too wide) in paragraph at lines 8866--8866
+Overfull \hbox (4.30064pt too wide) in paragraph at lines 8868--8868
 []$\OML/zplm/m/it/6 f[]$| 
  []
 
 
-Overfull \hbox (7.66559pt too wide) in paragraph at lines 8867--8867
+Overfull \hbox (7.66559pt too wide) in paragraph at lines 8869--8869
 []$\OML/zplm/m/it/6 f[]$| 
  []
 
 
-Overfull \hbox (1.7057pt too wide) in paragraph at lines 8869--8869
+Overfull \hbox (1.7057pt too wide) in paragraph at lines 8871--8871
 []$\OML/zplm/m/it/6 D[]$| 
  []
 
 
-Overfull \hbox (1.62073pt too wide) in paragraph at lines 8870--8870
+Overfull \hbox (1.62073pt too wide) in paragraph at lines 8872--8872
 []$\OML/zplm/m/it/6 D[]$| 
  []
 
 
-Overfull \hbox (1.90071pt too wide) in paragraph at lines 8871--8871
+Overfull \hbox (1.90071pt too wide) in paragraph at lines 8873--8873
 []$\OML/zplm/m/it/6 D[]$| 
  []
 
 
-Overfull \hbox (5.26566pt too wide) in paragraph at lines 8872--8872
+Overfull \hbox (5.26566pt too wide) in paragraph at lines 8874--8874
 []$\OML/zplm/m/it/6 D[]$| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 8862--8891
+Underfull \hbox (badness 10000) in alignment at lines 8864--8893
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8862--8896
+Underfull \hbox (badness 10000) in paragraph at lines 8864--8898
 
  []
 
@@ -6957,27 +6957,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 8862--8896
 
 
 ]
-Overfull \hbox (6.80948pt too wide) in paragraph at lines 8927--8927
+Overfull \hbox (6.80948pt too wide) in paragraph at lines 8929--8929
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (6.80948pt too wide) in paragraph at lines 8927--8927
+Overfull \hbox (6.80948pt too wide) in paragraph at lines 8929--8929
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Overfull \hbox (3.34862pt too wide) in paragraph at lines 8929--8929
+Overfull \hbox (3.34862pt too wide) in paragraph at lines 8931--8931
 []$\OML/zplm/m/it/6 ^^O[]$| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 8927--8932
+Underfull \hbox (badness 10000) in alignment at lines 8929--8934
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8927--8937
+Underfull \hbox (badness 10000) in paragraph at lines 8929--8939
 
  []
 
@@ -6988,22 +6988,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 8927--8937
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 8969--8969
+Underfull \hbox (badness 10000) in paragraph at lines 8971--8971
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8969--8969
+Underfull \hbox (badness 10000) in paragraph at lines 8971--8971
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 8969--8976
+Underfull \hbox (badness 10000) in alignment at lines 8971--8978
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8969--8981
+Underfull \hbox (badness 10000) in paragraph at lines 8971--8983
 
  []
 
@@ -7014,22 +7014,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 8969--8981
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 9036--9036
+Underfull \hbox (badness 10000) in paragraph at lines 9038--9038
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9036--9036
+Underfull \hbox (badness 10000) in paragraph at lines 9038--9038
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 9036--9043
+Underfull \hbox (badness 10000) in alignment at lines 9038--9045
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9036--9048
+Underfull \hbox (badness 10000) in paragraph at lines 9038--9050
 
  []
 
@@ -7040,22 +7040,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 9036--9048
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 9076--9076
+Underfull \hbox (badness 10000) in paragraph at lines 9078--9078
 []|\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9076--9076
+Underfull \hbox (badness 10000) in paragraph at lines 9078--9078
 []\T1/ppl/m/n/6 Literature
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 9076--9085
+Underfull \hbox (badness 10000) in alignment at lines 9078--9087
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9076--9090
+Underfull \hbox (badness 10000) in paragraph at lines 9078--9092
 
  []
 
@@ -7065,23 +7065,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 9076--9090
 ]
 Chapter 7.
 
-Overfull \hbox (32.02731pt too wide) in alignment at lines 9110--9119
+Overfull \hbox (32.02731pt too wide) in alignment at lines 9112--9121
 [][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9110--9121
+Underfull \hbox (badness 10000) in paragraph at lines 9112--9123
 
  []
 
 
-Overfull \hbox (0.92058pt too wide) in paragraph at lines 9123--9124
+Overfull \hbox (0.92058pt too wide) in paragraph at lines 9125--9126
 []\T1/ppl/m/n/10.95 Specifications of natural-gas-driven en-gines and diesel-dr
 iven en-gines are taken
  []
 
 
-Overfull \hbox (9.41797pt too wide) in paragraph at lines 9125--9127
+Overfull \hbox (9.41797pt too wide) in paragraph at lines 9127--9129
 []\T1/ppl/m/n/10.95 The data for each driver model was con-verted into [bhp] fo
 r power and [Btu/bhp-
  []
@@ -7103,15 +7103,15 @@ Package nicefrac Warning: You used \nicefrac or \unitfrac in text mode
 (nicefrac)                The fraction may be ambiguous or wrong.
 (nicefrac)                Please make sure the denominator is correct.
 (nicefrac)                If it is, you can safely ignore
-(nicefrac)                this warning  on input line 9153.
+(nicefrac)                this warning  on input line 9155.
 
 [321]
-Underfull \hbox (badness 10000) in alignment at lines 9175--9182
+Underfull \hbox (badness 10000) in alignment at lines 9177--9184
 [][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9175--9192
+Underfull \hbox (badness 10000) in paragraph at lines 9177--9194
 
  []
 
@@ -7120,64 +7120,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 9175--9192
 ] [323
 
 ] [324] [325] [326]
-Overfull \hbox (0.28307pt too wide) in paragraph at lines 9293--9294
+Overfull \hbox (0.28307pt too wide) in paragraph at lines 9295--9296
 []\T1/ppl/m/n/10.95 Monoethanolamine: the ``mar-ket for mo-noethanolamine, GLO'
 ' is used, with
  []
 
-[327] <images/all_well_casing.pdf, id=6537, 797.98125pt x 524.96124pt>
+[327] <images/all_well_casing.pdf, id=6539, 797.98125pt x 524.96124pt>
 File: images/all_well_casing.pdf Graphic file (type pdf)
 
 <use images/all_well_casing.pdf>
-Package pdftex.def Info: images/all_well_casing.pdf used on input line 9314.
+Package pdftex.def Info: images/all_well_casing.pdf used on input line 9316.
 (pdftex.def)             Requested size: 397.48502pt x 261.4867pt.
  [328 <./images/all_well_casing.pdf>]
-<images/cementing_volume.pdf, id=6566, 199.74625pt x 279.0425pt>
+<images/cementing_volume.pdf, id=6568, 199.74625pt x 279.0425pt>
 File: images/cementing_volume.pdf Graphic file (type pdf)
 
 <use images/cementing_volume.pdf>
-Package pdftex.def Info: images/cementing_volume.pdf used on input line 9331.
+Package pdftex.def Info: images/cementing_volume.pdf used on input line 9333.
 (pdftex.def)             Requested size: 139.12218pt x 194.36188pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 9344--9344
+Underfull \hbox (badness 10000) in paragraph at lines 9346--9346
 []|\T1/ppl/m/n/8 Moderate den-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9345--9345
+Underfull \hbox (badness 10000) in paragraph at lines 9347--9347
 []|\T1/ppl/m/n/8 16% ben-tonite,
  []
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 9342--9372
+Overfull \hbox (12.0pt too wide) in alignment at lines 9344--9374
 [][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9342--9374
+Underfull \hbox (badness 10000) in paragraph at lines 9344--9376
 
  []
 
 [329 <./images/cementing_volume.pdf>]
-Overfull \hbox (3.61182pt too wide) in paragraph at lines 9380--9381
+Overfull \hbox (3.61182pt too wide) in paragraph at lines 9382--9383
 \T1/ppl/m/n/10.95 ver-ti-cal ex-tent of ce-ment-ing is given in Mitchell and Mi
 ska [[], Sec-tion 4.5.11]. 
  []
 
-<images/cementing_diagram.pdf, id=6601, 342.27875pt x 674.52pt>
+<images/cementing_diagram.pdf, id=6603, 342.27875pt x 674.52pt>
 File: images/cementing_diagram.pdf Graphic file (type pdf)
 
 <use images/cementing_diagram.pdf>
-Package pdftex.def Info: images/cementing_diagram.pdf used on input line 9385.
+Package pdftex.def Info: images/cementing_diagram.pdf used on input line 9387.
 (pdftex.def)             Requested size: 158.99158pt x 313.3295pt.
  [330] [331 <./images/cementing_diagram.pdf>]
-Overfull \hbox (4.75249pt too wide) in paragraph at lines 9396--9397
+Overfull \hbox (4.75249pt too wide) in paragraph at lines 9398--9399
 []\T1/ppl/m/n/10.95 OPGEE de-faults are set to 3 in. av-er-age di-am-e-ter of s
 ur-face pip-ing, extra-strength
  []
 
 
-Overfull \hbox (4.91174pt too wide) in paragraph at lines 9400--9401
+Overfull \hbox (4.91174pt too wide) in paragraph at lines 9402--9403
 \T1/ppl/m/n/10.95 Materials re-quire-ments for frac-tur-ing are as-sumed (in th
 e cur-rent ver-sion of OPGEE)
  []
@@ -7185,35 +7185,35 @@ e cur-rent ver-sion of OPGEE)
 [332
 
 ] [333] [334]
-Underfull \hbox (badness 10000) in paragraph at lines 9506--9506
+Underfull \hbox (badness 10000) in paragraph at lines 9508--9508
 []|\T1/ppl/m/n/8 Natural
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9506--9506
+Underfull \hbox (badness 10000) in paragraph at lines 9508--9508
 []|\T1/ppl/m/n/8 Residual
  []
 
 
-Overfull \hbox (16.44032pt too wide) in alignment at lines 9504--9515
+Overfull \hbox (16.44032pt too wide) in alignment at lines 9506--9517
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9504--9521
+Underfull \hbox (badness 10000) in paragraph at lines 9506--9523
 
  []
 
 [335]
 Chapter 8.
-<images/Onsite_offsite.jpg, id=6691, 722.7pt x 542.025pt>
+<images/Onsite_offsite.jpg, id=6693, 722.7pt x 542.025pt>
 File: images/Onsite_offsite.jpg Graphic file (type jpg)
 
 <use images/Onsite_offsite.jpg>
-Package pdftex.def Info: images/Onsite_offsite.jpg used on input line 9540.
+Package pdftex.def Info: images/Onsite_offsite.jpg used on input line 9542.
 (pdftex.def)             Requested size: 317.98921pt x 238.49173pt.
 
-Underfull \hbox (badness 10000) in alignment at lines 9554--9569
+Underfull \hbox (badness 10000) in alignment at lines 9556--9571
 [][] 
  []
 
@@ -7226,88 +7226,88 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [336
 
 
-] <images/Site_VF.pdf, id=6701, 598.235pt x 349.305pt>
+] <images/Site_VF.pdf, id=6703, 598.235pt x 349.305pt>
 File: images/Site_VF.pdf Graphic file (type pdf)
 
 <use images/Site_VF.pdf>
-Package pdftex.def Info: images/Site_VF.pdf used on input line 9579.
+Package pdftex.def Info: images/Site_VF.pdf used on input line 9581.
 (pdftex.def)             Requested size: 317.98921pt x 185.67441pt.
 
-<images/Component_VF.pdf, id=6703, 549.05125pt x 388.45125pt>
+<images/Component_VF.pdf, id=6705, 549.05125pt x 388.45125pt>
 File: images/Component_VF.pdf Graphic file (type pdf)
 
 <use images/Component_VF.pdf>
-Package pdftex.def Info: images/Component_VF.pdf used on input line 9587.
+Package pdftex.def Info: images/Component_VF.pdf used on input line 9589.
 (pdftex.def)             Requested size: 317.98921pt x 224.9818pt.
  [337 <./images/Onsite_offsite.jpg>] [338 <./images/Site_VF.pdf>] <images/Mitch
-ellFitA.pdf, id=8505, 424.48958pt x 419.10799pt>
+ellFitA.pdf, id=8507, 424.48958pt x 419.10799pt>
 File: images/MitchellFitA.pdf Graphic file (type pdf)
 
 <use images/MitchellFitA.pdf>
-Package pdftex.def Info: images/MitchellFitA.pdf used on input line 9616.
+Package pdftex.def Info: images/MitchellFitA.pdf used on input line 9618.
 (pdftex.def)             Requested size: 317.98921pt x 313.97208pt.
 
-<images/MitchellFitB.pdf, id=8506, 421.46599pt x 407.35402pt>
+<images/MitchellFitB.pdf, id=8508, 421.46599pt x 407.35402pt>
 File: images/MitchellFitB.pdf Graphic file (type pdf)
 
 <use images/MitchellFitB.pdf>
-Package pdftex.def Info: images/MitchellFitB.pdf used on input line 9622.
+Package pdftex.def Info: images/MitchellFitB.pdf used on input line 9624.
 (pdftex.def)             Requested size: 317.98921pt x 307.36082pt.
  [339 <./images/Component_VF.pdf>] [340 <./images/MitchellFitA.pdf>]
-Overfull \hbox (5.49168pt too wide) in paragraph at lines 9650--9652
+Overfull \hbox (5.49168pt too wide) in paragraph at lines 9652--9654
 \T1/ppl/m/n/10.95 who de-vel-oped a component-level methane emis-sions es-ti-ma
 -tion tool for the O&NG
  []
 
 [341 <./images/MitchellFitB.pdf>]
-Overfull \hbox (1.14012pt too wide) in paragraph at lines 9666--9667
+Overfull \hbox (1.14012pt too wide) in paragraph at lines 9668--9669
 [] []  \T1/ppl/m/it/10.95 Emis-sions from well--pad equip-ment[] \T1/ppl/m/n/10
 .95 We use a gen-eral ap-proach as fol-lows where equip-
  []
 
-[342] <images/Productivity_tranche_VF.jpg, id=10257, 722.7pt x 542.025pt>
+[342] <images/Productivity_tranche_VF.jpg, id=10259, 722.7pt x 542.025pt>
 File: images/Productivity_tranche_VF.jpg Graphic file (type jpg)
 
 <use images/Productivity_tranche_VF.jpg>
 Package pdftex.def Info: images/Productivity_tranche_VF.jpg used on input line 
-9689.
+9691.
 (pdftex.def)             Requested size: 317.98921pt x 238.49173pt.
  [343 <./images/Productivity_tranche_VF.jpg>]
-Overfull \hbox (7.12944pt too wide) in paragraph at lines 9709--9710
+Overfull \hbox (7.12944pt too wide) in paragraph at lines 9711--9712
 []\T1/ppl/m/n/10.95 Here, we de-velop a reduced-order proxy model to rep-re-sen
 t the re-sults of Ruther-
  []
 
 
-Overfull \hbox (1.30202pt too wide) in paragraph at lines 9714--9716
+Overfull \hbox (1.30202pt too wide) in paragraph at lines 9716--9718
 \T1/ppl/m/n/10.95 and a sin-gle equip-ment source, $\OML/zplm/m/it/10.95 s$\T1/
 ppl/m/n/10.95 , the tranche-specific frac-tional loss rate $\OML/zplm/m/it/10.9
 5 f[]\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 Q[]\OT1/zplm/m/n/10.95 ) =
  []
 
-<images/Scale_up_VF_tranches.jpg, id=10268, 797.98125pt x 419.5675pt>
+<images/Scale_up_VF_tranches.jpg, id=10270, 797.98125pt x 419.5675pt>
 File: images/Scale_up_VF_tranches.jpg Graphic file (type jpg)
 
 <use images/Scale_up_VF_tranches.jpg>
 Package pdftex.def Info: images/Scale_up_VF_tranches.jpg used on input line 972
-1.
+3.
 (pdftex.def)             Requested size: 317.98921pt x 167.19022pt.
  [344] [345 <./images/Scale_up_VF_tranches.jpg>] [346] <images/VF_dists_gas.jpg
-, id=10290, 774.895pt x 685.56125pt>
+, id=10292, 774.895pt x 685.56125pt>
 File: images/VF_dists_gas.jpg Graphic file (type jpg)
 
 <use images/VF_dists_gas.jpg>
-Package pdftex.def Info: images/VF_dists_gas.jpg used on input line 9782.
+Package pdftex.def Info: images/VF_dists_gas.jpg used on input line 9784.
 (pdftex.def)             Requested size: 397.48502pt x 351.66101pt.
 
-<images/VF_dists_oil.jpg, id=10291, 796.9775pt x 700.6175pt>
+<images/VF_dists_oil.jpg, id=10293, 796.9775pt x 700.6175pt>
 File: images/VF_dists_oil.jpg Graphic file (type jpg)
 
 <use images/VF_dists_oil.jpg>
-Package pdftex.def Info: images/VF_dists_oil.jpg used on input line 9788.
+Package pdftex.def Info: images/VF_dists_oil.jpg used on input line 9790.
 (pdftex.def)             Requested size: 397.48502pt x 349.42056pt.
 
-Overfull \hbox (0.14291pt too wide) in paragraph at lines 9808--9810
+Overfull \hbox (0.14291pt too wide) in paragraph at lines 9810--9812
 []\T1/ppl/m/n/10.95 After ex-per-i-men-ta-tion, a quadratic func-tion was found
  to fit well. The quadratic
  []
@@ -7316,7 +7316,7 @@ Overfull \hbox (0.14291pt too wide) in paragraph at lines 9808--9810
 
 
 ]
-Overfull \hbox (14.481pt too wide) detected at line 9826
+Overfull \hbox (14.481pt too wide) detected at line 9828
 [][][] \OT1/zplm/m/n/10.95 = \OML/zplm/m/it/10.95 ^^L[]AFR[] \OT1/zplm/m/n/10.9
 5 + \OML/zplm/m/it/10.95 ^^L[]AFR[] \OT1/zplm/m/n/10.95 + \OML/zplm/m/it/10.95 
 ^^L[] [] \OT1/zplm/m/n/10.95 + \OML/zplm/m/it/10.95 ^^L[]AFR[] \OT1/zplm/m/n/10
@@ -7324,71 +7324,71 @@ Overfull \hbox (14.481pt too wide) detected at line 9826
  []
 
 [348 <./images/VF_dists_gas.jpg>]
-<images/ProxyAF_Model_Pic1.pdf, id=10309, 794.97pt x 614.295pt>
+<images/ProxyAF_Model_Pic1.pdf, id=10312, 794.97pt x 614.295pt>
 File: images/ProxyAF_Model_Pic1.pdf Graphic file (type pdf)
 
 <use images/ProxyAF_Model_Pic1.pdf>
-Package pdftex.def Info: images/ProxyAF_Model_Pic1.pdf used on input line 9832.
-
-(pdftex.def)             Requested size: 397.48502pt x 307.15611pt.
-
-<images/ProxyAF_Model_Pic2.pdf, id=10310, 794.97pt x 614.295pt>
-File: images/ProxyAF_Model_Pic2.pdf Graphic file (type pdf)
-
-<use images/ProxyAF_Model_Pic2.pdf>
-Package pdftex.def Info: images/ProxyAF_Model_Pic2.pdf used on input line 9838.
+Package pdftex.def Info: images/ProxyAF_Model_Pic1.pdf used on input line 9836.
 
 (pdftex.def)             Requested size: 397.48502pt x 307.15611pt.
  [349 <./images/VF_dists_oil.jpg>]
-<images/ProxyAF_Model_Pic6.pdf, id=10319, 490.05353pt x 364.5338pt>
-File: images/ProxyAF_Model_Pic6.pdf Graphic file (type pdf)
+<images/ProxyAF_Model_Pic2.pdf, id=10318, 794.97pt x 614.295pt>
+File: images/ProxyAF_Model_Pic2.pdf Graphic file (type pdf)
 
-<use images/ProxyAF_Model_Pic6.pdf>
-Package pdftex.def Info: images/ProxyAF_Model_Pic6.pdf used on input line 9846.
-
-(pdftex.def)             Requested size: 397.48502pt x 295.68793pt.
-
-<images/ProxyAF_Model_Pic3.pdf, id=10320, 794.97pt x 614.295pt>
-File: images/ProxyAF_Model_Pic3.pdf Graphic file (type pdf)
-
-<use images/ProxyAF_Model_Pic3.pdf>
-Package pdftex.def Info: images/ProxyAF_Model_Pic3.pdf used on input line 9852.
+<use images/ProxyAF_Model_Pic2.pdf>
+Package pdftex.def Info: images/ProxyAF_Model_Pic2.pdf used on input line 9842.
 
 (pdftex.def)             Requested size: 397.48502pt x 307.15611pt.
 
-<images/ProxyAF_Model_Pic4.pdf, id=10321, 794.97pt x 614.295pt>
+<images/ProxyAF_Model_Pic6.pdf, id=10322, 490.05353pt x 364.5338pt>
+File: images/ProxyAF_Model_Pic6.pdf Graphic file (type pdf)
+
+<use images/ProxyAF_Model_Pic6.pdf>
+Package pdftex.def Info: images/ProxyAF_Model_Pic6.pdf used on input line 9850.
+
+(pdftex.def)             Requested size: 397.48502pt x 295.68793pt.
+
+<images/ProxyAF_Model_Pic3.pdf, id=10323, 794.97pt x 614.295pt>
+File: images/ProxyAF_Model_Pic3.pdf Graphic file (type pdf)
+
+<use images/ProxyAF_Model_Pic3.pdf>
+Package pdftex.def Info: images/ProxyAF_Model_Pic3.pdf used on input line 9856.
+
+(pdftex.def)             Requested size: 397.48502pt x 307.15611pt.
+
+<images/ProxyAF_Model_Pic4.pdf, id=10324, 794.97pt x 614.295pt>
 File: images/ProxyAF_Model_Pic4.pdf Graphic file (type pdf)
 
 <use images/ProxyAF_Model_Pic4.pdf>
-Package pdftex.def Info: images/ProxyAF_Model_Pic4.pdf used on input line 9858.
+Package pdftex.def Info: images/ProxyAF_Model_Pic4.pdf used on input line 9862.
 
 (pdftex.def)             Requested size: 397.48502pt x 307.15611pt.
  [350 <./images/ProxyAF_Model_Pic1.pdf>]
 [351 <./images/ProxyAF_Model_Pic2.pdf>] [352 <./images/ProxyAF_Model_Pic6.pdf>]
 [353 <./images/ProxyAF_Model_Pic3.pdf>] [354 <./images/ProxyAF_Model_Pic4.pdf>]
 
-Overfull \hbox (6.45576pt too wide) in paragraph at lines 9873--9874
+Overfull \hbox (6.45576pt too wide) in paragraph at lines 9877--9878
 \T1/ppl/m/n/10.95 flash fac-tors. The draws are based on the de-fault oil sys-t
 em gas pro-duc-tiv-ity tranches
  []
 
-<images/Flash_factors.jpg, id=10430, 532.99126pt x 435.6275pt>
+<images/Flash_factors.jpg, id=10433, 532.99126pt x 435.6275pt>
 File: images/Flash_factors.jpg Graphic file (type jpg)
 
 <use images/Flash_factors.jpg>
-Package pdftex.def Info: images/Flash_factors.jpg used on input line 9882.
+Package pdftex.def Info: images/Flash_factors.jpg used on input line 9886.
 (pdftex.def)             Requested size: 397.48502pt x 324.88521pt.
 
-Overfull \hbox (10.04681pt too wide) in paragraph at lines 9888--9889
+Overfull \hbox (10.04681pt too wide) in paragraph at lines 9892--9893
 \T1/ppl/m/n/10.95 Like tank flash-ing, OPGEE mod-els emis-sions from liq-uids u
 n-load-ings us-ing a slightly
  []
 
-<images/LU_dists.jpg, id=10431, 844.15375pt x 427.5975pt>
+<images/LU_dists.jpg, id=10434, 844.15375pt x 427.5975pt>
 File: images/LU_dists.jpg Graphic file (type jpg)
 
 <use images/LU_dists.jpg>
-Package pdftex.def Info: images/LU_dists.jpg used on input line 9895.
+Package pdftex.def Info: images/LU_dists.jpg used on input line 9899.
 (pdftex.def)             Requested size: 397.48502pt x 201.34274pt.
  [355
 
@@ -7405,7 +7405,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ] [359]
 Chapter 10.
 
-Overfull \hbox (2.43166pt too wide) in paragraph at lines 9988--9989
+Overfull \hbox (2.43166pt too wide) in paragraph at lines 9992--9993
 []\T1/ppl/m/n/10.95 Some pro-duc-tion tech-nolo-gies are not in-cluded in the c
 ur-rent ver-sion of OPGEE:
  []
@@ -7421,27 +7421,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ] [361]
 Appendix A.
 
-Underfull \hbox (badness 2384) in paragraph at lines 10069--10069
+Underfull \hbox (badness 2384) in paragraph at lines 10073--10073
 []|\T1/ppl/m/n/8 Acronymor ab-
  []
 
 
-Overfull \hbox (4.12451pt too wide) in paragraph at lines 10069--10069
+Overfull \hbox (4.12451pt too wide) in paragraph at lines 10073--10073
 [] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 10069--10069
+Overfull \hbox (12.0pt too wide) in paragraph at lines 10073--10073
 [] 
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 10069--10069
+Underfull \hbox (badness 2384) in paragraph at lines 10073--10073
 []\T1/ppl/m/n/8 Acronymor ab-
  []
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 10069--10112
+Overfull \hbox (12.0pt too wide) in alignment at lines 10073--10116
 [][] 
  []
 
@@ -7454,17 +7454,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [362
 
 ]
-Underfull \hbox (badness 2384) in paragraph at lines 10112--10112
+Underfull \hbox (badness 2384) in paragraph at lines 10116--10116
 []\T1/ppl/m/n/8 Acronymor ab-
  []
 
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 10112--10136
+Overfull \hbox (12.0pt too wide) in alignment at lines 10116--10140
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10112--10138
+Underfull \hbox (badness 10000) in paragraph at lines 10116--10142
 
  []
 
@@ -7479,41 +7479,41 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [364
 
 ]
-Overfull \hbox (4.12453pt too wide) in paragraph at lines 10172--10172
+Overfull \hbox (4.12453pt too wide) in paragraph at lines 10176--10176
 [] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 10172--10172
+Overfull \hbox (12.0pt too wide) in paragraph at lines 10176--10176
 [] 
  []
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 10174.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 10178.
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 10172--10232
+Overfull \hbox (12.0pt too wide) in alignment at lines 10176--10236
 [][] 
  []
 
 [365
 
 ]
-Overfull \hbox (12.0pt too wide) in alignment at lines 10232--10295
+Overfull \hbox (12.0pt too wide) in alignment at lines 10236--10299
 [][] 
  []
 
 [366]
-Overfull \hbox (12.0pt too wide) in alignment at lines 10295--10357
+Overfull \hbox (12.0pt too wide) in alignment at lines 10299--10361
 [][] 
  []
 
 [367]
-Overfull \hbox (12.0pt too wide) in alignment at lines 10357--10382
+Overfull \hbox (12.0pt too wide) in alignment at lines 10361--10386
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10357--10384
+Underfull \hbox (badness 10000) in paragraph at lines 10361--10388
 
  []
 
@@ -7528,142 +7528,137 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [369
 
 ]
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 10403--10403
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 10407--10407
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10403--10403
+Underfull \hbox (badness 10000) in paragraph at lines 10407--10407
 []|\T1/ppl/b/n/8 Estimated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10443--10443
+Underfull \hbox (badness 10000) in paragraph at lines 10447--10447
 []|\T1/ppl/m/n/8 Energy con-sump-tion (other than prime
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 10449--10449
+Underfull \hbox (badness 2158) in paragraph at lines 10453--10453
 []|\T1/ppl/m/n/8 Fracturing fluid dis-
  []
 
 
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 10466--10466
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 10470--10470
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10466--10466
+Underfull \hbox (badness 10000) in paragraph at lines 10470--10470
 []|\T1/ppl/b/n/8 Estimated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10498--10498
+Underfull \hbox (badness 10000) in paragraph at lines 10502--10502
 []|\T1/ppl/m/n/8 Water rein-jec-tion
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 10498--10498
+Underfull \hbox (badness 1603) in paragraph at lines 10502--10502
 []|\T1/ppl/m/n/8 Various drilling emis-sions from rein-jec-tion
  []
 
 
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 10538--10538
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 10542--10542
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10538--10538
+Underfull \hbox (badness 10000) in paragraph at lines 10542--10542
 []|\T1/ppl/b/n/8 Estimated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10562--10562
+Underfull \hbox (badness 10000) in paragraph at lines 10566--10566
 []|\T1/ppl/m/n/8 NG, pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10562--10562
+Underfull \hbox (badness 10000) in paragraph at lines 10566--10566
 \T1/ppl/m/n/8 duced
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10564--10564
+Underfull \hbox (badness 10000) in paragraph at lines 10568--10568
 []|\T1/ppl/m/n/8 Low,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10568--10568
+Underfull \hbox (badness 10000) in paragraph at lines 10572--10572
 []|\T1/ppl/m/n/8 Grid mix
  []
 
 
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 10595--10595
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 10599--10599
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10595--10595
+Underfull \hbox (badness 10000) in paragraph at lines 10599--10599
 []|\T1/ppl/b/n/8 Estimated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10601--10601
+Underfull \hbox (badness 10000) in paragraph at lines 10605--10605
 []|\T1/ppl/m/n/8 Variations
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10601--10601
+Underfull \hbox (badness 10000) in paragraph at lines 10605--10605
 \T1/ppl/m/n/8 in flare
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10603--10603
+Underfull \hbox (badness 10000) in paragraph at lines 10607--10607
 []|\T1/ppl/m/n/8 Variations
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10603--10603
+Underfull \hbox (badness 10000) in paragraph at lines 10607--10607
 \T1/ppl/m/n/8 in flare
  []
 
 
-Overfull \vbox (9.50002pt too high) detected at line 10615
+Overfull \vbox (9.50002pt too high) detected at line 10619
  []
 
 
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 10640--10640
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 10644--10644
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10640--10640
+Underfull \hbox (badness 10000) in paragraph at lines 10644--10644
 []|\T1/ppl/b/n/8 Estimated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10654--10654
+Underfull \hbox (badness 10000) in paragraph at lines 10658--10658
 []|\T1/ppl/m/n/8 Other main-te-
  []
 
 
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 10667--10667
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 10671--10671
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10667--10667
+Underfull \hbox (badness 10000) in paragraph at lines 10671--10671
 []|\T1/ppl/b/n/8 Estimated
  []
 
 
-Underfull \hbox (badness 4832) in paragraph at lines 10669--10669
+Underfull \hbox (badness 4832) in paragraph at lines 10673--10673
 []|\T1/ppl/m/n/8 Subsurface dis-posal of con-cen-trated WW
- []
-
-
-Overfull \hbox (4.12704pt too wide) in paragraph at lines 10687--10687
-\T1/ppl/m/n/8 decommissioning|  
  []
 
 
@@ -7672,34 +7667,39 @@ Overfull \hbox (4.12704pt too wide) in paragraph at lines 10691--10691
  []
 
 
-Overfull \hbox (3.77481pt too wide) in paragraph at lines 10708--10708
+Overfull \hbox (4.12704pt too wide) in paragraph at lines 10695--10695
+\T1/ppl/m/n/8 decommissioning|  
+ []
+
+
+Overfull \hbox (3.77481pt too wide) in paragraph at lines 10712--10712
 []|\T1/ppl/b/n/8 Sensitivity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10708--10708
+Underfull \hbox (badness 10000) in paragraph at lines 10712--10712
 []|\T1/ppl/b/n/8 Estimated
  []
 
 [370] [371] [372] [373] [374] [375]
 Appendix D.
-<images/macro_logic_2a.pdf, id=10566, 542.025pt x 722.7pt>
+<images/macro_logic_2a.pdf, id=10569, 542.025pt x 722.7pt>
 File: images/macro_logic_2a.pdf Graphic file (type pdf)
 
 <use images/macro_logic_2a.pdf>
-Package pdftex.def Info: images/macro_logic_2a.pdf used on input line 10761.
+Package pdftex.def Info: images/macro_logic_2a.pdf used on input line 10765.
 (pdftex.def)             Requested size: 317.98921pt x 423.99634pt.
 
-Overfull \hbox (2.1557pt too wide) in paragraph at lines 10768--10769
+Overfull \hbox (2.1557pt too wide) in paragraph at lines 10772--10773
 []\T1/ppl/m/n/10.95 Discrepancies be-tween country-average de-fault flar-ing ra
 te and en-tered GOR
  []
 
-<images/macro_logic_3.pdf, id=10571, 542.025pt x 722.7pt>
+<images/macro_logic_3.pdf, id=10574, 542.025pt x 722.7pt>
 File: images/macro_logic_3.pdf Graphic file (type pdf)
 
 <use images/macro_logic_3.pdf>
-Package pdftex.def Info: images/macro_logic_3.pdf used on input line 10782.
+Package pdftex.def Info: images/macro_logic_3.pdf used on input line 10786.
 (pdftex.def)             Requested size: 317.98921pt x 423.99634pt.
 
 
@@ -7716,25 +7716,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [379]
 Appendix E.
 
-Overfull \hbox (2.19928pt too wide) in paragraph at lines 10823--10825
+Overfull \hbox (2.19928pt too wide) in paragraph at lines 10827--10829
 []\T1/ppl/m/n/10.95 We have im-ple-mented duct fir-ing in OPGEE 2.0b, as part o
 f a re-implemented
  []
 
 
-Overfull \hbox (13.62035pt too wide) in paragraph at lines 10837--10838
+Overfull \hbox (13.62035pt too wide) in paragraph at lines 10841--10842
 []\T1/ppl/m/n/10.95 Added emis-sions from seis-mic ex-plo-ration ef-forts, non-
 productive drilling
  []
 
 
-Overfull \hbox (0.29439pt too wide) in paragraph at lines 10841--10842
+Overfull \hbox (0.29439pt too wide) in paragraph at lines 10845--10846
 []\T1/ppl/m/n/10.95 Included trans-port en-ergy use in "En-ergy con-sump-tion" 
 gath-er-ing sheet 
  []
 
 
-Overfull \hbox (19.08725pt too wide) in paragraph at lines 10844--10845
+Overfull \hbox (19.08725pt too wide) in paragraph at lines 10848--10849
 []\T1/ppl/m/n/10.95 Included truck trans-port us-ing heavy-duty diesel ve-hi-cl
 e from []\T1/cmtt/m/n/10.95 GREET1_2013
  []
@@ -7748,47 +7748,47 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [380
 
 ]
-Overfull \hbox (5.78056pt too wide) in paragraph at lines 10855--10856
+Overfull \hbox (5.78056pt too wide) in paragraph at lines 10859--10860
 []\T1/ppl/m/n/10.95 New com-pres-sor work cal-cu-la-tions on "Com-pres-sor" sup
 -ple-men-tal sheet 
  []
 
 
-Overfull \hbox (12.71204pt too wide) in paragraph at lines 10857--10858
+Overfull \hbox (12.71204pt too wide) in paragraph at lines 10861--10862
 []\T1/ppl/m/n/10.95 New gas pro-cess-ing tech-nolo-gies in-clud-ing mem-branes 
 and Ryan-Holmes 
  []
 
 [381]
-Overfull \hbox (1.6957pt too wide) in paragraph at lines 10907--10909
+Overfull \hbox (1.6957pt too wide) in paragraph at lines 10911--10913
 []\T1/ppl/m/n/10.95 Pneumatic de-vices (con-trollers and chem-i-cal injection p
 umps) added as vent-
  []
 
 [382] [383] [384]
-Overfull \hbox (13.25928pt too wide) in paragraph at lines 11029--11031
+Overfull \hbox (13.25928pt too wide) in paragraph at lines 11033--11035
 []\T1/ppl/m/n/10.95 More de-tailed demeth-a-nizer model now in-cludes en-ergy c
 on-sumed by demeth-
  []
 
 
-Overfull \hbox (6.8863pt too wide) in paragraph at lines 11034--11035
+Overfull \hbox (6.8863pt too wide) in paragraph at lines 11038--11039
 []\T1/ppl/m/n/10.95 Updated gath-er-ing work-sheets to in-clude en-ergy con-sum
 p-tion and emis-
  []
 
 
-Overfull \hbox (2.90091pt too wide) in paragraph at lines 11044--11045
+Overfull \hbox (2.90091pt too wide) in paragraph at lines 11048--11049
 []\T1/ppl/m/n/10.95 Works with lim-ited datasets, and fills in de-faults or sma
 rt de-faults where
  []
 
 
-LaTeX Warning: Reference `sec:inputs' on page 385 undefined on input line 11045
+LaTeX Warning: Reference `sec:inputs' on page 385 undefined on input line 11049
 .
 
 [385]
-Overfull \hbox (6.31648pt too wide) in paragraph at lines 11066--11067
+Overfull \hbox (6.31648pt too wide) in paragraph at lines 11070--11071
 []\T1/ppl/m/n/10.95 Heating value ba-sis in Bi-tu-men Ex-trac-tion & Up-grad-in
 g work-sheet is changed
  []
@@ -7796,7 +7796,7 @@ g work-sheet is changed
 [386] [387]
 
 LaTeX Warning: Reference `sec:primary_interaction' on page 388 undefined on inp
-ut line 11121.
+ut line 11125.
 
 (./OPGEE_v3.0_methodology.bbl [388]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
@@ -7853,49 +7853,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 1089--1095
  []
 
 [399]
-Underfull \hbox (badness 1024) in paragraph at lines 1193--1199
+Underfull \hbox (badness 1024) in paragraph at lines 1200--1206
 []\T1/ppl/m/n/10 Vetcogray.  Spe-cialty Con-nec-tors & Pipe: For land, plat-for
 m, jackup, floater
  []
 
 
-Overfull \hbox (187.4541pt too wide) in paragraph at lines 1193--1199
+Overfull \hbox (187.4541pt too wide) in paragraph at lines 1200--1206
 []\T1/cmtt/m/n/10 http://site.ge-energy.com/businesses/ge_oilandgas/en/literatu
 re/en/downloads/specialty_connectors_pipe.pdf\T1/ppl/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 1201--1205
+Underfull \hbox (badness 2486) in paragraph at lines 1208--1212
 []\T1/ppl/m/n/10 API.  API Tub-ing Ta-ble.  Tech-ni-cal re-port, Amer-i-can Pet
 roleum In-sti-tute,
  []
 
-
-Underfull \hbox (badness 1917) in paragraph at lines 1227--1231
+[400]
+Underfull \hbox (badness 1917) in paragraph at lines 1234--1238
 []\T1/ppl/m/n/10 CIA.  The World Fact-book.  Tech-ni-cal re-port, Cen-tral In-t
 el-li-gence Agency,
  []
 
-[400] [401]
-Underfull \hbox (badness 1796) in paragraph at lines 1351--1356
+[401]
+Underfull \hbox (badness 1796) in paragraph at lines 1358--1363
 \T1/ppl/m/n/10 port https://www.enverus.com/industry/exploration-and-production
 /, En-verus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1369--1372
+Underfull \hbox (badness 10000) in paragraph at lines 1376--1379
 []\T1/ppl/m/n/10 Toolbox, T.E.  The En-gi-neer-ing Tool-box.  Tech-ni-cal re-po
 rt,
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 11162.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 11166.
  [402]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 11162.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 11166.
  (./OPGEE_v3.0_methodology.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 11162.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 11166.
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 11162
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 11166
 .
 Package rerunfilecheck Info: File `OPGEE_v3.0_methodology.out' has not changed.
 
@@ -7907,16 +7907,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 11162.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 11166.
  ) 
 Here is how much of TeX's memory you used:
- 24674 strings out of 493014
- 427849 string characters out of 6133351
- 694543 words of memory out of 5000000
- 26174 multiletter control sequences out of 15000+600000
+ 24678 strings out of 493014
+ 427922 string characters out of 6133351
+ 693560 words of memory out of 5000000
+ 26177 multiletter control sequences out of 15000+600000
  73021 words of font info for 169 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 42i,26n,46p,10385b,1399s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,26n,46p,10385b,1401s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
@@ -7933,10 +7933,10 @@ dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
 /palatino/uplri8a.pfb>
-Output written on OPGEE_v3.0_methodology.pdf (402 pages, 18173195 bytes).
+Output written on OPGEE_v3.0_methodology.pdf (402 pages, 18174569 bytes).
 PDF statistics:
- 11173 PDF objects out of 12825 (max. 8388607)
- 9009 compressed objects within 91 object streams
- 1575 named destinations out of 1728 (max. 500000)
+ 11176 PDF objects out of 12825 (max. 8388607)
+ 9012 compressed objects within 91 object streams
+ 1576 named destinations out of 1728 (max. 500000)
  1442 words of extra memory for PDF output out of 10000 (max. 10000000)
 

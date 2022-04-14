@@ -1357,7 +1357,7 @@ Stabilizer column \xlname{Stabilizer}                                           
 Upgrader type \xlname{Upgrader\_type} (0: None, 1: Delayed coking, 2: Hydroconversion, 3: Hydroconversion and fluid coking)                                                      & 0        & 0          & 0         & 0          & 0                  & Uniform           \\
 Associated gas processing path \xlname{Gas\_processing\_path} (1: None, 2: Minimal - Dehydrator, 3: Acid Gas, 4: Wet Gas, 5: Acid Wet Gas, 6: CO$_2$-EOR Membrane, 7: CO$_2$-EOR Ryan Holmes) & 5        & 0          & 5         & 5          & -                  & Uniform           \\
 Flare-oil-ratio \xlname{FOR} {[}scf flared/bbl oil{]}                                                                                                           & NOAA     & NOAA*0.2   & 1         & 3000       & -                  & Normal            \\
-Venting fraction \xlname{VOR}  {[}frac.{]}                                                                                                                       & 0.002      & 0.001          & 0.00        & 0.1        & -                  & Lognormal          \\
+Purposeful Venting fraction \xlname{PVF}  {[}frac.{]}                                                                                                                       & 0.002      & 0.001          & 0.00        & 0.1        & -                  & Lognormal          \\
 Volume fraction of diluent in diluted crude \xlname{Fraction\_diluent}                                                                                                             & 0        & 0          & 0         & 0          & -                  & Uniform           \\
 \midrule
  Land use impacts                                                                                                                                            &          &            &           &            &                    &                   \\
@@ -3382,7 +3382,7 @@ One last important source of emissions are mine face and tailings pond fugitive 
 
 Combining these data with production data from ST-39 in the month that their surveys were taken (volumes of raw bitumen production), we arrive at a production-weighted fugitive emissions rate of 22.9 scf CH$_4$/bbl. This is higher than OPGEE 2.0 factor by 3 to 4 times. For large area sources, top-down methods are much superior to small scale sampling with chambers etc, which have a difficult time with extreme local heterogenaity.
 
-These calculations are now documented on the bitumen mining sheet. We no longer use the VOR for bitumen mining.
+These calculations are now documented on the bitumen mining sheet. We no longer use the PVF for bitumen mining.
 
 In order to capture the range of mining projects, OPGEE models two template mining operations: 
 \begin{itemize}
@@ -3616,7 +3616,7 @@ $Q_0$ & Oil production volume & \xlname{Oil\_prod} & 1,500 & 10-3,000,000 & [bbl
 $y_{OS,mi}$     & Oil sands mine integrated with upgrader?  & \xlname{Oil\_sands\_mine\_int\_01} & 0 & 0-1 & [binary 0-1] & & \\
 $y_{OS,mn}$     & Oil sands mine non-integrated with upgrader?  & \xlname{Oil\_sands\_mine\_nonint\_01} & 0 & 0-1 & [binary 0-1] & & \\
 $FOR$     & Ratio of flaring to oil production  & \xlname{FOR} & var. & var.  & [scf/bbl] & & \\
-$VOR$     & Fraction of post-flare gas vented  & \xlname{VOR} & var. & var.  & [frac.] & & \\
+$PVF$     & Purposeful venting fraction (post-flare gas)  & \xlname{PVF} & var. & var.  & [frac.] & & \\
 $x_{N_2}$     & Nitrogen gas composition & \xlname{Gas\_comp\_N2} & 2 & var. & mol\% & & \\
 $x_{CO_2}$     & CO$_2$ gas composition & \xlname{Gas\_comp\_CO2} & 6 & var. & mol\% & & \\
 $x_{C_1}$     & Methane gas composition & \xlname{Gas\_comp\_C1} & 84 & var. & mol\% & & \\
@@ -5858,11 +5858,11 @@ Gas to purposeful vent					& \stream{252}			& O		& Environment					& [t/d]			&		
 
 Default values for venting calculations are shown in Tables \ref{tab:primary_inputs_venting}.
 
-Venting is applied on the \sheet{Venting} sheet using the primary input \xlname{VOR}, indicating ``venting to oil ratio''. \xlname{VOR} is defined as fraction of post-flaring gas that is purposely vented [fraction between 0-1]. The fraction is applied after the volumes flared are subtracted to prevent non-physical outcomes, wherein more than 100\% of the gas is lost to the flare plus vent.
+Venting is applied on the \sheet{Venting} sheet using the primary input \xlname{PVF}, indicating ``purposeful venting fraction''. \xlname{PVF} is defined as fraction of post-flaring gas that is purposely vented [fraction between 0-1]. The fraction is applied after the volumes flared are subtracted to prevent non-physical outcomes, wherein more than 100\% of the gas is lost to the flare plus vent.
 
-Also, note that erroneous behavior can occur in cases where gas lift is used and large amounts of venting are assumed (i.e., \xlname{VOR} approaches 1). This is almost certainly an unusual set of parameters to input -- why would large amounts of gas be vented if it is needed for injection as gas lifting fluid?  However, to avoid this problem, the fraction loss is applied to the incoming post-flare gas, less that reinjected (stream \stream{42}). 
+Also, note that erroneous behavior can occur in cases where gas lift is used and large amounts of venting are assumed (i.e., \xlname{PVF} approaches 1). This is almost certainly an unusual set of parameters to input -- why would large amounts of gas be vented if it is needed for injection as gas lifting fluid?  However, to avoid this problem, the fraction loss is applied to the incoming post-flare gas, less that reinjected (stream \stream{42}). 
 
-The resulting ratio of loss (in most cases simply equal to \xlname{VOR}) is then applied to the other gas species, on the presumption that methane cannot be vented preferentially to other species.
+The resulting ratio of loss (in most cases simply equal to \xlname{PVF}) is then applied to the other gas species, on the presumption that methane cannot be vented preferentially to other species.
 
 %%%%%%%%%%%%%%
 
@@ -5881,7 +5881,7 @@ The resulting ratio of loss (in most cases simply equal to \xlname{VOR}) is then
 \begin{supertabular*}{1\columnwidth}{p{0.03\columnwidth}p{0.3\columnwidth}p{0.25\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}p{0.025\columnwidth}p{0.025\columnwidth}}
 
 $GOR$ & Gas-to-oil ratio & \xlname{GOR} & Function of API gravity & 1->100,000 & [scf/bbl]   & Assumption & -\\
-$VOR$ & Ratio of venting to oil production & \xlname{VOR} & 5 & var. & [scf/bbl]   & Assumption & -\\
+$PVF$ & Purposeful venting fraction & \xlname{PVF} & 0.002 & var. & [frac.]   & Assumption & -\\
  
 \end{supertabular*}
 %\begin{tablenotes}
@@ -8928,8 +8928,8 @@ The default settings for the parameters for gas distribution are given below in 
 \begin{threeparttable}
 \begin{supertabular*}{1\columnwidth}{p{0.03\columnwidth}p{0.25\columnwidth}p{0.25\columnwidth}p{0.03\columnwidth}p{0.03\columnwidth}p{0.1\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}}
 
-$\epsilon_{customer}$ & Loss fraction at customer meter  & \xlname{Losses\_customermeter}  & 0.001 	& var. 	& [\%] & Assumption   & \\
-$\epsilon_{equ.}$ & Loss fraction at end use appliance or equipment  & \xlname{Losses\_enduse}  & 0.001 	& var. 	& [\%] & Assumption   & \\
+$\epsilon_{customer}$ & Loss fraction at customer meter  & \xlname{Losses\_customermeter}  & 0.00 	& var. 	& [\%] & Assumption  & \\
+$\epsilon_{equ.}$ & Loss fraction at end use appliance or equipment  & \xlname{Losses\_enduse}  & 0.00475	& var. 	& [\%] & \cite{Fischer2018}  & \\
  	     
 \end{supertabular*}
 %\begin{tablenotes}
@@ -9828,7 +9828,9 @@ The resulting fitted equations are as follows, for each productivity tranche $i$
 \end{equation}
 Here, $AFR_j$ is the activity factor ratio for equipment type $j$, defined as the ratio of the given activity factor being modeled to the baseline Rutherford et al. activity factor. For example, if the site being modeled has 6 pneumatic controllers and the Rutherford et al. default has 2 pnuematic controllers, then $AFR_j$ for pneumatic controllers = 3. $AFR_{oth}$ is defined similarly, but is the overall activity factor ratio for all other pieces of equipment, normalized by the corresponding factors from Rutherford et al. $\beta_{i,j,1} \ldots \beta_{i,j,5}$ are the 5 fitting terms for each equation for the combination of productivity tranche $i$ and equipment $j$.
 
-The resulting model fits are shown below in Figures \ref{fig:AFproxy1} to [y]. Figure \ref{fig:AFproxy1} shows the effect of changing the activity factor ratio $AFR_j$ from 1 to 4 for each of the pieces of equipment in gas systems. The shape of the symbol gives the overall scaling factor for all other pieces of equipment, $AFR_{oth}$. As we see, there is virtually no impact of the other pieces of equipment, but that in most cases the effect of changing $AFR_j$ is linear. Figure \ref{fig:AFproxy2} shows the same results but for oil systems.
+The resulting model fits are shown below in Figures \ref{fig:AFproxy1} to \ref{fig:AFproxy2}. Figure \ref{fig:AFproxy1} shows the effect of changing the activity factor ratio $AFR_j$ from 0.25 to 4 for each of the pieces of equipment in gas systems. The shape of the symbol gives the overall scaling factor for all other pieces of equipment, $AFR_{oth}$. As we see, there is virtually no impact of the other pieces of equipment, but that in most cases the effect of changing $AFR_j$ is linear. The cases where the change is not linear in $AFR_j$ are instructive. In very low productivity wells, the leakage rate of a given piece of equipment $j$ is more dependent on the other pieces of equipment because OPGEE runs a mass balance check on the fugitives model to ensure that more gas is not leaked than gas is available in the system. For very low productivity wells this means that ``re-draws'' are needed when the model stochastically draws a leak sufficiently large that the (non-physical) result of >100\% leakage occurs. Thus, for low productivity wells, the leakage cannot simply scale linearly. This, indeed, is the reason for the method used here to estimate emissions rather than to simply scale them linearly.
+
+Figure \ref{fig:AFproxy2} shows the same results but for oil systems.
 
  \begin{figure}[t]
 \includegraphics[width=1\columnwidth]{images/ProxyAF_Model_Pic1.pdf}
@@ -10116,6 +10118,7 @@ OPGEE & Oil Production Greenhouse Gas Emissions Estimator\\
 ORG & Organoclay\\
 OTSG & Once-through steam generators\\
 OZO & Ozone\\
+PVF & Purposeful venting fraction\\
 RBC & Rotating biological contactors\\
 RO & Reverse osmosis\\
 RVP & Reid vapor pressure \\
@@ -10131,7 +10134,6 @@ THC & Total hydrocarbon\\
 UF & Ultrafiltration\\
 VFF & Venting, flaring and fugitives\\
 VOC & Volatile organic compounds\\
-VOR & Venting to oil ratio\\
 W\&S & Standing and working losses \\
 WOR & Water to oil ratio\\
 WTR & Well to refinery\\
