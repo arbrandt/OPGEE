@@ -145,7 +145,7 @@
 \contentsline {table}{\numberline {7.4}{\ignorespaces Combustion technologies and fuels included in OPGEE.\relax }}{335}{table.caption.298}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {8.1}{\ignorespaces Summary of OPGEE modeling approaches for VF emissions. Each of these approaches is described in detail later in this section.\relax }}{336}{table.caption.301}
-\contentsline {table}{\numberline {8.2}{\ignorespaces Averaged equipment (row) and well gas productivity (column, mscf/well/day) loss rates for oil systems (GOR < 100 mscf/bbl) and natural gas systems (GOR > 100 mscf/bbl).\relax }}{346}{table.caption.313}
+\contentsline {table}{\numberline {8.2}{\ignorespaces Averaged equipment (row) and well gas productivity (column, mscf/well/day) loss rates for oil systems (GOR < 100 mscf/bbl) and natural gas systems (GOR > 100 mscf/bbl). Loss rates in \% terms except flash factor which is reported in kg CH$_4$ per bbl of oil.\relax }}{346}{table.caption.313}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
