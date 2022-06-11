@@ -321,33 +321,32 @@
 \contentsline {section}{\numberline {10.3}Future work}{361}{section.10.3}
 \contentsline {chapter}{\numberline {A}Terminology: Acronyms and abbreviations}{362}{appendix.A}
 \contentsline {chapter}{\numberline {B}Mathematical terms and definitions}{364}{appendix.B}
-\contentsline {chapter}{\numberline {C}Tabulated sources for each production stage}{369}{appendix.C}
-\contentsline {chapter}{\numberline {D}Bulk assessment macro error correction}{376}{appendix.D}
-\contentsline {chapter}{\numberline {E}Changes and updates from previous versions of OPGEE}{380}{appendix.E}
-\contentsline {section}{\numberline {E.1}Changes from OPGEE v2.0a to OPGEE v2.0b}{380}{section.E.1}
-\contentsline {section}{\numberline {E.2}Changes from OPGEE v1.1 Draft E to OPGEE v2.0a}{380}{section.E.2}
-\contentsline {section}{\numberline {E.3}Changes from OPGEE v1.1 Draft D to OPGEE v1.1 Draft E}{381}{section.E.3}
-\contentsline {subsection}{\numberline {E.3.1}Steam Injection changes }{381}{subsection.E.3.1}
-\contentsline {section}{\numberline {E.4}Changes from OPGEE v1.1 Draft C to OPGEE v1.1 Draft D}{381}{section.E.4}
-\contentsline {subsection}{\numberline {E.4.1}Bulk assessment changes }{381}{subsection.E.4.1}
-\contentsline {subsection}{\numberline {E.4.2}Fugitive emissions changes}{382}{subsection.E.4.2}
-\contentsline {subsection}{\numberline {E.4.3}Documentation and clarity improvements}{382}{subsection.E.4.3}
-\contentsline {section}{\numberline {E.5}Changes from OPGEE v1.1 Draft B to OPGEE v1.1 Draft C}{382}{section.E.5}
-\contentsline {section}{\numberline {E.6}Changes from OPGEE v1.1 Draft A to OPGEE v1.1 Draft B}{383}{section.E.6}
-\contentsline {subsection}{\numberline {E.6.1}Gas balance and gas properties}{383}{subsection.E.6.1}
-\contentsline {subsection}{\numberline {E.6.2}Production emissions}{383}{subsection.E.6.2}
-\contentsline {subsection}{\numberline {E.6.3}Venting and fugitives}{383}{subsection.E.6.3}
-\contentsline {subsection}{\numberline {E.6.4}Other corrections and error fixes}{384}{subsection.E.6.4}
-\contentsline {section}{\numberline {E.7}Changes from OPGEE v1.0 to OPGEE v1.1 Draft A}{384}{section.E.7}
-\contentsline {subsection}{\numberline {E.7.1}Overall model organization}{384}{subsection.E.7.1}
-\contentsline {subsection}{\numberline {E.7.2}User inputs \& results worksheet}{384}{subsection.E.7.2}
-\contentsline {subsection}{\numberline {E.7.3}Defaults and smart defaults}{385}{subsection.E.7.3}
-\contentsline {subsection}{\numberline {E.7.4}Data and input parameters}{385}{subsection.E.7.4}
-\contentsline {subsection}{\numberline {E.7.5}Error checks}{385}{subsection.E.7.5}
-\contentsline {subsection}{\numberline {E.7.6}New model functionality}{385}{subsection.E.7.6}
-\contentsline {subsection}{\numberline {E.7.7}Bulk assessment macro changes}{385}{subsection.E.7.7}
-\contentsline {subsection}{\numberline {E.7.8}Corrections and improvements}{386}{subsection.E.7.8}
-\contentsline {subsection}{\numberline {E.7.9}Documentation and model explanation}{387}{subsection.E.7.9}
-\contentsline {section}{\numberline {E.8}Changes from OPGEE v1.0 Draft A to OPGEE v1.0}{387}{section.E.8}
-\contentsline {subsection}{\numberline {E.8.1}Major changes}{387}{subsection.E.8.1}
-\contentsline {subsection}{\numberline {E.8.2}Minor changes}{388}{subsection.E.8.2}
+\contentsline {chapter}{\numberline {C}Bulk assessment macro error correction}{369}{appendix.C}
+\contentsline {chapter}{\numberline {D}Changes and updates from previous versions of OPGEE}{373}{appendix.D}
+\contentsline {section}{\numberline {D.1}Changes from OPGEE v2.0a to OPGEE v2.0b}{373}{section.D.1}
+\contentsline {section}{\numberline {D.2}Changes from OPGEE v1.1 Draft E to OPGEE v2.0a}{373}{section.D.2}
+\contentsline {section}{\numberline {D.3}Changes from OPGEE v1.1 Draft D to OPGEE v1.1 Draft E}{374}{section.D.3}
+\contentsline {subsection}{\numberline {D.3.1}Steam Injection changes }{374}{subsection.D.3.1}
+\contentsline {section}{\numberline {D.4}Changes from OPGEE v1.1 Draft C to OPGEE v1.1 Draft D}{374}{section.D.4}
+\contentsline {subsection}{\numberline {D.4.1}Bulk assessment changes }{374}{subsection.D.4.1}
+\contentsline {subsection}{\numberline {D.4.2}Fugitive emissions changes}{375}{subsection.D.4.2}
+\contentsline {subsection}{\numberline {D.4.3}Documentation and clarity improvements}{375}{subsection.D.4.3}
+\contentsline {section}{\numberline {D.5}Changes from OPGEE v1.1 Draft B to OPGEE v1.1 Draft C}{375}{section.D.5}
+\contentsline {section}{\numberline {D.6}Changes from OPGEE v1.1 Draft A to OPGEE v1.1 Draft B}{376}{section.D.6}
+\contentsline {subsection}{\numberline {D.6.1}Gas balance and gas properties}{376}{subsection.D.6.1}
+\contentsline {subsection}{\numberline {D.6.2}Production emissions}{376}{subsection.D.6.2}
+\contentsline {subsection}{\numberline {D.6.3}Venting and fugitives}{376}{subsection.D.6.3}
+\contentsline {subsection}{\numberline {D.6.4}Other corrections and error fixes}{377}{subsection.D.6.4}
+\contentsline {section}{\numberline {D.7}Changes from OPGEE v1.0 to OPGEE v1.1 Draft A}{377}{section.D.7}
+\contentsline {subsection}{\numberline {D.7.1}Overall model organization}{377}{subsection.D.7.1}
+\contentsline {subsection}{\numberline {D.7.2}User inputs \& results worksheet}{377}{subsection.D.7.2}
+\contentsline {subsection}{\numberline {D.7.3}Defaults and smart defaults}{378}{subsection.D.7.3}
+\contentsline {subsection}{\numberline {D.7.4}Data and input parameters}{378}{subsection.D.7.4}
+\contentsline {subsection}{\numberline {D.7.5}Error checks}{378}{subsection.D.7.5}
+\contentsline {subsection}{\numberline {D.7.6}New model functionality}{378}{subsection.D.7.6}
+\contentsline {subsection}{\numberline {D.7.7}Bulk assessment macro changes}{378}{subsection.D.7.7}
+\contentsline {subsection}{\numberline {D.7.8}Corrections and improvements}{379}{subsection.D.7.8}
+\contentsline {subsection}{\numberline {D.7.9}Documentation and model explanation}{380}{subsection.D.7.9}
+\contentsline {section}{\numberline {D.8}Changes from OPGEE v1.0 Draft A to OPGEE v1.0}{380}{section.D.8}
+\contentsline {subsection}{\numberline {D.8.1}Major changes}{380}{subsection.D.8.1}
+\contentsline {subsection}{\numberline {D.8.2}Minor changes}{381}{subsection.D.8.2}

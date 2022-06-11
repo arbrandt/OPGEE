@@ -418,6 +418,9 @@ Because of the need for transparent data basis, OPGEE uses data from a variety o
 \item Water treatment and waste disposal \cite{Wilson1999, Manning1995, Stewart2011, Khatib2002, Neff2007, Reed1996, Veil2004}
 \item Venting, flaring, and fugitive emissions \cite{API1991, API1993a, API1995a, API1996b, API1998a, API1998b, API1998c, API2003, API2006, API2008a, API2008b, API2008c, API2009a, API1993b, API1995a, API2009e}
 \item Petroleum transport and storage \cite{API2006, GPSA2004, API1993b, API1995b, API1997, API2009a, Mcallister2009, Miesner2006, Szilas1985}
+\item Natural gas liquefaction and LNG transport \cite{RodaStuart2018, Nie2020, Abrahams2015}
+\item Natural gas transmission, distribution, and end use \cite{DiLullo2020, Zimmerle2015, Fischer2018}
+
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -650,6 +653,8 @@ OPGEE v3.0a is run from the inputs worksheet. The user enters the starting field
 
 Secondary input data are entered on the \sheet{Secondary Inputs} worksheet. All secondary input parameters are free for the user to change, however, it should not be necessary to change these secondary input parameters in basic use of OPGEE. The secondary parameters include parameters with less effect on the resulting emissions, that are not highly variable across operations, or that are less likely to be known by model users. Examples include compressor suction pressure and temperature, type of prime mover, or pump efficiency. Note that some of these parameters (e.g., pump efficiency) can have significant effects on model results, but are not believed to be highly variable across fields.
 
+Importantly, any changes made on the \sheet{Secondary Inputs} sheet will apply to \emph{all} fields run in session, so secondary inputs cannot be changed on a field-by-field basis. (This also applies any other model sheet than the \sheet{Inputs} data table, which is where field-specific inputs are stored and loaded.) 
+
 \subsection{Field summary worksheets} 
 
 Field summary worksheets present information about the field most recently analyzed. Field summary worksheets are colored dark green. The overall summary inputs and results for the field under analysis are presented on the \sheet{Active Field} sheet. Flows for the field under analysis are presented and organized in the \sheet{Flow Sheet} worksheet. Process stage calculations are compiled into summed energy consumption results (including energy co-production credits) on the \sheet{Energy Summary} sheet and summed GHG emissions (including any offsets from co-produced energy) on the \sheet{GHG Summary} sheet. Lastly, a summary of venting and fugitive emissions are presented in the \sheet{VFF Summary} worksheet.
@@ -723,11 +728,13 @@ This worksheet provides other needed data inputs such as conversion factors and 
 
 \subsubsection{\sheet{Results} worksheet}
 
-After the user enters data to the \sheet{Inputs} worksheet and clicks the 'Run Assessment' button, OPGEE computes the resulting GHG emissions. The results for the last field (End field number entered on \sheet{Inputs} sheet) analyzed are stored in the \sheet{Active field} worksheet, while the results from all fields in the analyzed set are stored in the \sheet{Results} worksheet in tabular form in gCO$_2$ (equivalent GHG emissions per MJ LHV crude oil delivered to the refinery gate). Emissions are broken down by stage (generally) or by type, with venting, flaring, and fugitive emissions for all process stages summed together for convenient interpretation as `VFF' emissions. Total energy consumed per unit of energy delivered to the refinery gate is also presented in tabular and graphical form.
+After the user enters data to the \sheet{Inputs} worksheet and clicks the 'Run Assessment' button, OPGEE computes the resulting GHG emissions. The results for the last field (End field number entered on \sheet{Inputs} sheet) analyzed are stored in the \sheet{Active field} worksheet, while the results from all fields in the analyzed set are stored in the \sheet{Results} worksheet in tabular form in gCO$_2$ (equivalent GHG emissions per MJ LHV crude oil delivered to the refinery gate). Emissions are broken down by stage (generally) or by type, with venting, flaring, and fugitive emissions for all process stages summed together for convenient interpretation as `VFF' emissions. 
+
+Total energy consumed per unit of energy exported is also presented in tabular form.
 
 \subsubsection{\sheet{Uncertainty} worksheet} 
 
-If the user conducts a Monte Carlo analysis (enters >1 uncertainty runs in the \sheet{Inputs} worksheet), the multiple realizations are collected in the \sheet{Uncertainty} worksheet. Sample statistics are also calculated here. Using the tabulated realizations, the user can conduct further uncertainty analysis in Matlab or Excel.
+If the user conducts a Monte Carlo analysis (enters >1 uncertainty realizations in the \sheet{Inputs} worksheet), the multiple realizations are collected in the \sheet{Uncertainty} worksheet. Sample statistics are also calculated here. Using the tabulated realizations, the user can conduct further uncertainty analysis in Matlab or Excel.
 
 \clearpage
 
@@ -787,7 +794,9 @@ CI_{i} = \frac{EM_{i,comb}}{E^{tot}_{out}} \quad\quad\eqnunitfrac{gCO$_{2}$eq}{M
 %%%%%%%%%%%%%
 And the VFF CI is computed similarly. In this equation $EM_{comb}$ represents combustion emissions [gCO$_2$/d] and $E^{tot}_{out}$ represents total output energy [MJ/d]. Conversion factors are applied on \sheet{Energy Summary} sheet to obtain these units. 
 
-For ``downstream'' processes past the field boundary, only emissions and output from the main product branch are computed. For example, in assessing the emissions from an oil functional unit, the energy and emissions from downstream gas processing of the associated gas are not included. In the case where the emissions from co-products are divided by allocation, emissions in the field are allocated to oil and gas by energy content. But after the gas and oil are split at the field boundary, emissions and energy use from the gas transport and storage ``branch'' are not back-allocated to the oil product. This prevents inappropriate assignment of emissions to the incorrect product.
+For ``downstream'' processes past the field boundary, only emissions and output from the main product branch are computed. For example, in assessing the emissions from an oil functional unit, the energy and emissions from downstream gas processing of the associated gas are not included. In the case where the emissions from co-products are divided by allocation, emissions in the field are allocated to oil and gas by energy content. But after the gas and oil are split at the field boundary, emissions and energy use from the gas transport and storage ``branch'' are not back-allocated to the oil product. This prevents inappropriate assignment of emissions to the incorrect product. 
+
+Thus, the definition of $E_{out}$ in the denominator differs by stage: for downstream stages it includes the primary product but not the secondary products that have been severed from the primary product. For example, for the stage of crude oil transport stage with crude oil as the primary product, the numerator includes emissions from crude oil transport while the denominator includes only the energy content of the crude oil, not the crude oil \emph{and} the gas.
 
 The \sheet{Active Field} sheet also includes credits for exported secondary products that result in offsite emissions credits as well as CO$_2$ sequestration credited accruing to the oilfield, which are described in Section \ref{sec:Sequestration}.
 
@@ -847,7 +856,7 @@ Giant oilfields & 1972 & 1980 & 22 \\
 
 \subsection{Default field depth}
 
-Field depth (\xlname{Field\_depth}) data were collected for a total of 7,344 global oilfields \cite{Masnadi2018}. For fields where a range of depths is presented, the mean of the range is used as a point estimate. The distribution of depths by number of fields per depth range is presented in in Figure \ref{fig:depth_distribution}. The mean depth for these fields is $\approx$7,122 ft (used as deterministic default) and the standard deviation (SD) is $\approx$3,851 ft. The depth distribution has a longer right tail (deep) than left tail (shallow), so the mean is somewhat larger than the median (6,654 ft).
+Field depth (\xlname{Field\_depth}) data were collected for a total of 7,344 global oilfields \cite{Masnadi2018}. For fields where a range of depths is presented, the mean of the range is used as a point estimate. The distribution of depths by number of fields per depth range is presented in in Figure \ref{fig:depth_distribution}. The mean depth for oil fields in the Masnadi \emph{et al.} work is $\approx$7,122 ft (used as deterministic default) and the standard deviation (SD) is $\approx$3,851 ft. The depth distribution has a longer right tail (deep) than left tail (shallow), so the mean is somewhat larger than the median (6,654 ft). For gas fields in the dataset the mean depth is  $\approx$8285 ft.
 
 \begin{figure}[t]
 \includegraphics[width=0.8\columnwidth]{images/depth_distribution.pdf}
@@ -865,6 +874,10 @@ In total, 5,070 global oilfields with available oil production data (\xlname{Oil
 \label{fig:production_distribution}
 \end{figure}
 
+For cases where a gas field is being estimated but the gas field produces very dry gas (e.g., GOR $\gg$ 100,000 scf/bbl) one approach is to set liquids production to a small round value such as 1 bbl/d (or 10 or 100 bbl/d), then setting the GOR such that the multiple of 1 (or 10 or 100) bbl/d and the GOR gives the gas output to be modeled in scf/bbl. The need to insert an arbirtarily small liquid production rate is a consequence of OPGEE not being designed to run in cases where \emph{literally} 0 bbl of liquid are produced. 
+
+
+
 \subsection{Default production per well} \label{sec:well_production}
 
 Country-level oil production data and numbers of producing wells were collected for a large number of oil producing countries. Data from a total of 106 oil producing countries were collected from the Oil \& Gas Journal \emph{2015 Worldwide Oil Field Production Survey} \cite{OGJ2015}. 
@@ -873,7 +886,6 @@ The distribution of per-well productivities for all countries is shown in Figure
 
 Because of the large number of countries producing less than 500 bbl/well-d, we plot the distribution for countries under 500 bbl/well-d (see Figure \ref{fig:productivity_distribution_low}). For the 61 countries with per-well productivity less than 500 bbl/well-d, the most common productivity by number of countries was the 0-25 bbl/well-d. However, when weighted by total production, the most common productivity bin is 75-100 bbl/well-d. An average productivity of 87.5 bbl/well-d is assumed as default well productivity in OPGEE. 
 
-It is commonly known that the higher the field productivity index (PI, bbl/psi-d), the lower the number of producing wells and injectors. Based on the available data on the number of producing wells vs. the productivity index, the default number of producing wells is limited to 200 if the PI is higher than 6 bbl/psi-d. 
 
 \begin{figure}[t]
 \includegraphics[width=0.8\columnwidth]{images/well_prod_all.pdf}
@@ -10395,366 +10407,366 @@ $lift$ & lifting\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Tabulated sources for each production stage}\label{sec:app_sources_classification}
-
-The full classification of emissions sources for each production stage is given below in Tables \ref{tab:exploration_sources} to \ref{tab:transport_sources}.
-
-Each emissions source is classified according to process, sub-process, and specific emissions source. Any variants of that emissions source are listed (if they have material effects on emissions or energy consumption). A sensitivity code is given from 1 to 4 stars (* to ****) based on judgement of the likely magnitude of the source. Lastly, the table indicates whether or not an emissions source is included (incl. = 1 means that the source is included).
-
-\begin{landscape}
-\begin{table}
-\begin{scriptsize}
-\caption{Emissions sources from exploratory operations. For inclusion: 0 = not included, 1 = included.}
-\label{tab:exploration_sources}
-\begin{tabular}{|p{0.08\columnwidth}|p{0.09\columnwidth}|p{0.12\columnwidth}|p{0.25\columnwidth}|r|p{0.055\columnwidth}|p{0.075\columnwidth}|p{0.04\columnwidth}|}
-\hline
-\textbf{Main stage} & \textbf{Process} & \textbf{Sub-process} & \textbf{Emissions source} & \textbf{Variants}& \textbf{Sensitivity code} & \textbf{Estimated magnitude} & \textbf{Incl.}\\
-\hline
-\multirow{25}{0.08\columnwidth}{Exploration} & \multirow{7}{0.09\columnwidth}{Seismic exploration} & \multirow{4}{0.09\columnwidth}{Terrestrial seismic} & Vehicular emissions & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Data processing & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Consumed materials (charges etc.) & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Land use impacts & - & * & $\leq$ 0.01 g & 0\\
-\cline{3-8}
-& & \multirow{3}{*}{Oceanic seismic} & Ship emissions & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Data processing & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Consumed materials & - & * & $\leq$ 0.01 g & 0\\
-\cline{2-8}
-& \multirow{12}{0.09\columnwidth}{Exploratory drilling} & \multirow{8}{0.09\columnwidth}{Terrestrial drilling} & Prime mover emissions & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Land clearing and construction & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Vents and upset emissions & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Drilling flares & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Casing and cement & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Other material consumption (e.g., frac sand) & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Land use impacts & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Indirect land use impacts (opening of inaccessible land) & - & * & $\leq$ 0.01 g & 0\\
-\cline{3-8}
-& & \multirow{4}{0.09\columnwidth}{Offshore drilling} & Prime mover emissions & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Drilling flares & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Vents and upset emissions & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Casing and cement & - & * & $\leq$ 0.01 g & 0\\
-\cline{2-8}
-& \multirow{6}{0.09\columnwidth}{Waste handling and disposal} & \multirow{3}{0.09\columnwidth}{Mud and fluid handling} & Energy consumption (other than prime mover) & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Fugitives from mud & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Disposal of mud & - & * & $\leq$ 0.01 g & 0\\
-\cline{3-8}
-& & Fracturing fluid disposal & Processing and disposal of fracturing fluid & - & * & $\leq$ 0.01 g & 0\\
-\cline{3-8}
-& & \multirow{2}{0.09\columnwidth}{Produced water disposal} & Processing of produced water & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Disposal of produced water (remote or on-site reinjection) & - & * & $\leq$ 0.01 g & 0\\
-\hline
-\end{tabular}
-\end{scriptsize}
-\end{table}
-
-
-\begin{table}
-\begin{scriptsize}
-\caption{Emissions sources from drilling operations.}
-\label{tab:drilling_sources}
-\begin{tabular}{|p{0.08\columnwidth}|p{0.09\columnwidth}|p{0.12\columnwidth}|p{0.25\columnwidth}|r|p{0.055\columnwidth}|p{0.075\columnwidth}|p{0.04\columnwidth}|}
-\hline
-\textbf{Main stage} & \textbf{Process} & \textbf{Sub-process} & \textbf{Emissions source} & \textbf{Variants}& \textbf{Sensitivity code} & \textbf{Estimated magnitude} & \textbf{Incl.}\\
-\hline
-\multirow{30}{0.08\columnwidth}{Drilling and development} & \multirow{11}{0.09\columnwidth}{Developmental drilling} & \multirow{7}{0.12\columnwidth}{Terrestrial drilling} & Prime mover emissions & - & ** & ~ 0.1 g & 1\\
-\cline{4-8}
-& & & Drilling flares & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Vents and upset emissions & - & ** & ~ 0.1 g & 0\\
-\cline{4-8}
-& & & Land use impacts & - & ** & ~ 0.1 g & 1\\
-\cline{4-8}
-& & & Clearing and construction & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Casing and cement embodied emissions & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Other materials consumption (e.g., frac sand) & - & * & $\leq$ 0.01 g & 0\\
-\cline{3-8}
-& & \multirow{4}{*}{Oceanic drilling} & Prime mover emissions & - & ** & ~ 0.1 g & 1\\
-\cline{4-8}
-& & & Drilling flares & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Vents and upset emissions & - & ** & ~ 0.1 g & 0\\
-\cline{4-8}
-& & & Casing and cement embodied emissions & - & * & $\leq$ 0.01 g & 0\\
-\cline{2-8}
-& \multirow{8}{0.09\columnwidth}{Processing capital investment} & \multirow{4}{0.12\columnwidth}{Oil/gas/water separators} & Separator assembly & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Separator fabrication & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Separator transport & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Raw materials manufacture & - & * & $\leq$ 0.01 g & 0\\
-\cline{3-8}
-& & Water reinjection wells & Various drilling emissions from reinjection wells (see above) & - & * & $\leq$ 0.01 g & 0\\
-\cline{3-8}
-& & \multirow{3}{*}{Pumps} & Pump assembly & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Pump fabrication and raw materials manufacture & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Pump transport & - & * & $\leq$ 0.01 g & 0\\
-\cline{2-8}
-& \multirow{5}{0.09\columnwidth}{Storage capital investment} & \multirow{5}{0.12\columnwidth}{Storage capital investment} & Tank assembly & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Tank fabrication & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Tank transport & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Raw materials manufacture & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Land use impacts & - & * & $\leq$ 0.01 g & 0\\
-\cline{2-8}
-& \multirow{6}{0.09\columnwidth}{Transport capital investment} & \multirow{5}{0.12\columnwidth}{Pipeline capital investment} & Pipeline assembly & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Pipe fabrication & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Pipe transport & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Raw materials manufacture & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Land use impacts & - & * & $\leq$ 0.01 g & 0\\
-\cline{3-8}
-& & Other transport capital investment & Other infrastructure fabrication and assembly & - & * & $\leq$ 0.01 g & 0\\
-\hline
-\end{tabular}
-\end{scriptsize}
-\end{table}
-
-\begin{table}
-\begin{scriptsize}
-\caption{Emissions sources from production and extraction operations.}
-\label{tab:production_sources}
-\begin{tabular}{|p{0.08\columnwidth}|p{0.09\columnwidth}|p{0.12\columnwidth}|p{0.25\columnwidth}|p{0.06\columnwidth}|p{0.055\columnwidth}|p{0.075\columnwidth}|p{0.04\columnwidth}|}
-\hline
-\textbf{Main stage} & \textbf{Process} & \textbf{Sub-process} & \textbf{Emissions source} & \textbf{Variants}& \textbf{Sensitivity code} & \textbf{Estimated magnitude} & \textbf{Incl.}\\
-\hline
-\multirow{22}{0.08\columnwidth}{Production and extraction} & \multirow{6}{*}{Lifting} & \multirow{3}{*}{Pumping} & Combustion for pump driver & - & *** & ~ 1 g & 1.0\\
-\cline{4-8}
-& & & Electricity for pump driver & - & *** & ~ 1 g & 1.0\\
-\cline{4-8}
-& & & Casing and wellhead fugitive emissions & - & *** & ~ 1 g & 1.0\\
-\cline{3-8}
-& & \multirow{3}{*}{Gas lift} & Compressor prime mover emissions & - & *** & ~ 1 g & 1.0\\
-\cline{4-8}
-& & & Compression electricity emissions & - & *** & ~ 1 g & 1.0\\
-\cline{4-8}
-& & & Casing and wellhead fugitive emissions & - & *** & ~ 1 g & 1.0\\
-\cline{2-8}
-& \multirow{16}{*}{Injection} & \multirow{3}{*}{Gas injection} & External gas processing (e.g., N2 production) & & & & 1.0\\
-\cline{4-8}
-& & & Gas compression energy & & *** & ~ 1 g & 1.0\\
-\cline{4-8}
-& & & [-] Gas sequestration credit (CO2 flood) & - & *** & ~ 1 g & 0.0\\
-\cline{3-8}
-& & Water injection & Water pumping energy & - & *** & ~ 1 g & 1.0\\
-\cline{3-8}
-& & \multirow{6}{*}{Steam injection} & Water pre-treatment & - & * & <= 0.01 g & 0.0\\
-\cline{4-8}
-& & & OTSG fuel combustion & NG, produced oil & **** & ~ 10 g & 1.0\\
-\cline{4-8}
-& & & Turbine gas consumption (combined cycle) & Low, med, high efficiency & **** & ~ 10 g & 1.0\\
-\cline{4-8}
-& & & HRSG duct firing (combined cycle) & - & *** & ~ 1 g & 1.0\\
-\cline{4-8}
-& & & [-] Electricity co-production offsets (combined cycle) & Grid mix variation & **** & ~ 10 g & 1.0\\
-\cline{4-8}
-& & & Steam pumping energy (if any) & - & * & <= 0.01 g & 0.0\\
-\cline{3-8}
-& & \multirow{3}{*}{Polymer flood} & Polymer embodied energy & - & * & <= 0.01 g & 0.0\\
-\cline{4-8}
-& & & Polymer mixing & - & * & <= 0.01 g & 0.0\\
-\cline{4-8}
-& & & Polymer/water mixture pumping energy & - & * & <= 0.01 g & 0.0\\
-\cline{3-8}
-& & \multirow{3}{0.12\columnwidth}{Surfactant/other injection} & Surfactant/other embodied energy & - & * & <= 0.01 g & 0.0\\
-\cline{4-8}
-& & & Surfactant/other mixing & - & * & <= 0.01 g & 0.0\\
-\cline{4-8}
-& & & Surfactant/other mixture pumping energy & - & * & <= 0.01 g & 0.0\\
-\hline
-\end{tabular}
-\end{scriptsize}
-\end{table}
-
-
-\begin{table}
-\begin{scriptsize}
-\caption{Emissions sources from surface processing operations.}
-\label{tab:processing_sources}
-\begin{tabular}{|p{0.08\columnwidth}|p{0.09\columnwidth}|p{0.12\columnwidth}|p{0.25\columnwidth}|p{0.06\columnwidth}|p{0.055\columnwidth}|p{0.075\columnwidth}|p{0.04\columnwidth}|}
-\hline
-\textbf{Main stage} & \textbf{Process} & \textbf{Sub-process} & \textbf{Emissions source} & \textbf{Variants}& \textbf{Sensitivity code} & \textbf{Estimated magnitude} & \textbf{Incl.}\\
-\hline
-\multirow{16}{0.08\columnwidth}{Separation and surface processing} & \multirow{4}{0.09\columnwidth}{Fluid separation} & \multirow{4}{0.12\columnwidth}{Oil-water-gas separation} & Oil-water-gas separation & - & ** & ~ 0.1 g & 1\\
-\cline{4-8}
-& & & Oil-water-gas separation with heater-treaters & - & ** & ~ 0.1 g & 1\\
-\cline{4-8}
-& & & Associated gas venting & Variations in flare efficiency & **** & ~ 10 g & 1\\
-\cline{4-8}
-& & & Associated gas flaring & Variations in flare efficiency & **** & ~ 10 g & 1\\
-\cline{2-8}
-& Solid/fluid separation & Solid separation from fluids & Solids removal from separation & - & * & $\leq$ 0.01 g & 0\\
-\cline{2-8}
-& \multirow{2}{0.09\columnwidth}{Gas processing} & \multirow{2}{0.12\columnwidth}{Gas processing} & Produced gas dehydration & - & * & $\leq$ 0.01 g & 1\\
-\cline{4-8}
-& & & Produced gas venting and flaring & - & *** & ~ 1 g & 1\\
-\cline{2-8}
-& \multirow{4}{0.09\columnwidth}{Water treatment and disposal} & \multirow{2}{0.12\columnwidth}{Water treatment} & Produced water cleanup & - & ** & ~ 0.1 g & 1\\
-\cline{4-8}
-& & & Produced water handling and pumping & - & ** & ~ 0.1 g & 1\\
-\cline{3-8}
-& & \multirow{2}{0.09\columnwidth}{Water reinjection and disposal} & Produced water reinjection & - & *** & ~ 1 g & 1\\
-\cline{4-8}
-& & & Produced water disposal & - & ** & ~ 0.1 g & 1\\
-\cline{2-8}
-& \multirow{5}{0.09\columnwidth}{Storage (as part of separation)} & \multirow{5}{0.12\columnwidth}{Storage} & Storage pumping energy & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Tank assembly and installation & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Evaporative and fugitive emissions & - & ** & ~ 0.1 g & 1\\
-\cline{4-8}
-& & & Tank materials manufacture & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Land use impacts & - & * & $\leq$ 0.01 g & 0\\
-\hline
-\end{tabular}
-\end{scriptsize}
-\end{table}
-
-
-\begin{table}
-\begin{scriptsize}
-\caption{Emissions sources from maintenance operations.}
-\label{tab:maintenance_sources}
-\begin{tabular}{|p{0.08\columnwidth}|p{0.09\columnwidth}|p{0.12\columnwidth}|p{0.25\columnwidth}|p{0.06\columnwidth}|p{0.055\columnwidth}|p{0.075\columnwidth}|p{0.04\columnwidth}|}
-\hline
-\textbf{Main stage} & \textbf{Process} & \textbf{Sub-process} & \textbf{Emissions source} & \textbf{Variants}& \textbf{Sensitivity code} & \textbf{Estimated magnitude} & \textbf{Incl.}\\
-\hline
-\multirow{7}{0.08\columnwidth}{Maintenance and workovers} & \multirow{6}{0.09\columnwidth}{Well workover} & \multirow{3}{0.12\columnwidth}{Terrestrial well workover} & Workover rig energy use & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Fugitive emissions during workover & - & ** & ~ 0.1 g & 1\\
-\cline{4-8}
-& & & Embodied energy in consumed replacement parts & - & * & $\leq$ 0.01 g & 0\\
-\cline{3-8}
-& & \multirow{3}{0.12\columnwidth}{Offshore well workover} & Workover rig energy use & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Fugitive emissions during workover & - & ** & ~ 0.1 g & 1\\
-\cline{4-8}
-& & & Embodied energy in consumed replacement parts & & * & $\leq$ 0.01 g & 0\\
-\cline{2-8}
-& Other maintenance & Other maintenance & Solids removal from separation & - & * & $\leq$ 0.01 g & 0\\
-\hline
-\end{tabular}
-\end{scriptsize}
-\end{table}
-
-
-\begin{table}
-\begin{scriptsize}
-\caption{Emissions sources from waste treatment and disposal operations.}
-\label{tab:waste_sources}
-\begin{tabular}{|p{0.08\columnwidth}|p{0.09\columnwidth}|p{0.12\columnwidth}|p{0.25\columnwidth}|p{0.06\columnwidth}|p{0.055\columnwidth}|p{0.075\columnwidth}|p{0.04\columnwidth}|}
-\hline
-\textbf{Main stage} & \textbf{Process} & \textbf{Sub-process} & \textbf{Emissions source} & \textbf{Variants}& \textbf{Sensitivity code} & \textbf{Estimated magnitude} & \textbf{Incl.}\\
-\hline
-\multirow{14}{0.08\columnwidth}{Waste treatment and disposal} & \multirow{3}{0.09\columnwidth}{Water processing waste} & \multirow{3}{0.12\columnwidth}{Water treatment waste disposal} & Subsurface disposal of concentrated WW residuals & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Surface disposal of separated solids & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Surface disposal of concentrated WW residuals & - & * & $\leq$ 0.01 g & 0\\
-\cline{2-8}
-& \multirow{6}{0.09\columnwidth}{Other waste separation and disposal} & \multirow{3}{0.12\columnwidth}{Other waste separation and processing} & Other waste separation and processing & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Other waste storage & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Spills and other upsets & - & * & $\leq$ 0.01 g & 0\\
-\cline{3-8}
-& & \multirow{3}{0.09\columnwidth}{Other waste disposal} & Other waste transport & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Other waste disposal (non-hazardous) & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Other waste disposal (hazardous) & - & * & $\leq$ 0.01 g & 0\\
-\cline{2-8}
-& \multirow{5}{0.09\columnwidth}{Solid waste disposal and project decommissioning} & \multirow{2}{0.12\columnwidth}{Solid waste disposal} & Solid waste separation and processing & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Solid waste transport and disposal & - & * & $\leq$ 0.01 g & 0\\
-\cline{3-8}
-& & \multirow{3}{0.09\columnwidth}{End of life and decommissioning} & Demolition and decommissioning & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Scrap and waste disposal & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & [-] Credit for waste recycling (embodied energy) & - & * & $\leq$ 0.01 g & 0\\
-\hline
-\end{tabular}
-\end{scriptsize}
-\end{table}
-
-
-\begin{table}
-\begin{scriptsize}
-\caption{Emissions sources from transport.}
-\label{tab:transport_sources}
-\begin{tabular}{|p{0.08\columnwidth}|p{0.09\columnwidth}|p{0.12\columnwidth}|p{0.25\columnwidth}|p{0.06\columnwidth}|p{0.055\columnwidth}|p{0.075\columnwidth}|p{0.04\columnwidth}|}
-\hline
-\textbf{Main stage} & \textbf{Process} & \textbf{Sub-process} & \textbf{Emissions source} & \textbf{Variants}& \textbf{Sensitivity code} & \textbf{Estimated magnitude} & \textbf{Incl.}\\
-\hline
-\multirow{18}{0.08\columnwidth}{Crude product transport} & \multirow{7}{0.09\columnwidth}{Pipeline transport} & \multirow{4}{0.12\columnwidth}{Pipeline transport} & Combustion for pump prime mover & - & *** & ~ 1 g & 1\\
-\cline{4-8}
-& & & Electricity for pump use & - & *** & ~ 1 g & 1\\
-\cline{4-8}
-& & & Process upsets (one-time events) & - & * & $\leq$ 0.01 g & 1\\
-\cline{4-8}
-& & & Leaks (pipeline losses) & - & *** & ~ 1 g & 1\\
-\cline{3-8}
-& & \multirow{3}{0.12\columnwidth}{Pipeline construction} & Construction equipment energy use & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Embodied energy in pipeline materials (cement and steel) & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Land use impacts & - & * & $\leq$ 0.01 g & 0\\
-\cline{2-8}
-& \multirow{6}{0.09\columnwidth}{Tanker transport} & \multirow{4}{0.12\columnwidth}{Tanker transport} & Combustion in tanker prime mover (bunker fuels) & - & *** & ~ 1 g & 1\\
-\cline{4-8}
-& & & Loading and unloading pumping & - & * & $\leq$ 0.01 g & 1\\
-\cline{4-8}
-& & & Flares & - & * & $\leq$ 0.01 g & 1\\
-\cline{4-8}
-& & & Vents, leaks and upsets & - & * & $\leq$ 0.01 g & 1\\
-\cline{3-8}
-& & \multirow{2}{0.12\columnwidth}{Tanker construction} & Embodied energy in tanker materials (steel) & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Construction energy & - & * & $\leq$ 0.01 g & 0\\
-\cline{2-8}
-& \multirow{5}{0.09\columnwidth}{Storage (as part of transport)} & \multirow{5}{0.12\columnwidth}{Storage} & Storage pumping energy & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Tank assembly and installation & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Evaporative and fugitive emissions & - & ** & ~ 0.1 g & 1\\
-\cline{4-8}
-& & & Tank materials manufacture & - & * & $\leq$ 0.01 g & 0\\
-\cline{4-8}
-& & & Land use impacts & - & * & $\leq$ 0.01 g & 0\\
-\hline
-\end{tabular}
-\end{scriptsize}
-\end{table}
-\end{landscape}
+%\chapter{Tabulated sources for each production stage}\label{sec:app_sources_classification}
+%
+%The full classification of emissions sources for each production stage is given below in Tables \ref{tab:exploration_sources} to \ref{tab:transport_sources}.
+%
+%Each emissions source is classified according to process, sub-process, and specific emissions source. Any variants of that emissions source are listed (if they have material effects on emissions or energy consumption). A sensitivity code is given from 1 to 4 stars (* to ****) based on judgement of the likely magnitude of the source. Lastly, the table indicates whether or not an emissions source is included (incl. = 1 means that the source is included).
+%
+%\begin{landscape}
+%\begin{table}
+%\begin{scriptsize}
+%\caption{Emissions sources from exploratory operations. For inclusion: 0 = not included, 1 = included.}
+%\label{tab:exploration_sources}
+%\begin{tabular}{|p{0.08\columnwidth}|p{0.09\columnwidth}|p{0.12\columnwidth}|p{0.25\columnwidth}|r|p{0.055\columnwidth}|p{0.075\columnwidth}|p{0.04\columnwidth}|}
+%\hline
+%\textbf{Main stage} & \textbf{Process} & \textbf{Sub-process} & \textbf{Emissions source} & \textbf{Variants}& \textbf{Sensitivity code} & \textbf{Estimated magnitude} & \textbf{Incl.}\\
+%\hline
+%\multirow{25}{0.08\columnwidth}{Exploration} & \multirow{7}{0.09\columnwidth}{Seismic exploration} & \multirow{4}{0.09\columnwidth}{Terrestrial seismic} & Vehicular emissions & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Data processing & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Consumed materials (charges etc.) & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Land use impacts & - & * & $\leq$ 0.01 g & 0\\
+%\cline{3-8}
+%& & \multirow{3}{*}{Oceanic seismic} & Ship emissions & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Data processing & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Consumed materials & - & * & $\leq$ 0.01 g & 0\\
+%\cline{2-8}
+%& \multirow{12}{0.09\columnwidth}{Exploratory drilling} & \multirow{8}{0.09\columnwidth}{Terrestrial drilling} & Prime mover emissions & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Land clearing and construction & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Vents and upset emissions & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Drilling flares & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Casing and cement & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Other material consumption (e.g., frac sand) & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Land use impacts & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Indirect land use impacts (opening of inaccessible land) & - & * & $\leq$ 0.01 g & 0\\
+%\cline{3-8}
+%& & \multirow{4}{0.09\columnwidth}{Offshore drilling} & Prime mover emissions & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Drilling flares & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Vents and upset emissions & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Casing and cement & - & * & $\leq$ 0.01 g & 0\\
+%\cline{2-8}
+%& \multirow{6}{0.09\columnwidth}{Waste handling and disposal} & \multirow{3}{0.09\columnwidth}{Mud and fluid handling} & Energy consumption (other than prime mover) & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Fugitives from mud & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Disposal of mud & - & * & $\leq$ 0.01 g & 0\\
+%\cline{3-8}
+%& & Fracturing fluid disposal & Processing and disposal of fracturing fluid & - & * & $\leq$ 0.01 g & 0\\
+%\cline{3-8}
+%& & \multirow{2}{0.09\columnwidth}{Produced water disposal} & Processing of produced water & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Disposal of produced water (remote or on-site reinjection) & - & * & $\leq$ 0.01 g & 0\\
+%\hline
+%\end{tabular}
+%\end{scriptsize}
+%\end{table}
+%
+%
+%\begin{table}
+%\begin{scriptsize}
+%\caption{Emissions sources from drilling operations.}
+%\label{tab:drilling_sources}
+%\begin{tabular}{|p{0.08\columnwidth}|p{0.09\columnwidth}|p{0.12\columnwidth}|p{0.25\columnwidth}|r|p{0.055\columnwidth}|p{0.075\columnwidth}|p{0.04\columnwidth}|}
+%\hline
+%\textbf{Main stage} & \textbf{Process} & \textbf{Sub-process} & \textbf{Emissions source} & \textbf{Variants}& \textbf{Sensitivity code} & \textbf{Estimated magnitude} & \textbf{Incl.}\\
+%\hline
+%\multirow{30}{0.08\columnwidth}{Drilling and development} & \multirow{11}{0.09\columnwidth}{Developmental drilling} & \multirow{7}{0.12\columnwidth}{Terrestrial drilling} & Prime mover emissions & - & ** & ~ 0.1 g & 1\\
+%\cline{4-8}
+%& & & Drilling flares & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Vents and upset emissions & - & ** & ~ 0.1 g & 0\\
+%\cline{4-8}
+%& & & Land use impacts & - & ** & ~ 0.1 g & 1\\
+%\cline{4-8}
+%& & & Clearing and construction & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Casing and cement embodied emissions & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Other materials consumption (e.g., frac sand) & - & * & $\leq$ 0.01 g & 0\\
+%\cline{3-8}
+%& & \multirow{4}{*}{Oceanic drilling} & Prime mover emissions & - & ** & ~ 0.1 g & 1\\
+%\cline{4-8}
+%& & & Drilling flares & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Vents and upset emissions & - & ** & ~ 0.1 g & 0\\
+%\cline{4-8}
+%& & & Casing and cement embodied emissions & - & * & $\leq$ 0.01 g & 0\\
+%\cline{2-8}
+%& \multirow{8}{0.09\columnwidth}{Processing capital investment} & \multirow{4}{0.12\columnwidth}{Oil/gas/water separators} & Separator assembly & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Separator fabrication & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Separator transport & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Raw materials manufacture & - & * & $\leq$ 0.01 g & 0\\
+%\cline{3-8}
+%& & Water reinjection wells & Various drilling emissions from reinjection wells (see above) & - & * & $\leq$ 0.01 g & 0\\
+%\cline{3-8}
+%& & \multirow{3}{*}{Pumps} & Pump assembly & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Pump fabrication and raw materials manufacture & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Pump transport & - & * & $\leq$ 0.01 g & 0\\
+%\cline{2-8}
+%& \multirow{5}{0.09\columnwidth}{Storage capital investment} & \multirow{5}{0.12\columnwidth}{Storage capital investment} & Tank assembly & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Tank fabrication & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Tank transport & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Raw materials manufacture & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Land use impacts & - & * & $\leq$ 0.01 g & 0\\
+%\cline{2-8}
+%& \multirow{6}{0.09\columnwidth}{Transport capital investment} & \multirow{5}{0.12\columnwidth}{Pipeline capital investment} & Pipeline assembly & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Pipe fabrication & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Pipe transport & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Raw materials manufacture & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Land use impacts & - & * & $\leq$ 0.01 g & 0\\
+%\cline{3-8}
+%& & Other transport capital investment & Other infrastructure fabrication and assembly & - & * & $\leq$ 0.01 g & 0\\
+%\hline
+%\end{tabular}
+%\end{scriptsize}
+%\end{table}
+%
+%\begin{table}
+%\begin{scriptsize}
+%\caption{Emissions sources from production and extraction operations.}
+%\label{tab:production_sources}
+%\begin{tabular}{|p{0.08\columnwidth}|p{0.09\columnwidth}|p{0.12\columnwidth}|p{0.25\columnwidth}|p{0.06\columnwidth}|p{0.055\columnwidth}|p{0.075\columnwidth}|p{0.04\columnwidth}|}
+%\hline
+%\textbf{Main stage} & \textbf{Process} & \textbf{Sub-process} & \textbf{Emissions source} & \textbf{Variants}& \textbf{Sensitivity code} & \textbf{Estimated magnitude} & \textbf{Incl.}\\
+%\hline
+%\multirow{22}{0.08\columnwidth}{Production and extraction} & \multirow{6}{*}{Lifting} & \multirow{3}{*}{Pumping} & Combustion for pump driver & - & *** & ~ 1 g & 1.0\\
+%\cline{4-8}
+%& & & Electricity for pump driver & - & *** & ~ 1 g & 1.0\\
+%\cline{4-8}
+%& & & Casing and wellhead fugitive emissions & - & *** & ~ 1 g & 1.0\\
+%\cline{3-8}
+%& & \multirow{3}{*}{Gas lift} & Compressor prime mover emissions & - & *** & ~ 1 g & 1.0\\
+%\cline{4-8}
+%& & & Compression electricity emissions & - & *** & ~ 1 g & 1.0\\
+%\cline{4-8}
+%& & & Casing and wellhead fugitive emissions & - & *** & ~ 1 g & 1.0\\
+%\cline{2-8}
+%& \multirow{16}{*}{Injection} & \multirow{3}{*}{Gas injection} & External gas processing (e.g., N2 production) & & & & 1.0\\
+%\cline{4-8}
+%& & & Gas compression energy & & *** & ~ 1 g & 1.0\\
+%\cline{4-8}
+%& & & [-] Gas sequestration credit (CO2 flood) & - & *** & ~ 1 g & 0.0\\
+%\cline{3-8}
+%& & Water injection & Water pumping energy & - & *** & ~ 1 g & 1.0\\
+%\cline{3-8}
+%& & \multirow{6}{*}{Steam injection} & Water pre-treatment & - & * & <= 0.01 g & 0.0\\
+%\cline{4-8}
+%& & & OTSG fuel combustion & NG, produced oil & **** & ~ 10 g & 1.0\\
+%\cline{4-8}
+%& & & Turbine gas consumption (combined cycle) & Low, med, high efficiency & **** & ~ 10 g & 1.0\\
+%\cline{4-8}
+%& & & HRSG duct firing (combined cycle) & - & *** & ~ 1 g & 1.0\\
+%\cline{4-8}
+%& & & [-] Electricity co-production offsets (combined cycle) & Grid mix variation & **** & ~ 10 g & 1.0\\
+%\cline{4-8}
+%& & & Steam pumping energy (if any) & - & * & <= 0.01 g & 0.0\\
+%\cline{3-8}
+%& & \multirow{3}{*}{Polymer flood} & Polymer embodied energy & - & * & <= 0.01 g & 0.0\\
+%\cline{4-8}
+%& & & Polymer mixing & - & * & <= 0.01 g & 0.0\\
+%\cline{4-8}
+%& & & Polymer/water mixture pumping energy & - & * & <= 0.01 g & 0.0\\
+%\cline{3-8}
+%& & \multirow{3}{0.12\columnwidth}{Surfactant/other injection} & Surfactant/other embodied energy & - & * & <= 0.01 g & 0.0\\
+%\cline{4-8}
+%& & & Surfactant/other mixing & - & * & <= 0.01 g & 0.0\\
+%\cline{4-8}
+%& & & Surfactant/other mixture pumping energy & - & * & <= 0.01 g & 0.0\\
+%\hline
+%\end{tabular}
+%\end{scriptsize}
+%\end{table}
+%
+%
+%\begin{table}
+%\begin{scriptsize}
+%\caption{Emissions sources from surface processing operations.}
+%\label{tab:processing_sources}
+%\begin{tabular}{|p{0.08\columnwidth}|p{0.09\columnwidth}|p{0.12\columnwidth}|p{0.25\columnwidth}|p{0.06\columnwidth}|p{0.055\columnwidth}|p{0.075\columnwidth}|p{0.04\columnwidth}|}
+%\hline
+%\textbf{Main stage} & \textbf{Process} & \textbf{Sub-process} & \textbf{Emissions source} & \textbf{Variants}& \textbf{Sensitivity code} & \textbf{Estimated magnitude} & \textbf{Incl.}\\
+%\hline
+%\multirow{16}{0.08\columnwidth}{Separation and surface processing} & \multirow{4}{0.09\columnwidth}{Fluid separation} & \multirow{4}{0.12\columnwidth}{Oil-water-gas separation} & Oil-water-gas separation & - & ** & ~ 0.1 g & 1\\
+%\cline{4-8}
+%& & & Oil-water-gas separation with heater-treaters & - & ** & ~ 0.1 g & 1\\
+%\cline{4-8}
+%& & & Associated gas venting & Variations in flare efficiency & **** & ~ 10 g & 1\\
+%\cline{4-8}
+%& & & Associated gas flaring & Variations in flare efficiency & **** & ~ 10 g & 1\\
+%\cline{2-8}
+%& Solid/fluid separation & Solid separation from fluids & Solids removal from separation & - & * & $\leq$ 0.01 g & 0\\
+%\cline{2-8}
+%& \multirow{2}{0.09\columnwidth}{Gas processing} & \multirow{2}{0.12\columnwidth}{Gas processing} & Produced gas dehydration & - & * & $\leq$ 0.01 g & 1\\
+%\cline{4-8}
+%& & & Produced gas venting and flaring & - & *** & ~ 1 g & 1\\
+%\cline{2-8}
+%& \multirow{4}{0.09\columnwidth}{Water treatment and disposal} & \multirow{2}{0.12\columnwidth}{Water treatment} & Produced water cleanup & - & ** & ~ 0.1 g & 1\\
+%\cline{4-8}
+%& & & Produced water handling and pumping & - & ** & ~ 0.1 g & 1\\
+%\cline{3-8}
+%& & \multirow{2}{0.09\columnwidth}{Water reinjection and disposal} & Produced water reinjection & - & *** & ~ 1 g & 1\\
+%\cline{4-8}
+%& & & Produced water disposal & - & ** & ~ 0.1 g & 1\\
+%\cline{2-8}
+%& \multirow{5}{0.09\columnwidth}{Storage (as part of separation)} & \multirow{5}{0.12\columnwidth}{Storage} & Storage pumping energy & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Tank assembly and installation & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Evaporative and fugitive emissions & - & ** & ~ 0.1 g & 1\\
+%\cline{4-8}
+%& & & Tank materials manufacture & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Land use impacts & - & * & $\leq$ 0.01 g & 0\\
+%\hline
+%\end{tabular}
+%\end{scriptsize}
+%\end{table}
+%
+%
+%\begin{table}
+%\begin{scriptsize}
+%\caption{Emissions sources from maintenance operations.}
+%\label{tab:maintenance_sources}
+%\begin{tabular}{|p{0.08\columnwidth}|p{0.09\columnwidth}|p{0.12\columnwidth}|p{0.25\columnwidth}|p{0.06\columnwidth}|p{0.055\columnwidth}|p{0.075\columnwidth}|p{0.04\columnwidth}|}
+%\hline
+%\textbf{Main stage} & \textbf{Process} & \textbf{Sub-process} & \textbf{Emissions source} & \textbf{Variants}& \textbf{Sensitivity code} & \textbf{Estimated magnitude} & \textbf{Incl.}\\
+%\hline
+%\multirow{7}{0.08\columnwidth}{Maintenance and workovers} & \multirow{6}{0.09\columnwidth}{Well workover} & \multirow{3}{0.12\columnwidth}{Terrestrial well workover} & Workover rig energy use & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Fugitive emissions during workover & - & ** & ~ 0.1 g & 1\\
+%\cline{4-8}
+%& & & Embodied energy in consumed replacement parts & - & * & $\leq$ 0.01 g & 0\\
+%\cline{3-8}
+%& & \multirow{3}{0.12\columnwidth}{Offshore well workover} & Workover rig energy use & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Fugitive emissions during workover & - & ** & ~ 0.1 g & 1\\
+%\cline{4-8}
+%& & & Embodied energy in consumed replacement parts & & * & $\leq$ 0.01 g & 0\\
+%\cline{2-8}
+%& Other maintenance & Other maintenance & Solids removal from separation & - & * & $\leq$ 0.01 g & 0\\
+%\hline
+%\end{tabular}
+%\end{scriptsize}
+%\end{table}
+%
+%
+%\begin{table}
+%\begin{scriptsize}
+%\caption{Emissions sources from waste treatment and disposal operations.}
+%\label{tab:waste_sources}
+%\begin{tabular}{|p{0.08\columnwidth}|p{0.09\columnwidth}|p{0.12\columnwidth}|p{0.25\columnwidth}|p{0.06\columnwidth}|p{0.055\columnwidth}|p{0.075\columnwidth}|p{0.04\columnwidth}|}
+%\hline
+%\textbf{Main stage} & \textbf{Process} & \textbf{Sub-process} & \textbf{Emissions source} & \textbf{Variants}& \textbf{Sensitivity code} & \textbf{Estimated magnitude} & \textbf{Incl.}\\
+%\hline
+%\multirow{14}{0.08\columnwidth}{Waste treatment and disposal} & \multirow{3}{0.09\columnwidth}{Water processing waste} & \multirow{3}{0.12\columnwidth}{Water treatment waste disposal} & Subsurface disposal of concentrated WW residuals & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Surface disposal of separated solids & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Surface disposal of concentrated WW residuals & - & * & $\leq$ 0.01 g & 0\\
+%\cline{2-8}
+%& \multirow{6}{0.09\columnwidth}{Other waste separation and disposal} & \multirow{3}{0.12\columnwidth}{Other waste separation and processing} & Other waste separation and processing & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Other waste storage & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Spills and other upsets & - & * & $\leq$ 0.01 g & 0\\
+%\cline{3-8}
+%& & \multirow{3}{0.09\columnwidth}{Other waste disposal} & Other waste transport & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Other waste disposal (non-hazardous) & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Other waste disposal (hazardous) & - & * & $\leq$ 0.01 g & 0\\
+%\cline{2-8}
+%& \multirow{5}{0.09\columnwidth}{Solid waste disposal and project decommissioning} & \multirow{2}{0.12\columnwidth}{Solid waste disposal} & Solid waste separation and processing & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Solid waste transport and disposal & - & * & $\leq$ 0.01 g & 0\\
+%\cline{3-8}
+%& & \multirow{3}{0.09\columnwidth}{End of life and decommissioning} & Demolition and decommissioning & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Scrap and waste disposal & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & [-] Credit for waste recycling (embodied energy) & - & * & $\leq$ 0.01 g & 0\\
+%\hline
+%\end{tabular}
+%\end{scriptsize}
+%\end{table}
+%
+%
+%\begin{table}
+%\begin{scriptsize}
+%\caption{Emissions sources from transport.}
+%\label{tab:transport_sources}
+%\begin{tabular}{|p{0.08\columnwidth}|p{0.09\columnwidth}|p{0.12\columnwidth}|p{0.25\columnwidth}|p{0.06\columnwidth}|p{0.055\columnwidth}|p{0.075\columnwidth}|p{0.04\columnwidth}|}
+%\hline
+%\textbf{Main stage} & \textbf{Process} & \textbf{Sub-process} & \textbf{Emissions source} & \textbf{Variants}& \textbf{Sensitivity code} & \textbf{Estimated magnitude} & \textbf{Incl.}\\
+%\hline
+%\multirow{18}{0.08\columnwidth}{Crude product transport} & \multirow{7}{0.09\columnwidth}{Pipeline transport} & \multirow{4}{0.12\columnwidth}{Pipeline transport} & Combustion for pump prime mover & - & *** & ~ 1 g & 1\\
+%\cline{4-8}
+%& & & Electricity for pump use & - & *** & ~ 1 g & 1\\
+%\cline{4-8}
+%& & & Process upsets (one-time events) & - & * & $\leq$ 0.01 g & 1\\
+%\cline{4-8}
+%& & & Leaks (pipeline losses) & - & *** & ~ 1 g & 1\\
+%\cline{3-8}
+%& & \multirow{3}{0.12\columnwidth}{Pipeline construction} & Construction equipment energy use & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Embodied energy in pipeline materials (cement and steel) & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Land use impacts & - & * & $\leq$ 0.01 g & 0\\
+%\cline{2-8}
+%& \multirow{6}{0.09\columnwidth}{Tanker transport} & \multirow{4}{0.12\columnwidth}{Tanker transport} & Combustion in tanker prime mover (bunker fuels) & - & *** & ~ 1 g & 1\\
+%\cline{4-8}
+%& & & Loading and unloading pumping & - & * & $\leq$ 0.01 g & 1\\
+%\cline{4-8}
+%& & & Flares & - & * & $\leq$ 0.01 g & 1\\
+%\cline{4-8}
+%& & & Vents, leaks and upsets & - & * & $\leq$ 0.01 g & 1\\
+%\cline{3-8}
+%& & \multirow{2}{0.12\columnwidth}{Tanker construction} & Embodied energy in tanker materials (steel) & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Construction energy & - & * & $\leq$ 0.01 g & 0\\
+%\cline{2-8}
+%& \multirow{5}{0.09\columnwidth}{Storage (as part of transport)} & \multirow{5}{0.12\columnwidth}{Storage} & Storage pumping energy & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Tank assembly and installation & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Evaporative and fugitive emissions & - & ** & ~ 0.1 g & 1\\
+%\cline{4-8}
+%& & & Tank materials manufacture & - & * & $\leq$ 0.01 g & 0\\
+%\cline{4-8}
+%& & & Land use impacts & - & * & $\leq$ 0.01 g & 0\\
+%\hline
+%\end{tabular}
+%\end{scriptsize}
+%\end{table}
+%\end{landscape}
 
 
 
