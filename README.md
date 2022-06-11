@@ -7,7 +7,7 @@ This repository contains beta software under active development. This beta softw
 
 For stable versions of the model as used in regulatory processes or cited in scientific papers, please consult the following resources:
 
-OPGEE webpage: https://eao.stanford.edu/research-areas/opgee
+OPGEE webpage: https://eao.stanford.edu/opgee-oil-production-greenhouse-gas-emissions-estimator
 
 CARB webpage: https://www.arb.ca.gov/fuels/lcfs/crude-oil/crude-oil.htm
 
