@@ -925,7 +925,7 @@ $>$ 1000 bbl/d & 0.715 & 0.829 & 0.287 \\
 
 \begin{figure}[t]
 \includegraphics[width=0.8\columnwidth]{images/inj_prod.pdf}
-\caption{Ratio of producers to injectors as a function of per-well productivity of 206 fields. Source: Various.}
+\caption{Ratio of injectors to producers as a function of per-well productivity of 206 fields. Source: Various.}
 \label{fig:inj_prod}
 \end{figure}
 
@@ -1001,7 +1001,9 @@ The resulting distribution of PIs is given in Figure \ref{fig:PIdist}. The mean 
 
 
 \subsection{Default reservoir pressure}
-The reservoir pressure (\xlname{Res\_press}) is calculated based on a multiplication of a coefficient $\alpha (t)$ (a function of reservoir age, \emph{t}) to the default initial reservoir pressure. The default reservoir pressure is assumed to be the hydrostatic pressure, or the pressure in the reservoir fluids necessary to sustain a column of water to the surface \cite{fertl1981abnormal}. 
+The reservoir pressure (\xlname{Res\_press}) is calculated based on a multiplication of a coefficient $\alpha$ to the the hydrostatic pressure at the depth of the field. On average, the pressure in the reservoir fluids is equal to the pressure necessary to sustain a column of water to the from the reservoir to the surface, and this is considered a normally pressured field \cite{fertl1981abnormal}. Fields can also have initial overpressure or initial underpressure, depending on the geologic history of the region.
+
+As OPGEE aims to model a field in ``typical'' conditions, our default assumption if no pressure data are available is that the field pressure has declined to 50\% of hydrostatic.
 
 %%%%%%%%%%
 \begin{minipage}{0.6\columnwidth} \label{eq:res_pressure1}
@@ -1020,26 +1022,7 @@ p_{R}= \alpha D_{w}/2.31 \quad\quad\eqnunit{psia}
         \end{tabular}
 \end{minipage}
 %%%%%%%%%%
-where \xlname{Field\_depth} is the reservoir depth (ft). In order to find a relationship for $\alpha$, (2.31*\xlname{Res\_press}/\xlname{Field\_depth}) of several offshore and onshore global fields are plotted as a function of field age. Minimizing the square of residuals, different functions (i.e. exponential, logarithmic, polynomial, and power) are examined to find the best fit: 
-
-%%%%%%%%%%
-\begin{minipage}{0.6\columnwidth} \label{eq:res_pressure2}
-\begin{fleqn}[0pt]
-\begin{equation}
-\alpha=4.9*10^{-8}t{^2}+0.95 \quad\quad\eqnunit{s}
-\end{equation}
-\end{fleqn}
-\end{minipage}\hfill
-\begin{minipage}{0.3\columnwidth}
-        \begin{tabular}{|cl}
-        & \\
-        $t$   & \xlname{Field\_age}\\
-        & \\
-        \end{tabular}
-\end{minipage}
-\begin{equation}
-\end{equation}
-%%%%%%%%%%
+where \xlname{Field\_depth} is the reservoir depth (ft) and $\alpha$ is the adjustment for mid life field depletion.
 
 \subsection{Default reservoir temperature}
 Reservoir temperature (\xlname{Res\_temp}) is also a direct function of the reservoir depth. Reservoir temperature can be estimated base on the following expression:
@@ -1120,7 +1103,11 @@ The gas-oil ratio (GOR, \xlname{GOR}) varies over the life of the field. The amo
 
 Because of this complexity, a static single value for GOR is not desirable. However, all data required to use empirical correlations for GOR is not likely to be available for all crude oils modeled. We obtained GOR data of 3,161 global oilfields \cite{Masnadi2018}. 
 
-Crude oils are binned by API gravity into heavy ($<$ 20 $^\circ$API), medium ($\geq$ 20, $<$ 30 $^\circ$API), and light crude ($\geq$ 30 $^\circ$API). The associated gas GOR was compiled for 2015. The distributions, mean, and median values for each crude bin were generated. Outliers with GOR in excess of 10,000 scf/bbl were removed as those likely represent gas fields and are not useful for determining default oilfield GORs. See Figure \ref{fig:API-GOR} for plot of distributions and Table \ref{tab:GOR_averages} for listing of mean and median GORs by bin. The median GORs are used to assign a smart default for each bin. 
+Crude oils are binned by API gravity into heavy ($<$ 20 $^\circ$API), medium ($\geq$ 20, $\leq$ 30 $^\circ$API), and light crude ($>$ 30 $^\circ$API). The associated gas GOR was compiled for 2015. The distributions, mean, and median values for each crude bin were generated. Outliers with GOR in excess of 10,000 scf/bbl were removed as those likely represent gas fields and are not useful for determining default oilfield GORs. See Figure \ref{fig:API-GOR} for plot of distributions and Table \ref{tab:GOR_averages} for listing of mean and median GORs by bin. The median GORs are used to assign a smart default for each bin.
+
+For fields that are modeled as gas fields, with gas as the primary product, the gravity of the liquids is often unavailable. In some cases, though liquids production does occur, volumes are not reported. A reasonable approach in these cases is to input a high API value to represent gas well condensate (e.g., 45 - 60 $^\circ$API) and a low production volume (e.g., 10 or 100 bbl/d). Then the GOR can be adjusted to ensure that total gas production equals the desired gas production volume.
+ 
+
 
 \begin{figure}
 \includegraphics[width=0.8\columnwidth]{images/API-GOR.pdf}
@@ -1251,7 +1238,7 @@ The OPGEE default for the proportion of CO$_2$ that breaks through to producing 
 
 \subsection{Default steam-oil-ratio (SOR)}
 
-Because the SOR (\xlname{SOR}) is a key parameter driving GHG emissions from thermal oil production operations, we examine default values for SOR in more detail. 
+Because the SOR (\xlname{SOR}) is a key parameter driving GHG emissions from thermal oil production operations, we examine default values for SOR in more detail. SOR can be reported in two ways: incremental and total SOR. Incremental SOR is ratio of barrels of steam injected to \emph{incremental} production in excess of that which would have occurred without the steam injection. In contrast, total SOR is the total measured barrels of steam injected divided by the total barrels of produced oil. OPGEE uses total SOR, and this is the most commonly reported quantity. Incremental SOR requires a modeling effort to estimate what counterfactual production would have been in the absence of steam injection.
 
 SOR data are collected for California and Alberta thermal oil recovery operations for 2010 and 2011 \cite{DOGGR2010, DOGGR2011, DOGGRmonthly2010, ERCB2010, ERCB2011a}. 
 
@@ -1259,7 +1246,7 @@ For California operations, incremental SOR is calculated for 2009 using volumes 
 
 For Alberta operations, data on bitumen produced and steam injected were collected for 24 thermal recovery projects (SAGD and CSS). No data were available on incremental rather than total production, and it is not clear what incremental production figures would represent bitumen operations where non-enhanced production would be very small.
 
-Production volumes are binned by SOR for both regions and reported in Figure \ref{fig:SOR_dist}. Averages for SOR are presented in Table \ref{tab:SOR_stats}.  The default SOR in OPGEE \version \, is a conservative 3.0 bbl CWE per bbl oil. 
+Production volumes are binned by SOR for both regions and reported in Figure \ref{fig:SOR_dist}. Averages for SOR, both incremental and total, are presented in Table \ref{tab:SOR_stats}.  The default SOR in OPGEE \version \, is a conservative 3.0 bbl CWE per bbl oil. 
 
 \begin{figure}[t]
 \includegraphics[width=0.85\columnwidth]{images/SOR_dist.pdf}
@@ -1367,7 +1354,7 @@ Processing practices                                                            
  Heater/treater \xlname{Heater\_treater}                                                                                                                                           & 0        & 0          & 0         & 0          &                    & Binary            \\
 Stabilizer column \xlname{Stabilizer}                                                                                                                                        & 0        & 0          & 0         & 0          &                    & Binary            \\
 Upgrader type \xlname{Upgrader\_type} (0: None, 1: Delayed coking, 2: Hydroconversion, 3: Hydroconversion and fluid coking)                                                      & 0        & 0          & 0         & 0          & 0                  & Uniform           \\
-Associated gas processing path \xlname{Gas\_processing\_path} (1: None, 2: Minimal - Dehydrator, 3: Acid Gas, 4: Wet Gas, 5: Acid Wet Gas, 6: CO$_2$-EOR Membrane, 7: CO$_2$-EOR Ryan Holmes) & 5        & 0          & 5         & 5          & -                  & Uniform           \\
+Associated gas processing path \xlname{Gas\_processing\_path} (1: None, 2: Minimal - Dehydrator, 3: Acid Gas, 4: Wet Gas, 5: Acid Wet Gas, 6: Sour gas reinjection, 7: CO2-EOR Membrane, 8: CO2-EOR Ryan Holmes & 5        & 0          & 5         & 5          & -                  & Uniform           \\
 Flare-oil-ratio \xlname{FOR} {[}scf flared/bbl oil{]}                                                                                                           & NOAA     & NOAA*0.2   & 1         & 3000       & -                  & Normal            \\
 Purposeful Venting fraction \xlname{PVF}  {[}frac.{]}                                                                                                                       & 0.002      & 0.001          & 0.00        & 0.1        & -                  & Lognormal          \\
 Volume fraction of diluent in diluted crude \xlname{Fraction\_diluent}                                                                                                             & 0        & 0          & 0         & 0          & -                  & Uniform           \\
@@ -1828,7 +1815,7 @@ Compression-related calculations account for the compressibility factor (Z-facto
 
 For compression of nitrogen (N$_2$) \cite{SpanLemmon2000}, carbon dioxide (CO$_2$) \cite{SpanWagner1996}, air \cite{LemmonJacobsen2000}, or oxygen (O$_2$) \cite{SchmidtWagner1985}, OPGEE refers to z-factor data generated using the National Institute of Standards and Technology's REFPROP thermodynamic software package, which uses equations of state to generate compressibility factors \cite{REFPROP}.  
 
-The experimentally-determined Standing and Katz hydrocarbon Z-factor correlation chart (Figure\,\ref{fig:StandingKatzZFactors} \cite{StandingKatz1942}) presents compressibility factors for a hydrocarbon gas mixture based on its pseudoreduced temperature and psudoreduced pressure \cite{StandingKatz1942}.  When hydrocarbon gas mixtures are compressed, OPGEE uses a correlation generated from the Standing and Katz chart to calculate an approximate Z-factor for each stage of compression \cite{Standing1977}. The correlations for the upper and lower portions of the chart are presented in Figure \ref{fig:SBBCorrelationUpper} and Figure \ref{fig:SBBCorrelationLower}, respectively. These correlations are implemented in a VBA user-defined formula \xlname{zfactor(T\_R, P\_R)}.
+The experimentally-determined Standing and Katz hydrocarbon Z-factor correlation chart (Figure\,\ref{fig:StandingKatzZFactors} \cite{StandingKatz1942}) presents compressibility factors for a hydrocarbon gas mixture based on its pseudoreduced temperature and psudoreduced pressure \cite{StandingKatz1942}.  When hydrocarbon gas mixtures are compressed, OPGEE uses a correlation generated from the Standing and Katz chart to calculate an approximate Z-factor for each stage of compression \cite{Standing1977}. The correlations for the upper and lower portions of the chart are presented in Figure \ref{fig:SBBCorrelationUpper} and Figure \ref{fig:SBBCorrelationLower}, respectively. 
 
 \begin{figure}[ht]
 \includegraphics[width=0.70\columnwidth]{images/StandingKatzOriginal.pdf}
@@ -2347,9 +2334,7 @@ n_{w,tot}= n_{wo} + n_{wi} + n_{wgi}  \eqnunit{Num. wells}
 Because OPGEE computes both consumption and production of energy on a daily basis, drilling energy consumption must be amortized over the producing life of a well. Also, drilling and development energy must account for drilling of water injection wells, indicated by parameter $n_{wi}$ above, as secondary input \xlname{Num\_water\_inj\_wells}.
 Lastly, the number of gas injection wells is estimated. For cases where gas reinjection or gas flooding is applied, the formula estimates that the number of gas injection wells $n_{wgi}$ will be 25\% of the number of producers. This is designed to represent a basic ``five spot'' pattern with one injector placed in the middle of 4 producers.
 
-The lifetime productivity of wells varies by orders of magnitude, depending on the quality of the oil reservoir and its size. We include three cases for the productivity of wells from prior studies of embodied energy in oilfield operations \cite{Brandt2015a}.  Three options are allowed, corresponding to ``low'', ``medium'', and ``high'' per-well cumulative productivity. These settings correspond approximately to average lifetime production per well in the US, global average lifetime production, and OPEC average lifetime production. Numerical values are 150 kbbl/well, 800 kbbl/well and 7,000 kbbl/well, respectively \cite[Supporting Information Table S1]{Brandt2015a}. The cumulative gas production per well is set to 1, 4 or 10 bcf per well \cite{Brandt2015a}. These cumulative production values are denoted $Q_{op}$ and $Q_{gp}$ below.
-
-% Issue 6: reference missing above
+The lifetime productivity of wells varies by orders of magnitude, depending on the quality of the oil reservoir and its size. In order to adjust for the particulars of a field, by default OPGEE assumes that the data entered for daily production are representative, and calculates lifetime productivity by multiplying daily production by 365 days/year and \xlname{Years\_prod} years of estimated production. \xlname{Years\_prod} defaults to 30 productive years. The resulting cumulative production values are denoted $Q_{op}$ and $Q_{gp}$ below.
 
 The cumulative production per well is converted to the cumulative energy production per well, in terms of oil and gas:
 
@@ -4124,9 +4109,9 @@ Crude oil upgrading operations are illustrated in process flow form in Figure \r
 %%%%%%%%%%%
 
 
-The quantity ``SCO out'', or $Q_{sco}$ is given by user in the inputs sheet.  The required bitumen input rate $Q_{bit}^{in}$ is determined using the SCO yield factor:
+The quantity ``SCO out', or $Q_{sco}$ is calculated using data input by the user in the inputs sheet.  The required bitumen input rate $Q_{bit}^{in}$ is drawn from the user input sheet, as the oil production volume in cases where bitumen upgrading is turned on:
 \begin{equation}
-Q_{bit}^{in} = \frac{Q_{sco}}{Y_{sco}} \quad\quad\eqnunitfrac{bbl}{d}
+Q_{sco} = Y_{sco} Q_{bit}^{in} \quad\quad\eqnunitfrac{bbl}{d}
 \end{equation}
 where $Y_{sco}$ is the volumetric yield of SCO per volume of bitumen input [bbl SCO/bbl bitumen].
 
@@ -4636,7 +4621,7 @@ Warm lime softening & WLS \\
 \end{scriptsize}
 \end{table}
 
-The user can set up a treatment train by switching on/off the treatment technologies listed under each treatment stage. One option is allowed for each treatment stage. Based on the user selections, OPGEE retrieves the corresponding electricity consumption and calculates the total electricity consumption: 
+The user can set up a treatment train by switching on/off the treatment technologies listed on the \sheet{Secondary Inputs} worksheet. One option is allowed for each treatment stage. Based on the user selections, OPGEE retrieves the corresponding electricity consumption and calculates the total electricity consumption: 
 %%%%%%%%%%
 \begin{equation} \label{eq:water_treat_elec_consumption}
 E_{tot} = e_{s1}Q_{w1}+e_{s2}Q_{w2}+e_{s3}Q_{w3}+e_{s4}Q_{w4} \quad\quad\eqnunitfrac{kWh}{d}
@@ -4753,7 +4738,7 @@ Makeup water waste to disposal					& \stream{107}			& O		& Environment		& [t/d]	
 
 %%%%%%%%%%%
 \begin{figure}
-\includegraphics[width=0.8\columnwidth]{images/Produced_water_treatment_PF.pdf}
+\includegraphics[width=0.8\columnwidth]{images/Makeup_water_treatment_PF.pdf}
 \caption{Streams flowing into and out of makeup water treatment process. All streams measured in tonnes per day excepting electricity which is measured in MWh/d.}
 \label{fig:makeup_water_treatment_PF}
 \end{figure}
@@ -6005,7 +5990,7 @@ The simulations, and consequently OPGEE, model dehydration through the use of tr
 \label{fig:dehyPFDaspen}
 \end{figure}
 
-The modeled system works by combiningg the sweet gas and water in a mixer to create a wet natural gas entering the separator unit with moisture in equilibrium with the gas. The separator removes all liquid and solid impurities from the gas and sends it to a contact tower. In the contactor, the natural gas counter-currently flows against incoming TEG. This dries the gas, which then gets passed through a heat exchanger and passed into the sales line. Meanwhile, the rich TEG leaves the contactor and passes into the regenerator. The gas rich TEG flows through the reboiler. Water is stripped, and the water vapor is vented from the top of the regenerator. The lean TEG is then passed through a make-up unit to be supplemented with fresh TEG. Finally, the lean TEG is pumped back to the contactor \cite{Manning1991}. 
+The modeled system works by combining the sweet gas and water in a mixer to create a wet natural gas entering the separator unit with moisture in equilibrium with the gas. The separator removes all liquid and solid impurities from the gas and sends it to a contact tower. In the contactor, the natural gas counter-currently flows against incoming TEG. This dries the gas, which then gets passed through a heat exchanger and passed into the sales line. Meanwhile, the rich TEG leaves the contactor and passes into the regenerator. The gas rich TEG flows through the reboiler. Water is stripped, and the water vapor is vented from the top of the regenerator. The lean TEG is then passed through a make-up unit to be supplemented with fresh TEG. Finally, the lean TEG is pumped back to the contactor \cite{Manning1991}. 
 
 The goal of this research is to vary several different decision variables within the Aspen simulations in order to determine a model for energy consumption that can be utilized in OPGEE (see \cite{Masnadi2020} for more details on proxy modeling). The model will be used to adequately predict reboiler energy use, pump energy use, and cooler energy use. Meanwhile, the Aspen HYSYS simulations also allow for an ability to predict final water load in the sales gas, as long as it meets the 7 lb water / mmscf or less standard. The variables that are adjusted are:
 \begin{enumerate}
@@ -7326,9 +7311,9 @@ $\eta_{comp,reinj}$   & Compressor efficiency    & \xlname{Eta\_compressor\_rein
 
 Gas flooding can be performed with natural gas, molecular nitrogen (N$_2$), carbon dioxide (CO$_2$), air, or oxygen (O$_2$). Note that OPGEE \version \, does not include air or oxygen flooding, so any parameters there are included for reference only. If gas flooding via N$_2$ injection is chosen, the work of air separation must be accounted for. Industrial capacity N$_2$ plants have specific work on the order of 0.25 kWh/Nm$^3$ \cite{Bocker2013}. The largest N$_2$ separation plant in the world serves to provide N$_2$ for injection into the Cantarell field in Mexico \cite{Kuo2001}. This facility has compression horsepower of 500,500 hp to supply 1,200 mmscf/d of N$_2$ at $\approx$ 1700 psia.
 
-OPGEE computes gas flooding work to take gas from 125 psia to reservoir injection pressure. 
+OPGEE computes gas flooding work to take gas from the inlet pressure from the gas supply system to the reservoir injection pressure. In the case of $N_2$ injection, the gas supply system pressure is 125 psia. For hydrocarbon or CO$_2$ injection, the gas supply system pressure is assumed to be 600 psia.
 
-Subtracting this work from the reported consumption at Cantarell, we arrive at specific work of $\approx$0.15 kWh/Nm$^3$ for only the air separation component. Depending on the reservoir pressure, OPGEE will then add to this separation work the work to compress N$_2$ to required pressure. The work for gas injection compressors is modeled as noted above. If reinjected produced natural gas is assumed, then no separation work for N$_2$ production is required.
+For $N_2$ flooding data from Cantarell are used to estimate gas separation work. Cantarell data on total consumption are gathered, and we subtract compression work to go from 125 psi to reservor pressure. Subtracting this work from the reported consumption at Cantarell, we arrive at specific work of $\approx$0.15 kWh/Nm$^3$ for only the air separation component. Depending on the reservoir pressure, OPGEE will then add to this separation work the work to compress N$_2$ to required pressure. The work for gas injection compressors is modeled as noted above. If reinjected produced natural gas is assumed, then no separation work for N$_2$ production is required.
 
 OPGEE calculates the reservoir injection pressure based on the choice of the flood gas. If a gas other than CO$_2$ is the flood gas, then the reservoir injection pressure is calculated as:
 
@@ -7336,7 +7321,7 @@ OPGEE calculates the reservoir injection pressure based on the choice of the flo
 \begin{minipage}{0.6\columnwidth}\label{eq:NONCO2ReservoirInjectionPressure}
 \begin{fleqn}[0pt]
 \begin{equation}
-p_{inj} = p_{R} + 500 + 14.7 \quad\quad\eqnunit{psia}
+p_{inj} = p_{R} + 500 \quad\quad\eqnunit{psia}
 \end{equation}
 \end{fleqn}
 \end{minipage}\hfill
@@ -7348,7 +7333,7 @@ p_{inj} = p_{R} + 500 + 14.7 \quad\quad\eqnunit{psia}
         \end{tabular}
 \end{minipage}
 %%%%%%%%%%
-where $p_{inj}$ = reservoir injection pressure [psia] and $p_{R}$ = reservoir pressure [psig]. The term 14.7 converts [psig] to [psia].
+where $p_{inj}$ = reservoir injection pressure [psia] and $p_{R}$ = reservoir pressure [psig].
 
 \subsubsection{CO$_2$ Enhanced oil recovery and sequestration parameters}\label{sec:Sequestration}
 
@@ -7915,6 +7900,15 @@ The treatment of transmission compressors uses the standard OPGEE compressor mod
 
 The streams flowing into and out of the transmission compressor are shown in Figure \ref{fig:Transmission_compressor_PF} and are listed in Table \ref{tab:Transmission_compressor_PF}.
 
+The inlet pressure for transmission compressors is taken from Di Lullo et al. \cite{DiLullo2020} and is found to be 7 Mpa = 1015 psi. This value is drawn from Table A8 from supplemental information of the paper. The pressure is then raised enough in the compressor to overcome the pressure drop in the further segement so that the inlet pressure in the next compressor is the same.
+
+Assume spacing between compressor stations is 200 mi (given by \sheet{Secondary Inputs} parameter \xlname{Frequency\_gas\_transmission\_compressors}. The pressure drop per mile is given from Di Lullo et al. as 15.7 kPa per km from three studied systems examined by Di Lullo et al. \cite{DiLullo2020}. This is equivalent to 3.7 psia per mile. Therefore, for our default transmission compressor spacing, the compressors must each add 734 psia per station.
+
+The number of required compressors along the transmission path is simply the user input distance of compression divided by the distance between compressors.
+
+
+
+
 \subsection{Defaults for transmission compressor}
 
 The default settings for the parameters for the transmission compressor are given below in \ref{tab:secondary_inputs_transmissioncomp}.
@@ -8095,8 +8089,8 @@ P_{regas} = E_{regas} \Big[\sum_c Q_{c} \textrm{LHV}_{c} \Big] \Big[\frac{\textr
 \section{Storage compressor}
 \label{sec:storage_compressor}
 
-The treatment of storage compressors uses the standard OPGEE compressor model. See section \ref{sec:gas_reinjection_compressor} above for description of the compressor model in OPGEE.
-
+The treatment of storage compressors uses the standard OPGEE compressor model. See section \ref{sec:gas_reinjection_compressor} above for description of the compressor model in OPGEE. By default, gas does not go into long-term storage, but instead is only stored if the user changes the \sheet{Secondary Inputs} parameter \xlname{Frac\_gas\_storage\_01} to a value greater than 0.
+ 
 The streams flowing into and out of the storage compressor are shown in Figure \ref{fig:Storage_compressor_PF} and are listed in Table \ref{tab:Storage_compressor_PF}.
 
 \subsection{Defaults for storage compressor}
@@ -8245,7 +8239,7 @@ $\eta_{comp.,postst.}$    & Efficiency of post-storage compressor              &
 
 The streams flowing into and out of the HC gas injection wells are shown in Figure \ref{fig:HC_gas_reinjection_wells_PF} and are listed in Table \ref{tab:HC_gas_reinjection_wells_PF}.
 
-HC gas injection wells are largely a pass-through process, only including losses due to fugitive emissions, which are described in detail below.
+HC gas injection wells are largely a pass-through process, only including losses due to fugitive emissions. Fugitive modeling is described in detail below in section \label{sec:VFF}.
 
 %%%%%%%%%%%
 \begin{table}
@@ -8286,7 +8280,7 @@ Fugitives - HC injection wells			& \stream{260}		& O		& Atmosphere					& [t/d]		
 
 The streams flowing into and out of the CO$_2$ gas injection wells are shown in Figure \ref{fig:CO2_gas_reinjection_wells_PF} and are listed in Table \ref{tab:CO2_gas_reinjection_wells_PF}.
 
-CO$_2$ gas injection wells are largely a pass-through process, only including losses due to fugitive emissions, which are described in detail below.
+CO$_2$ gas injection wells are largely a pass-through process, only including losses due to fugitive emissions. Fugitive modeling is described in detail below in section \label{sec:VFF}.
 
 %%%%%%%%%%%
 \begin{table}
@@ -8408,7 +8402,7 @@ Steam injection into reservoir		                & \stream{110}	    & O		& Reserv
 
 The streams flowing into and out of the gas storage wells are shown in Figure \ref{fig:Gas_storage_wells_PF} and are listed in Table \ref{tab:Gas_storage_wells_PF}.
 
-Gas storage wells are largely a pass-through process in OPGEE, with mass loss due to wellhead fugitives included. Fugitive modeling is described in detail below.
+Gas storage wells are largely a pass-through process in OPGEE, with mass loss due to wellhead fugitives included. Fugitive modeling is described in detail below in section \label{sec:VFF}.
 
 %%%%%%%%%%%
 \begin{table}
@@ -8452,7 +8446,7 @@ Fugitives - Storage wells		            & \stream{263}		& O		& Atmosphere					& [
 
 The streams flowing into and out of the gas storage separator are shown in Figure \ref{fig:Gas_storage_separator_PF} and are listed in Table \ref{tab:Gas_storage_separator_PF}.
 
-The gas storage separator is largely a pass-through process in OPGEE, with mass loss due to wellhead fugitives included. The water stream is produced to the separator then assumed handled off-sheet. Future versions of OPGEE may treat this process in more detail. Fugitives modeling is described in detail below.
+The gas storage separator is largely a pass-through process in OPGEE, with mass loss due to wellhead fugitives included. The water stream is produced to the separator then assumed handled off-sheet. Future versions of OPGEE may treat this process in more detail. Fugitive modeling is described in detail below in section \label{sec:VFF}.
 
 %%%%%%%%%%%
 \begin{table}
@@ -8530,11 +8524,39 @@ $y_{g,lift}$       & Is gas lifting used?       & \xlname{Gas\_lifting\_01} &  0
 
 \clearpage
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Fuel gas consumed}
+\label{sec:fuel_gas_consumed}
+
+The \sheet{Fuel gas consumed} sheet collects data on energy consumption in the form of gas used on process sheets. Gas consumed by processes upstream of the end of the gas processing units is assumed to be insufficiently pure for direct consumption. Any gas consumed by processes (e.g., compressors) after the end of the gas processing units is assumed to be used directly from the stream being moved through the process as the gas is already processed and cleaned of e.g., acid species. 
+
+Gas consumption quantities are recorded at the bottom summary of each process sheet in units of mmBtu/d. These consumption quantities are gathered at the top of \sheet{Fuel gas consumed}. These quantities are converted to mass using the energy density of stream \stream{43}, the incoming gas:
+
+\begin{minipage}{0.6\columnwidth}
+\begin{fleqn}[0pt]
+\begin{equation} \label{eq:gas_consumption_quantities}
+m_{tot,\mstream{43}} = \frac{\sum_i E_i}{LHV_{g,\mstream{43}}}  \eqnunit{t}
+\end{equation}
+\end{fleqn}
+\end{minipage}\hfill
+\begin{minipage}{0.3\columnwidth}
+        \begin{tabular}{|cl}
+                        & \\
+        $LHV_{g,\mstream{43}}$   & \xlname{INDEX(FlowTable,LHV\_G,43)} \\
+          & \\
+        \end{tabular}
+\end{minipage}
+where $E_i$ is the energy consumed in the form of gas in process $i$ [mmBtu/d] and $LHV_{g,\mstream{43}}$ is the energy density of the gas in stream \stream{43} [btu/lb].
+
+\clearpage
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Gas partition B}
 \label{sec:gas_partition_b}
 
-The \sheet{Gas partition B} sheet serves to record the gas partitioning between reinjection for reservoir pressure support and enhanced oil recovery vs. offsite use. The only equation in \sheet{Gas partition B} serves to partition the gas between streams \stream{43} and \stream{49}. For a gas species $x$:
+The \sheet{Gas partition B} sheet serves to record the gas partitioning between reinjection for reservoir pressure support and enhanced oil recovery vs. offsite use. The only equation in \sheet{Gas partition B} serves to partition the gas between streams \stream{43} and \stream{49}. Note that the input stream to \sheet{Gas Partition B} is the output of the fuel gas consumed sheet, that is, net gas produced \emph{after} self-consumption. For a gas species $x$:
 
 \begin{minipage}{0.6\columnwidth}
 \begin{fleqn}[0pt]
@@ -8550,6 +8572,8 @@ m_{x,\mstream{43}} = \left(1 - GLIR\right) m_{x,\mstream{41}} \eqnunitfrac{t}{d}
         & \\
         \end{tabular}
 \end{minipage}
+
+where \xlname{GLIR} is the fraction of remaining gas (after self consumption) that is injected.
 
 \subsection{Defaults for gas partition B}
 
@@ -8580,31 +8604,6 @@ $FRGI$        & Fraction of remaining gas reinjected   & \xlname{Fraction\_remai
 \end{landscape}
 
 \clearpage
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Fuel gas consumed}
-\label{sec:fuel_gas_consumed}
-
-The \sheet{Fuel gas consumed} sheet collects data on energy consumption in the form of gas used on process sheets. Gas consumed by processes upstream of the end of the gas processing units is assumed to be insufficiently pure for direct consumption. Any gas consumed by processes (e.g., compressors) after the end of the gas processing units is assumed to be used directly from the stream being moved through the process as the gas is already processed and cleaned of e.g., acid species. 
-
-Gas consumption quantities are recorded at the bottom summary of each process sheet in units of mmBtu/d. These consumption quantities are gathered at the top of \sheet{Fuel gas consumed}. These quantities are converted to mass using the energy density of stream \stream{43}, the incoming gas:
-
-\begin{minipage}{0.6\columnwidth}
-\begin{fleqn}[0pt]
-\begin{equation} \label{eq:gas_consumption_quantities}
-m_{tot,\mstream{43}} = \frac{\sum_i E_i}{LHV_{g,\mstream{43}}}  \eqnunit{t}
-\end{equation}
-\end{fleqn}
-\end{minipage}\hfill
-\begin{minipage}{0.3\columnwidth}
-        \begin{tabular}{|cl}
-                        & \\
-        $LHV_{g,\mstream{43}}$   & \xlname{INDEX(FlowTable,LHV\_G,43)} \\
-          & \\
-        \end{tabular}
-\end{minipage}
-where $E_i$ is the energy consumed in the form of gas in process $i$ [mmBtu/d] and $LHV_{g,\mstream{43}}$ is the energy density of the gas in stream \stream{43} [btu/lb].
-
 
 
 
@@ -9002,7 +9001,7 @@ $p_{g,dist.}$   & Distributed gas pressure  & \xlname{Pressure\_gasdistributed} 
 \section{Electricity generation and imports}
  \label{sec:ElectricityGeneration}
 
-The \sheet{Electricity} supplemental worksheet calculates the energy consumption of onsite electricity generation. The \sheet{Electricity} worksheet does not include electricity co-generation in steam generation system. Available generation technologies include natural gas generator set, natural gas turbine, and diesel generator set. The user enters the capacity of onsite electricity generation as a fraction of the electricity required. The fraction of electricity above 1.0 is exported. In the \sheet{Electricity} worksheet the amount of electricity generated onsite is calculated as:
+The \sheet{Electricity} supplemental worksheet calculates the energy consumption of onsite electricity generation. The \sheet{Electricity} worksheet  includes electricity co-generation during steam generation as an input, which is calculated on the \sheet{Steam Generation} sheet. Available generation technologies include natural gas generator set, natural gas turbine, and diesel generator set. The user enters the capacity of onsite electricity generation as a fraction of the electricity required, as input parameters on \sheet{Secondary Inputs}. The fraction of electricity above 1.0 is exported. In the \sheet{Electricity} worksheet the amount of electricity generated onsite is calculated as:
 %%%%%%%%%%
 \begin{equation} \label{eq:calc_elec_gn_onsite}
 E_{el,gen} = f_{el} \cdot E_{el,req}  \quad\quad\eqnunitfrac{mmBtul}{d}
@@ -9050,7 +9049,7 @@ The default settings for parameters for electricity generation and imports is gi
 \begin{supertabular*}{1\columnwidth}{p{0.05\columnwidth}p{0.25\columnwidth}p{0.25\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}p{0.05\columnwidth}}
 
 $y_{gen.}$ & Onsite generator type & \xlname{Generator\_type}  & 1	& 1-3 	& [-] & Assumption   & \\
- $Y_{grid}$ & Grid electricity mix and efficiencies & \xlname{Electricity\_mix\_grid}  & var.	& var. 	& [-] & Assumption   & \\
+ $Y_{grid}$ & Grid electricity mix and efficiencies & \xlname{Electricity\_mix\_grid}  & var.	& var. 	& [-] & GREET model \cite{Ou2020}  & \\
 $\eta_{grid,dis.}$  & Grid transmission efficiency for displaced electricity & \xlname{eta\_grid\_displaced}  & 93.5	& 90-95 	& [\%] & Assumption   & \\
 $\eta_{grid,purch.}$ & Grid transmissions efficiency for purchased grid electricity & \xlname{eta\_grid\_purchased}  & 93.5	& 90-95 	& [\%] & Assumption   & \\
  	     
@@ -10790,7 +10789,6 @@ The bulk assessment machinery is capable of fixing errors, performing iterative 
 \item Requirement to iteratively solve for the gas composition in the wellbore in the case of gas lift;
 \item Error with productivity index resulting in negative bottomhole pressures;
 \item Error resulting from very large frictional lifting penalties due to too-small assumed wellbore;
-\item Requirement to iteratively solve for gas reinjected to result in 0 gas export.
 \end{itemize}
 
 Figure\,\ref{fig:macro_logic_2} shows the logic of errors fixing and entry adjustments related to GOR and gas composition. Other errors and adjustments are shown in Figure \ref{fig:macro_logic_3}. One of the most common errors encountered in running OPGEE is the gas composition error which can result in more than one case of data inconsistency. First, the macro checks to ensure that GOR is at least 10 to satisfy the requirements for leaks in the other sections of the model (not shown in flow chart). Then, the macro tackles the most common gas-related errors are related to flaring and fugitive emissions. First, relying on country-average flaring rates in combination with field-specific GOR can result in flaring more gas than that which is produced. As shown in Figure\,\ref{fig:macro_logic_2} the gas composition error is fixed by either increasing GOR to match flaring or decreasing flaring to match GOR. The choice between the two options is based on the input data quality. If flaring volume is default then flaring is adjusted. If GOR is default then GOR is adjusted. If both flaring volume and GOR are user inputs then GOR is adjusted because we assume that the flaring rate, being measured by satellite, is more likely to be accurate than the default GOR.
@@ -10812,7 +10810,7 @@ The second most common error encountered in running OPGEE is the productivity in
 
 After this, the macro checks for the friction pressure traverse ($p_f$) as a fraction of total pressure traverse ($p_{trav}$). In cases where the friction pressure traverse accounts for more than 25\% of the total pressure traverse, it is assumed that this is not a realistic system design (e.g., designers would account for and reduce large friction penalties due to effects on lifting costs). Such assumptions are supported by the literature, where the nominal range of the friction pressure traverse is assumed not to exceed 25\% of the total pressure traverse \cite{Takacs2005}. To address this problem, the bulk assessment macro widens the well diameter ($D$) in increments of 0.25 in. until the friction pressure traverse is $\leq$25\%. 
 
-Finally, if the user chooses to set gas export to zero as opposed to default setting where remaining gas is exported, the bulk assessment machinery increases the gas reinjection fraction by increments of 0.5\% until no remaining gas is exported. \textbf{To set gas export to $\approx$0 scf the user must enter -1 in the fraction of remaining gas reinjected.} \par
+Finally, if the user chooses to set gas export to zero as opposed to default setting where remaining gas is exported, the bulk assessment machinery increases the gas reinjection fraction by increments of 0.5\% until no remaining gas is exported. 
 
 Colors are used to highlight where the bulk assessment fills in or adjusts data. OPGEE \textit{green color} represents default values. OPGEE \textit{yellow color} represents adjusted parameters. And OPGEE \textit{red color} represents warnings in case the adjusted parameter exceeds literature range / design standards (e.g., $>$4.5 inch production well diameter) \cite[p. 106]{Clegg2007}.
 
@@ -10825,6 +10823,19 @@ Colors are used to highlight where the bulk assessment fills in or adjusts data.
 
 \chapter{Changes and updates from previous versions of OPGEE}
 
+
+
+
+\section{Changes from OPGEE v2.0b to OPGEE v3.0b}
+
+Many changes happened throughout the OPGEE model in the shift from 2.0 to 3.0. The entire ``backbone'' of the model was enhanced in that the flow sheet became the central organizing principle for the model and all calculations were performed on worksheets for a given process unit that drew flow amounts from the flow sheet.
+
+In addition, a number of more specific changes occurred:
+\begin{itemize}
+\item The treatment of gas processing equipment energy use was updated from a textbook treatment to statistical proxy models based off of chemical engineering simulations. For more detail, see Masnadi et al. \cite{Masnadi2020}
+\item The fugitives model was completely re-worked based on more advanced and useful statistical techniques outlined in detail in Rutherford et al. \cite{Rutherford2021}.
+\item Flaring defaults were changed based on work from Zhang et al. \cite{Zhang2021}
+\end{itemize}
 
 
 

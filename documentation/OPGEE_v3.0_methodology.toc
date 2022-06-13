@@ -22,7 +22,7 @@
 \contentsline {subsubsection}{\numberline {2.4.2.4}\textit {`{GHG Summary}'} worksheet}{31}{subsubsection.2.4.2.4}
 \contentsline {subsection}{\numberline {2.4.3}Process stage worksheets}{31}{subsection.2.4.3}
 \contentsline {subsection}{\numberline {2.4.4}Supplementary worksheets}{31}{subsection.2.4.4}
-\contentsline {subsubsection}{\numberline {2.4.4.1}\textit {`{Electricity}'} worksheet}{31}{subsubsection.2.4.4.1}
+\contentsline {subsubsection}{\numberline {2.4.4.1}\textit {`{Electricity}'} worksheet}{32}{subsubsection.2.4.4.1}
 \contentsline {subsubsection}{\numberline {2.4.4.2}\textit {`{Drivers}'} worksheet}{32}{subsubsection.2.4.4.2}
 \contentsline {subsubsection}{\numberline {2.4.4.3}\textit {`{Fuel cycle}'} worksheet}{32}{subsubsection.2.4.4.3}
 \contentsline {subsubsection}{\numberline {2.4.4.4}\textit {`{Emission factors}'} worksheet}{32}{subsubsection.2.4.4.4}
@@ -47,7 +47,7 @@
 \contentsline {subsection}{\numberline {3.3.8}Default reservoir pressure}{45}{subsection.3.3.8}
 \contentsline {subsection}{\numberline {3.3.9}Default reservoir temperature}{46}{subsection.3.3.9}
 \contentsline {subsection}{\numberline {3.3.10}Default API gravity}{46}{subsection.3.3.10}
-\contentsline {subsection}{\numberline {3.3.11}Default gas composition}{47}{subsection.3.3.11}
+\contentsline {subsection}{\numberline {3.3.11}Default gas composition}{46}{subsection.3.3.11}
 \contentsline {subsection}{\numberline {3.3.12}Default GOR}{48}{subsection.3.3.12}
 \contentsline {subsection}{\numberline {3.3.13}Default water oil ratio (WOR)}{49}{subsection.3.3.13}
 \contentsline {subsection}{\numberline {3.3.14}Default waterflooding volume}{51}{subsection.3.3.14}
@@ -207,7 +207,7 @@
 \contentsline {paragraph}{CO$_2$ sequestration calculation}{256}{paragraph*.235}
 \contentsline {paragraph}{Long-term leakage rate of sequestered carbon}{257}{paragraph*.236}
 \contentsline {paragraph}{Blow-down and venting of CO$_2$ in terminal stage of operation}{258}{paragraph*.237}
-\contentsline {subsection}{\numberline {6.26.1}Defaults for gas flooding compressor}{258}{subsection.6.26.1}
+\contentsline {subsection}{\numberline {6.26.1}Defaults for gas flooding compressor}{259}{subsection.6.26.1}
 \contentsline {section}{\numberline {6.27}Gas lifting compressor}{262}{section.6.27}
 \contentsline {subsection}{\numberline {6.27.1}Defaults for gas lifting compressor}{262}{subsection.6.27.1}
 \contentsline {section}{\numberline {6.28}CO$_2$ reinjection compressor}{266}{section.6.28}
@@ -237,9 +237,9 @@
 \contentsline {section}{\numberline {6.43}Storage separator}{297}{section.6.43}
 \contentsline {section}{\numberline {6.44}Gas partition A}{298}{section.6.44}
 \contentsline {subsection}{\numberline {6.44.1}Defaults for gas partition A}{298}{subsection.6.44.1}
-\contentsline {section}{\numberline {6.45}Gas partition B}{300}{section.6.45}
-\contentsline {subsection}{\numberline {6.45.1}Defaults for gas partition B}{300}{subsection.6.45.1}
-\contentsline {section}{\numberline {6.46}Fuel gas consumed}{302}{section.6.46}
+\contentsline {section}{\numberline {6.45}Fuel gas consumed}{300}{section.6.45}
+\contentsline {section}{\numberline {6.46}Gas partition B}{301}{section.6.46}
+\contentsline {subsection}{\numberline {6.46.1}Defaults for gas partition B}{301}{subsection.6.46.1}
 \contentsline {section}{\numberline {6.47}Maintenance}{303}{section.6.47}
 \contentsline {subsection}{\numberline {6.47.1}Introduction to maintenance operations}{303}{subsection.6.47.1}
 \contentsline {subsection}{\numberline {6.47.2}Calculations for maintenance operations}{303}{subsection.6.47.2}
@@ -322,31 +322,32 @@
 \contentsline {chapter}{\numberline {A}Terminology: Acronyms and abbreviations}{362}{appendix.A}
 \contentsline {chapter}{\numberline {B}Mathematical terms and definitions}{364}{appendix.B}
 \contentsline {chapter}{\numberline {C}Bulk assessment macro error correction}{369}{appendix.C}
-\contentsline {chapter}{\numberline {D}Changes and updates from previous versions of OPGEE}{373}{appendix.D}
-\contentsline {section}{\numberline {D.1}Changes from OPGEE v2.0a to OPGEE v2.0b}{373}{section.D.1}
-\contentsline {section}{\numberline {D.2}Changes from OPGEE v1.1 Draft E to OPGEE v2.0a}{373}{section.D.2}
-\contentsline {section}{\numberline {D.3}Changes from OPGEE v1.1 Draft D to OPGEE v1.1 Draft E}{374}{section.D.3}
-\contentsline {subsection}{\numberline {D.3.1}Steam Injection changes }{374}{subsection.D.3.1}
-\contentsline {section}{\numberline {D.4}Changes from OPGEE v1.1 Draft C to OPGEE v1.1 Draft D}{374}{section.D.4}
-\contentsline {subsection}{\numberline {D.4.1}Bulk assessment changes }{374}{subsection.D.4.1}
-\contentsline {subsection}{\numberline {D.4.2}Fugitive emissions changes}{375}{subsection.D.4.2}
-\contentsline {subsection}{\numberline {D.4.3}Documentation and clarity improvements}{375}{subsection.D.4.3}
-\contentsline {section}{\numberline {D.5}Changes from OPGEE v1.1 Draft B to OPGEE v1.1 Draft C}{375}{section.D.5}
-\contentsline {section}{\numberline {D.6}Changes from OPGEE v1.1 Draft A to OPGEE v1.1 Draft B}{376}{section.D.6}
-\contentsline {subsection}{\numberline {D.6.1}Gas balance and gas properties}{376}{subsection.D.6.1}
-\contentsline {subsection}{\numberline {D.6.2}Production emissions}{376}{subsection.D.6.2}
-\contentsline {subsection}{\numberline {D.6.3}Venting and fugitives}{376}{subsection.D.6.3}
-\contentsline {subsection}{\numberline {D.6.4}Other corrections and error fixes}{377}{subsection.D.6.4}
-\contentsline {section}{\numberline {D.7}Changes from OPGEE v1.0 to OPGEE v1.1 Draft A}{377}{section.D.7}
-\contentsline {subsection}{\numberline {D.7.1}Overall model organization}{377}{subsection.D.7.1}
-\contentsline {subsection}{\numberline {D.7.2}User inputs \& results worksheet}{377}{subsection.D.7.2}
-\contentsline {subsection}{\numberline {D.7.3}Defaults and smart defaults}{378}{subsection.D.7.3}
-\contentsline {subsection}{\numberline {D.7.4}Data and input parameters}{378}{subsection.D.7.4}
-\contentsline {subsection}{\numberline {D.7.5}Error checks}{378}{subsection.D.7.5}
-\contentsline {subsection}{\numberline {D.7.6}New model functionality}{378}{subsection.D.7.6}
-\contentsline {subsection}{\numberline {D.7.7}Bulk assessment macro changes}{378}{subsection.D.7.7}
-\contentsline {subsection}{\numberline {D.7.8}Corrections and improvements}{379}{subsection.D.7.8}
-\contentsline {subsection}{\numberline {D.7.9}Documentation and model explanation}{380}{subsection.D.7.9}
-\contentsline {section}{\numberline {D.8}Changes from OPGEE v1.0 Draft A to OPGEE v1.0}{380}{section.D.8}
-\contentsline {subsection}{\numberline {D.8.1}Major changes}{380}{subsection.D.8.1}
-\contentsline {subsection}{\numberline {D.8.2}Minor changes}{381}{subsection.D.8.2}
+\contentsline {chapter}{\numberline {D}Changes and updates from previous versions of OPGEE}{372}{appendix.D}
+\contentsline {section}{\numberline {D.1}Changes from OPGEE v2.0b to OPGEE v3.0b}{372}{section.D.1}
+\contentsline {section}{\numberline {D.2}Changes from OPGEE v2.0a to OPGEE v2.0b}{372}{section.D.2}
+\contentsline {section}{\numberline {D.3}Changes from OPGEE v1.1 Draft E to OPGEE v2.0a}{373}{section.D.3}
+\contentsline {section}{\numberline {D.4}Changes from OPGEE v1.1 Draft D to OPGEE v1.1 Draft E}{373}{section.D.4}
+\contentsline {subsection}{\numberline {D.4.1}Steam Injection changes }{373}{subsection.D.4.1}
+\contentsline {section}{\numberline {D.5}Changes from OPGEE v1.1 Draft C to OPGEE v1.1 Draft D}{374}{section.D.5}
+\contentsline {subsection}{\numberline {D.5.1}Bulk assessment changes }{374}{subsection.D.5.1}
+\contentsline {subsection}{\numberline {D.5.2}Fugitive emissions changes}{374}{subsection.D.5.2}
+\contentsline {subsection}{\numberline {D.5.3}Documentation and clarity improvements}{374}{subsection.D.5.3}
+\contentsline {section}{\numberline {D.6}Changes from OPGEE v1.1 Draft B to OPGEE v1.1 Draft C}{375}{section.D.6}
+\contentsline {section}{\numberline {D.7}Changes from OPGEE v1.1 Draft A to OPGEE v1.1 Draft B}{375}{section.D.7}
+\contentsline {subsection}{\numberline {D.7.1}Gas balance and gas properties}{375}{subsection.D.7.1}
+\contentsline {subsection}{\numberline {D.7.2}Production emissions}{375}{subsection.D.7.2}
+\contentsline {subsection}{\numberline {D.7.3}Venting and fugitives}{376}{subsection.D.7.3}
+\contentsline {subsection}{\numberline {D.7.4}Other corrections and error fixes}{376}{subsection.D.7.4}
+\contentsline {section}{\numberline {D.8}Changes from OPGEE v1.0 to OPGEE v1.1 Draft A}{377}{section.D.8}
+\contentsline {subsection}{\numberline {D.8.1}Overall model organization}{377}{subsection.D.8.1}
+\contentsline {subsection}{\numberline {D.8.2}User inputs \& results worksheet}{377}{subsection.D.8.2}
+\contentsline {subsection}{\numberline {D.8.3}Defaults and smart defaults}{377}{subsection.D.8.3}
+\contentsline {subsection}{\numberline {D.8.4}Data and input parameters}{377}{subsection.D.8.4}
+\contentsline {subsection}{\numberline {D.8.5}Error checks}{377}{subsection.D.8.5}
+\contentsline {subsection}{\numberline {D.8.6}New model functionality}{377}{subsection.D.8.6}
+\contentsline {subsection}{\numberline {D.8.7}Bulk assessment macro changes}{378}{subsection.D.8.7}
+\contentsline {subsection}{\numberline {D.8.8}Corrections and improvements}{378}{subsection.D.8.8}
+\contentsline {subsection}{\numberline {D.8.9}Documentation and model explanation}{379}{subsection.D.8.9}
+\contentsline {section}{\numberline {D.9}Changes from OPGEE v1.0 Draft A to OPGEE v1.0}{379}{section.D.9}
+\contentsline {subsection}{\numberline {D.9.1}Major changes}{379}{subsection.D.9.1}
+\contentsline {subsection}{\numberline {D.9.2}Minor changes}{380}{subsection.D.9.2}
