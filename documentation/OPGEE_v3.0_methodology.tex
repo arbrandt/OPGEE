@@ -378,7 +378,7 @@ Each process stage or sub-process in OPGEE can result in a variety of emissions 
 \item Embodied emissions in cement and casing;
 \item Embodied emissions in other consumable materials (e.g., fracturing sand)
 \end{itemize}
-Note that these emissions sources are of significantly different magnitude and have different causation and potential methods of mitigation. In total, over 100 emissions sources are classified in OPGEE \version across all process stages (e.g., all included processes and sub-processes). See Appendix \ref{sec:app_sources_classification} for a complete tabulation and classification of emissions sources.  Model coverage is also shown in the \sheet{Model Coverage} tab of OPGEE \version.
+Note that these emissions sources are of significantly different magnitude and have different causation and potential methods of mitigation. In total, over 100 emissions sources are classified in OPGEE \version across all process stages (e.g., all included processes and sub-processes). Model coverage is shown in the \sheet{Model Coverage} tab of OPGEE \version.
 
 
 
@@ -714,7 +714,7 @@ This worksheet retrieves and builds emissions factors for the calculation of com
 
 \subsubsection{\sheet{Venting \& Fugitives 3.0} worksheet} 
 
-This worksheet calculates in detail the GHG emissions associated with venting and fugitives. The \sheet{Venting \& Fugitives 3.0} worksheet is described in Section \ref{sec:VFF}. Sub-worksheets that feed into the  \sheet{Venting \& Fugitives 3.0}  worksheet are \sheet{VF - Component}, \sheet{VF - Site - onsite}, \sheet{VF - Site - offsite}, and \sheet{VF - Secondary prod}. A copy of the deprecated OPGEE v2.0 fugitives assessment method is retained on the worksheet \sheet{Venting \& Fugitives (2.0, deprec.)}.
+This worksheet calculates in detail the GHG emissions associated with venting and fugitives. The \sheet{Venting \& Fugitives 3.0} worksheet is described in Chapter \ref{sec:VFF}. Sub-worksheets that feed into the  \sheet{Venting \& Fugitives 3.0}  worksheet are \sheet{VF - Component}, \sheet{VF - Site - onsite}, \sheet{VF - Site - offsite}, and \sheet{VF - Secondary prod}. A copy of the deprecated OPGEE v2.0 fugitives assessment method is retained on the worksheet \sheet{Venting \& Fugitives (2.0, deprec.)}.
 
 \subsubsection{\sheet{Fuel Specs} worksheet}
 
@@ -5941,7 +5941,7 @@ Fugitives from gathering					& \stream{254}			& O		& Environment					& [t/d]			&
 \section{Glycol dehydrator}
 \label{sec:glycol_dehydrator}
 
-Natural gas often must generally be dehydrated to prevent issues such as condensation and hydrate formation that could negatively affect the gas processing and distribution process \cite[p. 139]{Manning1991}.  This section discusses thermal and electrical energy demands from gas dehydration. The dehydration process also involves operational venting of some natural gas and water \cite[p. 140]{Manning1991}; dehydrator venting is discussed in the Venting \& Fugitives section (see Section \ref{sec:VFF}). 
+Natural gas often must generally be dehydrated to prevent issues such as condensation and hydrate formation that could negatively affect the gas processing and distribution process \cite[p. 139]{Manning1991}.  This section discusses thermal and electrical energy demands from gas dehydration. The dehydration process also involves operational venting of some natural gas and water \cite[p. 140]{Manning1991}; dehydrator venting is discussed in the Venting \& Fugitives section (see Chapter \ref{sec:VFF}). 
 
 The streams flowing into and out of the glycol dehydrator process are shown in Figure \ref{fig:glycol_dehydrator_PF} and are listed in Table \ref{tab:glycol_dehydrator_PF}.
 
@@ -8059,7 +8059,7 @@ In order to turn on energy consumption and emissions in the \sheet{LNG Transport
 \section{LNG Regasification}
 \label{sec:lng_regassification}
 
-Abrahams et al. \cite{abrahams2015} assume that 3\% of natural gas energy content is required to regasify LNG.
+Abrahams et al. \cite{Abrahams2015} assume that 3\% of natural gas energy content is required to regasify LNG.
 
 \begin{table}[ht]
 \begin{scriptsize}
@@ -8239,7 +8239,7 @@ $\eta_{comp.,postst.}$    & Efficiency of post-storage compressor              &
 
 The streams flowing into and out of the HC gas injection wells are shown in Figure \ref{fig:HC_gas_reinjection_wells_PF} and are listed in Table \ref{tab:HC_gas_reinjection_wells_PF}.
 
-HC gas injection wells are largely a pass-through process, only including losses due to fugitive emissions. Fugitive modeling is described in detail below in section \label{sec:VFF}.
+HC gas injection wells are largely a pass-through process, only including losses due to fugitive emissions. Fugitive modeling is described in detail below in section \ref{sec:VFF}.
 
 %%%%%%%%%%%
 \begin{table}
@@ -8280,7 +8280,7 @@ Fugitives - HC injection wells			& \stream{260}		& O		& Atmosphere					& [t/d]		
 
 The streams flowing into and out of the CO$_2$ gas injection wells are shown in Figure \ref{fig:CO2_gas_reinjection_wells_PF} and are listed in Table \ref{tab:CO2_gas_reinjection_wells_PF}.
 
-CO$_2$ gas injection wells are largely a pass-through process, only including losses due to fugitive emissions. Fugitive modeling is described in detail below in section \label{sec:VFF}.
+CO$_2$ gas injection wells are largely a pass-through process, only including losses due to fugitive emissions. Fugitive modeling is described in detail below in section \ref{sec:VFF}.
 
 %%%%%%%%%%%
 \begin{table}
@@ -8402,7 +8402,7 @@ Steam injection into reservoir		                & \stream{110}	    & O		& Reserv
 
 The streams flowing into and out of the gas storage wells are shown in Figure \ref{fig:Gas_storage_wells_PF} and are listed in Table \ref{tab:Gas_storage_wells_PF}.
 
-Gas storage wells are largely a pass-through process in OPGEE, with mass loss due to wellhead fugitives included. Fugitive modeling is described in detail below in section \label{sec:VFF}.
+Gas storage wells are largely a pass-through process in OPGEE, with mass loss due to wellhead fugitives included. Fugitive modeling is described in detail below in section \ref{sec:VFF}.
 
 %%%%%%%%%%%
 \begin{table}
@@ -8446,7 +8446,7 @@ Fugitives - Storage wells		            & \stream{263}		& O		& Atmosphere					& [
 
 The streams flowing into and out of the gas storage separator are shown in Figure \ref{fig:Gas_storage_separator_PF} and are listed in Table \ref{tab:Gas_storage_separator_PF}.
 
-The gas storage separator is largely a pass-through process in OPGEE, with mass loss due to wellhead fugitives included. The water stream is produced to the separator then assumed handled off-sheet. Future versions of OPGEE may treat this process in more detail. Fugitive modeling is described in detail below in section \label{sec:VFF}.
+The gas storage separator is largely a pass-through process in OPGEE, with mass loss due to wellhead fugitives included. The water stream is produced to the separator then assumed handled off-sheet. Future versions of OPGEE may treat this process in more detail. Fugitive modeling is described in detail below in section \ref{sec:VFF}.
 
 %%%%%%%%%%%
 \begin{table}
@@ -9536,7 +9536,8 @@ Reciprocating engine & \checkmark & \checkmark & & & & \\
 \clearpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Venting and fugitive emissions}\label{sec:VFF}
+\chapter{Venting and fugitive emissions}
+\label{sec:VFF}
 
 \section{Introduction to venting and fugitive emissions}
 
@@ -10809,8 +10810,6 @@ Figure\,\ref{fig:macro_logic_3} shows the error fixes and adjustments not relate
 The second most common error encountered in running OPGEE is the productivity index (PI) error which results when the user or default PI value does not satisfy the minimum bottomhole pressure requirement (0 psi). The bulk assessment fixes the PI error by incrementally increasing the PI value until the error resolves. 
 
 After this, the macro checks for the friction pressure traverse ($p_f$) as a fraction of total pressure traverse ($p_{trav}$). In cases where the friction pressure traverse accounts for more than 25\% of the total pressure traverse, it is assumed that this is not a realistic system design (e.g., designers would account for and reduce large friction penalties due to effects on lifting costs). Such assumptions are supported by the literature, where the nominal range of the friction pressure traverse is assumed not to exceed 25\% of the total pressure traverse \cite{Takacs2005}. To address this problem, the bulk assessment macro widens the well diameter ($D$) in increments of 0.25 in. until the friction pressure traverse is $\leq$25\%. 
-
-Finally, if the user chooses to set gas export to zero as opposed to default setting where remaining gas is exported, the bulk assessment machinery increases the gas reinjection fraction by increments of 0.5\% until no remaining gas is exported. 
 
 Colors are used to highlight where the bulk assessment fills in or adjusts data. OPGEE \textit{green color} represents default values. OPGEE \textit{yellow color} represents adjusted parameters. And OPGEE \textit{red color} represents warnings in case the adjusted parameter exceeds literature range / design standards (e.g., $>$4.5 inch production well diameter) \cite[p. 106]{Clegg2007}.
 

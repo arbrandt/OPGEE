@@ -472,6 +472,49 @@ Szilas, A.
 \newblock {\em Production and transport of oil and gas: Part B - Gathering and
   transport}; Elsevier: New York, NY,  1985.
 
+\bibitem{RodaStuart2018}
+Roda-Stuart, D.
+\newblock A Life-cycle Assessment of Canadian-produced Liquefied Natural Gas
+  for Consumption in China.
+\newblock PhD thesis, Stanford University,  2018.
+
+\bibitem{Nie2020}
+Nie, Y.; Zhang, S.; Liu, R.E.; Roda-Stuart, D.J.; Ravikumar, A.P.; Bradley, A.;
+  Masnadi, M.S.; Brandt, A.R.; Bergerson, J.; Bi, X.T.
+\newblock Greenhouse-gas emissions of Canadian liquefied natural gas for use in
+  China: Comparison and synthesis of three independent life cycle assessments.
+\newblock {\em Journal of Cleaner Production} {\bf 2020}, {\em 258},~120701.
+
+\bibitem{Abrahams2015}
+Abrahams, L.S.; Samaras, C.; Griffin, W.M.; Matthews, H.S.
+\newblock Life cycle greenhouse gas emissions from US liquefied natural gas
+  exports: implications for end uses.
+\newblock {\em Environmental science \& technology} {\bf 2015}, {\em
+  49},~3237--3245.
+
+\bibitem{DiLullo2020}
+{Di Lullo}, G.; Oni, A.O.; Gemechu, E.; Kumar, A.
+\newblock Developing a greenhouse gas life cycle assessment framework for
+  natural gas transmission pipelines.
+\newblock {\em Journal of Natural Gas Science and Engineering} {\bf 2020}, {\em
+  75},~103136.
+
+\bibitem{Zimmerle2015}
+Zimmerle, D.J.; Williams, L.L.; Vaughn, T.L.; Quinn, C.; Subramanian, R.;
+  Duggan, G.P.; Willson, B.; Opsomer, J.D.; Marchese, A.J.; Martinez, D.M.;
+  others.
+\newblock Methane emissions from the natural gas transmission and storage
+  system in the United States.
+\newblock {\em Environmental science \& technology} {\bf 2015}, {\em
+  49},~9374--9383.
+
+\bibitem{Fischer2018}
+Fischer, M.L.; Chan, W.R.; Delp, W.; Jeong, S.; Rapp, V.; Zhu, Z.
+\newblock An Estimate of Natural Gas Methane Emissions from California Homes.
+\newblock {\em Environmental Science \& Technology} {\bf 2018}, {\em
+  52},~10205--10213.
+\newblock PMID: 30071722.
+
 \bibitem{OGJ2009a}
 O\&GJ.
 \newblock 2010 Worldwide Oil Field Production Survey.
@@ -695,12 +738,6 @@ Vafi, K.; Brandt, A.
 Vafi, K.; Brandt, A.R., A.R.
 \newblock GHGfrack v.1.0 model code.
 \newblock Technical report, Stanford University,  2016.
-
-\bibitem{Brandt2015a}
-Brandt, A.R.
-\newblock Embodied energy and GHG emissions from material use in conventional
-  and unconventional oil and gas operations.
-\newblock {\em Environmental Science \& Technology} {\bf 2015}.
 
 \bibitem{Yeh2012}
 Yeh, S.
@@ -1123,25 +1160,12 @@ Leach, A.; Mason, C.; van~'t Veld, K.
 \newblock Co-optimization of enhanced oil recovery and carbon sequestration.
 \newblock {\em Resource and Energy Economics} {\bf 2011}, pp. 893--912.
 
-\bibitem{RodaStuart2018}
-Roda-Stuart, D.
-\newblock A Life-cycle Assessment of Canadian-produced Liquefied Natural Gas
-  for Consumption in China.
-\newblock PhD thesis, Stanford University,  2018.
-
-\bibitem{abrahams2015}
-Abrahams, L.S.; Samaras, C.; Griffin, W.M.; Matthews, H.S.
-\newblock Life cycle greenhouse gas emissions from US liquefied natural gas
-  exports: implications for end uses.
-\newblock {\em Environmental science \& technology} {\bf 2015}, {\em
-  49},~3237--3245.
-
-\bibitem{Fischer2018}
-Fischer, M.L.; Chan, W.R.; Delp, W.; Jeong, S.; Rapp, V.; Zhu, Z.
-\newblock An Estimate of Natural Gas Methane Emissions from California Homes.
-\newblock {\em Environmental Science \& Technology} {\bf 2018}, {\em
-  52},~10205--10213.
-\newblock PMID: 30071722.
+\bibitem{Ou2020}
+Ou, L.; Cai, H.
+\newblock Update of Emission Factors of Greenhouse Gases and Criteria Air
+  Pollutants, and Generation Efficiencies of the U.S. Electricity Generation
+  Sector.
+\newblock Technical Report ANL-20/41, Argonne National Laboratory,  2020.
 
 \bibitem{Caterpillar2012}
 Caterpillar.
@@ -1172,13 +1196,6 @@ ISO.
 ISO.
 \newblock ISO 14044: Environmental management - Life cycle assessment -
   Requirements and guidelines,  2006.
-
-\bibitem{Ou2020}
-Ou, L.; Cai, H.
-\newblock Update of Emission Factors of Greenhouse Gases and Criteria Air
-  Pollutants, and Generation Efficiencies of the U.S. Electricity Generation
-  Sector.
-\newblock Technical Report ANL-20/41, Argonne National Laboratory,  2020.
 
 \bibitem{ecoinvent2014}
 Centre, E.
@@ -1215,6 +1232,12 @@ Inc., A.D.
 \newblock Oilfield Data Handbook.
 \newblock Technical report, Apex Distribution Inc.,
   http://www.monarchapex.com/pdf/Oilfield%20Data%20Handbook.pdf,  2010.
+
+\bibitem{Brandt2015a}
+Brandt, A.R.
+\newblock Embodied energy and GHG emissions from material use in conventional
+  and unconventional oil and gas operations.
+\newblock {\em Environmental Science \& Technology} {\bf 2015}.
 
 \bibitem{Exterran2012}
 Exterran.
@@ -1292,15 +1315,6 @@ Marchese, A.J.; Vaughn, T.L.; Zimmerle, D.J.; Martinez, D.M.; Williams, L.L.;
 EIA.
 \newblock Natural Gas Gross Withdrawals and Production [Online].
 \newblock Technical report, Energy Information Administration,  2020.
-
-\bibitem{Zimmerle2015}
-Zimmerle, D.J.; Williams, L.L.; Vaughn, T.L.; Quinn, C.; Subramanian, R.;
-  Duggan, G.P.; Willson, B.; Opsomer, J.D.; Marchese, A.J.; Martinez, D.M.;
-  others.
-\newblock Methane emissions from the natural gas transmission and storage
-  system in the United States.
-\newblock {\em Environmental science \& technology} {\bf 2015}, {\em
-  49},~9374--9383.
 
 \bibitem{EIA2012NGAnnual}
 EIA.
