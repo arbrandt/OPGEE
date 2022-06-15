@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 JUN 2022 09:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 JUN 2022 09:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1467,10 +1467,6 @@ LaTeX Font Info:    Try loading font information for TS1+ppl on input line 373.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 ) [24 <./images/Flow_chart.pdf>]
-
-LaTeX Warning: Reference `sec:app_sources_classification' on page 25 undefined 
-on input line 387.
-
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 391.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -7781,10 +7777,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 11192.
  ) 
 Here is how much of TeX's memory you used:
- 24671 strings out of 493014
- 427954 string characters out of 6133351
+ 24670 strings out of 493014
+ 427922 string characters out of 6133351
  595017 words of memory out of 5000000
- 26183 multiletter control sequences out of 15000+600000
+ 26182 multiletter control sequences out of 15000+600000
  73021 words of font info for 169 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  42i,26n,46p,10385b,1399s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -7804,7 +7800,7 @@ dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
 /palatino/uplri8a.pfb>
-Output written on OPGEE_v3.0_methodology.pdf (395 pages, 18306033 bytes).
+Output written on OPGEE_v3.0_methodology.pdf (395 pages, 18305881 bytes).
 PDF statistics:
  11147 PDF objects out of 12825 (max. 8388607)
  8980 compressed objects within 90 object streams
